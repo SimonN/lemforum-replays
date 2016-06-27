@@ -1,0 +1,8 @@
+$FILENAME single/lemforum/Simple/fearofheights.txt
+$LEVEL_BUILT_REQUIRED 2014-07-04 21:58:33
+$GAME_VERSION_REQUIRED 0.6.3
+
++PLAYER 0 Garden Michael
+
+! 3042 0 ASSIGN=DIGGER 7
+

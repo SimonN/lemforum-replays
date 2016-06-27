@@ -1,0 +1,9 @@
+$FILENAME single/lemforum/Simple/letsblockandblow.txt
+$LEVEL_BUILT_REQUIRED 2013-05-09 19:40:20
+$GAME_VERSION_REQUIRED 0.6.3
+
++PLAYER 0 Garden Michael
+
+! 76 0 ASSIGN=BLOCKER 0
+! 214 0 ASSIGN=EXPLODER 1
+
