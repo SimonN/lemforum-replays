@@ -1,0 +1,66 @@
+$FILENAME single/lemforum/Quirky/detour.txt
+$LEVEL_BUILT_REQUIRED 2012-05-20 20:10:00
+$GAME_VERSION_REQUIRED 0.6.3
+
++PLAYER 0 Garden Michael
+
+! 157 0 ASSIGN=MINER 1
+! 207 0 ASSIGN=BUILDER 1
+! 211 0 ASSIGN=BUILDER 0
+! 317 0 ASSIGN=MINER 2
+! 361 0 ASSIGN=BUILDER 2
+! 401 0 ASSIGN=BUILDER 0
+
+$BUILT 2012-05-20 20:10:00
+$AUTHOR Insane Steve
+$ENGLISH Detour
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 640
+#SIZE_Y 400
+
+#SECONDS 0
+#INITIAL 50
+#REQUIRED 50
+#SPAWN_INTERVAL 16
+
+#FLOATER 1
+#BUILDER 4
+#BASHER 3
+#MINER 2
+#DIGGER 1
+#EXPLODER 0
+
+:geoo/sandstone/Hatch.H: 104 88
+
+:geoo/sandstone/Goal.G: 512 224
+
+:geoo/sandstone/64x16: 184 192
+:geoo/sandstone/64x16: 248 192
+:geoo/sandstone/8x8: 312 180
+:geoo/sandstone/64x16: 120 192
+:geoo/sandstone/8x8: 312 188
+:geoo/sandstone/8x8: 312 196
+:geoo/sandstone/8x8: 312 204
+:geoo/sandstone/8x8: 312 212
+:geoo/sandstone/64x16: 96 240
+:geoo/sandstone/64x16: 64 288
+:geoo/sandstone/8x8: 56 276
+:geoo/sandstone/8x8: 56 284
+:geoo/sandstone/8x8: 56 292
+:geoo/sandstone/8x8: 56 300
+:geoo/sandstone/8x8: 56 308
+:geoo/sandstone/64x16: 128 288
+:geoo/sandstone/64x16: 256 288
+:geoo/sandstone/64x16: 192 288
+:geoo/sandstone/64x16: 320 288
+:geoo/sandstone/64x16: 448 288
+:geoo/sandstone/64x16: 512 288
+:geoo/sandstone/smaragd: 144 192
+:geoo/sandstone/smaragd: 272 192
+:geoo/sandstone/smaragd: 216 288
+:geoo/sandstone/smaragd: 344 288
+:geoo/sandstone/smaragd: 88 288
+:geoo/sandstone/64x16: 160 240
+:geoo/sandstone/64x16: 224 240
+:geoo/sandstone/smaragd: 184 240
