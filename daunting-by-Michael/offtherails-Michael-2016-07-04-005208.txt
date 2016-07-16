@@ -1,0 +1,116 @@
+$FILENAME single/lemforum/Daunting/offtherails.txt
+$LEVEL_BUILT_REQUIRED 2016-04-14 21:12:15
+$GAME_VERSION_REQUIRED 0.6.5
+
++PLAYER 0 Garden Michael
+
+! 74 0 ASSIGN=CLIMBER 0
+! 131 0 ASSIGN=CLIMBER 1
+! 176 0 ASSIGN=CUBER 0
+! 221 0 ASSIGN=CLIMBER 4
+! 237 0 ASSIGN=CLIMBER 5
+! 469 0 ASSIGN=DIGGER 1
+! 489 0 ASSIGN=DIGGER 5
+! 545 0 ASSIGN=DIGGER 4
+! 607 0 ASSIGN=EXPLODER2 1
+! 683 0 ASSIGN=EXPLODER2 4
+! 901 0 ASSIGN=BUILDER 5
+! 1115 0 ASSIGN=MINER 5
+! 1493 0 ASSIGN=PLATFORMER 5
+! 1693 0 ASSIGN=WALKER 5
+! 1756 0 ASSIGN=MINER 5
+! 2317 0 ASSIGN=BASHER 6
+
+$BUILT 2016-04-14 21:12:15
+$AUTHOR Insane Steve
+$ENGLISH Off the Rails
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 640
+#SIZE_Y 400
+#START_X 0
+#START_Y 0
+
+#SECONDS 0
+#INITIAL 30
+#REQUIRED 27
+#SPAWN_INTERVAL 32
+
+#WALKER 1
+#CLIMBER 4
+#EXPLODER2 2
+#BUILDER 1
+#PLATFORMER 1
+#BASHER 1
+#MINER 2
+#DIGGER 4
+#JUMPER 1
+#CUBER 1
+
+:matt/goldmine/Hatch.H: 32 224
+
+:matt/goldmine/Goal.G: 568 224
+
+:matt/goldmine/GoalTop.D: 568 176
+
+:matt/goldmine/crate32: 452 208
+:matt/goldmine/crate16: 252 176
+:matt/goldmine/crate16: 284 176
+:matt/goldmine/crate16: 276 192
+:matt/goldmine/crate16: 260 192
+:matt/goldmine/crate16: 292 192
+:matt/goldmine/crate16: 244 192
+:matt/goldmine/crate32: 460 240
+:matt/goldmine/crate32: 388 112
+:matt/goldmine/crate32: 364 80
+:matt/goldmine/crate32: 332 80
+:matt/goldmine/crate16: 228 224
+:matt/goldmine/crate16: 212 224
+:matt/goldmine/crate32: 412 240
+:matt/goldmine/crate16: 388 192
+:matt/goldmine/crate16: 388 176
+:geoo/steel/32x32o.S: 380 240
+:geoo/steel/32x32o.S: 388 208
+:geoo/steel/32x32o.S: 388 144
+:geoo/steel/32x32o.S: 348 112
+:geoo/steel/32x32o.S: 348 144
+:matt/goldmine/crate32: 348 176
+:geoo/steel/32x32o.S: 348 240
+:geoo/steel/32x32o.S: 348 208
+:geoo/steel/32x32o.S: 308 144
+:matt/goldmine/crate32: 292 48
+:matt/goldmine/crate32: 260 48
+:matt/goldmine/crate32: 292 80
+:matt/goldmine/crate32: 308 112
+:matt/goldmine/crate32: 276 112
+:matt/goldmine/crate32: 308 176
+:geoo/steel/32x32o.S: 308 240
+:matt/goldmine/crate32: 196 48
+:matt/goldmine/crate32: 228 48
+:matt/goldmine/crate32: 244 80
+:matt/goldmine/crate32: 212 80
+:matt/goldmine/crate32: 244 112
+:matt/goldmine/crate32: 260 144
+:matt/goldmine/crate32: 196 112
+:matt/goldmine/crate32: 180 80
+:matt/goldmine/crate32: 164 112
+:matt/goldmine/crate32: 180 144
+:geoo/steel/32x32o.S: 308 208
+:geoo/steel/32x32o.S: 164 176
+:matt/goldmine/crate32: 148 144
+:matt/goldmine/explosivecrate: 244 208
+:matt/goldmine/crate64: 148 208
+:geoo/steel/32x32o.S: 212 240
+:matt/goldmine/planksupport: 0 272
+:matt/goldmine/planksupport: 512 272
+:matt/goldmine/tracks: 80 264
+:matt/goldmine/tracks: 200 264
+:matt/goldmine/tracks: 320 264
+:matt/goldmine/tracks: 440 264
+:matt/goldmine/plankdiag: 0 240
+:matt/goldmine/crate16: 268 176
+:matt/goldmine/crate16: 148 192
+:geoo/steel/32x32o.S: 308 112
+:matt/goldmine/crate32: 468 176
+:matt/goldmine/crate32: 460 144
+:matt/goldmine/crate16: 480 128
