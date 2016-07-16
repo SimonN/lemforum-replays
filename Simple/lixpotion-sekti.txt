@@ -1,0 +1,8 @@
+$FILENAME single/lemforum/Simple/lixpotion.txt
+$BUILT_REQUIRED 2015-09-07 20:55:21
+#VERSION_REQUIRED 2015080900
+
++PLAYER 0 Garden Sekti
+
+! 65 0 SPAWNINT 4
+

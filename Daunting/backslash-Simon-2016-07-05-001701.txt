@@ -1,0 +1,61 @@
+$FILENAME single/lemforum/Daunting/backslash.txt
+$LEVEL_BUILT_REQUIRED 2015-06-22 12:42:14
+$GAME_VERSION_REQUIRED 0.6.5
+
++PLAYER 0 Garden Simon
+
+! 70 0 ASSIGN=BLOCKER 0
+! 82 0 ASSIGN=BLOCKER 1
+! 99 0 ASSIGN=BLOCKER 2
+! 106 0 ASSIGN=BLOCKER 3
+! 128 0 ASSIGN_LEFT=BUILDER 11
+! 296 0 ASSIGN_LEFT=MINER 11
+
+$BUILT 2015-06-22 12:42:14
+$AUTHOR geoo
+$ENGLISH Backslash
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 640
+#SIZE_Y 400
+
+#SECONDS 0
+#INITIAL 40
+#REQUIRED 37
+#SPAWN_INTERVAL 4
+
+#BLOCKER 4
+#BUILDER 1
+#MINER 1
+#EXPLODER2 0
+
+:matt/underworld/Hatch.H: 288 128
+:matt/underworld/Hatch.H: 288 192
+
+:matt/underworld/Goal.G: 224 334
+:matt/underworld/Goal.G: 352 334
+
+:matt/underworld/thinplatform128: 256 192
+:matt/underworld/thinplatform16: 304 304
+:matt/underworld/thinplatform16: 320 304
+:matt/underworld/thinplatform128: 0 398
+:matt/underworld/thinplatform128: 128 398
+:matt/underworld/thinplatform128: 256 398
+:matt/underworld/thinplatform128: 384 398
+:matt/underworld/thinplatform128: 512 398
+:matt/underworld/thinplatform16: 304 232
+:matt/underworld/thinplatform16: 320 232
+:matt/underworld/thinplatform16: 336 232
+:matt/underworld/thinplatform16: 352 232
+:matt/underworld/thinplatform16: 272 232
+:matt/underworld/thinplatform16: 288 232
+:matt/underworld/thinplatform128: 304 232
+:matt/underworld/thinplatform128: 208 232
+:geoo/construction/platform.S: 272 192
+:geoo/construction/platform.S: 240 192
+:geoo/construction/platform.S: 208 192
+:geoo/construction/platform.S: 176 192
+:geoo/construction/platform.S: 368 192
+:geoo/construction/platform.S: 336 192
+:geoo/construction/platform.S: 432 192
+:geoo/construction/platform.S: 400 192
