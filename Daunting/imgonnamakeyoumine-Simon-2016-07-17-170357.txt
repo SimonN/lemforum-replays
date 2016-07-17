@@ -1,0 +1,96 @@
+$FILENAME single/lemforum/Daunting/imgonnamakeyoumine.txt
+$LEVEL_BUILT_REQUIRED 2016-07-16 19:14:18
+$GAME_VERSION_REQUIRED 0.6.6
+
++PLAYER 0 Garden Simon
+
+! 92 0 ASSIGN=MINER 0
+! 157 0 ASSIGN=BUILDER 1
+! 158 0 ASSIGN=BUILDER 1
+! 159 0 ASSIGN=BUILDER 1
+! 160 0 ASSIGN=BUILDER 1
+! 161 0 ASSIGN=BUILDER 1
+! 224 0 ASSIGN=MINER 3
+! 261 0 ASSIGN=BUILDER 0
+! 392 0 ASSIGN=BUILDER 3
+! 1091 0 ASSIGN_RIGHT=BUILDER 25
+! 1169 0 ASSIGN_RIGHT=MINER 12
+! 1347 0 ASSIGN_RIGHT=BUILDER 22
+! 1411 0 ASSIGN=BUILDER 25
+! 1413 0 ASSIGN_RIGHT=MINER 24
+! 1493 0 ASSIGN_RIGHT=BUILDER 11
+! 1537 0 ASSIGN_RIGHT=MINER 28
+! 1607 0 ASSIGN_RIGHT=BUILDER 7
+! 1633 0 ASSIGN_RIGHT=MINER 5
+! 1673 0 ASSIGN=BUILDER 22
+! 1737 0 ASSIGN_RIGHT=BUILDER 15
+! 1770 0 ASSIGN=BUILDER 5
+! 1802 0 ASSIGN_RIGHT=MINER 29
+! 1820 0 ASSIGN=BUILDER 11
+! 1829 0 ASSIGN=MINER 15
+! 1835 0 ASSIGN=BUILDER 15
+! 1892 0 ASSIGN=MINER 15
+! 1935 0 ASSIGN=BUILDER 7
+! 1976 0 ASSIGN_RIGHT=BUILDER 3
+! 2055 0 ASSIGN=BUILDER 15
+! 2168 0 ASSIGN=BUILDER 5
+! 2194 0 ASSIGN=BUILDER 29
+! 2386 0 ASSIGN=BUILDER 29
+
+$BUILT 2016-07-16 19:14:18
+$AUTHOR Michael S. Repton
+$ENGLISH I'm Gonna Make You Mine
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 640
+#SIZE_Y 400
+#START_X 0
+#START_Y -20
+
+#SECONDS 180
+#INITIAL 30
+#REQUIRED 20
+#SPAWN_INTERVAL 30
+
+#BUILDER 30
+#MINER 10
+#EXPLODER2 0
+
+:matt/goldmine/Hatch.H: 112 256
+
+:matt/goldmine/Goal.G: 112 96
+
+:matt/goldmine/GoalTop.D: 112 48
+
+:simon/water.W: 0 352
+:simon/water.W: 48 352
+:simon/water.W: 96 352
+:simon/water.W: 144 352
+:simon/water.W: 192 352
+:simon/water.W: 240 352
+:simon/water.W: 288 352
+:simon/water.W: 336 352
+:simon/water.W: 384 352
+:simon/water.W: 432 352
+:simon/water.W: 480 352
+:simon/water.W: 528 352
+:simon/water.W: 576 352
+:simon/water.W: 624 352
+
+:matt/goldmine/crate64: 48 304
+:matt/goldmine/crate64: 112 304
+:matt/goldmine/crate64: 176 304
+:matt/goldmine/crate64: 240 304
+:matt/goldmine/crate64: 304 304
+:matt/goldmine/crate64: 368 304
+:matt/goldmine/crate64: 48 144
+:matt/goldmine/crate64: 112 144
+:matt/goldmine/crate64: 176 144
+:matt/goldmine/crate64: 240 144
+:matt/goldmine/crate64: 304 144
+:matt/goldmine/crate64: 368 144
+:matt/goldmine/04: -48 -16 rr
+:matt/goldmine/07: -16 -64
+:matt/goldmine/07: 192 -48
+:matt/goldmine/07: 534 -64
+:matt/goldmine/07: 368 -32 rr
