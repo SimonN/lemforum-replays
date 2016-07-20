@@ -1,4 +1,4 @@
-$FILENAME single/lemforum/Cunning/elixir.txt
+$FILENAME single/lemforum/Vicious/elixir.txt
 $LEVEL_BUILT_REQUIRED 2016-07-01 22:16:36
 $GAME_VERSION_REQUIRED 0.6.5
 

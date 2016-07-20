@@ -1,0 +1,144 @@
+$FILENAME single/lemforum/Vicious/merdemerdemerde.txt
+$LEVEL_BUILT_REQUIRED 2016-07-18 21:17:01
+$GAME_VERSION_REQUIRED 0.6.6
+
++PLAYER 0 Garden Simon
+
+! 106 0 ASSIGN=FLOATER 0
+! 107 0 ASSIGN=RUNNER 0
+! 134 0 ASSIGN=JUMPER 0
+! 143 0 ASSIGN=CLIMBER 0
+! 216 0 ASSIGN=WALKER 0
+! 217 0 ASSIGN=JUMPER 0
+! 298 0 ASSIGN=BASHER 0
+! 304 0 ASSIGN=WALKER 0
+! 308 0 ASSIGN=BASHER 0
+! 336 0 ASSIGN=PLATFORMER 0
+! 423 0 ASSIGN=BUILDER 0
+! 589 0 ASSIGN=JUMPER 0
+! 603 0 ASSIGN=JUMPER 0
+! 620 0 ASSIGN=JUMPER 0
+! 644 0 ASSIGN=MINER 0
+! 647 0 ASSIGN=WALKER 0
+! 651 0 ASSIGN=MINER 0
+! 652 0 ASSIGN=RUNNER 12
+! 654 0 ASSIGN=WALKER 0
+! 658 0 ASSIGN=MINER 0
+! 671 0 ASSIGN=PLATFORMER 0
+! 682 0 ASSIGN=JUMPER 12
+! 699 0 ASSIGN=BUILDER 12
+! 739 0 ASSIGN=WALKER 14
+! 780 0 ASSIGN=PLATFORMER 14
+! 811 0 ASSIGN=JUMPER 0
+! 847 0 ASSIGN=DIGGER 0
+! 894 0 ASSIGN=PLATFORMER 17
+! 895 0 ASSIGN=JUMPER 12
+! 902 0 ASSIGN=PLATFORMER 16
+! 947 0 ASSIGN=BUILDER 18
+! 979 0 ASSIGN=BLOCKER 14
+! 980 0 ASSIGN=BLOCKER 12
+! 983 0 ASSIGN=MINER 0
+! 1080 0 ASSIGN=PLATFORMER 17
+! 1096 0 ASSIGN=PLATFORMER 16
+! 1130 0 ASSIGN=WALKER 0
+! 1133 0 ASSIGN=BASHER 0
+! 1142 0 ASSIGN=PLATFORMER 18
+! 1192 0 ASSIGN=PLATFORMER 0
+! 1364 0 ASSIGN=BLOCKER 0
+! 1463 0 ASSIGN=BLOCKER 27
+! 1486 0 ASSIGN=WALKER 12
+! 1560 0 ASSIGN=BUILDER 12
+! 1704 0 ASSIGN_LEFT=MINER 12
+! 1963 0 ASSIGN=BUILDER 12
+! 2123 0 ASSIGN_RIGHT=BASHER 37
+! 2173 0 ASSIGN=PLATFORMER 37
+! 2229 0 ASSIGN=WALKER 0
+! 2232 0 ASSIGN=WALKER 0
+! 2245 0 ASSIGN=WALKER 14
+! 2246 0 ASSIGN=WALKER 14
+! 2291 0 ASSIGN=WALKER 27
+! 2293 0 ASSIGN=WALKER 27
+! 2303 0 ASSIGN=RUNNER 14
+
+$BUILT 2016-07-18 21:17:01
+$AUTHOR Insane Steve
+$ENGLISH MERDEMERDEMERDEMERDEMERDE
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 960
+#SIZE_Y 400
+
+#SECONDS 0
+#INITIAL 40
+#REQUIRED 25
+#SPAWN_INTERVAL 48
+
+#WALKER 20
+#RUNNER 3
+#CLIMBER 5
+#FLOATER 1
+#EXPLODER2 5
+#BLOCKER 5
+#BUILDER 5
+#PLATFORMER 10
+#BASHER 5
+#MINER 5
+#DIGGER 5
+#JUMPER 10
+
+:geoo/abstract/hatch.H: 32 0
+:geoo/abstract/hatch.H: 304 0
+:geoo/abstract/hatch.H: 544 128
+:geoo/abstract/hatch.H: 768 336
+
+:geoo/abstract/goal.G: 880 192
+
+:geoo/steel/32x64o.S: 0 0
+:geoo/steel/32x64o.S: 0 64
+:geoo/steel/32x64o.S: 0 128
+:geoo/steel/32x64o.S: 0 192
+:geoo/steel/32x64o.S: 0 256
+:geoo/steel/32x64o.S: 0 320
+:geoo/abstract/cvblocks/020: 0 384
+:geoo/abstract/cvblocks/020: 32 384
+:geoo/abstract/cvblocks/020: 64 384
+:geoo/abstract/cvblocks/020: 96 384
+:geoo/abstract/cvblocks/047: 64 0
+:geoo/abstract/cvblocks/030: 96 128
+:geoo/abstract/cvblocks/047: 96 160
+:geoo/abstract/cvblocks/020: 128 384
+:geoo/abstract/cvblocks/020: 160 384
+:geoo/abstract/cvblocks/020: 192 384
+:geoo/abstract/cvblocks/015: 192 272
+:geoo/abstract/cvblocks/015: 176 272
+:geoo/abstract/cvblocks/047: 224 272
+:geoo/abstract/cvblocks/047: 352 272
+:geoo/abstract/cvblocks/015: 448 272
+:geoo/abstract/cvblocks/015: 432 272
+:geoo/abstract/cvblocks/047: 480 160
+:geoo/abstract/cvblocks/030: 512 128
+:geoo/abstract/cvblocks/035: 512 96
+:geoo/abstract/cvblocks/035: 576 96
+:geoo/abstract/cvblocks/035: 640 272
+:geoo/abstract/cvblocks/035: 672 240
+:geoo/abstract/cvblocks/035: 704 272
+:geoo/abstract/cvblocks/035: 672 304
+:geoo/abstract/cvblocks/035: 736 304
+:geoo/abstract/cvblocks/035: 704 336
+:geoo/abstract/cvblocks/035: 640 336
+:geoo/abstract/cvblocks/035: 672 368
+:geoo/abstract/cvblocks/035: 864 240
+:geoo/abstract/cvblocks/035: 800 240
+:geoo/abstract/cvblocks/035: 768 96
+:geoo/abstract/cvblocks/035: 704 96
+:geoo/abstract/cvblocks/030: 800 144
+:geoo/abstract/cvblocks/030: 800 176
+:geoo/abstract/cvblocks/030: 800 208
+:geoo/abstract/cvblocks/020: 800 128
+:geoo/abstract/cvblocks/030: 928 240
+:geoo/abstract/cvblocks/030: 176 160
+:geoo/abstract/cvblocks/030: 240 160
+:geoo/abstract/cvblocks/030: 368 160
+:geoo/abstract/cvblocks/030: 432 160
+:geoo/abstract/cvblocks/015: 288 160
+:geoo/abstract/cvblocks/015: 336 160
