@@ -1,4 +1,4 @@
-$FILENAME single/lemforum/Quirky/decompressionmeth1.txt
+$FILENAME single/lemforum/Quirky/decompression.txt
 $BUILT_REQUIRED 2012-06-03 21:41:02
 #VERSION_REQUIRED 2015080900
 
