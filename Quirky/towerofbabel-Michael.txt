@@ -1,0 +1,112 @@
+$FILENAME single/lemforum/Quirky/towerofbabel.txt
+$LEVEL_BUILT_REQUIRED 2014-03-22 20:27:50
+$GAME_VERSION_REQUIRED 0.6.6
+
++PLAYER 0 Garden Michael
+
+! 102 0 ASSIGN=BLOCKER 1
+! 170 0 ASSIGN=CUBER 0
+! 171 0 ASSIGN=CLIMBER 2
+! 192 0 ASSIGN=CLIMBER 4
+! 193 0 ASSIGN=CLIMBER 6
+! 218 0 ASSIGN=CUBER 2
+! 265 0 ASSIGN=CUBER 4
+! 278 0 ASSIGN=CLIMBER 10
+! 314 0 ASSIGN=CUBER 6
+! 320 0 ASSIGN=CLIMBER 12
+! 356 0 ASSIGN=CLIMBER 14
+! 402 0 ASSIGN=CUBER 10
+! 448 0 ASSIGN=CUBER 12
+! 475 0 ASSIGN=CLIMBER 16
+! 476 0 ASSIGN=CLIMBER 18
+! 477 0 ASSIGN=CLIMBER 8
+! 504 0 ASSIGN=CUBER 14
+! 584 0 ASSIGN=CUBER 16
+! 601 0 ASSIGN=CUBER 18
+! 623 0 ASSIGN=CLIMBER 24
+! 624 0 ASSIGN=CLIMBER 26
+! 625 0 ASSIGN=CLIMBER 28
+! 661 0 ASSIGN=CUBER 8
+! 708 0 ASSIGN=DIGGER 26
+! 727 0 ASSIGN=CUBER 24
+! 728 0 ASSIGN=WALKER 1
+! 871 0 ASSIGN=WALKER 28
+! 1198 0 ASSIGN=DIGGER 49
+
+$BUILT 2016-07-21 17:38:32
+$AUTHOR mobius
+$ENGLISH Tower of Babel
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 640
+#SIZE_Y 560
+
+#SECONDS 0
+#INITIAL 50
+#REQUIRED 30
+#SPAWN_INTERVAL 20
+
+#WALKER 10
+#CLIMBER 30
+#EXPLODER 10
+#BLOCKER 10
+#DIGGER 20
+#CUBER 20
+
+:simon/hatch001.H: 48 384
+:simon/hatch001.H: 48 128
+
+:simon/tapir/goal.G: 528 448
+
+:simon/acid.W: 240 512
+:simon/acid.W: 288 512
+:simon/acid.W: 336 512
+
+:simon/tapir/064h: 0 496
+:simon/tapir/064h: 128 496
+:simon/tapir/064h: 384 496
+:simon/tapir/064h: 512 496
+:simon/tapir/032v: 0 432
+:simon/tapir/032v: 0 368
+:simon/tapir/032v: 0 304
+:simon/tapir/032v: 0 240
+:simon/tapir/032v: 608 432
+:simon/tapir/032v: 608 368
+:simon/tapir/032v: 608 304
+:simon/tapir/032v: 608 240
+:simon/tapir/032v: 608 176
+:simon/tapir/032v: 608 112
+:simon/tapir/032v: 608 48
+:simon/tapir/032v: 608 -16
+:simon/tapir/032v: 0 176
+:simon/tapir/032v: 0 112
+:simon/tapir/032v: 0 48
+:simon/tapir/032v: 0 -16
+:geoo/steel/32x16o.S: 256 496
+:geoo/steel/32x16o.S: 288 496
+:geoo/steel/32x16o.S: 320 496
+:geoo/steel/32x16o.S: 352 496
+:simon/tapir/064h: 32 240
+:simon/tapir/064h: 0 0
+:simon/tapir/064h: 128 0
+:simon/tapir/064h: 256 0
+:simon/tapir/064h: 384 0
+:simon/tapir/064h: 512 0
+:simon/tapir/032hd: 224 240
+:simon/tapir/032hd: 160 272
+:simon/tapir/032h: 160 240
+:geoo/steel/64x32o.S: 0 272
+:geoo/steel/64x32o.S: 64 272
+:geoo/steel/64x32o.S: 288 64
+:geoo/steel/64x64o.S: 256 0
+:geoo/steel/64x64o.S: 320 0
+:geoo/steel/64x64o.S: 320 96
+:geoo/steel/64x64o.S: 544 64
+:geoo/steel/64x64o.S: 480 96
+:geoo/steel/32x16o.S: 128 272
+:geoo/steel/16x16o.S: 160 280
+:geoo/steel/16x16o.S: 176 264
+:geoo/steel/16x16o.S: 192 256
+:geoo/steel/16x16o.S: 208 256
+:geoo/steel/16x16o.S: 224 248
+:geoo/steel/32x32o.S: 488 160
