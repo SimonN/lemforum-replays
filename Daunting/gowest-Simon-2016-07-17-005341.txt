@@ -1,4 +1,4 @@
-$FILENAME single/lemforum/Cunning/gowest.txt
+$FILENAME single/lemforum/Daunting/gowest.txt
 $LEVEL_BUILT_REQUIRED 2016-07-02 12:30:00
 $GAME_VERSION_REQUIRED 0.6.6
 

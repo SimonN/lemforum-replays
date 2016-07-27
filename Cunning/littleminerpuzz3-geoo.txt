@@ -1,4 +1,4 @@
-$FILENAME single/lemforum/Daunting/littleminerpuzz3.txt
+$FILENAME single/lemforum/Cunning/littleminerpuzz3.txt
 $BUILT_REQUIRED 2015-06-22 19:47:56
 #VERSION_REQUIRED 2015080900
 
