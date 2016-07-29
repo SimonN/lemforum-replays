@@ -1,0 +1,165 @@
+$FILENAME single/lemforum/Hopeless/labyrinthofdespair.txt
+$LEVEL_BUILT_REQUIRED 2014-01-29 15:42:26
+$GAME_VERSION_REQUIRED 0.6.9
+
++PLAYER 0 Garden Nepster
+
+! 124 0 ASSIGN=CLIMBER 1
+! 195 0 ASSIGN=FLOATER 2
+! 297 0 ASSIGN=DIGGER 1
+! 311 0 ASSIGN=BUILDER 3
+! 312 0 ASSIGN=PLATFORMER 1
+! 397 0 ASSIGN=FLOATER 6
+! 401 0 ASSIGN=BASHER 1
+! 497 0 ASSIGN=PLATFORMER 1
+! 571 0 ASSIGN=FLOATER 10
+! 578 0 ASSIGN=BUILDER 2
+! 905 0 ASSIGN=BLOCKER 1
+! 950 0 ASSIGN=BATTER 14
+! 1050 0 ASSIGN=DIGGER 18
+! 1141 0 ASSIGN=BUILDER 18
+! 1165 0 ASSIGN=JUMPER 1
+! 1221 0 ASSIGN=BASHER 10
+! 1239 0 ASSIGN=BASHER 0
+! 1241 0 ASSIGN=JUMPER 1
+! 1339 0 ASSIGN=MINER 18
+! 1341 0 ASSIGN=MINER 1
+! 1601 0 ASSIGN=MINER 11
+! 1984 0 ASSIGN=DIGGER 38
+! 2864 0 ASSIGN=PLATFORMER 38
+! 2987 0 ASSIGN=BLOCKER 37
+! 3924 0 ASSIGN_LEFT=BATTER 22
+! 3959 0 ASSIGN=JUMPER 22
+
+$BUILT 2016-07-29 20:10:16
+$AUTHOR namida/Michael
+$ENGLISH Labyrinth of Despair
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 960
+#SIZE_Y 400
+#START_X 0
+#START_Y 0
+
+#INITIAL 40
+#REQUIRED 39
+#SPAWN_INTERVAL 50
+
+#CLIMBER 3
+#FLOATER 3
+#EXPLODER 3
+#BLOCKER 3
+#BUILDER 3
+#PLATFORMER 3
+#BASHER 3
+#MINER 3
+#DIGGER 3
+#JUMPER 3
+#BATTER 3
+
+:matt/marble/Hatch.H: 64 256
+:matt/marble/Hatch.H: 464 64
+:matt/marble/Hatch.H: 832 48
+:matt/marble/Hatch.H: 464 64
+
+:proxima/tile/goal.G: 64 48
+
+:proxima/tile/orange2: 0 336
+:proxima/tile/orange2: 0 272
+:proxima/tile/orange2: 0 208
+:proxima/tile/orange2: 0 144
+:proxima/tile/orange2: 0 80
+:proxima/tile/orange2: 0 16
+:proxima/tile/orange2s: 64 16
+:proxima/tile/orange2s: 96 16
+:proxima/tile/orange2s: 64 368
+:proxima/tile/orange2s: 96 368
+:proxima/tile/orange2s: 128 16
+:proxima/tile/orange2s: 160 16
+:proxima/tile/orange2s: 128 368
+:proxima/tile/orange2s: 160 368
+:proxima/tile/orange2: 128 304
+:proxima/tile/orange2: 128 240
+:proxima/tile/orange2: 128 176
+:proxima/tile/orange2: 192 176
+:proxima/tile/orange2s: 64 112
+:proxima/tile/orange2s: 96 112
+:proxima/tile/orange2s: 128 112
+:proxima/tile/orange2s: 160 112
+:proxima/tile/orange2s: 192 16
+:proxima/tile/orange2s: 224 16
+:proxima/tile/orange2s: 192 112
+:proxima/tile/orange2s: 224 112
+:proxima/tile/orange2s: 256 16
+:proxima/tile/orange2s: 288 16
+:proxima/tile/orange2s: 256 112
+:proxima/tile/orange2s: 288 112
+:proxima/tile/orange2s: 192 368
+:proxima/tile/orange2s: 224 368
+:proxima/tile/orange2s: 256 368
+:proxima/tile/orange2s: 288 368
+:proxima/tile/orange2: 256 272
+:proxima/tile/orange2: 320 272
+:proxima/tile/orange2: 320 208
+:proxima/tile/orange2: 320 144
+:proxima/tile/orange2s: 320 16
+:proxima/tile/orange2s: 352 16
+:proxima/tile/orange2s: 384 16
+:proxima/tile/orange2s: 416 16
+:proxima/tile/orange2s: 320 368
+:proxima/tile/orange2s: 352 368
+:proxima/tile/orange2s: 384 368
+:proxima/tile/orange2s: 416 368
+:proxima/tile/orange2: 416 176
+:proxima/tile/orange2: 480 176
+:proxima/tile/orange2: 448 240
+:proxima/tile/orange2: 448 304
+:proxima/tile/orange2s: 448 368
+:proxima/tile/orange2s: 480 368
+:proxima/tile/orange2s: 512 368
+:proxima/tile/orange2s: 544 368
+:proxima/tile/orange2s: 448 16
+:proxima/tile/orange2s: 480 16
+:proxima/tile/orange2s: 512 16
+:proxima/tile/orange2s: 544 16
+:proxima/tile/orange2: 320 80
+:proxima/tile/orange2: 384 80
+:proxima/tile/orange2: 544 176
+:proxima/tile/orange2: 544 112
+:proxima/tile/orange2: 608 112
+:proxima/tile/orange2: 672 112
+:proxima/tile/orange2s: 576 16
+:proxima/tile/orange2s: 608 16
+:proxima/tile/orange2s: 640 16
+:proxima/tile/orange2s: 672 16
+:proxima/tile/orange2s: 704 16
+:proxima/tile/orange2s: 576 368
+:proxima/tile/orange2s: 608 368
+:proxima/tile/orange2s: 640 368
+:proxima/tile/orange2s: 672 368
+:proxima/tile/orange2s: 704 368
+:proxima/tile/orange2: 768 48
+:proxima/tile/orange2: 768 112
+:proxima/tile/orange2: 768 176
+:proxima/tile/orange2: 768 240
+:proxima/tile/orange2: 704 240
+:proxima/tile/orange2: 640 240
+:proxima/tile/orange2: 896 48
+:proxima/tile/orange2: 896 112
+:proxima/tile/orange2: 896 176
+:proxima/tile/orange2: 896 240
+:proxima/tile/orange2: 896 304
+:proxima/tile/orange2s: 736 16
+:proxima/tile/orange2s: 768 16
+:proxima/tile/orange2s: 800 16
+:proxima/tile/orange2s: 832 16
+:proxima/tile/orange2s: 864 16
+:proxima/tile/orange2s: 896 16
+:proxima/tile/orange2s: 928 16
+:proxima/tile/orange2s: 736 368
+:proxima/tile/orange2s: 768 368
+:proxima/tile/orange2s: 800 368
+:proxima/tile/orange2s: 832 368
+:proxima/tile/orange2s: 864 368
+:proxima/tile/orange2s: 896 368
+:proxima/tile/orange2s: 928 368
