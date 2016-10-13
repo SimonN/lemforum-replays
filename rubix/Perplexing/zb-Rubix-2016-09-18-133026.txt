@@ -1,0 +1,116 @@
+$FILENAME single/rubix/Perplexing/stepabovetherest.txt
+$LEVEL_BUILT_REQUIRED 2014-02-27 19:23:09
+$GAME_VERSION_REQUIRED 0.6.14
+
++PLAYER 0 Garden Rubix
+
+! 144 0 ASSIGN=DIGGER 0
+! 191 0 ASSIGN=CUBER 0
+! 208 0 ASSIGN=DIGGER 2
+! 245 0 ASSIGN=CUBER 2
+! 276 0 ASSIGN=DIGGER 4
+! 312 0 ASSIGN=CUBER 4
+! 327 0 ASSIGN=CUBER 6
+! 375 0 ASSIGN=DIGGER 1
+! 426 0 ASSIGN=CUBER 1
+! 440 0 ASSIGN=DIGGER 3
+! 487 0 ASSIGN=CUBER 3
+! 505 0 ASSIGN=DIGGER 5
+! 552 0 ASSIGN=CUBER 5
+! 570 0 ASSIGN=DIGGER 7
+! 602 0 ASSIGN=CUBER 7
+! 639 0 ASSIGN=DIGGER 9
+! 686 0 ASSIGN=CUBER 9
+! 704 0 ASSIGN=DIGGER 11
+! 751 0 ASSIGN=CUBER 11
+! 797 0 ASSIGN=CUBER 18
+! 810 0 ASSIGN=CLIMBER 12
+! 1177 0 ASSIGN=WALKER 12
+! 1180 0 ASSIGN=MINER 12
+
+$BUILT 2014-02-27 19:23:09
+$AUTHOR rubix
+$ENGLISH Step above the rest
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 1312
+#SIZE_Y 400
+#START_X 320
+#START_Y 380
+#BACKGROUND_RED 0
+#BACKGROUND_GREEN 0
+#BACKGROUND_BLUE 190
+
+#INITIAL 40
+#REQUIRED 29
+#SPAWN_INTERVAL 31
+
+#WALKER 1
+#CLIMBER 1
+#MINER 1
+#DIGGER 9
+#CUBER 11
+#EXPLODER2 0
+
+:geoo/construction/Hatch.H: 784 272 r
+:geoo/construction/Hatch.H: 48 208
+
+:geoo/construction/Goal2.G: 1216 80
+:geoo/abstract/goal.G: 304 32
+
+:geoo/construction/wall/big_brickdiag_tu: 496 176
+:geoo/construction/wall/big_brickdiag_tu: 464 208
+:geoo/construction/wall/big_brickdiag_tu: 432 240
+:geoo/construction/concrete/032v: 848 256
+:geoo/construction/concrete/064v: 848 144
+:geoo/construction/wall/big_brickdiag_td: 712 304
+:geoo/construction/wall/big_brickdiag_td: 680 272
+:geoo/construction/wall/big_brickdiag_td: 648 240
+:geoo/construction/wall/big_brickdiag_tu: 472 304
+:geoo/construction/wall/big_brickdiag_tu: 504 272
+:geoo/construction/wall/big_brickdiag_tu: 536 240
+:geoo/construction/concrete/064h: 0 336
+:geoo/construction/concrete/064h: 128 336
+:geoo/construction/concrete/064h: 256 336
+:geoo/construction/concrete/064h: 384 336
+:geoo/construction/concrete/064h: 736 336
+:geoo/construction/concrete/064h: 864 336
+:geoo/construction/concrete/064h: 992 336
+:geoo/construction/concrete/064h: 1120 336
+:geoo/construction/concrete/064h: 0 144
+:geoo/construction/concrete/064h: 128 160
+:geoo/construction/concrete/064h: 992 208
+:geoo/construction/concrete/064h: 1120 144
+:geoo/construction/concrete/064v: -16 208
+:geoo/construction/concrete/064v: 1184 208
+:geoo/construction/concrete/064v: 256 176
+:geoo/construction/wall/big_brickdiag_td: 384 240
+:geoo/construction/wall/big_brickdiag_td: 352 208
+:geoo/construction/wall/big_brickdiag_td: 320 176
+:geoo/construction/concrete/064h: 992 272
+:geoo/construction/concrete/064h: 992 144
+:geoo/construction/concrete/064h: 864 272
+:geoo/construction/concrete/128: 864 144
+:geoo/construction/concrete/064v: 1120 208
+:geoo/construction/concrete/064v: 1248 144
+:geoo/construction/concrete/064v: 1248 272
+:geoo/construction/concrete/064h: 416 0
+:geoo/construction/concrete/064h: 672 0
+:geoo/construction/concrete/064h: 544 0
+:geoo/construction/concrete/064h: 800 0
+:geoo/construction/concrete/032hb: 928 0 f
+:geoo/construction/concrete/032hb: 352 0 rr
+:geoo/construction/wall/big_brickdiag_tu: 672 64 f
+:geoo/construction/wall/big_brickdiag_tu: 704 96 f
+:geoo/construction/wall/big_brickdiag_tu: 736 128 f
+:geoo/construction/wall/big_brickdiag_tu: 480 64 rr
+:geoo/construction/wall/big_brickdiag_tu: 448 96 rr
+:geoo/construction/wall/big_brickdiag_tu: 416 128 rr
+:geoo/steel/dark_16x32o.S: 288 48
+:geoo/steel/dark_16x32o.S: 336 48
+:geoo/steel/dark_16x32o.S: 304 80 rrr
+:geoo/steel/dark_16x32o.S: 304 32 rrr
+:geoo/steel/dark_16x16o.S: 288 32
+:geoo/steel/dark_16x16o.S: 336 32
+:geoo/steel/dark_16x16o.S: 288 80
+:geoo/steel/dark_16x16o.S: 336 80

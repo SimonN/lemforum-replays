@@ -1,0 +1,228 @@
+$FILENAME single/rubix/Pleasant/wealljumpacross.txt
+$LEVEL_BUILT_REQUIRED 2014-06-04 10:20:34
+$GAME_VERSION_REQUIRED 0.6.1
+
++PLAYER 0 Garden Rubix
+
+! 257 0 ASSIGN=JUMPER 0
+! 260 0 ASSIGN=JUMPER 1
+! 262 0 ASSIGN=JUMPER 2
+! 268 0 ASSIGN=JUMPER 3
+! 271 0 ASSIGN=JUMPER 4
+! 276 0 ASSIGN=JUMPER 5
+! 279 0 ASSIGN=JUMPER 6
+! 284 0 ASSIGN=JUMPER 7
+! 308 0 ASSIGN=JUMPER 0
+! 311 0 ASSIGN=JUMPER 1
+! 314 0 ASSIGN=JUMPER 2
+! 316 0 ASSIGN=JUMPER 3
+! 319 0 ASSIGN=JUMPER 4
+! 324 0 ASSIGN=JUMPER 5
+! 328 0 ASSIGN=JUMPER 6
+! 336 0 ASSIGN=JUMPER 7
+! 373 0 ASSIGN=JUMPER 8
+! 382 0 ASSIGN=JUMPER 9
+! 388 0 ASSIGN=JUMPER 10
+! 390 0 ASSIGN=JUMPER 11
+! 394 0 ASSIGN=JUMPER 12
+! 397 0 ASSIGN=JUMPER 13
+! 401 0 ASSIGN=JUMPER 14
+! 407 0 ASSIGN=JUMPER 15
+! 429 0 ASSIGN=JUMPER 8
+! 432 0 ASSIGN=JUMPER 9
+! 437 0 ASSIGN=JUMPER 10
+! 439 0 ASSIGN=JUMPER 11
+! 443 0 ASSIGN=JUMPER 12
+! 446 0 ASSIGN=JUMPER 13
+! 451 0 ASSIGN=JUMPER 14
+! 456 0 ASSIGN=JUMPER 15
+! 492 0 ASSIGN=JUMPER 16
+! 494 0 ASSIGN=JUMPER 17
+! 500 0 ASSIGN=JUMPER 18
+! 503 0 ASSIGN=JUMPER 19
+! 505 0 ASSIGN=JUMPER 20
+! 508 0 ASSIGN=JUMPER 21
+! 512 0 ASSIGN=JUMPER 22
+! 515 0 ASSIGN=JUMPER 23
+! 543 0 ASSIGN=JUMPER 16
+! 545 0 ASSIGN=JUMPER 17
+! 547 0 ASSIGN=JUMPER 18
+! 549 0 ASSIGN=JUMPER 19
+! 554 0 ASSIGN=JUMPER 20
+! 557 0 ASSIGN=JUMPER 21
+! 562 0 ASSIGN=JUMPER 22
+! 565 0 ASSIGN=JUMPER 23
+! 591 0 ASSIGN=JUMPER 24
+! 593 0 ASSIGN=JUMPER 25
+! 601 0 ASSIGN=JUMPER 26
+! 603 0 ASSIGN=JUMPER 27
+! 605 0 ASSIGN=JUMPER 28
+! 610 0 ASSIGN=JUMPER 29
+! 612 0 ASSIGN=JUMPER 30
+! 617 0 ASSIGN=JUMPER 31
+! 620 0 ASSIGN=JUMPER 32
+! 625 0 ASSIGN=JUMPER 33
+! 628 0 ASSIGN=JUMPER 34
+! 633 0 ASSIGN=JUMPER 35
+! 644 0 ASSIGN=JUMPER 24
+! 646 0 ASSIGN=JUMPER 25
+! 652 0 ASSIGN=JUMPER 26
+! 654 0 ASSIGN=JUMPER 27
+! 656 0 ASSIGN=JUMPER 28
+! 659 0 ASSIGN=JUMPER 29
+! 664 0 ASSIGN=JUMPER 30
+! 669 0 ASSIGN=JUMPER 31
+! 671 0 ASSIGN=JUMPER 32
+! 676 0 ASSIGN=JUMPER 33
+! 679 0 ASSIGN=JUMPER 34
+! 684 0 ASSIGN=JUMPER 35
+
+$BUILT 2014-06-04 10:20:34
+$AUTHOR Rubix
+$ENGLISH We all jump across
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 640
+#SIZE_Y 500
+#START_X 0
+#START_Y 80
+#BACKGROUND_RED 0
+#BACKGROUND_GREEN 64
+#BACKGROUND_BLUE 224
+
+#SECONDS 0
+#INITIAL 36
+#REQUIRED 36
+#SPAWN_INTERVAL 4
+
+#JUMPER 72
+#EXPLODER 0
+
+:matt/beach/Hatch.H: 20 222 r
+:matt/beach/Hatch.H: 20 222 r
+:matt/beach/Hatch.H: 20 222 r
+:matt/beach/Hatch.H: 20 222 r
+:matt/beach/Hatch.H: 20 222 r
+:matt/beach/Hatch.H: 20 222 r
+:matt/beach/Hatch.H: 20 222 r
+:matt/beach/Hatch.H: 20 222 r
+:matt/beach/Hatch.H: 182 214 r
+:matt/beach/Hatch.H: 182 214 r
+:matt/beach/Hatch.H: 182 214 r
+:matt/beach/Hatch.H: 182 214 r
+:matt/beach/Hatch.H: 182 214 r
+:matt/beach/Hatch.H: 182 214 r
+:matt/beach/Hatch.H: 182 214 r
+:matt/beach/Hatch.H: 182 214 r
+:matt/beach/Hatch.H: 346 214 r
+:matt/beach/Hatch.H: 346 214 r
+:matt/beach/Hatch.H: 346 214 r
+:matt/beach/Hatch.H: 346 214 r
+:matt/beach/Hatch.H: 346 214 r
+:matt/beach/Hatch.H: 346 214 r
+:matt/beach/Hatch.H: 346 214 r
+:matt/beach/Hatch.H: 346 214 r
+:matt/beach/Hatch.H: 480 170 r
+:matt/beach/Hatch.H: 480 170 r
+:matt/beach/Hatch.H: 480 170 r
+:matt/beach/Hatch.H: 480 170 r
+:matt/beach/Hatch.H: 480 170 r
+:matt/beach/Hatch.H: 480 170 r
+:matt/beach/Hatch.H: 480 170 r
+:matt/beach/Hatch.H: 480 170 r
+:matt/beach/Hatch.H: 480 170 r
+:matt/beach/Hatch.H: 480 170 r
+:matt/beach/Hatch.H: 480 170 r
+:matt/beach/Hatch.H: 480 170 r
+:matt/beach/Hatch.H: 480 170 r
+:matt/beach/Hatch.H: 480 170 r
+:matt/beach/Hatch.H: 480 170 r
+:matt/beach/Hatch.H: 480 170 r
+:matt/beach/Hatch.H: 480 170 r
+:matt/beach/Hatch.H: 480 170 r
+:matt/beach/Hatch.H: 480 170 r
+:matt/beach/Hatch.H: 480 170 r
+
+:matt/beach/goal.G: 550 372
+
+:matt/beach/decor/sun.D: 589 -31
+
+:matt/water.W: 240 480
+:matt/water.W: 272 480
+:matt/water.W: 304 480
+:matt/water.W: 336 480
+:matt/water.W: 368 480
+:matt/water.W: 400 480
+:matt/water.W: 432 480
+:matt/water.W: 208 480
+:matt/water.W: 48 480
+:matt/water.W: 80 480
+:matt/water.W: 112 480
+:matt/water.W: 144 480
+:matt/water.W: 176 480
+:matt/water.W: 464 480
+:matt/water.W: 496 480
+:matt/water.W: 240 128
+:matt/water.W: -16 480
+:matt/water.W: 16 480
+
+:matt/beach/decor/grass02: -4 405
+:matt/beach/decor/grass02: -44 392
+:matt/beach/decor/grass02: 457 218
+:matt/beach/decor/grass02: 289 258
+:matt/beach/decor/grass02: 111 254
+:matt/beach/decor/grass02: 174 76
+:matt/beach/decor/umbrella_blue: 296 420
+:matt/beach/decor/umbrella_green: 426 422
+:matt/beach/decor/umbrella_yellow: 160 420
+:matt/beach/decor/pail: 523 436
+:matt/beach/daytime/06: 394 227
+:matt/beach/daytime/03: 294 260
+:matt/beach/daytime/06: 228 264
+:matt/beach/daytime/06: 182 256
+:matt/beach/daytime/06: 24 270
+:matt/beach/daytime/05: -56 234
+:matt/beach/decor/pail: 93 430
+:matt/beach/decor/grass08: 589 219
+:matt/beach/decor/grass08: 605 184
+:matt/beach/decor/grass08: 568 249
+:matt/beach/daytime/06: 528 116 r
+:matt/beach/daytime/06: -177 357
+:matt/beach/daytime/06: 68 264
+:matt/beach/decor/grass08: 256 314
+:matt/beach/daytime/01: 22 276
+:matt/beach/daytime/06: 270 260
+:matt/beach/daytime/06: 392 212 frr
+:matt/beach/daytime/03: 22 260
+:matt/beach/decor/grass11: 120 256
+:matt/beach/daytime/03: 113 262
+:matt/beach/daytime/03: 188 257
+:matt/beach/daytime/03: 306 259
+:matt/beach/decor/grass11: 440 232
+:matt/beach/decor/beach ball: 15 61
+:matt/beach/daytime/03: 389 247
+:matt/beach/daytime/03: -56 418
+:matt/beach/daytime/03: -75 408
+:matt/beach/daytime/06: 312 62
+:matt/beach/daytime/03: 222 81
+:matt/beach/daytime/06: 184 88
+:matt/beach/daytime/06: 66 93
+:matt/beach/daytime/06: 10 75
+:matt/beach/decor/pail: -54 4
+:matt/beach/daytime/06: -61 84
+:matt/beach/daytime/06: 208 80
+:matt/beach/daytime/06: 301 63 frr
+:matt/beach/decor/grass11: 322 74
+:matt/beach/decor/grass08: 27 102
+:matt/beach/daytime/03: -50 81
+:matt/beach/decor/grass11: 130 78
+:matt/beach/daytime/03: 40 82
+:matt/beach/daytime/03: 144 80
+:matt/beach/daytime/03: 186 82
+:matt/beach/daytime/03: 348 60
+:matt/beach/decor/shovel: 559 49
+:matt/beach/decor/umbrella_red: 580 47
+:matt/beach/daytime/06: 544 100
+:matt/beach/daytime/03: 601 427
+:matt/beach/daytime/06: 531 437
+:matt/beach/decor/grass11: 460 75

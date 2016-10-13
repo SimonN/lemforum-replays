@@ -1,0 +1,181 @@
+$FILENAME single/rubix/Pleasant/asoftlanding.txt
+$LEVEL_BUILT_REQUIRED 2014-02-27 15:22:01
+$GAME_VERSION_REQUIRED 0.6.1
+
++PLAYER 0 Garden Rubix
+
+! 98 0 ASSIGN=FLOATER 0
+! 113 0 ASSIGN=CUBER 0
+! 148 0 ASSIGN=FLOATER 2
+! 170 0 ASSIGN=CUBER 2
+! 180 0 ASSIGN=FLOATER 3
+! 192 0 ASSIGN=CUBER 3
+! 202 0 ASSIGN=FLOATER 4
+! 220 0 ASSIGN=CUBER 4
+! 231 0 ASSIGN=FLOATER 5
+! 243 0 ASSIGN=CUBER 5
+! 286 0 ASSIGN=CLIMBER 6
+! 311 0 ASSIGN=CLIMBER 7
+! 319 0 ASSIGN=CLIMBER 8
+! 329 0 ASSIGN=CLIMBER 9
+! 356 0 ASSIGN=CLIMBER 10
+! 379 0 ASSIGN=FLOATER 6
+! 384 0 ASSIGN=FLOATER 7
+! 401 0 ASSIGN=FLOATER 8
+! 418 0 ASSIGN=FLOATER 9
+! 424 0 ASSIGN=FLOATER 10
+! 629 0 ASSIGN=CUBER 6
+! 653 0 ASSIGN=CUBER 7
+! 676 0 ASSIGN=CUBER 8
+! 747 0 ASSIGN_RIGHT=CLIMBER 12
+! 750 0 ASSIGN_RIGHT=CLIMBER 19
+! 754 0 ASSIGN_RIGHT=CLIMBER 17
+! 764 0 ASSIGN_RIGHT=CLIMBER 15
+! 771 0 ASSIGN_RIGHT=CLIMBER 13
+! 776 0 ASSIGN_RIGHT=CLIMBER 20
+! 778 0 ASSIGN_RIGHT=CLIMBER 11
+! 783 0 ASSIGN_RIGHT=CLIMBER 18
+! 788 0 ASSIGN_RIGHT=CLIMBER 16
+! 796 0 ASSIGN_RIGHT=CLIMBER 14
+! 798 0 ASSIGN_RIGHT=CLIMBER 21
+! 821 0 ASSIGN_RIGHT=CLIMBER 22
+! 839 0 ASSIGN_RIGHT=CLIMBER 23
+! 848 0 ASSIGN_RIGHT=CLIMBER 24
+! 857 0 ASSIGN_RIGHT=CLIMBER 25
+! 972 0 ASSIGN_RIGHT=CLIMBER 27
+! 980 0 ASSIGN_RIGHT=CLIMBER 28
+! 1007 0 ASSIGN_RIGHT=CLIMBER 26
+! 1017 0 ASSIGN_RIGHT=CLIMBER 29
+! 1027 0 ASSIGN_RIGHT=CLIMBER 30
+! 1032 0 ASSIGN_RIGHT=CLIMBER 31
+! 1042 0 ASSIGN_RIGHT=CLIMBER 32
+! 1048 0 ASSIGN_RIGHT=CLIMBER 33
+! 1054 0 ASSIGN_RIGHT=CLIMBER 34
+! 1064 0 ASSIGN_RIGHT=CLIMBER 35
+! 1208 0 ASSIGN=CLIMBER 37
+! 1215 0 ASSIGN=CLIMBER 38
+! 1223 0 ASSIGN=CLIMBER 39
+! 1289 0 ASSIGN=CLIMBER 36
+
+$BUILT 2014-02-27 15:22:01
+$AUTHOR Rubix
+$ENGLISH A Soft Landing
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 880
+#SIZE_Y 400
+#START_X 112
+#START_Y 380
+#BACKGROUND_RED 111
+#BACKGROUND_GREEN 127
+#BACKGROUND_BLUE 128
+
+#SECONDS 0
+#INITIAL 40
+#REQUIRED 28
+#SPAWN_INTERVAL 28
+
+#CLIMBER 40
+#FLOATER 12
+#CUBER 12
+#EXPLODER2 0
+
+:geoo/construction/Hatch.H: 32 0
+
+:geoo/construction/Goal2.G: 816 176
+
+:geoo/construction/Laser_hz_64.F: 384 128
+:geoo/construction/Laser_hz_64.F: 432 128
+:geoo/construction/Laser_hz_64.F: 528 128
+:geoo/construction/Laser_hz_64.F: 576 128
+:geoo/construction/Laser_hz_64.F: 672 128
+:geoo/construction/Laser_hz_64.F: 720 128
+:geoo/construction/Laser_hz_64.F: 240 128
+:geoo/construction/Laser_hz_64.F: 288 128
+:matt/water.W: 592 352
+:matt/water.W: 624 352
+:matt/water.W: 656 352
+:matt/water.W: 688 352
+:matt/water.W: 720 352
+:matt/water.W: 752 352
+:matt/water.W: 784 352
+:matt/water.W: 816 352
+:matt/water.W: 592 368
+:matt/water.W: 624 368
+:matt/water.W: 656 368
+:matt/water.W: 688 368
+:matt/water.W: 720 368
+:matt/water.W: 752 368
+:matt/water.W: 784 368
+:matt/water.W: 816 368
+:matt/water.W: 32 352
+:matt/water.W: 64 352
+:matt/water.W: 96 352
+:matt/water.W: 128 352
+:matt/water.W: 32 368
+:matt/water.W: 64 368
+:matt/water.W: 96 368
+:matt/water.W: 128 368
+:matt/water.W: 0 352
+:matt/water.W: 0 368
+
+:geoo/sandstone/64x32: 224 368
+:geoo/sandstone/64x64: 288 336
+:geoo/sandstone/64x32: 352 368
+:geoo/sandstone/64x32: 416 368
+:geoo/sandstone/64x64: 288 272
+:geoo/sandstone/64x32: 160 368
+:geoo/sandstone/64x64: 288 208
+:geoo/sandstone/64x32: 480 368
+:geoo/sandstone/64x32: 544 368
+:geoo/sandstone/64x32: 160 336
+:geoo/sandstone/64x32: 96 336
+:geoo/sandstone/64x32: 96 304
+:geoo/sandstone/64x32: 32 304
+:geoo/sandstone/64x32: 32 272
+:geoo/sandstone/64x32: 32 208 rrr
+:geoo/sandstone/64x32: 416 336
+:geoo/sandstone/64x32: 480 336
+:geoo/sandstone/64x32: 544 336
+:geoo/sandstone/64x32: 608 336
+:geoo/sandstone/64x32: 496 304
+:geoo/sandstone/64x32: 560 304
+:geoo/sandstone/64x32: 624 304
+:geoo/sandstone/64x32: 688 304
+:geoo/sandstone/64x32: 560 272
+:geoo/sandstone/64x32: 624 272
+:geoo/sandstone/64x32: 688 272
+:geoo/sandstone/64x32: 752 272
+:geoo/sandstone/64x32: 624 240
+:geoo/sandstone/64x32: 688 240
+:geoo/sandstone/64x32: 752 240
+:geoo/sandstone/64x32: 816 240
+:geoo/sandstone/64x64: 816 272
+:geoo/sandstone/64x64: 816 336
+:geoo/sandstone/32x32: 464 0
+:geoo/sandstone/32x32: 448 32
+:geoo/sandstone/32x32: 464 64
+:geoo/sandstone/32x32: 480 96
+:geoo/sandstone/32x32: 496 128
+:geoo/sandstone/32x32: 608 0
+:geoo/sandstone/32x32: 592 32
+:geoo/sandstone/32x32: 608 64
+:geoo/sandstone/32x32: 624 96
+:geoo/sandstone/32x32: 640 128
+:geoo/sandstone/32x32: 752 0
+:geoo/sandstone/32x32: 736 32
+:geoo/sandstone/32x32: 752 64
+:geoo/sandstone/32x32: 768 96
+:geoo/sandstone/32x32: 784 128
+:geoo/sandstone/32x32: 176 0
+:geoo/sandstone/32x32: 160 32
+:geoo/sandstone/32x32: 176 64
+:geoo/sandstone/32x32: 192 96
+:geoo/sandstone/32x32: 208 128
+:geoo/sandstone/32x32: 320 0
+:geoo/sandstone/32x32: 304 32
+:geoo/sandstone/32x32: 320 64
+:geoo/sandstone/32x32: 336 96
+:geoo/sandstone/32x32: 352 128
+:geoo/sandstone/32x64: 32 144
+:geoo/sandstone/32x64: 32 80

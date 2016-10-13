@@ -1,0 +1,99 @@
+$FILENAME single/rubix/Pleasant/theicebox.txt
+$LEVEL_BUILT_REQUIRED 2014-02-27 18:57:47
+$GAME_VERSION_REQUIRED 0.6.2
+
++PLAYER 0 Garden Rubix
+
+! 124 0 ASSIGN=DIGGER 0
+! 160 0 ASSIGN=DIGGER 1
+! 207 0 ASSIGN=DIGGER 2
+! 258 0 ASSIGN=DIGGER 3
+! 284 0 ASSIGN=DIGGER 4
+! 333 0 ASSIGN=DIGGER 5
+! 373 0 ASSIGN=DIGGER 6
+! 424 0 ASSIGN=DIGGER 7
+! 1218 0 ASSIGN=BUILDER 0
+! 1269 0 ASSIGN=BUILDER 1
+! 1419 0 ASSIGN=BUILDER 4
+! 1476 0 ASSIGN=BUILDER 5
+
+$BUILT 2014-02-27 18:57:47
+$AUTHOR Rubix
+$ENGLISH The Ice Box
+
+$HINT_ENGLISH And here we have a case of : ORDER OF PLACEMENT! This is very simple, but I bet you failed your first try :)
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 640
+#SIZE_Y 400
+#START_X 0
+#START_Y 0
+#BACKGROUND_RED 0
+#BACKGROUND_GREEN 96
+#BACKGROUND_BLUE 96
+
+#SECONDS 0
+#INITIAL 8
+#REQUIRED 8
+#SPAWN_INTERVAL 43
+
+#BUILDER 4
+#DIGGER 8
+#EXPLODER2 0
+
+:matt/winter/Hatch.H: 144 0 r
+:matt/winter/Hatch.H: 448 0
+:matt/winter/Hatch.H: 144 0
+:matt/winter/Hatch.H: 448 0 r
+:matt/winter/Hatch.H: 448 0
+:matt/winter/Hatch.H: 144 0 r
+:matt/winter/Hatch.H: 144 0
+:matt/winter/Hatch.H: 448 0 r
+
+:matt/winter/Goal.G: 272 288
+
+:matt/winter/13: 624 224 frr
+:matt/winter/02: 544 368
+:matt/winter/02: 16 368
+:matt/winter/04: -80 256
+:matt/winter/06: 517 48 r
+:matt/winter/06: 445 48 r
+:matt/winter/06: 384 48 r
+:matt/winter/06: 192 48 r
+:matt/winter/06: 128 48 r
+:matt/winter/06: 64 48 r
+:matt/winter/06: 48 288
+:matt/winter/06: 64 352 r
+:matt/winter/09a: 16 320
+:matt/winter/06: 128 352 r
+:matt/winter/06: 192 352 r
+:matt/winter/06: 256 352 r
+:matt/winter/06: 320 352 r
+:matt/winter/06: 384 352 r
+:matt/winter/06: 448 352 r
+:matt/winter/06: 512 352 r
+:matt/winter/06: 576 288
+:matt/winter/09a: 560 320
+:matt/winter/06: 48 224
+:matt/winter/06: 48 160
+:matt/winter/06: 48 96
+:matt/winter/06: 576 224
+:matt/winter/06: 576 160
+:matt/winter/06: 576 96
+:matt/winter/06: 48 48
+:matt/winter/06: 576 52
+:matt/winter/06: 256 192
+:matt/winter/06: 256 128
+:matt/winter/06: 368 192
+:matt/winter/06: 368 128
+:matt/winter/04: 592 256 frr
+:matt/winter/12: 608 368
+:matt/winter/12: -16 384
+:matt/winter/04: 480 368
+:matt/winter/04: 32 368 frr
+:matt/winter/13: -32 224
+:matt/winter/09b: 40 47
+:matt/winter/09b: 567 47
+:matt/winter/06: 482 48 r
+:matt/winter/07: 368 256 f
+:matt/winter/07: 256 256 f

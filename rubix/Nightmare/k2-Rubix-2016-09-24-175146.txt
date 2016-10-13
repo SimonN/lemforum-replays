@@ -1,0 +1,155 @@
+$FILENAME single/rubix/Nightmare/ihateclowns.txt
+$LEVEL_BUILT_REQUIRED 2014-02-25 12:05:33
+$GAME_VERSION_REQUIRED 0.6.14
+
++PLAYER 0 Garden Rubix
+
+! 411 0 ASSIGN_LEFT=CLIMBER 1
+! 412 0 ASSIGN_LEFT=CLIMBER 3
+! 413 0 ASSIGN_LEFT=CLIMBER 5
+! 414 0 ASSIGN_LEFT=CLIMBER 7
+! 418 0 ASSIGN_LEFT=CLIMBER 0
+! 419 0 ASSIGN_LEFT=CLIMBER 2
+! 420 0 ASSIGN_LEFT=CLIMBER 4
+! 486 0 ASSIGN=BASHER 6
+! 554 0 ASSIGN=JUMPER 6
+! 628 0 ASSIGN=BUILDER 6
+! 738 0 ASSIGN=BUILDER 0
+! 911 0 ASSIGN=FLOATER 1
+! 914 0 ASSIGN=FLOATER 3
+! 916 0 ASSIGN=FLOATER 5
+! 919 0 ASSIGN=FLOATER 7
+! 932 0 ASSIGN=FLOATER 2
+! 934 0 ASSIGN=FLOATER 4
+! 1044 0 ASSIGN=CLIMBER 6
+! 1210 0 ASSIGN=JUMPER 0
+
+$BUILT 2014-02-25 12:05:33
+$AUTHOR Rubix
+$ENGLISH I Hate Clowns!
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 640
+#SIZE_Y 400
+#BACKGROUND_RED 0
+#BACKGROUND_GREEN 127
+#BACKGROUND_BLUE 255
+
+#SECONDS 85
+#INITIAL 8
+#REQUIRED 8
+#SPAWN_INTERVAL 24
+
+#RUNNER 8
+#CLIMBER 8
+#FLOATER 8
+#EXPLODER 8
+#BLOCKER 8
+#BUILDER 2
+#BASHER 1
+#JUMPER 2
+#CUBER 8
+
+:matt/carnival/Hatch.H: 304 16
+
+:matt/carnival/Goal.G: 48 160
+
+:simon/water.W: 32 352
+:simon/water.W: 80 352
+:simon/water.W: 128 352
+:simon/water.W: 592 352
+:simon/water.W: 400 352
+:simon/water.W: -16 352
+:simon/water.W: 448 352
+:simon/water.W: 496 352
+:simon/water.W: 544 352
+:geoo/construction/sawblade_small.F: 472 274
+:geoo/construction/sawblade_small.F: 496 224
+:geoo/construction/sawblade_small.F: 272 224
+:geoo/construction/sawblade_small.F: 336 112
+:geoo/construction/sawblade_small.F: 240 272
+
+:matt/carnival/21: 24 62 frr
+:matt/carnival/31: 488 290 f
+:matt/carnival/24: 48 224
+:matt/carnival/26: 480 176 frr
+:matt/carnival/26: 416 112 frr
+:matt/carnival/26: 352 112 frr
+:matt/carnival/03: 320 96 frr
+:matt/carnival/03: 288 112 frr
+:matt/carnival/03: 256 128 frr
+:matt/carnival/05: 192 160
+:matt/carnival/05: 192 96
+:matt/carnival/05: 192 32
+:matt/carnival/24: 192 224
+:matt/carnival/24: 240 352
+:matt/carnival/24: 304 352
+:matt/carnival/24: 368 336
+:matt/carnival/03: 512 240
+:matt/carnival/03: 576 272
+:matt/carnival/03: 512 272
+:matt/carnival/03: 592 240
+:matt/carnival/03: 608 208
+:matt/carnival/03: 592 176
+:matt/carnival/24: 48 288
+:matt/carnival/24: 112 320
+:matt/carnival/24: 176 352
+:matt/carnival/03: 544 272
+:matt/carnival/01: 192 0
+:matt/carnival/11: 256 208
+:matt/carnival/11: 256 240 rrr
+:matt/carnival/11: 288 208 r
+:matt/carnival/03: 512 304
+:matt/carnival/09: 448 176 r
+:matt/carnival/09: 352 176 r
+:matt/carnival/09: 448 208 rr
+:geoo/steel/16x32o.S: 208 0
+:geoo/steel/16x32o.S: 192 32
+:geoo/steel/16x32o.S: 208 64
+:geoo/steel/16x32o.S: 192 96
+:geoo/steel/16x32o.S: 208 128
+:geoo/steel/16x32o.S: 192 160
+:geoo/steel/16x32o.S: 208 192
+:geoo/steel/16x32o.S: 192 224
+:geoo/steel/16x32o.S: 208 256
+:matt/carnival/11: 64 272 rrr
+:matt/carnival/11: 128 336 rr
+:matt/carnival/11: 192 368 frr
+:matt/carnival/11: 256 368 frrr
+:matt/carnival/11: 320 368 r
+:matt/carnival/11: 384 352 fr
+:matt/carnival/09: 496 192 r
+:matt/carnival/09: 432 128 fr
+:matt/carnival/09: 368 128 frrr
+:matt/carnival/18: 16 0
+:matt/carnival/40: 80 0
+:matt/carnival/16: 112 0
+:matt/carnival/41: 304 0
+:matt/carnival/18: 560 0
+:matt/carnival/40: 400 0
+:matt/carnival/16: 432 0
+:matt/carnival/17: 240 0
+:matt/carnival/18: 336 0
+:matt/carnival/42: 496 0
+:matt/carnival/41: 528 0
+:matt/carnival/20: 24 110 rr
+:matt/carnival/13: 88 142
+:matt/carnival/13: 88 126
+:matt/carnival/13: 88 110
+:matt/carnival/13: 120 126
+:matt/carnival/13: 120 142
+:matt/carnival/13: 104 110
+:matt/carnival/13: 120 110
+:matt/carnival/20: 88 62 rr
+:matt/carnival/12: 104 94
+:matt/carnival/11: 256 272 fr
+:matt/carnival/11: 288 176 frrr
+:geoo/steel/16x32o.S: 448 112
+:geoo/steel/16x32o.S: 464 144
+:geoo/steel/16x32o.S: 448 176
+:geoo/steel/16x32o.S: 464 208
+:matt/carnival/15: 496 304
+:matt/carnival/15: 496 288
+:matt/carnival/09: 352 208 frrr
+:matt/carnival/09: 352 240 frr
+:matt/carnival/09: 384 240 fr

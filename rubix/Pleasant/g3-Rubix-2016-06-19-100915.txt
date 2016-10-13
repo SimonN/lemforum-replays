@@ -1,0 +1,102 @@
+$FILENAME single/rubix/Pleasant/slimetime.txt
+$LEVEL_BUILT_REQUIRED 2015-08-28 17:52:25
+$GAME_VERSION_REQUIRED 0.6.1
+
++PLAYER 0 Garden Rubix
+
+! 136 0 ASSIGN=BASHER 1
+! 156 0 ASSIGN=BUILDER 0
+! 169 0 ASSIGN=BLOCKER 2
+! 280 0 ASSIGN=BLOCKER 4
+! 295 0 ASSIGN=BLOCKER 3
+! 347 0 ASSIGN=BUILDER 0
+! 420 0 ASSIGN=PLATFORMER 0
+! 509 0 ASSIGN=BASHER 0
+! 701 0 ASSIGN=PLATFORMER 0
+! 885 0 ASSIGN=BUILDER 0
+! 1227 0 ASSIGN=BATTER 6
+! 2045 0 NUKE 0
+
+$BUILT 2015-08-28 17:52:25
+$AUTHOR Rubix
+$ENGLISH Slime Time
+
+$HINT_ENGLISH Looks slimey..  Lets save the top group for later and focus on the bottom.
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 640
+#SIZE_Y 400
+
+#SECONDS 0
+#INITIAL 50
+#REQUIRED 48
+#SPAWN_INTERVAL 32
+
+#FLOATER 1
+#BLOCKER 4
+#BUILDER 4
+#PLATFORMER 3
+#BASHER 2
+#BATTER 2
+#EXPLODER2 0
+
+:amanda/occult/hatch_tentacle.H: 528 240 r
+:amanda/occult/hatch_tentacle.H: 16 0
+
+:amanda/occult/occult_goal_skull.G: 240 132
+
+:amanda/occult/occult_wax_details_drip: 576 144
+:amanda/occult/occult_wax_details_drip: 480 160
+:amanda/occult/occult_wax32x48_cap_right_sheer: 208 304 rrr
+:amanda/occult/occult_wax32x48: 208 320 rrr
+:amanda/occult/occult_wax32x48: 208 352 rrr
+:amanda/occult/occult_wax32x48: 208 384 rrr
+:amanda/occult/occult_wax32x48: 480 112
+:amanda/occult/occult_wax32x48: 512 112
+:amanda/occult/occult_wax32x48: 544 112
+:amanda/occult/occult_wax32x48: 576 112
+:amanda/occult/occult_wax64x48: 416 352
+:amanda/occult/occult_wax64x48: 544 352
+:amanda/occult/occult_wax64x48: 608 352
+:amanda/occult/occult_wax32x48: 304 208
+:amanda/occult/occult_wax32x48: 272 208
+:amanda/occult/occult_wax64x48: 480 352
+:amanda/occult/occult_wax32x48_cap_left_soft: 384 352
+:amanda/occult/occult_wax32x48_cap_right_sheer: 608 112
+:amanda/occult/occult_wax32x48: 64 352 rrr
+:amanda/occult/occult_wax32x48: 64 320 rrr
+:amanda/occult/occult_wax32x48: 64 288 rrr
+:amanda/occult/occult_wax32x48: 64 256 rrr
+:amanda/occult/occult_wax32x48: 64 224 rrr
+:amanda/occult/occult_wax32x48: 64 384 rrr
+:amanda/occult/occult_wax32x48_cap_right_sheer: 64 192 rrr
+:amanda/occult/occult_wax32x48_cap_right_sheer: 336 208
+:amanda/occult/occult_wax32x48: 240 240
+:amanda/occult/occult_wax32x48_cap_left_soft: 240 208
+:amanda/occult/occult_wax32x48: 240 272
+:amanda/occult/occult_wax32x48: 208 272
+:amanda/occult/occult_wax32x48_cap_left_soft: 208 240
+:amanda/occult/occult_wax32x48_cap_left_soft: 176 272
+:amanda/occult/occult_wax32x48_cap_right_sheer: 288 240
+:amanda/occult/occult_wax32x48_cap_right_sheer: 272 272
+:amanda/occult/occult_wax32x48: 160 64
+:amanda/occult/occult_wax32x48: 160 96
+:amanda/occult/occult_wax32x48: 128 96
+:amanda/occult/occult_wax32x48_cap_left_soft: 128 64
+:amanda/occult/occult_wax32x48_cap_right_sheer: 224 64
+:amanda/occult/occult_wax32x48_cap_right_sheer: 192 96
+:amanda/occult/occult_wax32x48: 96 128
+:amanda/occult/occult_wax32x48_cap_left_soft: 96 96
+:amanda/occult/occult_wax32x48: 96 160
+:amanda/occult/occult_wax32x48: 64 160
+:amanda/occult/occult_wax32x48_cap_left_soft: 64 128
+:amanda/occult/occult_wax32x48_cap_left_soft: 32 160
+:amanda/occult/occult_wax32x48_cap_right_sheer: 128 128
+:amanda/occult/occult_wax32x48_cap_right_sheer: 128 160
+:amanda/occult/occult_wax32x48_cap_left_soft: 448 112
+:amanda/occult/occult_wax32x48: 192 64
+:amanda/occult/occult_wax32x48: 272 240
+:amanda/occult/occult_wax32x48: 192 32
+:amanda/occult/occult_wax32x48_cap_left_soft: 160 32
+:amanda/occult/occult_wax32x48_cap_right_sheer: 256 32
+:amanda/occult/occult_wax32x48: 224 32

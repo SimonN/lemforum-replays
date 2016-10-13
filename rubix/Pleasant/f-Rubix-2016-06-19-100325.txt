@@ -1,0 +1,150 @@
+$FILENAME single/rubix/Pleasant/knockedout.txt
+$LEVEL_BUILT_REQUIRED 2014-02-27 16:05:57
+$GAME_VERSION_REQUIRED 0.6.1
+
++PLAYER 0 Garden Rubix
+
+! 272 0 ASSIGN=BATTER 0
+! 280 0 ASSIGN=BATTER 1
+! 283 0 ASSIGN=BATTER 0
+! 289 0 ASSIGN=BATTER 2
+! 292 0 ASSIGN=BATTER 1
+! 296 0 ASSIGN=BATTER 3
+! 302 0 ASSIGN=BATTER 4
+! 311 0 ASSIGN=BATTER 5
+! 320 0 ASSIGN=BATTER 6
+! 322 0 ASSIGN=BATTER 5
+! 325 0 ASSIGN=BATTER 7
+! 337 0 ASSIGN=BATTER 7
+! 340 0 ASSIGN=BATTER 9
+! 348 0 ASSIGN=BATTER 7
+! 351 0 ASSIGN=BATTER 10
+! 358 0 ASSIGN=BATTER 11
+! 361 0 ASSIGN=BATTER 7
+! 364 0 ASSIGN=BATTER 12
+! 372 0 ASSIGN=BATTER 13
+! 379 0 ASSIGN=BATTER 14
+! 388 0 ASSIGN=BATTER 15
+! 391 0 ASSIGN=BATTER 14
+! 397 0 ASSIGN=BATTER 16
+! 400 0 ASSIGN=BATTER 15
+! 403 0 ASSIGN=BATTER 17
+! 413 0 ASSIGN=BATTER 18
+! 416 0 ASSIGN=BATTER 17
+! 419 0 ASSIGN=BATTER 19
+! 429 0 ASSIGN=BATTER 20
+! 432 0 ASSIGN=BATTER 19
+! 435 0 ASSIGN=BATTER 21
+! 445 0 ASSIGN=BATTER 22
+! 448 0 ASSIGN=BATTER 21
+! 451 0 ASSIGN=BATTER 23
+! 460 0 ASSIGN=BATTER 24
+! 463 0 ASSIGN=BATTER 23
+! 469 0 ASSIGN=BATTER 25
+! 472 0 ASSIGN=BATTER 24
+! 475 0 ASSIGN=BATTER 26
+! 484 0 ASSIGN=BATTER 27
+! 487 0 ASSIGN=BATTER 26
+! 493 0 ASSIGN=BATTER 28
+! 496 0 ASSIGN=BATTER 27
+! 499 0 ASSIGN=BATTER 29
+! 585 0 ASSIGN=CUBER 0
+! 653 0 ASSIGN_LEFT=BATTER 2
+! 662 0 ASSIGN_LEFT=BATTER 3
+! 687 0 ASSIGN_LEFT=BATTER 12
+! 710 0 ASSIGN_LEFT=BATTER 11
+! 726 0 ASSIGN_LEFT=BATTER 12
+! 740 0 ASSIGN_LEFT=BATTER 12
+! 758 0 ASSIGN_LEFT=BATTER 17
+! 770 0 ASSIGN_LEFT=BATTER 17
+! 781 0 ASSIGN_LEFT=BATTER 17
+! 791 0 ASSIGN_LEFT=BATTER 21
+! 820 0 ASSIGN_LEFT=BATTER 25
+! 881 0 ASSIGN_LEFT=BATTER 3
+! 890 0 ASSIGN_LEFT=BATTER 5
+! 901 0 ASSIGN_LEFT=BATTER 8
+! 911 0 ASSIGN_LEFT=BATTER 9
+! 921 0 ASSIGN_LEFT=BATTER 7
+! 1118 0 NUKE 0
+
+$BUILT 2014-02-27 16:05:57
+$AUTHOR Rubix
+$ENGLISH knocked out
+
+$HINT_ENGLISH Once in a while you will have other abilities which are not even part of the puzzle.  On a hard level this helps confuse you when you believe a certain skill must be used somewhere.
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 1120
+#SIZE_Y 400
+#START_X 128
+#START_Y 380
+#BACKGROUND_RED 63
+#BACKGROUND_GREEN 79
+#BACKGROUND_BLUE 0
+
+#SECONDS 0
+#INITIAL 30
+#REQUIRED 15
+#SPAWN_INTERVAL 8
+
+#DIGGER 1
+#BATTER 60
+#CUBER 1
+#EXPLODER2 0
+
+:geoo/construction/Hatch.H: 880 176 r
+
+:geoo/construction/Goal2.G: 32 192
+
+:geoo/construction/sawblade.F: 320 368
+:geoo/construction/sawblade.F: 352 336
+:geoo/construction/sawblade.F: 384 304
+:geoo/construction/sawblade.F: 416 272
+:geoo/construction/sawblade.F: 448 240
+:geoo/construction/sawblade.F: 448 304
+
+:geoo/construction/wall/big_128x64: 544 368
+:geoo/construction/wall/big_128x128: 592 304
+:geoo/construction/wall/big_128x128: 720 272
+:geoo/construction/concrete/032: 496 336
+:geoo/construction/concrete/032: 528 336
+:geoo/construction/concrete/032: 560 336
+:geoo/construction/concrete/032: 496 304
+:geoo/construction/concrete/032c: 560 272 fr
+:geoo/construction/concrete/032d: 528 240 f
+:geoo/construction/concrete/032: 496 240
+:geoo/construction/concrete/032: 528 304
+:geoo/construction/concrete/032: 560 304
+:geoo/construction/concrete/032: 496 272
+:geoo/construction/concrete/032: 528 272
+:geoo/construction/wall/big_128x128: 848 272
+:geoo/construction/wall/small_64x64: 288 288
+:geoo/construction/wall/small_64x64: 224 288
+:geoo/construction/wall/small_64x64: 32 288
+:geoo/construction/wall/big_brickdiag_tu: -32 224
+:geoo/construction/wall/small_64x64: 160 288
+:geoo/construction/wall/small_64x64: 96 288
+:geoo/construction/wall/big_128x64: 416 368
+:geoo/construction/concrete/128: 976 272
+:geoo/construction/concrete/128: 976 144
+:geoo/construction/concrete/032hc: 912 0
+:geoo/construction/concrete/128: 976 16
+:geoo/construction/concrete/064h: 976 -48
+:geoo/construction/wall/small_64x64: 256 352
+:geoo/construction/wall/small_64x64: 192 352
+:geoo/construction/wall/small_64x64: 0 352
+:geoo/construction/wall/small_64x64: 128 352
+:geoo/construction/wall/small_64x64: 64 352
+:geoo/construction/wall/big_brickdiag_tu: -32 320
+:geoo/construction/wall/big_brickdiag_td: 288 256
+:geoo/construction/wall/small_64x64: -32 256
+:geoo/construction/wall/small_64x64: 32 256
+:geoo/construction/wall/big_brickdiag_tu: 224 256
+:geoo/construction/squarebrick_large: 352 288
+:geoo/construction/wall/big_brickdiag_td: 192 224
+:geoo/construction/wall/big_brickdiag_tu: -32 192
+:geoo/construction/concrete/128: 672 -64
+:geoo/construction/concrete/128: 544 -16
+:geoo/construction/concrete/128: 416 -64
+:geoo/construction/concrete/128: 288 -16
+:geoo/construction/concrete/128: 160 -64

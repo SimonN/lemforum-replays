@@ -1,0 +1,173 @@
+$FILENAME single/rubix/Perplexing/pleasesenddownar.txt
+$LEVEL_BUILT_REQUIRED 2016-10-02 12:54:56
+$GAME_VERSION_REQUIRED 0.6.17
+
++PLAYER 0 Garden rubb
+
+! 242 0 ASSIGN=BUILDER 0
+! 1099 0 ASSIGN=BUILDER 19
+! 1356 0 ASSIGN=BUILDER 19
+! 1361 0 ASSIGN=BUILDER 19
+! 1364 0 ASSIGN=BUILDER 19
+! 1368 0 ASSIGN=BUILDER 19
+! 1372 0 ASSIGN=BUILDER 19
+! 1377 0 ASSIGN=BUILDER 19
+! 2514 0 ASSIGN=WALKER 19
+! 2524 0 ASSIGN=BUILDER 19
+! 2532 0 ASSIGN=BUILDER 19
+! 2537 0 ASSIGN=BUILDER 19
+! 2541 0 ASSIGN=BUILDER 19
+! 2544 0 ASSIGN=BUILDER 19
+! 2548 0 ASSIGN=BUILDER 19
+! 2551 0 ASSIGN=BUILDER 19
+! 2554 0 ASSIGN=BUILDER 19
+! 2556 0 ASSIGN=BUILDER 19
+! 2558 0 ASSIGN=BUILDER 19
+! 3718 0 ASSIGN=BUILDER 19
+! 3943 0 ASSIGN=BUILDER 19
+! 4000 0 ASSIGN=BUILDER 19
+! 4172 0 ASSIGN=BUILDER 19
+! 4344 0 ASSIGN=BUILDER 19
+! 4554 0 ASSIGN=BUILDER 1
+! 4693 0 ASSIGN=BUILDER 2
+! 4748 0 ASSIGN=BUILDER 1
+! 5026 0 ASSIGN_LEFT=WALKER 6
+! 5027 0 ASSIGN_LEFT=WALKER 10
+! 5028 0 ASSIGN_LEFT=WALKER 14
+! 5029 0 ASSIGN_LEFT=WALKER 18
+! 5038 0 ASSIGN_LEFT=WALKER 2
+! 5040 0 ASSIGN_LEFT=WALKER 0
+! 5041 0 ASSIGN_LEFT=WALKER 3
+! 5042 0 ASSIGN_LEFT=WALKER 7
+! 5043 0 ASSIGN_LEFT=WALKER 11
+! 5044 0 ASSIGN_LEFT=WALKER 15
+! 5045 0 ASSIGN_LEFT=WALKER 5
+! 5046 0 ASSIGN_LEFT=WALKER 9
+! 5047 0 ASSIGN_LEFT=WALKER 13
+! 5048 0 ASSIGN_LEFT=WALKER 17
+! 5054 0 ASSIGN_LEFT=WALKER 4
+! 5055 0 ASSIGN_LEFT=WALKER 8
+! 5056 0 ASSIGN_LEFT=WALKER 12
+! 5057 0 ASSIGN_LEFT=WALKER 16
+! 5058 0 ASSIGN_LEFT=WALKER 1
+! 5311 0 ASSIGN=BUILDER 0
+! 5503 0 ASSIGN=BUILDER 0
+! 5559 0 ASSIGN_RIGHT=BUILDER 16
+! 5726 0 ASSIGN_LEFT=BUILDER 14
+! 5898 0 ASSIGN_LEFT=BUILDER 9
+! 5969 0 ASSIGN_RIGHT=BUILDER 8
+! 6060 0 ASSIGN_RIGHT=BUILDER 8
+
+$BUILT 2016-10-02 12:54:56
+$AUTHOR Rubix
+$ENGLISH Please send down a rope?
+
+$HINT_ENGLISH Its all in how you start
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 640
+#SIZE_Y 920
+#START_X 0
+#START_Y 260
+#BACKGROUND_RED 0
+#BACKGROUND_GREEN 112
+#BACKGROUND_BLUE 208
+
+#INITIAL 20
+#REQUIRED 20
+#SPAWN_INTERVAL 48
+
+#WALKER 20
+#BUILDER 33
+#EXPLODER 0
+
+:matt/goldmine/Hatch.H: 280 604
+
+:matt/earth/Goal.G: 544 96
+
+:matt/goldmine/pickaxe: 124 646
+:matt/goldmine/shovel: 260 168
+:matt/beach/decor/sun: 499 -2
+:matt/earth/10: 26 216 frr
+:matt/earth/07: -14 116
+:matt/earth/06: 212 170
+:matt/earth/06: 343 171
+:matt/earth/06: 97 176
+:matt/earth/07: 21 -8
+:matt/earth/09: 141 179
+:matt/goldmine/06: 90 658
+:matt/goldmine/07: -48 632
+:matt/goldmine/01: 176 648
+:matt/goldmine/07: 224 648
+:matt/goldmine/07: 175 667
+:matt/goldmine/07: 602 627
+:matt/goldmine/04: 96 648
+:matt/goldmine/planksupport: -48 616
+:matt/goldmine/planksupport: 560 616
+:matt/goldmine/plank: 80 616
+:matt/goldmine/plank: 432 616
+:matt/earth/16: 166 242 fr
+:matt/earth/16: 348 230 r
+:matt/goldmine/planksupport: 344 232 rrr
+:matt/goldmine/plank: 32 292
+:matt/goldmine/plank: 472 292
+:matt/goldmine/plank: -96 292
+:matt/goldmine/plank: 600 292
+:matt/goldmine/06: -13 275
+:matt/earth/10: -56 198
+:matt/earth/09: 45 205
+:matt/earth/09: 168 188
+:matt/earth/10: 73 180
+:matt/earth/03: 345 263
+:matt/earth/07: 380 172
+:matt/earth/09: 406 187
+:matt/earth/09: 443 197
+:matt/earth/10: 342 190
+:matt/earth/10: 507 187
+:matt/goldmine/planksupport: 160 232 r
+:matt/earth/04: 52 197 fr
+:matt/earth/16: 133 190
+:matt/earth/10: 450 216 frr
+:matt/earth/00: 208 178
+:matt/goldmine/plank: 280 192 r
+:matt/earth/00: 344 178 frr
+:matt/goldmine/plank: 344 192 r
+:matt/earth/06: 484 174
+:matt/earth/10: 486 158
+:matt/earth/10: 584 54 r
+:matt/earth/06: 578 54
+:matt/earth/06: 614 36
+:matt/goldmine/07: -22 701
+:matt/goldmine/07: 156 682
+:matt/goldmine/07: 318 696
+:matt/goldmine/07: 594 691
+:matt/goldmine/07: 223 723
+:matt/goldmine/07: 174 742
+:matt/goldmine/04: 95 723
+:matt/goldmine/07: -23 776
+:matt/goldmine/07: 155 757
+:matt/goldmine/06: 499 754
+:matt/goldmine/07: 433 734 fr
+:matt/goldmine/07: 285 769
+:matt/goldmine/07: 236 788
+:matt/goldmine/04: 157 769
+:matt/goldmine/07: 39 822
+:matt/goldmine/07: 217 803
+:matt/goldmine/07: 266 843 frr
+:matt/goldmine/07: 96 876 frr
+:matt/goldmine/07: -88 848 frr
+:matt/goldmine/07: 596 757 r
+:matt/earth/10: -52 136 r
+:matt/earth/10: -68 -26 r
+:matt/earth/06: 143 -21 frrr
+:matt/earth/10: -36 -76 rr
+:matt/earth/10: 70 -97 rr
+:matt/goldmine/07: 392 846 frr
+:matt/goldmine/07: 550 760 frr
+:matt/earth/09: 65 26
+:matt/earth/07: -8 -13
+:matt/earth/09: 130 171
+:matt/earth/26: 182 12
+:matt/earth/01: -7 235
+:matt/earth/01: 514 252
+:matt/earth/00: 156 195
