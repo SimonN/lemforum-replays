@@ -1,0 +1,101 @@
+$FILENAME single/clam/Humane/wall-crawler.txt
+$LEVEL_BUILT_REQUIRED 2015-08-03 20:19:37
+$GAME_VERSION_REQUIRED 0.6.11
+
++PLAYER 0 Garden Michael
+
+! 120 0 ASSIGN=CLIMBER 1
+! 127 0 ASSIGN=CLIMBER 0
+! 138 0 ASSIGN=CLIMBER 2
+! 177 0 ASSIGN=JUMPER 0
+! 186 0 ASSIGN=JUMPER 1
+! 199 0 ASSIGN=CLIMBER 3
+! 206 0 ASSIGN=CLIMBER 4
+! 217 0 ASSIGN=CLIMBER 5
+! 222 0 ASSIGN=JUMPER 2
+! 247 0 ASSIGN=JUMPER 3
+! 277 0 ASSIGN=JUMPER 4
+! 282 0 ASSIGN=CLIMBER 6
+! 290 0 ASSIGN=CLIMBER 7
+! 314 0 ASSIGN=JUMPER 5
+! 336 0 ASSIGN=JUMPER 6
+! 370 0 ASSIGN=JUMPER 7
+! 385 0 ASSIGN=CLIMBER 8
+! 393 0 ASSIGN=CLIMBER 9
+! 416 0 ASSIGN=JUMPER 8
+! 431 0 ASSIGN=JUMPER 9
+! 672 0 ASSIGN=EXPLODER2 9
+! 737 0 ASSIGN=EXPLODER2 0
+
+$BUILT 2015-08-03 20:19:37
+$AUTHOR Clam
+$ENGLISH Wall Crawler
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 640
+#SIZE_Y 384
+#TORUS_X 0
+#TORUS_Y 1
+#START_X 0
+#START_Y 336
+
+#INITIAL 10
+#REQUIRED 8
+#SPAWN_INTERVAL 30
+
+#CLIMBER 10
+#EXPLODER2 2
+#JUMPER 10
+
+:geoo/sandstone/Hatch.H: 184 168
+
+:geoo/sandstone/Goal.G: 496 32
+
+:geoo/sandstone/torch.F: 216 368
+:geoo/sandstone/torch.F: 304 48
+:geoo/sandstone/torch.F: 392 368
+:geoo/sandstone/torch.F: 392 112
+:geoo/sandstone/torch.F: 216 112
+
+:geoo/sandstone/32x64: 464 160
+:geoo/sandstone/32x64: 464 224
+:geoo/sandstone/32x64: 464 352
+:geoo/sandstone/32x64: 464 32
+:geoo/sandstone/64x32: 496 96
+:geoo/sandstone/32x64: 464 288
+:geoo/sandstone/64x32: 368 288
+:geoo/sandstone/64x32: 304 288
+:geoo/sandstone/64x32: 328 256
+:geoo/sandstone/64x32: 264 256
+:geoo/sandstone/64x32: 200 256
+:geoo/sandstone/64x32: 496 0
+:geoo/sandstone/32x64: 560 32
+:geoo/sandstone/32x64: 560 96
+:geoo/sandstone/64x64: 496 320
+:geoo/sandstone/64x64: 496 256
+:geoo/sandstone/64x64: 496 192
+:geoo/sandstone/64x64: 496 128
+:geoo/sandstone/32x64: 560 160
+:geoo/sandstone/32x64: 560 224
+:geoo/sandstone/32x64: 560 288
+:geoo/sandstone/32x64: 560 352
+:geoo/sandstone/32x64: 40 160
+:geoo/sandstone/32x64: 40 224
+:geoo/sandstone/32x64: 40 352
+:geoo/sandstone/32x64: 40 288
+:geoo/sandstone/64x64: 72 320
+:geoo/sandstone/64x64: 72 256
+:geoo/sandstone/64x64: 72 192
+:geoo/sandstone/64x64: 72 128
+:geoo/sandstone/32x64: 136 160
+:geoo/sandstone/32x64: 136 224
+:geoo/sandstone/32x64: 136 288
+:geoo/sandstone/32x64: 136 352
+:geoo/sandstone/32x64: 40 32
+:geoo/sandstone/32x64: 40 96
+:geoo/sandstone/64x64: 72 64
+:geoo/sandstone/64x64: 72 0
+:geoo/sandstone/32x64: 136 32
+:geoo/sandstone/32x64: 136 96
+:geoo/sandstone/64x32: 240 288
+:geoo/sandstone/32x64: 464 96

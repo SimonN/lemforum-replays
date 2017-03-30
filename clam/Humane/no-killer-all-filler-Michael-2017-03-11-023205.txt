@@ -1,0 +1,186 @@
+$FILENAME single/clam/Humane/no-killer-all-filler.txt
+$LEVEL_BUILT_REQUIRED 2015-08-07 07:28:19
+$GAME_VERSION_REQUIRED 0.6.11
+
++PLAYER 0 Garden Michael
+
+! 76 0 ASSIGN=BUILDER 0
+! 78 0 ASSIGN=BUILDER 0
+! 147 0 ASSIGN=CLIMBER 1
+! 199 0 ASSIGN=PLATFORMER 1
+! 260 0 ASSIGN=PLATFORMER 2
+! 385 0 ASSIGN=BASHER 1
+! 554 0 ASSIGN=PLATFORMER 1
+
+$BUILT 2015-08-07 07:28:19
+$AUTHOR Clam
+$ENGLISH No Killer, All Filler
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 640
+#SIZE_Y 400
+#START_X 0
+#START_Y -20
+
+#INITIAL 40
+#REQUIRED 20
+#SPAWN_INTERVAL 45
+
+#WALKER 10
+#RUNNER 10
+#CLIMBER 10
+#FLOATER 10
+#EXPLODER2 10
+#BLOCKER 10
+#BUILDER 10
+#PLATFORMER 10
+#BASHER 10
+#MINER 10
+#DIGGER 10
+#JUMPER 10
+#BATTER 10
+#CUBER 10
+
+:matt/carnival/Hatch.H: 64 168
+
+:matt/carnival/Goal.G: 512 112
+
+:matt/water.W: 272 368
+:matt/water.W: 304 368
+:matt/water.W: 336 368
+:matt/water.W: 368 368
+:matt/water.W: 400 368
+:matt/water.W: 432 368
+:matt/water.W: 464 368
+:matt/water.W: 480 368
+:matt/water.W: 576 368
+:matt/water.W: 608 368
+
+:matt/carnival/04: 448 208 fr
+$BEGIN_TILE_GROUP 0
+:matt/marble/21: 0 0 d
+:matt/carnival/04: 8 16 fr
+:matt/carnival/04: 8 24 frd
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 1
+:matt/carnival/04: 0 0 fr
+:Group-0: 0 16
+:matt/carnival/04: 32 16 frd
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 2
+:matt/carnival/04: 0 16 fr
+:Group-1: 16 0
+:matt/carnival/04: 48 24 frd
+$END_TILE_GROUP
+:Group-2: 448 208
+:matt/carnival/05: 304 240 fr
+$BEGIN_TILE_GROUP 3
+:matt/carnival/05: 0 0 fr
+:matt/carnival/05: 0 8 frd
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 4
+:matt/carnival/05: 64 16 fr
+:matt/carnival/05: 0 16 fr
+:matt/marble/21a: 0 16 d
+:matt/marble/21a: 64 16 d
+:matt/carnival/05: 64 0 fr
+:matt/carnival/05: 80 0 frd
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 5
+:matt/carnival/05: 48 0 fr
+:Group-4: 0 0
+:Group-3: 64 32
+:matt/carnival/05: 96 32 frd
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 6
+:matt/carnival/05: 48 32 fr
+:Group-5: 0 0
+:matt/carnival/05: 96 40 frd
+$END_TILE_GROUP
+:Group-6: 256 224
+:matt/carnival/07: -32 272 fr
+:matt/carnival/07: 80 272 fr
+:matt/carnival/27: -16 192
+:matt/carnival/27: -16 64
+:matt/carnival/49: 272 192
+:matt/carnival/49: 304 160
+:matt/carnival/20: 208 224
+:matt/carnival/24: 432 48
+:matt/carnival/24: 496 48
+:matt/carnival/24: 560 48
+:matt/carnival/24: 624 48
+:matt/carnival/05: 176 224
+:matt/carnival/07: 144 256
+:matt/carnival/05: 176 288
+:matt/carnival/47: 304 336
+:matt/carnival/43: 576 272
+:matt/carnival/44: 480 272
+:matt/carnival/00: 576 240
+:matt/carnival/07: 144 320
+:matt/carnival/47: 272 368
+:matt/carnival/04: 576 176
+:matt/carnival/23: 32 256
+:matt/carnival/27: 16 368
+:matt/carnival/27: 80 368
+:matt/carnival/27: -48 368
+$BEGIN_TILE_GROUP 7
+:matt/carnival/07: 0 0 fr
+:matt/carnival/07: 0 8 frd
+$END_TILE_GROUP
+:Group-7: 80 288
+:matt/carnival/27: 80 304
+:matt/marble/21c: 80 272 d
+:matt/carnival/03: 80 256
+:matt/carnival/03: 112 256
+:Group-7: -32 288
+:matt/carnival/27: 16 304
+:matt/carnival/27: -48 304
+:matt/marble/21c: -32 272 d
+:matt/carnival/03: 0 256
+:matt/carnival/25: 208 336
+:Group-3: 256 256
+:matt/carnival/25: 208 272
+:matt/carnival/05: 256 224 fr
+:matt/carnival/47: 336 304
+:matt/carnival/25: 272 272
+:matt/carnival/01: 272 336
+:matt/carnival/05: 176 352
+:matt/carnival/07: 144 384
+:matt/carnival/05: 336 160
+:matt/carnival/04: 368 112
+:matt/carnival/24: 400 112
+:matt/carnival/45: 368 80
+:matt/carnival/24: 624 112
+:matt/carnival/45: 400 48
+:matt/carnival/00: 400 80
+:matt/carnival/24: 608 176
+:matt/carnival/43: 608 240
+:matt/carnival/43: 464 112
+:matt/carnival/44: 592 112
+:matt/carnival/01: 304 192
+:matt/carnival/04: 512 176 fr
+:matt/carnival/24: 400 176
+:matt/carnival/21: 464 176
+:matt/carnival/24: 512 272
+:matt/carnival/24: 512 336
+:matt/carnival/27: -16 0
+:matt/carnival/27: -32 128
+:matt/carnival/04: 368 176
+:matt/carnival/43: 400 240
+:matt/carnival/00: 368 240
+:matt/carnival/43: 368 272
+:matt/carnival/01: 336 272
+:matt/carnival/44: 448 240
+:matt/carnival/24: 512 208
+:matt/carnival/00: 480 240
+:matt/carnival/43: 448 240 fd
+:matt/carnival/24: 624 -16
+:matt/carnival/24: 560 -48
+:matt/carnival/24: 496 -48
+:matt/carnival/24: 432 -48
+:matt/carnival/27: 48 -48
+:matt/carnival/27: 112 -48
+:matt/carnival/25: 176 -48
+:matt/carnival/25: 240 -48
+:matt/carnival/25: 304 -48
+:matt/carnival/24: 368 -48

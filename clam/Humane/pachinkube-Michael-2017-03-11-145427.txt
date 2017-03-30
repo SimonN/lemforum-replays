@@ -1,0 +1,227 @@
+$FILENAME single/clam/Humane/pachinkube.txt
+$LEVEL_BUILT_REQUIRED 2015-08-08 17:44:04
+$GAME_VERSION_REQUIRED 0.6.11
+
++PLAYER 0 Garden Michael
+
+! 234 0 ASSIGN=CUBER 0
+! 250 0 ASSIGN=CUBER 2
+! 285 0 ASSIGN=CUBER 6
+! 301 0 ASSIGN=CUBER 4
+! 363 0 ASSIGN=CUBER 14
+! 375 0 ASSIGN=CUBER 8
+! 380 0 ASSIGN=CUBER 10
+! 431 0 ASSIGN=CUBER 12
+! 488 0 ASSIGN=CUBER 16
+! 502 0 ASSIGN=CUBER 18
+! 537 0 ASSIGN=CUBER 22
+! 541 0 ASSIGN=CUBER 30
+! 553 0 ASSIGN=CUBER 20
+! 618 0 ASSIGN=CUBER 24
+! 631 0 ASSIGN=CUBER 26
+! 680 0 ASSIGN=CUBER 28
+! 752 0 ASSIGN=CUBER 32
+! 768 0 ASSIGN=CUBER 34
+! 806 0 ASSIGN=CUBER 38
+! 820 0 ASSIGN=CUBER 36
+! 889 0 ASSIGN=CUBER 40
+! 902 0 ASSIGN=CUBER 46
+! 904 0 ASSIGN=CUBER 42
+! 955 0 ASSIGN=CUBER 44
+! 1046 0 ASSIGN=CUBER 48
+! 1061 0 ASSIGN=CUBER 50
+! 1096 0 ASSIGN=CUBER 54
+! 1111 0 ASSIGN=CUBER 52
+! 1175 0 ASSIGN=CUBER 56
+! 1190 0 ASSIGN=CUBER 58
+! 1240 0 ASSIGN=CUBER 60
+! 1250 0 ASSIGN_LEFT=BASHER 3
+
+$BUILT 2015-08-08 17:44:04
+$AUTHOR Clam
+$ENGLISH Pachinkube
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 640
+#SIZE_Y 400
+
+#INITIAL 62
+#REQUIRED 31
+#SPAWN_INTERVAL 15
+
+#BASHER 1
+#CUBER 31
+#EXPLODER2 0
+
+:matt/carnival/Hatch.H: 288 -24
+:matt/carnival/Hatch.H: 576 264
+
+:matt/carnival/Goal.G: 0 288
+
+:matt/carnival/21: 600 320 frr
+$BEGIN_TILE_GROUP 0
+:matt/carnival/21: 0 0 frr
+:matt/carnival/14: 30 32 frrd
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 1
+:matt/carnival/21: 14 0 frr
+:Group-0: 0 0
+:matt/carnival/14: 44 32 frrd
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 2
+:matt/carnival/21: 28 0 frr
+:Group-1: 0 0
+:matt/carnival/14: 58 32 frrd
+:matt/carnival/00: 40 0 frrd
+$END_TILE_GROUP
+:Group-2: 568 320
+$BEGIN_TILE_GROUP 3
+:matt/carnival/21: 8 16 frr
+:matt/marble/20: 0 0 frrd
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 4
+:matt/carnival/23: 8 16 frr
+:matt/marble/20: 0 0 frrd
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 5
+:matt/carnival/22: 8 16 frr
+:matt/marble/20: 0 0 frrd
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 6
+:matt/carnival/21: 0 16
+:matt/marble/20: 40 0 d
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 7
+:matt/carnival/23: 0 16
+:matt/marble/20: 40 0 d
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 8
+:matt/carnival/22: 0 16
+:matt/marble/20: 40 0 d
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 9
+:matt/carnival/20: 0 16
+:matt/marble/20: 40 0 d
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 10
+:matt/carnival/20: 64 16 frr
+:matt/carnival/20: 0 16
+:matt/marble/20: 40 0 d
+:matt/marble/20: 56 0 d
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 11
+:matt/carnival/20: 264 16
+:Group-10: 232 16
+:Group-9: 200 16
+:Group-8: 168 16
+:Group-8: 136 16
+:Group-7: 104 16
+:Group-7: 72 16
+:Group-6: 40 16
+:Group-6: 8 16
+:matt/marble/20: 0 0 d
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 12
+:matt/carnival/21: 0 0
+:matt/carnival/14: 2 32 d
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 13
+:matt/carnival/21: 0 0
+:Group-12: 14 0
+:matt/carnival/14: 2 32 d
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 14
+:matt/carnival/21: 0 0
+:Group-13: 14 0
+:matt/carnival/14: 2 32 d
+:matt/carnival/00: 4 0 d
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 15
+:matt/carnival/21: 0 16
+:Group-14: 4 16
+:Group-11: 72 16
+:Group-5: 392 16
+:Group-5: 424 16
+:Group-4: 456 16
+:Group-4: 488 16
+:Group-3: 520 16
+:Group-3: 552 16
+:matt/marble/20: 584 0 frrd
+$END_TILE_GROUP
+:Group-15: -8 320
+:matt/carnival/01: 320 64
+:matt/carnival/02: 352 64
+:matt/carnival/03: 384 64
+:matt/carnival/00: 416 64
+:matt/carnival/01: 288 64
+:matt/carnival/02: 256 64
+:matt/carnival/03: 224 64
+:matt/carnival/00: 192 64
+:matt/carnival/01: 224 128
+:matt/carnival/02: 192 128
+:matt/carnival/03: 160 128
+:matt/carnival/00: 128 128
+:matt/carnival/01: 384 128
+:matt/carnival/02: 416 128
+:matt/carnival/03: 448 128
+:matt/carnival/00: 480 128
+:matt/carnival/01: 256 192
+:matt/carnival/02: 224 192
+:matt/carnival/03: 128 192
+:matt/carnival/00: 96 192
+:matt/carnival/01: 352 192
+:matt/carnival/02: 384 192
+:matt/carnival/03: 480 192
+:matt/carnival/00: 512 192
+:matt/carnival/01: 272 256
+:matt/carnival/02: 208 256
+:matt/carnival/03: 144 256
+:matt/carnival/00: 80 256
+:matt/carnival/01: 336 256
+:matt/carnival/02: 400 256
+:matt/carnival/03: 464 256
+:matt/carnival/00: 528 256
+:matt/carnival/19: 256 368
+:matt/carnival/19: 320 368
+:matt/carnival/16: 192 368
+:matt/carnival/16: 384 368
+:matt/carnival/17: 128 368
+:matt/carnival/17: 448 368
+:matt/carnival/18: 64 368
+:matt/carnival/18: 512 368
+:matt/carnival/18: 576 368
+:matt/carnival/18: 0 368
+:matt/carnival/13: 200 72 rr
+:matt/carnival/15: 232 72 rr
+:matt/carnival/14: 264 72 rr
+:matt/carnival/12: 296 72 rr
+:matt/carnival/13: 136 136 rr
+:matt/carnival/15: 168 136 rr
+:matt/carnival/14: 200 136 rr
+:matt/carnival/12: 232 136 rr
+:matt/carnival/13: 104 200 rr
+:matt/carnival/15: 136 200 rr
+:matt/carnival/14: 232 200 rr
+:matt/carnival/12: 264 200 rr
+:matt/carnival/13: 88 264 rr
+:matt/carnival/15: 152 264 rr
+:matt/carnival/14: 216 264 rr
+:matt/carnival/12: 280 264 rr
+:matt/carnival/12: 328 72 rr
+:matt/carnival/14: 360 72 rr
+:matt/carnival/15: 392 72 rr
+:matt/carnival/13: 424 72 rr
+:matt/carnival/12: 392 136 rr
+:matt/carnival/14: 424 136 rr
+:matt/carnival/15: 456 136 rr
+:matt/carnival/13: 488 136 rr
+:matt/carnival/12: 360 200 rr
+:matt/carnival/14: 392 200 rr
+:matt/carnival/15: 488 200 rr
+:matt/carnival/13: 520 200 rr
+:matt/carnival/12: 344 264 rr
+:matt/carnival/14: 408 264 rr
+:matt/carnival/15: 472 264 rr
+:matt/carnival/13: 536 264 rr
+:matt/carnival/00: 24 320 d
+:matt/carnival/00: 584 320 frrd
