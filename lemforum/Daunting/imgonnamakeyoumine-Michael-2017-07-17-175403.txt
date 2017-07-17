@@ -1,0 +1,93 @@
+$FILENAME single/lemforum/Daunting/imgonnamakeyoumine.txt
+$LEVEL_BUILT_REQUIRED 2017-07-17 17:47:44
+$GAME_VERSION_REQUIRED 0.7.7
+
++PLAYER 0 Garden Michael
+
+! 73 0 ASSIGN=MINER 0
+! 144 0 ASSIGN=MINER 2
+! 158 0 ASSIGN=BUILDER 1
+! 159 0 ASSIGN=BUILDER 1
+! 160 0 ASSIGN=BUILDER 1
+! 161 0 ASSIGN=BUILDER 1
+! 162 0 ASSIGN=BUILDER 1
+! 163 0 ASSIGN=BUILDER 1
+! 198 0 ASSIGN=MINER 3
+! 225 0 ASSIGN=PLATFORMER 0
+! 249 0 ASSIGN=PLATFORMER 2
+! 274 0 ASSIGN=PLATFORMER 3
+! 914 0 ASSIGN=BUILDER 28
+! 1077 0 ASSIGN=MINER 33
+! 1092 0 ASSIGN=PLATFORMER 1
+! 1274 0 ASSIGN=BUILDER 28
+! 1287 0 ASSIGN=BUILDER 40
+! 1321 0 ASSIGN=PLATFORMER 28
+! 1494 0 ASSIGN=MINER 41
+! 1524 0 ASSIGN=BUILDER 41
+! 1544 0 ASSIGN=BUILDER 42
+! 1573 0 ASSIGN=BUILDER 43
+! 1596 0 ASSIGN=BUILDER 41
+! 1602 0 ASSIGN=BUILDER 44
+! 1613 0 ASSIGN=BUILDER 42
+! 1631 0 ASSIGN=BUILDER 45
+! 1637 0 ASSIGN=BUILDER 43
+! 1669 0 ASSIGN=BUILDER 47
+! 1741 0 ASSIGN=BUILDER 49
+! 1907 0 ASSIGN=BUILDER 10
+! 2175 0 ASSIGN=BUILDER 18
+
+$BUILT 2017-07-17 17:47:44
+$AUTHOR Michael S. Repton
+$ENGLISH I'm Gonna Make You Mine
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 640
+#SIZE_Y 400
+#START_X 0
+#START_Y -20
+
+#INITIAL 50
+#REQUIRED 40
+#SPAWN_INTERVAL 30
+
+#BUILDER 20
+#PLATFORMER 5
+#MINER 10
+#EXPLODER2 0
+
+:matt/goldmine/Hatch.H: 112 256
+
+:matt/goldmine/Goal.G: 112 96
+
+:simon/water.W: 0 352
+:simon/water.W: 48 352
+:simon/water.W: 96 352
+:simon/water.W: 144 352
+:simon/water.W: 192 352
+:simon/water.W: 240 352
+:simon/water.W: 288 352
+:simon/water.W: 336 352
+:simon/water.W: 384 352
+:simon/water.W: 432 352
+:simon/water.W: 480 352
+:simon/water.W: 528 352
+:simon/water.W: 576 352
+:simon/water.W: 624 352
+
+:matt/goldmine/crate64: 48 304
+:matt/goldmine/crate64: 112 304
+:matt/goldmine/crate64: 176 304
+:matt/goldmine/crate64: 240 304
+:matt/goldmine/crate64: 304 304
+:matt/goldmine/crate64: 368 304
+:matt/goldmine/crate64: 48 144
+:matt/goldmine/crate64: 112 144
+:matt/goldmine/crate64: 176 144
+:matt/goldmine/crate64: 240 144
+:matt/goldmine/crate64: 304 144
+:matt/goldmine/crate64: 368 144
+:matt/goldmine/04: -48 -16 rr
+:matt/goldmine/07: -16 -64
+:matt/goldmine/07: 192 -48
+:matt/goldmine/07: 534 -64
+:matt/goldmine/07: 368 -32 rr
