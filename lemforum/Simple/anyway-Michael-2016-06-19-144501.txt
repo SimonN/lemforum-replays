@@ -1,8 +1,0 @@
-$FILENAME single/lemforum/Simple/anyway.txt
-$LEVEL_BUILT_REQUIRED 2015-09-04 00:52:17
-$GAME_VERSION_REQUIRED 0.6.1
-
-+PLAYER 0 Garden Michael
-
-! 201 0 ASSIGN=MINER 0
-

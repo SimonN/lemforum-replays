@@ -1,8 +1,0 @@
-$FILENAME single/lemforum/Simple/lixpotion.txt
-$LEVEL_BUILT_REQUIRED 2016-06-28 11:58:13
-$GAME_VERSION_REQUIRED 0.7.0
-
-+PLAYER 0 Garden Simon
-
-! 97 0 ASSIGN_RIGHT=BUILDER 0
-
