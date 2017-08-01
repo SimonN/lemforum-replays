@@ -1,4 +1,4 @@
-$FILENAME single/lemforum/Vicious/bashingandbuilding.txt
+$FILENAME single/lemforum/Hopeless/bashingandbuilding.txt
 $LEVEL_BUILT_REQUIRED 2016-06-27 18:45:05
 $GAME_VERSION_REQUIRED 0.6.5
 
