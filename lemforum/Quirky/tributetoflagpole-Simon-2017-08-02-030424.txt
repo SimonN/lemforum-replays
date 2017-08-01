@@ -1,0 +1,73 @@
+$FILENAME single/lemforum/Quirky/tributetoflagpole.txt
+$LEVEL_BUILT_REQUIRED 2017-02-16 11:54:32
+$GAME_VERSION_REQUIRED 0.7.13
+
++PLAYER 0 Garden Simon
+
+! 69 0 ASSIGN=DIGGER 0
+! 101 0 ASSIGN_RIGHT=BUILDER 1
+! 178 0 ASSIGN=BLOCKER 3
+! 217 0 ASSIGN=BUILDER 4
+! 316 0 ASSIGN=BLOCKER 1
+! 843 0 ASSIGN_RIGHT=BUILDER 0
+! 845 0 ASSIGN_RIGHT=BUILDER 0
+! 848 0 ASSIGN_RIGHT=BUILDER 0
+! 850 0 ASSIGN_RIGHT=BUILDER 0
+! 852 0 ASSIGN_RIGHT=BUILDER 0
+! 1869 0 ASSIGN=BUILDER 0
+! 1873 0 ASSIGN=BUILDER 0
+! 1877 0 ASSIGN=BUILDER 0
+! 1880 0 ASSIGN=BUILDER 0
+! 2554 0 ASSIGN=BLOCKER 0
+! 2599 0 ASSIGN=EXPLODER 1
+! 2760 0 ASSIGN_LEFT=BUILDER 20
+! 2773 0 ASSIGN_LEFT=BUILDER 20
+! 3174 0 ASSIGN_RIGHT=BUILDER 20
+! 3180 0 ASSIGN_RIGHT=BUILDER 20
+! 3501 0 ASSIGN=EXPLODER 0
+! 3512 0 ASSIGN=EXPLODER 3
+
+$BUILT 2017-02-16 11:54:32
+$AUTHOR Insane Steve
+$ENGLISH Tribute to Flagpole Sitting
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 640
+#SIZE_Y 336
+#START_X 0
+#START_Y 0
+
+#INITIAL 80
+#REQUIRED 70
+#SPAWN_INTERVAL 32
+
+#CLIMBER 30
+#FLOATER 30
+#EXPLODER 30
+#BLOCKER 30
+#BUILDER 30
+#BASHER 30
+#MINER 30
+#DIGGER 30
+
+:geoo/abstract/hatch.H: 180 48
+
+:geoo/abstract/goal.G: 428 64
+
+:geoo/abstract/pipes/central0: 192 304 rrr
+:geoo/abstract/pipes/central0: 192 272 rrr
+:geoo/abstract/pipes/central0: 192 240 rrr
+:geoo/abstract/pipes/central0: 192 208 rrr
+:geoo/abstract/pipes/central0: 192 176 rrr
+:geoo/abstract/pipes/central0: 192 144 rrr
+:geoo/abstract/pipes/central0: 192 112 rrr
+:geoo/abstract/pipes/central0: 440 304 rrr
+:geoo/abstract/pipes/central0: 440 272 rrr
+:geoo/abstract/pipes/central0: 440 240 rrr
+:geoo/abstract/pipes/central0: 440 208 rrr
+:geoo/abstract/pipes/central0: 440 176 rrr
+:geoo/abstract/pipes/central0: 440 144 rrr
+:geoo/abstract/pipes/central0: 440 112 rrr
+:geoo/steel/32x64o.S: 304 0
+:geoo/steel/32x64o.S: 304 64
+:geoo/steel/32x64o.S: 304 128

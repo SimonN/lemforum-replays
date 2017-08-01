@@ -1,0 +1,168 @@
+$FILENAME single/lemforum/Cunning/ittakestime.txt
+$LEVEL_BUILT_REQUIRED 2017-07-30 17:47:23
+$GAME_VERSION_REQUIRED 0.7.13
+
++PLAYER 0 Garden Simon
+
+! 70 0 ASSIGN=DIGGER 0
+! 122 0 ASSIGN=CLIMBER 1
+! 193 0 ASSIGN=BASHER 0
+! 438 0 ASSIGN=DIGGER 2
+! 576 0 ASSIGN=BASHER 2
+! 628 0 ASSIGN=PLATFORMER 1
+! 767 0 ASSIGN=PLATFORMER 1
+! 768 0 ASSIGN=PLATFORMER 1
+! 769 0 ASSIGN=PLATFORMER 1
+! 810 0 ASSIGN_RIGHT=DIGGER 6
+! 984 0 ASSIGN=BASHER 6
+! 1164 0 ASSIGN_LEFT=DIGGER 8
+! 1319 0 ASSIGN_LEFT=BASHER 8
+! 1417 0 ASSIGN_LEFT=BASHER 39
+
+$BUILT 2017-07-30 17:47:23
+$AUTHOR mobius
+$ENGLISH It Takes Time to Build
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 640
+#SIZE_Y 400
+#START_X 64
+#START_Y 0
+
+#INITIAL 40
+#REQUIRED 37
+#SPAWN_INTERVAL 30
+
+#CLIMBER 1
+#PLATFORMER 4
+#BASHER 5
+#DIGGER 4
+#EXPLODER2 0
+
+:raymanni/gore/hatch.H: 132 16
+:raymanni/gore/hatch.H: 492 250 r
+
+:raymanni/gore/goal.G: 0 240
+
+:raymanni/gore/acid.W: 80 350
+:raymanni/gore/acid.W: 112 352
+:raymanni/gore/acid.W: 144 352
+:raymanni/gore/acid.W: 176 352
+:raymanni/gore/acid.W: 208 352
+:raymanni/gore/acid.W: 240 352
+:raymanni/gore/acid.W: 272 352
+:raymanni/gore/acid.W: 304 352
+:raymanni/gore/acid.W: 0 184
+:raymanni/gore/acid.W: 32 184
+:raymanni/gore/acid.W: 64 184
+:raymanni/gore/acid.W: -32 184
+:raymanni/gore/acid.W: 336 352
+:geoo/construction/sawblade_medium.F: 336 176
+:geoo/construction/sawblade_medium.F: 368 152
+:geoo/construction/sawblade_medium.F: 368 120
+:geoo/construction/sawblade_medium.F: 368 88
+:geoo/construction/sawblade_medium.F: 368 56
+:geoo/construction/sawblade_medium.F: 368 24
+:geoo/construction/sawblade_medium.F: 368 -8
+:geoo/construction/sawblade_medium.F: -24 104
+:geoo/construction/sawblade_medium.F: -24 64
+:geoo/construction/sawblade_medium.F: -24 24
+:raymanni/gore/acid.W: 376 350
+:raymanni/gore/acid.W: 408 350
+:geoo/construction/sawblade_medium.F: 368 184
+:geoo/construction/sawblade_medium.F: 480 152
+
+:raymanni/gore/blob_3: 60 130 rrr
+:raymanni/gore/blob_3: 400 292
+:raymanni/gore/blob_1: 416 294 frr
+:raymanni/gore/blob_4: 406 324 rr
+:raymanni/gore/blob_3: 462 192
+:raymanni/gore/blob_1: 476 200
+:raymanni/gore/blob_1: 482 112
+:raymanni/gore/blob_1: 480 96
+:raymanni/gore/bone_1: 48 216
+:raymanni/gore/blob_4: 54 102
+:raymanni/gore/blob_2: 148 88
+:raymanni/gore/blob_2: 44 86
+:raymanni/gore/blob_2: 228 88
+:raymanni/gore/blob_2: 200 106
+:raymanni/gore/blob_2: 152 106
+:raymanni/gore/blob_1: 274 96
+:raymanni/gore/blob_1: 272 132
+:raymanni/gore/blob_2: 70 110
+:raymanni/gore/blob_2: 154 142
+:raymanni/gore/blob_2: 76 144
+:raymanni/gore/blob_1: 272 158
+:raymanni/gore/blob_2: 234 142
+:raymanni/gore/blob_1: 310 94
+:raymanni/gore/blob_1: 308 124
+:raymanni/gore/blob_2: 76 170
+:raymanni/gore/blob_2: 198 168
+:raymanni/gore/blob_2: 150 168
+:raymanni/gore/blob_1: 308 152
+:raymanni/gore/blob_3: 300 168
+:raymanni/gore/blob_2: 108 192
+:raymanni/gore/bone_1: 16 216
+:raymanni/gore/bone_1: -16 216
+:raymanni/gore/blob_4: 32 320 rr
+:raymanni/gore/blob_2: -48 304
+:raymanni/gore/blob_2: -32 320
+:raymanni/gore/blob_2: -23 354
+:raymanni/gore/blob_2: 64 367
+:raymanni/gore/blob_2: 160 368
+:raymanni/gore/blob_2: 240 366
+:raymanni/gore/bone_5: 293 319 frr
+:raymanni/gore/blob_2: 96 384
+:raymanni/gore/blob_2: 296 368 rr
+:raymanni/gore/bone_5: 246 320 frr
+:raymanni/gore/blob_2: 80 -30
+:geoo/steel/silhouette_32x64.S: -16 24
+:raymanni/gore/blob_2: 16 -16
+:geoo/steel/silhouette_32x64.S: -16 88
+:raymanni/gore/blob_1: 404 302 frr
+:raymanni/gore/blob_2: 336 368 rr
+:geoo/steel/silhouette_64x64.S: 424 336
+:geoo/steel/silhouette_64x64.S: 488 336
+:geoo/steel/silhouette_64x64.S: 552 336
+:geoo/steel/silhouette_64x64.S: 552 144
+:geoo/steel/silhouette_64x64.S: 616 16
+:geoo/steel/silhouette_64x64.S: 616 80
+:geoo/steel/silhouette_64x64.S: 616 144
+:geoo/steel/silhouette_64x64.S: 616 208
+:geoo/steel/silhouette_32x64.S: 464 112
+:geoo/steel/silhouette_64x64.S: 616 336
+:geoo/steel/silhouette_64x64.S: 616 272
+:raymanni/gore/bone_5: 528 103 r
+:geoo/steel/silhouette_64x64.S: 552 272
+:geoo/steel/silhouette_32x32.S: 448 208
+:geoo/steel/silhouette_64x64.S: 552 208
+:geoo/steel/silhouette_32x64.S: 464 176
+:geoo/steel/silhouette_64x32.S: 552 -14
+:geoo/steel/silhouette_64x32.S: 488 -16
+:geoo/steel/silhouette_64x32.S: 424 -16
+:raymanni/gore/blob_2: 432 -16
+:geoo/steel/silhouette_64x32.S: 616 -16
+:raymanni/gore/bone_6: 514 16 rr
+:raymanni/gore/blob_2: 488 -32
+:raymanni/gore/blob_2: 248 188
+:geoo/steel/silhouette_64x32.S: -24 216
+:geoo/steel/silhouette_64x32.S: 40 216
+:geoo/steel/silhouette_32x64.S: 392 -16
+:geoo/steel/silhouette_32x64.S: 392 48
+:geoo/steel/silhouette_32x64.S: 392 112
+:geoo/steel/silhouette_32x64.S: 392 176
+:raymanni/gore/blob_2: 180 192
+:geoo/steel/silhouette_64x32.S: 424 304
+:raymanni/gore/bone_5: 434 244
+:geoo/steel/silhouette_64x32.S: 488 304
+:geoo/steel/dark_16x32o.S: 470 272 d
+:raymanni/gore/blob_4: 42 288
+:raymanni/gore/blob_2: -64 288
+:raymanni/gore/blob_3: 348 358
+:raymanni/gore/blob_3: 87 360
+:raymanni/gore/bone_5: 98 308
+:raymanni/gore/blob_4: 128 102
+:raymanni/gore/blob_2: -48 -16
+:raymanni/gore/bone_5: 343 303 frr
+:raymanni/gore/bone_5: 204 320
+:raymanni/gore/bone_5: 150 320

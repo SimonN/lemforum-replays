@@ -1,0 +1,149 @@
+$FILENAME single/lemforum/Quirky/towerofbabel.txt
+$LEVEL_BUILT_REQUIRED 2017-07-28 22:57:02
+$GAME_VERSION_REQUIRED 0.7.13
+
++PLAYER 0 Garden Simon
+
+! 167 0 ASSIGN=CUBER 0
+! 169 0 ASSIGN=DIGGER 1
+! 190 0 ASSIGN=CLIMBER 2
+! 213 0 ASSIGN=CUBER 2
+! 225 0 ASSIGN=CLIMBER 4
+! 269 0 ASSIGN=CUBER 4
+! 281 0 ASSIGN=CLIMBER 6
+! 315 0 ASSIGN=CLIMBER 8
+! 326 0 ASSIGN=CUBER 6
+! 328 0 ASSIGN=CUBER 1
+! 964 0 ASSIGN=CLIMBER 16
+! 1019 0 ASSIGN=DIGGER 16
+! 1296 0 ASSIGN=CUBER 16
+
+$BUILT 2017-07-28 22:57:02
+$AUTHOR mobius
+$ENGLISH Tower of Babel
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 640
+#SIZE_Y 400
+
+#INITIAL 40
+#REQUIRED 30
+#SPAWN_INTERVAL 20
+
+#CLIMBER 10
+#DIGGER 10
+#CUBER 10
+#EXPLODER 0
+
+:raymanni/toys/hatch.H: 64 200
+:raymanni/toys/hatch.H: 88 40
+
+:raymanni/toys/goal.G: 512 256
+
+:raymanni/toys/water.W: 256 368
+:raymanni/toys/water.W: 288 368
+:raymanni/toys/water.W: 320 368
+:raymanni/toys/water.W: 352 368
+
+:raymanni/toys/brick_8: 0 360
+:raymanni/toys/brick_7: 64 360
+:raymanni/toys/brick_5: 128 360
+:raymanni/toys/brick_6: 192 360
+:raymanni/toys/brick_5: 384 360
+:raymanni/toys/brick_6: 448 360
+:raymanni/toys/brick_8: 128 320
+:raymanni/toys/brick_7: 192 320
+:raymanni/toys/brick_8: 384 320
+:raymanni/toys/brick_7: 448 320
+:raymanni/toys/brick_5: 512 320
+:raymanni/toys/brick_6: 576 320
+:raymanni/toys/brick_8: 512 360
+:raymanni/toys/brick_7: 576 360
+:raymanni/toys/brick_5: 640 360
+:raymanni/toys/brick_6: 704 360
+:raymanni/toys/brick_7: -64 320
+:raymanni/toys/brick_5: 0 320
+:raymanni/toys/brick_6: 64 320
+:raymanni/toys/letter_blank: 0 288
+:raymanni/toys/letter_blank: 0 256
+:raymanni/toys/letter_blank: 0 224
+:raymanni/toys/letter_blank: 0 192
+:raymanni/toys/letter_blank: 0 160
+:raymanni/toys/letter_blank: 0 128
+:raymanni/toys/letter_blank: 0 96
+:raymanni/toys/letter_blank: 0 64
+:raymanni/toys/letter_blank: 0 32
+:raymanni/toys/brick_10: 32 152 r
+:raymanni/toys/brick_3: 32 112 rrr
+:raymanni/toys/brick_3: 160 112 rrr
+:raymanni/toys/brick_1: 96 112 rrr
+:raymanni/toys/brick_3: 160 112 rrr
+:raymanni/toys/brick_1: 224 112 rrr
+:raymanni/toys/chalk_2: 256 320
+:raymanni/toys/chalk_2: 264 320
+:raymanni/toys/chalk_2: 272 320
+:raymanni/toys/chalk_2: 280 320
+:raymanni/toys/chalk_2: 288 320
+:raymanni/toys/chalk_2: 296 320
+:raymanni/toys/chalk_2: 304 320
+:raymanni/toys/chalk_2: 312 320
+:raymanni/toys/chalk_2: 320 320
+:raymanni/toys/chalk_2: 328 320
+:raymanni/toys/chalk_2: 336 320
+:raymanni/toys/chalk_2: 344 320
+:raymanni/toys/chalk_2: 352 320
+:raymanni/toys/chalk_2: 360 320
+:raymanni/toys/chalk_2: 344 320
+:raymanni/toys/chalk_2: 352 320
+:raymanni/toys/chalk_2: 360 320
+:raymanni/toys/chalk_2: 368 320
+:raymanni/toys/chalk_2: 376 320
+:raymanni/toys/letter_blank: 32 0
+:raymanni/toys/letter_blank: 0 0
+:raymanni/toys/letter_blank: 96 0
+:raymanni/toys/letter_blank: 64 0
+:raymanni/toys/letter_blank: 160 0
+:raymanni/toys/letter_blank: 128 0
+:raymanni/toys/letter_blank: 224 0
+:raymanni/toys/letter_blank: 192 0
+:raymanni/toys/letter_blank: 288 0
+:raymanni/toys/letter_blank: 256 0
+:raymanni/toys/letter_blank: 352 0
+:raymanni/toys/letter_blank: 320 0
+:raymanni/toys/letter_blank: 416 0
+:raymanni/toys/letter_blank: 384 0
+:raymanni/toys/letter_blank: 480 0
+:raymanni/toys/letter_blank: 448 0
+:raymanni/toys/letter_blank: 416 0
+:raymanni/toys/letter_blank: 384 0
+:raymanni/toys/letter_blank: 480 0
+:raymanni/toys/letter_blank: 448 0
+:raymanni/toys/letter_blank: 544 0
+:raymanni/toys/letter_blank: 512 0
+:raymanni/toys/letter_blank: 608 0
+:raymanni/toys/letter_blank: 576 0
+:raymanni/toys/letter_blank: 608 288
+:raymanni/toys/letter_blank: 608 256
+:raymanni/toys/letter_blank: 608 224
+:raymanni/toys/letter_blank: 608 192
+:raymanni/toys/letter_blank: 608 160
+:raymanni/toys/letter_blank: 608 128
+:raymanni/toys/letter_blank: 608 96
+:raymanni/toys/letter_blank: 608 64
+:raymanni/toys/letter_blank: 608 32
+:raymanni/toys/brick_4: 480 112 rrr
+:raymanni/toys/brick_2: 544 112 rrr
+:raymanni/toys/brick_4: 352 112 rrr
+:raymanni/toys/brick_2: 416 112 rrr
+:raymanni/toys/brick_13: 576 152 rrr
+:raymanni/toys/car_2: 416 80
+:raymanni/toys/cracker: 544 48
+:raymanni/toys/letter_2: 0 224
+:raymanni/toys/letter_1: 256 0
+:raymanni/toys/letter_3: 608 96
+:raymanni/toys/letter_4: 0 64
+:raymanni/toys/letter_2: 384 0
+:geoo/steel/dark_32x32o.S: 0 128
+:geoo/steel/dark_32x32o.S: 0 160
+:geoo/steel/dark_32x32o.S: 608 128
+:geoo/steel/dark_32x32o.S: 608 160

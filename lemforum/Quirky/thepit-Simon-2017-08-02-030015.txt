@@ -1,0 +1,139 @@
+$FILENAME single/lemforum/Quirky/thepit.txt
+$LEVEL_BUILT_REQUIRED 2017-07-30 12:51:53
+$GAME_VERSION_REQUIRED 0.7.13
+
++PLAYER 0 Garden Simon
+
+! 142 0 ASSIGN=DIGGER 0
+! 470 0 ASSIGN_RIGHT=BUILDER 0
+! 472 0 ASSIGN_RIGHT=BUILDER 0
+! 474 0 ASSIGN_RIGHT=BUILDER 0
+! 477 0 ASSIGN_RIGHT=BUILDER 0
+! 1237 0 ASSIGN_RIGHT=BASHER 0
+! 1359 0 ASSIGN=BUILDER 0
+! 1660 0 ASSIGN=DIGGER 28
+! 2074 0 ASSIGN_RIGHT=CLIMBER 16
+! 2076 0 ASSIGN_RIGHT=CLIMBER 12
+! 2078 0 ASSIGN_RIGHT=CLIMBER 8
+! 2080 0 ASSIGN_RIGHT=CLIMBER 4
+! 2083 0 ASSIGN_RIGHT=CLIMBER 19
+! 2101 0 ASSIGN_RIGHT=CLIMBER 18
+! 2103 0 ASSIGN_RIGHT=CLIMBER 14
+! 2105 0 ASSIGN_RIGHT=CLIMBER 10
+! 2107 0 ASSIGN_RIGHT=CLIMBER 6
+! 2109 0 ASSIGN_RIGHT=CLIMBER 21
+
+$BUILT 2017-07-30 12:51:53
+$AUTHOR Nortaneous
+$ENGLISH The Pit
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 640
+#SIZE_Y 368
+#START_X 0
+#START_Y 0
+
+#INITIAL 30
+#REQUIRED 18
+#SPAWN_INTERVAL 50
+
+#CLIMBER 10
+#BUILDER 5
+#BASHER 1
+#DIGGER 2
+#EXPLODER2 0
+
+:matt/winter/Hatch.H: 100 100
+:matt/winter/Hatch.H: 368 96
+
+:matt/winter/Goal.G: 353 35
+
+:matt/winter/16: 554 24
+:matt/winter/15: 237 344
+:matt/winter/06: 12 162 fr
+:matt/winter/06: 76 162 r
+:matt/winter/06: 140 162 r
+:matt/winter/06: 204 162 r
+:matt/winter/06: 268 162
+:matt/winter/08: 268 154
+:matt/winter/06: 268 226
+:matt/winter/06: 268 290
+:matt/winter/06: 492 162
+:matt/winter/08: 492 91
+:matt/winter/06: 492 226
+:matt/winter/06: 492 290
+:matt/winter/08: 492 353 f
+:matt/winter/08: 507 338 r
+:matt/winter/08: 283 162 r
+:matt/winter/08: 283 178 r
+:matt/winter/08: 283 194 r
+:matt/winter/08: 283 210 r
+:matt/winter/08: 283 226 r
+:matt/winter/08: 283 242 r
+:matt/winter/08: 283 258 r
+:matt/winter/08: 283 274 r
+:matt/winter/08: 283 290 r
+:matt/winter/08: 283 306 r
+:matt/winter/08: 283 322 r
+:matt/winter/08: 483 162 fr
+:matt/winter/08: 483 178 fr
+:matt/winter/08: 483 194 fr
+:matt/winter/08: 483 210 fr
+:matt/winter/08: 483 226 fr
+:matt/winter/08: 483 242 fr
+:matt/winter/08: 483 258 fr
+:matt/winter/08: 483 274 fr
+:matt/winter/08: 483 290 fr
+:matt/winter/08: 483 306 fr
+:matt/winter/08: 483 322 fr
+:matt/winter/06: 492 99
+:matt/winter/06: 251 99 fr
+:matt/winter/06: 315 99 r
+:matt/winter/06: 379 99 r
+:matt/winter/06: 428 99 r
+:matt/winter/06: 9 99 fr
+:matt/winter/06: 59 99 r
+:matt/winter/06: 123 99 r
+:matt/winter/06: 187 99 r
+:matt/winter/08: 483 114 fr
+:matt/winter/08: 483 130 fr
+:matt/winter/08: 483 146 fr
+:matt/winter/00: 534 100 r
+:matt/winter/06: 508 163 r
+:matt/winter/06: 548 163 r
+:matt/winter/08: 611 163 r
+:matt/winter/11: 484 324
+:matt/winter/11: 500 297
+:matt/winter/00: 500 280
+:matt/winter/16: 494 211
+:matt/winter/14: 470 265
+:matt/winter/14: 500 230
+:matt/winter/14: 606 263
+:matt/winter/16: 514 258
+:matt/winter/11: 507 208
+:matt/winter/16: 545 265
+:matt/winter/00: 560 -34 frrr
+:matt/winter/05: 582 -74
+:matt/winter/02: 589 80
+:matt/winter/16: 559 168
+:matt/winter/11: 522 168
+:matt/winter/16: 545 100
+:matt/winter/10: 326 309 rr
+:matt/winter/18: 443 299
+:matt/winter/15: 252 330
+:matt/winter/15: 397 305
+:matt/winter/16: 289 309 rrr
+:matt/winter/00: 419 311
+:matt/winter/11: 453 303
+:matt/winter/17: 187 328 r
+:matt/winter/14: 128 330
+:matt/winter/12: 125 333
+:matt/winter/02: 145 328
+:matt/winter/06: -17 162 fr
+:matt/winter/06: -20 99 fr
+:matt/winter/05: -35 333 rrr
+:matt/winter/14: 354 302 fr
+:matt/winter/00: 384 288
+:matt/winter/00: 436 278 rr
+:matt/winter/13: 402 278 rrr
+:matt/winter/00: 442 256 f
