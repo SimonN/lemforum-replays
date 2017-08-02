@@ -1,0 +1,114 @@
+$FILENAME single/lemforum/Hopeless/youonlygetone.txt
+$LEVEL_BUILT_REQUIRED 2016-07-25 21:35:08
+$GAME_VERSION_REQUIRED 0.7.14
+
++PLAYER 0 Garden Michael
+
+! 153 0 ASSIGN=CLIMBER 0
+! 157 0 ASSIGN=CLIMBER 1
+! 164 0 ASSIGN=CLIMBER 2
+! 431 0 ASSIGN=BATTER 1
+! 453 0 ASSIGN=FLOATER 1
+! 512 0 ASSIGN=FLOATER 0
+! 515 0 ASSIGN=CUBER 0
+! 520 0 ASSIGN=FLOATER 2
+! 525 0 ASSIGN=DIGGER 2
+! 543 0 ASSIGN=PLATFORMER 2
+! 566 0 ASSIGN_RIGHT=BASHER 1
+! 707 0 ASSIGN=BLOCKER 2
+! 786 0 ASSIGN=BLOCKER 1
+! 1290 0 ASSIGN_RIGHT=BATTER 2
+! 1331 0 ASSIGN=JUMPER 2
+
+$BUILT 2016-08-06 00:30:41
+$AUTHOR Michael S. Repton
+$ENGLISH You Only Get One Bash at It!
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 640
+#SIZE_Y 400
+
+#INITIAL 50
+#REQUIRED 49
+#SPAWN_INTERVAL 4
+
+#CLIMBER 3
+#FLOATER 3
+#BLOCKER 2
+#PLATFORMER 1
+#BASHER 1
+#DIGGER 1
+#JUMPER 1
+#BATTER 2
+#CUBER 1
+#EXPLODER2 0
+
+:geoo/sandstone/Hatch.H: 144 208
+
+:geoo/sandstone/Goal.G: 544 272
+
+:simon/water.W: 432 352
+:simon/water.W: 480 352
+:geoo/construction/sawblade.F: 336 160
+:geoo/construction/sawblade.F: 240 160
+
+:geoo/steel/dark_64x64o.S: 0 336
+:geoo/steel/dark_64x64o.S: 64 336
+:geoo/steel/dark_64x64o.S: 128 336
+:geoo/steel/dark_64x64o.S: 192 336
+:geoo/sandstone/pillar_bottom: 96 288
+:geoo/sandstone/pillar_bottom: 256 288
+:geoo/sandstone/pillar_bottom: 352 288
+:geoo/steel/dark_64x64o.S: 384 336
+:geoo/steel/dark_64x64o.S: 512 336
+:geoo/steel/dark_64x64o.S: 576 336
+:geoo/sandstone/pillar_32: 96 256
+:geoo/sandstone/pillar_32: 96 224
+:geoo/sandstone/pillar_32: 96 192
+:geoo/sandstone/pillar_32: 96 160
+:geoo/sandstone/pillar_32: 256 256
+:geoo/sandstone/pillar_32: 256 224
+:geoo/sandstone/pillar_32: 256 192
+:geoo/sandstone/pillar_32: 256 160
+:geoo/sandstone/pillar_32: 352 256
+:geoo/sandstone/pillar_32: 352 224
+:geoo/sandstone/pillar_32: 352 192
+:geoo/sandstone/pillar_32: 352 160
+:geoo/sandstone/pillar_top_ext: 48 48
+:geoo/sandstone/pillar_bottom: 32 288
+:geoo/sandstone/pillar_32: 32 256
+:geoo/sandstone/pillar_32: 32 224
+:geoo/sandstone/pillar_32: 32 192
+:geoo/sandstone/pillar_32: 32 160
+:geoo/sandstone/arc_small: 32 96
+:geoo/sandstone/pillar_top_shaded: 64 64
+:geoo/sandstone/pillar_top_jaggedr: 256 128
+:geoo/sandstone/pillar_top_jaggedr: 352 128
+:geoo/sandstone/pillar_bottom_ext: 336 96
+:geoo/sandstone/pillar_bottom: 352 64
+:geoo/sandstone/pillar_bottom_ext: 576 80
+:geoo/sandstone/pillar_bottom: 592 48
+:geoo/sandstone/pillar_top_ext: 576 0
+:geoo/sandstone/pillar_top_shaded: 592 16
+:geoo/sandstone/pillar_bottom_ext: 448 80
+:geoo/sandstone/pillar_bottom: 464 48
+:geoo/sandstone/pillar_top_ext: 448 0
+:geoo/sandstone/pillar_top_shaded: 464 16
+:geoo/sandstone/arc_small: 496 96 f
+:geoo/sandstone/pillar_bottom_ext: 512 160
+:geoo/sandstone/pillar_bottom: 528 128
+:geoo/sandstone/pillar_32: 352 32
+:geoo/sandstone/arc_small: 320 0 f
+:geoo/sandstone/64x16: 0 320
+:geoo/sandstone/64x16: 64 320
+:geoo/sandstone/64x16: 128 320
+:geoo/sandstone/64x16: 256 320
+:geoo/sandstone/64x16: 320 320
+:geoo/steel/dark_32x16o.S: 192 320
+:geoo/steel/dark_32x16o.S: 224 320
+:geoo/sandstone/pillar_top: 32 128
+:geoo/sandstone/pillar_top: 96 128
+:geoo/steel/dark_16x16o.S: 272 172
+:geoo/steel/dark_16x16o.S: 368 172
+:geoo/sandstone/64x64: 256 336
+:geoo/sandstone/64x64: 320 336

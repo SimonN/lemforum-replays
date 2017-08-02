@@ -1,0 +1,100 @@
+$FILENAME single/lemforum/Hopeless/pathofwickedness.txt
+$LEVEL_BUILT_REQUIRED 2016-08-06 03:06:43
+$GAME_VERSION_REQUIRED 0.7.14
+
++PLAYER 0 Garden Michael
+
+! 65 0 ASSIGN=RUNNER 0
+! 72 0 ASSIGN=CLIMBER 0
+! 91 0 ASSIGN=CLIMBER 1
+! 178 0 ASSIGN=BASHER 0
+! 201 0 ASSIGN=BUILDER 1
+! 300 0 ASSIGN=BASHER 0
+! 413 0 ASSIGN=WALKER 0
+! 415 0 ASSIGN=JUMPER 0
+! 464 0 ASSIGN=JUMPER 0
+! 513 0 ASSIGN=BASHER 0
+! 578 0 ASSIGN=DIGGER 0
+! 598 0 ASSIGN=MINER 0
+! 946 0 ASSIGN=BUILDER 7
+! 1119 0 ASSIGN=PLATFORMER 1
+! 1137 0 ASSIGN=BUILDER 7
+! 1148 0 ASSIGN=CLIMBER 26
+! 1279 0 ASSIGN=DIGGER 1
+! 1313 0 ASSIGN=JUMPER 1
+! 1321 0 ASSIGN=PLATFORMER 26
+! 1585 0 ASSIGN=WALKER 26
+! 1595 0 ASSIGN=MINER 26
+
+$BUILT 2016-08-06 03:06:43
+$AUTHOR I.S./Michael
+$ENGLISH Path of Wickedness
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 640
+#SIZE_Y 400
+#START_X 0
+#START_Y 0
+
+#INITIAL 32
+#REQUIRED 32
+#SPAWN_INTERVAL 23
+
+#WALKER 2
+#RUNNER 2
+#CLIMBER 3
+#EXPLODER2 2
+#BLOCKER 3
+#BUILDER 3
+#PLATFORMER 2
+#BASHER 3
+#MINER 2
+#DIGGER 3
+#JUMPER 3
+#CUBER 2
+
+:geoo/sandstone/Hatch.H: 64 256
+
+:geoo/sandstone/Goal.G: 32 16
+:geoo/sandstone/Goal.G: 472 16
+
+:geoo/sandstone/arc_big: 0 336
+:geoo/sandstone/arc_big: 128 336
+:geoo/sandstone/arc_big: 256 336
+:geoo/sandstone/arc_big: 384 336
+:geoo/sandstone/arc_big: 512 336
+:geoo/sandstone/pillar_top_ext: 0 208
+:geoo/sandstone/pillar_top: 16 224
+:geoo/sandstone/pillar_32: 16 256
+:geoo/sandstone/pillar_32: 16 288
+:geoo/sandstone/pillar_32: 16 304
+:geoo/sandstone/64x32: 576 304
+:geoo/sandstone/64x32: 544 272
+:geoo/sandstone/64x32: 512 304
+:geoo/sandstone/64x32: 512 240
+:geoo/sandstone/64x32: 344 240
+:geoo/sandstone/64x32: 384 208
+:geoo/sandstone/64x32: 344 176
+:geoo/sandstone/64x32: 320 208
+:geoo/sandstone/64x32: 312 144
+:geoo/sandstone/64x32: 256 208
+:geoo/sandstone/64x32: 192 208
+:geoo/sandstone/64x32: 344 112
+:geoo/sandstone/64x32: 376 80
+:geoo/sandstone/64x32: 440 80
+:geoo/sandstone/32x64: 192 272
+:geoo/sandstone/32x64: 256 240
+:geoo/sandstone/32x64: 288 272
+:geoo/sandstone/64x64: 0 80
+:geoo/sandstone/64x64: 64 80
+:geoo/sandstone/slopes/32x64lb: 256 144
+:geoo/sandstone/slopes/32x64rb: 224 144
+:geoo/sandstone/32x32: 608 80
+:geoo/sandstone/32x32: 608 112
+:geoo/sandstone/32x32: 608 144
+:geoo/sandstone/32x32: 504 80
+:geoo/sandstone/slopes/32x32rb: 576 112
+:geoo/sandstone/64x32: 544 144
+:geoo/sandstone/64x32: 192 0
+:geoo/sandstone/64x32: 224 32
+:geoo/sandstone/slopes/32x32lb: 256 0
