@@ -13,3 +13,125 @@ $GAME_VERSION_REQUIRED 0.7.2
 ! 911 0 ASSIGN=EXPLODER 3
 ! 937 0 ASSIGN=PLATFORMER 2
 
+$BUILT 2017-06-11 19:45:54
+$AUTHOR Nepster
+$ENGLISH Don't feed the frogs!
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 640
+#SIZE_Y 400
+
+#INITIAL 20
+#REQUIRED 17
+#SPAWN_INTERVAL 20
+
+#EXPLODER 3
+#BLOCKER 1
+#PLATFORMER 4
+
+:simon/oriental/hatch.H: 162 17
+
+:simon/oriental/goal.G: 131 237
+
+:amanda/forest/frog.T: 428 33
+:amanda/forest/frog_happy.T: 294 74
+:amanda/forest/frog_catch.T: 386 268
+
+:simon/crystal.W: 0 350
+:simon/crystal.W: 48 350
+:simon/crystal.W: 96 350
+:simon/crystal.W: 144 350
+:simon/crystal.W: 192 350
+:simon/crystal.W: 240 350
+:simon/crystal.W: 288 350
+:simon/crystal.W: 336 350
+:simon/crystal.W: 384 350
+:simon/crystal.W: 432 350
+:simon/crystal.W: 480 350
+:simon/crystal.W: 528 350
+:simon/crystal.W: 576 350
+:simon/crystal.W: 624 350
+
+:simon/oriental/temple: 32 -4
+:simon/oriental/07: 125 322
+:simon/oriental/04: 250 80
+:simon/oriental/01: 149 391
+:simon/oriental/01: 93 322
+:simon/oriental/01: 205 322
+:simon/oriental/08: 32 128 d
+:simon/oriental/08: 100 120 d
+:simon/oriental/08: 164 122 d
+:simon/oriental/04: 30 80
+:simon/oriental/04: 74 80
+:simon/oriental/04: 118 80
+:simon/oriental/04: 162 80
+:simon/oriental/04: 206 80
+:simon/oriental/02b: 610 -30
+:simon/oriental/02b: 610 18
+:simon/oriental/02b: 610 66
+:simon/oriental/02b: 610 114
+:simon/oriental/02b: 610 162
+:simon/oriental/02b: 610 210
+:simon/oriental/02b: 610 258
+:simon/oriental/02b: 610 306
+:simon/oriental/02b: 610 354
+:simon/oriental/02b: 0 18
+:simon/oriental/02b: 0 66
+:simon/oriental/02b: 0 114
+:simon/oriental/02b: 0 162
+:simon/oriental/02b: 0 210
+:simon/oriental/02b: 0 258
+:simon/oriental/02b: 0 306
+:simon/oriental/02b: 0 354
+:simon/oriental/02b: 0 -30
+:simon/oriental/02b: 149 343
+:simon/oriental/culm_half1: 298 78 frrr
+:simon/oriental/culm_half2: 322 78 frrr
+:simon/oriental/culm_half1: 346 78 frrr
+:simon/oriental/culm_half2: 370 78 frrr
+:simon/oriental/culm_half1: 394 78 frrr
+:simon/oriental/culm_half2: 418 78 frrr
+:simon/oriental/culm_half1: 442 78 frrr
+:simon/oriental/culm_half2: 466 78 frrr
+:simon/oriental/culm_half1: 298 120 frrr
+:simon/oriental/culm_half2: 322 120 frrr
+:simon/oriental/culm_half1: 346 120 frrr
+:simon/oriental/culm_half2: 370 120 frrr
+:simon/oriental/culm_half1: 394 120 frrr
+:simon/oriental/culm_half2: 418 120 frrr
+:simon/oriental/culm_half1: 442 120 frrr
+:simon/oriental/culm_half2: 466 120 frrr
+:simon/oriental/culm_half2: 224 314 frrr
+:simon/oriental/culm_half1: 200 314 frrr
+:simon/oriental/culm_half2: 176 314 frrr
+:simon/oriental/culm_half1: 152 314 frrr
+:simon/oriental/culm_half2: 128 314 frrr
+:simon/oriental/culm_half1: 104 314 frrr
+:simon/oriental/culm_end: 80 314 rrr
+:simon/oriental/07: 350 322
+:simon/oriental/01: 430 322
+:simon/oriental/02b: 374 343
+:simon/oriental/culm_half2: 401 314 frrr
+:simon/oriental/culm_half1: 377 314 frrr
+:simon/oriental/01: 374 391
+:simon/oriental/culm_half1: 434 226
+:simon/oriental/culm_half1: 318 275 f
+:simon/oriental/culm_half2: 318 252 f
+:simon/oriental/culm_half1: 331 226
+:simon/oriental/culm_end: 317 246 rrr
+:simon/oriental/culm_half2: 318 299 f
+:simon/oriental/01: 318 322
+:simon/oriental/culm_half1: 329 314 frrr
+:simon/oriental/culm_end: 305 314 rrr
+:simon/oriental/culm_half2: 353 314 frrr
+:simon/oriental/culm_half1: 446 275 f
+:simon/oriental/culm_half2: 446 252 f
+:simon/oriental/culm_end: 434 248 rrr
+:simon/oriental/culm_half2: 446 299 f
+:simon/oriental/culm_half2: 449 314 frrr
+:simon/oriental/culm_half1: 425 314 frrr
+:simon/oriental/culm_half2: 399 224 frrr
+:simon/oriental/culm_end: 419 224 rrr
+:simon/oriental/culm_half1: 376 224 frrr
+:simon/oriental/culm_half2: 353 224 frrr
+:simon/oriental/culm_end: 331 224 rrr

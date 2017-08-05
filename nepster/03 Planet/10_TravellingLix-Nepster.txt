@@ -1,31 +1,278 @@
 $FILENAME single/nepster/Planet/10_TravellingLix.txt
 $LEVEL_BUILT_REQUIRED 2016-06-05 15:17:18
-$GAME_VERSION_REQUIRED 0.7.2
+$GAME_VERSION_REQUIRED 0.7.14
 
 +PLAYER 0 Garden Nepster
 
 ! 87 0 ASSIGN=DIGGER 0
-! 151 0 ASSIGN=DIGGER 2
+! 147 0 ASSIGN=DIGGER 2
 ! 190 0 ASSIGN=DIGGER 4
-! 259 0 ASSIGN=CLIMBER 6
-! 298 0 ASSIGN=DIGGER 6
-! 426 0 ASSIGN=BUILDER 0
-! 471 0 ASSIGN=BUILDER 0
-! 473 0 ASSIGN=BUILDER 0
-! 475 0 ASSIGN=BUILDER 0
-! 871 0 ASSIGN=BUILDER 2
-! 1103 0 ASSIGN=BUILDER 2
-! 1285 0 ASSIGN=BLOCKER 4
-! 1369 0 ASSIGN=BUILDER 2
-! 1545 0 ASSIGN=BUILDER 6
-! 1572 0 ASSIGN=BASHER 2
-! 1618 0 ASSIGN=BASHER 0
-! 1716 0 ASSIGN=BUILDER 2
-! 1748 0 ASSIGN=BUILDER 0
-! 1952 0 ASSIGN=BUILDER 6
-! 2023 0 ASSIGN=BASHER 2
-! 2037 0 ASSIGN=BUILDER 6
-! 2272 0 ASSIGN=BASHER 0
-! 2404 0 ASSIGN=DIGGER 6
-! 2618 0 ASSIGN=EXPLODER 6
+! 264 0 ASSIGN_LEFT=CLIMBER 6
+! 291 0 ASSIGN=DIGGER 6
+! 494 0 ASSIGN=BUILDER 2
+! 530 0 ASSIGN=BUILDER 2
+! 533 0 ASSIGN=BUILDER 2
+! 535 0 ASSIGN=BUILDER 2
+! 877 0 ASSIGN=BUILDER 0
+! 1109 0 ASSIGN=BUILDER 0
+! 1298 0 ASSIGN=BLOCKER 4
+! 1378 0 ASSIGN=BUILDER 0
+! 1492 0 ASSIGN=BASHER 2
+! 1543 0 ASSIGN=BUILDER 6
+! 1568 0 ASSIGN=BASHER 0
+! 1624 0 ASSIGN=BUILDER 2
+! 1699 0 ASSIGN=BUILDER 0
+! 1945 0 ASSIGN=BUILDER 6
+! 1947 0 ASSIGN=BUILDER 6
+! 1999 0 ASSIGN=BASHER 0
+! 2274 0 ASSIGN=BASHER 2
+! 2446 0 ASSIGN=DIGGER 6
+! 2675 0 ASSIGN=EXPLODER 6
 
+$BUILT 2017-06-11 20:44:25
+$AUTHOR Nepster
+$ENGLISH Travelling Lix
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 1648
+#SIZE_Y 400
+#START_X 0
+#START_Y 0
+
+#INITIAL 20
+#REQUIRED 19
+#SPAWN_INTERVAL 30
+
+#CLIMBER 1
+#EXPLODER 1
+#BLOCKER 2
+#BUILDER 12
+#BASHER 4
+#DIGGER 5
+
+:simon/oriental/hatch.H: 482 0
+:simon/oriental/hatch.H: 1232 288
+
+:simon/oriental/goal.G: 4 224
+
+:geoo/shadow/pillar_verti_32: 792 296
+:geoo/shadow/pillar_verti_32: 808 296
+:geoo/shadow/pillar_verti_32: 824 295
+$BEGIN_TILE_GROUP 0
+:simon/oriental/08: 0 0
+:geoo/abstract/cvblocks/017: 48 23 d
+:geoo/abstract/cvblocks/019: 48 39 d
+:geoo/abstract/cvblocks/020: 20 31 d
+$END_TILE_GROUP
+:Group-0: 776 272
+:simon/oriental/culm_half1: 1175 121 r
+:simon/oriental/culm_half1: 293 351 rrr
+:geoo/shadow/pillar_verti_32: 1000 134
+:geoo/shadow/pillar_verti_32: 984 134
+:geoo/shadow/pillar_verti_32: 968 135
+:geoo/shadow/pillar_verti_32: 1000 212
+:geoo/shadow/pillar_verti_32: 984 212
+:geoo/shadow/pillar_verti_32: 968 213
+:geoo/shadow/pillar_verti_32: 1144 135
+:geoo/shadow/pillar_verti_32: 1160 135
+:geoo/shadow/pillar_verti_32: 1176 135
+:geoo/shadow/pillar_verti_32: 1144 293
+:geoo/shadow/pillar_verti_32: 1160 293
+:geoo/shadow/pillar_verti_32: 1176 293
+:geoo/shadow/pillar_verti_32: 1176 215
+:geoo/shadow/pillar_verti_32: 1160 215
+:geoo/shadow/pillar_verti_32: 1144 215
+:geoo/shadow/pillar_verti_32: 1000 296
+:geoo/shadow/pillar_verti_32: 984 296
+:geoo/shadow/pillar_verti_32: 968 295
+:geoo/shadow/pillar_verti_32: 792 216
+:geoo/shadow/pillar_verti_32: 808 216
+:geoo/shadow/pillar_verti_32: 824 215
+:geoo/shadow/pillar_verti_32: 792 134
+:geoo/shadow/pillar_verti_32: 808 134
+:geoo/shadow/pillar_verti_32: 824 133
+:simon/oriental/07: 0 352
+:simon/oriental/07: 0 304
+:simon/oriental/07: 288 352
+:simon/oriental/01: 273 320
+:simon/oriental/07: 368 352
+:simon/oriental/07: 488 352
+:simon/oriental/07: 568 352
+:simon/oriental/08: 488 272 frr
+:simon/oriental/08: 488 112
+:simon/oriental/08: 488 192 frr
+:simon/oriental/07: 688 352
+:simon/oriental/07: 1040 352
+$BEGIN_TILE_GROUP 1
+:simon/oriental/08: 0 0 frr
+:geoo/abstract/cvblocks/020: 20 31 d
+:geoo/abstract/cvblocks/017: 48 23 d
+:geoo/abstract/cvblocks/019: 48 39 d
+$END_TILE_GROUP
+:Group-1: 776 192
+$BEGIN_TILE_GROUP 2
+:simon/oriental/08: 0 0
+:geoo/abstract/cvblocks/020: 20 29 d
+:geoo/abstract/cvblocks/017: 48 21 d
+:geoo/abstract/cvblocks/019: 48 37 d
+$END_TILE_GROUP
+:Group-2: 776 112
+$BEGIN_TILE_GROUP 3
+:simon/oriental/08: 0 0
+:geoo/abstract/cvblocks/020: 28 31 frrd
+:geoo/abstract/cvblocks/017: 16 23 frrd
+:geoo/abstract/cvblocks/019: 16 39 frrd
+$END_TILE_GROUP
+:Group-3: 952 112
+$BEGIN_TILE_GROUP 4
+:simon/oriental/08: 0 0 frr
+:geoo/abstract/cvblocks/020: 28 31 frrd
+:geoo/abstract/cvblocks/019: 16 39 frrd
+:geoo/abstract/cvblocks/017: 16 23 frrd
+$END_TILE_GROUP
+:Group-4: 952 272
+$BEGIN_TILE_GROUP 5
+:simon/oriental/08: 0 0
+:geoo/abstract/cvblocks/020: 28 29 frrd
+:geoo/abstract/cvblocks/017: 16 21 frrd
+:geoo/abstract/cvblocks/019: 16 37 frrd
+$END_TILE_GROUP
+:Group-5: 952 192
+$BEGIN_TILE_GROUP 6
+:simon/oriental/08: 0 0
+:geoo/abstract/cvblocks/019: 48 39 d
+:geoo/abstract/cvblocks/017: 48 23 d
+:geoo/abstract/cvblocks/020: 20 31 d
+$END_TILE_GROUP
+:Group-6: 1128 192
+:Group-1: 1128 112
+:Group-2: 1128 272
+:simon/oriental/08: 1320 192
+:simon/oriental/08: 1320 112 frr
+:simon/oriental/08: 1320 272
+:simon/oriental/07: 784 64
+:simon/oriental/07: 944 64
+:simon/oriental/07: 864 64
+:simon/oriental/07: 1224 64
+:simon/oriental/07: 1304 64
+:simon/oriental/07: 1144 64
+:simon/oriental/04: 1216 352
+:simon/oriental/04: 1264 352
+:simon/oriental/07: 1040 248
+:simon/oriental/01: 1080 176
+:simon/oriental/01: 1048 176
+:simon/oriental/04: 1408 352
+:simon/oriental/08: 0 128
+:simon/oriental/08: 0 48 frr
+:simon/oriental/07: 0 0
+:simon/oriental/08: 160 80
+:simon/oriental/08: 80 80 frr
+:simon/oriental/08: 160 0
+:simon/oriental/08: 80 0 frr
+:simon/oriental/07: 240 0
+:simon/oriental/08: 240 48 frr
+:simon/oriental/08: 320 0 frr
+:geoo/construction/platform_single.S: 760 350
+:geoo/construction/platform_single.S: 768 350
+:matt/steel/48x48.S: 768 352
+:matt/steel/48x48.S: 816 352
+:matt/steel/48x48.S: 992 352
+:matt/steel/48x48.S: 944 352
+:matt/steel/48x48.S: 1120 352
+:matt/steel/48x48.S: 1168 352
+:matt/steel/48x48.S: 1360 352
+:matt/steel/48x48.S: 1312 352
+:geoo/construction/platform_single.S: 776 350
+:geoo/construction/platform_single.S: 764 348
+:geoo/construction/platform_single.S: 772 348
+:geoo/construction/platform_single.S: 788 348 d
+:geoo/construction/platform_single.S: 792 350 d
+:geoo/construction/platform_single.S: 1036 348 frr
+:geoo/construction/platform_single.S: 1028 348 frr
+:geoo/construction/platform_single.S: 1012 348 frrd
+:geoo/construction/platform_single.S: 1008 350 frrd
+:geoo/construction/platform_single.S: 1024 350 frr
+:geoo/construction/platform_single.S: 1032 350 frr
+:geoo/construction/platform_single.S: 1040 350 frr
+:geoo/construction/platform_single.S: 1116 348
+:geoo/construction/platform_single.S: 1124 348
+:geoo/construction/platform_single.S: 1140 348 d
+:geoo/construction/platform_single.S: 1144 350 d
+:geoo/construction/platform_single.S: 1128 350
+:geoo/construction/platform_single.S: 1120 350
+:geoo/construction/platform_single.S: 1112 350
+:geoo/construction/platform.S: 1206 304 rrr
+:geoo/construction/platform.S: 1206 272 rrr
+:geoo/construction/platform.S: 1206 240 rrr
+:geoo/construction/platform.S: 1206 208 rrr
+:geoo/construction/platform.S: 1206 176 rrr
+:geoo/construction/platform.S: 1206 144 rrr
+:geoo/construction/platform.S: 1206 112 rrr
+:geoo/construction/platform.S: 854 112 rrr
+:geoo/construction/platform.S: 854 144 rrr
+:geoo/construction/platform.S: 854 176 rrr
+:geoo/construction/platform.S: 854 208 rrr
+:geoo/construction/platform.S: 854 240 rrr
+:geoo/construction/platform.S: 854 272 rrr
+:geoo/construction/platform.S: 854 304 rrr
+:geoo/construction/platform.S: 952 112 rrr
+:geoo/construction/platform.S: 952 144 rrr
+:geoo/construction/platform.S: 952 176 rrr
+:geoo/construction/platform.S: 952 208 rrr
+:geoo/construction/platform.S: 952 240 rrr
+:geoo/construction/platform.S: 952 272 rrr
+:geoo/construction/platform.S: 952 304 rrr
+:geoo/construction/platform_single.S: 780 348
+:geoo/construction/platform_single.S: 784 350
+:geoo/construction/platform_single.S: 1016 350 frr
+:geoo/construction/platform_single.S: 1020 348 frr
+:geoo/construction/platform_single.S: 1132 348
+:geoo/construction/platform_single.S: 1136 350
+:simon/oriental/07: 208 352
+:simon/oriental/07: 128 352
+:simon/oriental/01: 273 288
+:simon/oriental/07: 488 64
+:simon/oriental/02b: 752 64
+:simon/oriental/02b: 1024 64
+:simon/oriental/02b: 1112 64
+:simon/oriental/02b: 1384 64
+$BEGIN_TILE_GROUP 7
+:simon/oriental/04: 0 0
+:simon/tapir/032d: 16 0 d
+:simon/tapir/032d: 0 16 d
+:simon/tapir/032d: 0 0 d
+$END_TILE_GROUP
+:Group-7: 1409 305
+:simon/oriental/04: 1504 352
+:Group-7: 1505 233
+:simon/oriental/04: 1600 352
+$BEGIN_TILE_GROUP 8
+:simon/oriental/04: 0 0
+:simon/tapir/032c: 0 0 d
+:simon/tapir/032c: 16 16 d
+:simon/tapir/032c: 16 0 d
+$END_TILE_GROUP
+:Group-8: 1504 145
+:Group-8: 1416 65
+:simon/oriental/culm_end: 1070 152
+:simon/oriental/culm_end: 1080 152 frr
+:simon/oriental/culm_half1: 1070 128
+:simon/oriental/culm_half2: 1070 104
+:simon/oriental/culm_half1: 1070 80
+:simon/oriental/culm_half2: 1070 56
+:simon/oriental/culm_half1: 1070 32
+:simon/oriental/culm_half2: 1070 8
+:simon/oriental/culm_half1: 1070 -16
+:simon/oriental/culm_half1: 1080 128 frr
+:simon/oriental/culm_half2: 1080 104 frr
+:simon/oriental/culm_half1: 1080 80 frr
+:simon/oriental/culm_half2: 1080 56 frr
+:simon/oriental/culm_half1: 1080 32 frr
+:simon/oriental/culm_half2: 1080 8 frr
+:simon/oriental/culm_half1: 1080 -16 frr
+:simon/oriental/04: 1600 304
+:simon/oriental/04: 1600 256
+:simon/oriental/04: 1600 208
+:simon/oriental/04: 1504 304
+:simon/oriental/02b: 1504 280 r
+:simon/oriental/leaf2: 1460 110
