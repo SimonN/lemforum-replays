@@ -1,0 +1,103 @@
+$FILENAME single/rubix/Aftermath/Parallel/7Tapir.txt
+$LEVEL_BUILT_REQUIRED 2014-01-31 10:48:50
+$GAME_VERSION_REQUIRED 0.7.16
+
++PLAYER 0 Garden Nepster
+
+! 70 0 ASSIGN=JUMPER 0
+! 85 0 ASSIGN=FLOATER 0
+! 99 0 ASSIGN=BATTER 0
+! 123 0 ASSIGN=PLATFORMER 0
+
+$BUILT 2014-01-31 10:48:50
+$AUTHOR Rubix
+$ENGLISH Chocolate Dream
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 640
+#SIZE_Y 400
+
+#INITIAL 6
+#REQUIRED 2
+#SPAWN_INTERVAL 32
+
+#FLOATER 1
+#PLATFORMER 1
+#MINER 1
+#JUMPER 1
+#BATTER 1
+#EXPLODER2 0
+
+:simon/hatch001.H: -16 0
+:simon/hatch001.H: 96 176 r
+:simon/hatch001.H: 592 0 r
+:simon/hatch001.H: 592 0 r
+:simon/hatch001.H: 592 0 r
+:simon/hatch001.H: 592 0 r
+
+:simon/tapir/goal.G: 480 224
+
+:simon/crystal.W: 0 368
+:simon/crystal.W: 48 368
+:simon/crystal.W: 96 368
+:simon/crystal.W: 144 368
+:simon/crystal.W: 336 368
+:simon/crystal.W: 288 368
+:simon/crystal.W: 240 368
+:simon/crystal.W: 192 368
+:simon/crystal.W: 384 368
+:simon/crystal.W: 432 368
+:simon/crystal.W: 480 368
+:simon/crystal.W: 528 368
+:simon/crystal.W: 576 368
+:simon/crystal.W: 624 368
+
+:simon/tapir/064: 352 128
+:simon/tapir/064: 0 80
+:simon/tapir/064: 576 80
+:simon/tapir/064: 0 272
+:simon/tapir/064: 576 272
+:simon/tapir/064: 0 144
+:simon/tapir/064: 0 208
+:simon/tapir/064: 576 144
+:simon/tapir/064: 576 208
+:simon/tapir/064: 224 272
+:simon/tapir/064: 288 272
+:simon/tapir/064: 352 272
+:simon/tapir/064: 96 272
+:simon/tapir/064: 416 272
+:simon/tapir/016v: 0 48
+:simon/tapir/016v: 0 16
+:simon/tapir/016v: 0 -16
+:simon/tapir/016v: 16 0 rrr
+:simon/tapir/016v: 48 0 rrr
+:simon/tapir/016v: 80 0 rrr
+:simon/tapir/016v: 112 0 rrr
+:simon/tapir/016v: 144 0 rrr
+:simon/tapir/016v: 176 0 rrr
+:simon/tapir/016v: 208 0 rrr
+:simon/tapir/016v: 240 0 rrr
+:simon/tapir/016v: 272 0 rrr
+:simon/tapir/016v: 304 0 rrr
+:simon/tapir/016v: 336 0 rrr
+:simon/tapir/016v: 368 0 rrr
+:simon/tapir/016v: 400 0 rrr
+:simon/tapir/016v: 432 0 rrr
+:simon/tapir/016v: 464 0 rrr
+:simon/tapir/016v: 496 0 rrr
+:simon/tapir/016v: 528 0 rrr
+:simon/tapir/016v: 560 0 rrr
+:simon/tapir/016v: 592 0 rrr
+:simon/tapir/016v: 624 48
+:simon/tapir/016v: 624 -16
+:simon/tapir/016v: 624 16
+:simon/tapir/064: 480 272
+:simon/tapir/064: 416 128
+:simon/tapir/032hb: 416 96
+:simon/tapir/032hb: 256 48 rrr
+:simon/tapir/032hb: 288 32
+:simon/tapir/032hb: 352 64
+:simon/tapir/032h: 352 96
+:simon/tapir/032h: 288 64
+:simon/tapir/032h: 288 96
+:simon/tapir/032hb: 288 128 rr

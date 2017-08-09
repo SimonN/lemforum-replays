@@ -1,0 +1,101 @@
+$FILENAME single/rubix/Nightmare/bangarangpeter.txt
+$LEVEL_BUILT_REQUIRED 2017-08-09 03:02:02
+$GAME_VERSION_REQUIRED 0.7.16
+
++PLAYER 0 Garden Nepster
+
+! 83 0 ASSIGN=JUMPER 0
+! 94 0 ASSIGN=BASHER 0
+! 126 0 ASSIGN=BLOCKER 2
+! 164 0 ASSIGN=BUILDER 0
+! 366 0 ASSIGN=BUILDER 0
+! 568 0 ASSIGN=PLATFORMER 0
+! 773 0 ASSIGN_LEFT=MINER 11
+! 1014 0 ASSIGN=JUMPER 0
+! 1066 0 ASSIGN=WALKER 0
+! 1080 0 ASSIGN=MINER 0
+! 1114 0 ASSIGN=WALKER 2
+
+$BUILT 2017-08-09 03:02:02
+$AUTHOR Rubix
+$ENGLISH Bangarang Peter!
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 640
+#SIZE_Y 400
+#BACKGROUND_RED 0
+#BACKGROUND_GREEN 0
+#BACKGROUND_BLUE 64
+
+#INITIAL 25
+#REQUIRED 24
+#SPAWN_INTERVAL 32
+
+#WALKER 2
+#CLIMBER 1
+#FLOATER 1
+#BLOCKER 1
+#BUILDER 2
+#PLATFORMER 2
+#BASHER 1
+#MINER 2
+#JUMPER 4
+#EXPLODER2 0
+
+:simon/oriental/hatch.H: 544 48 r
+
+:simon/oriental/goal.G: 64 50
+
+:simon/water_thin.W: 0 368
+:simon/water_thin.W: 48 368
+:simon/water_thin.W: 96 368
+:simon/water_thin.W: 144 368
+:simon/water_thin.W: 192 368
+:simon/water_thin.W: 240 368
+:simon/water_thin.W: 288 368
+:simon/water_thin.W: 336 368
+:simon/water_thin.W: 384 368
+:simon/water_thin.W: 432 368
+:simon/water_thin.W: 480 368
+:simon/water_thin.W: 528 368
+:simon/water_thin.W: 576 368
+:simon/water_thin.W: 624 368
+
+:simon/oriental/bush7: 128 160
+:simon/oriental/leaf2: 70 188
+:simon/oriental/branch6: 48 132 rrr
+:simon/oriental/bush2: 32 120
+:simon/oriental/bush3: 108 130
+:simon/oriental/leaf4: 108 174 r
+:simon/oriental/branch5: 92 142 fr
+:simon/oriental/bush5: 88 156
+:simon/oriental/bush2: 476 122
+:simon/oriental/bush7: 424 74
+:simon/oriental/07: 0 336 r
+:simon/oriental/07: 138 272 r
+:simon/oriental/07: 200 272 r
+:simon/oriental/temple: 102 96
+:simon/oriental/bonsai: 400 0
+:simon/oriental/06: 384 352 rr
+:simon/oriental/07: 384 320 f
+:simon/oriental/06: 336 352 f
+:simon/oriental/07: 320 320 rr
+:simon/oriental/06: 512 352 rr
+:simon/oriental/07: 512 320 f
+:simon/oriental/06: 464 352 f
+:simon/oriental/07: 448 320 rr
+:simon/oriental/06: 128 352 rr
+:simon/oriental/07: 128 320 f
+:simon/oriental/06: 80 352 f
+:simon/oriental/07: 64 320 rr
+:simon/oriental/06: 256 352 rr
+:simon/oriental/07: 256 320 f
+:simon/oriental/06: 208 352 f
+:simon/oriental/07: 192 320 rr
+:simon/oriental/bush4: 40 126
+:simon/oriental/07: 0 96 r
+:simon/oriental/07: 0 160 frrr
+:simon/oriental/07: 0 224 r
+:simon/oriental/07: 0 32 frrr
+:simon/oriental/07: 0 288 r
+:simon/oriental/bonsai: 362 128
