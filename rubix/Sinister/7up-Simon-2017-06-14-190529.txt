@@ -1,0 +1,173 @@
+$FILENAME single/rubix/Sinister/7up.txt
+$LEVEL_BUILT_REQUIRED 2017-06-14 19:00:29
+$GAME_VERSION_REQUIRED 0.7.3
+
++PLAYER 0 Garden Simon
+
+! 385 0 ASSIGN=BUILDER 0
+! 626 0 ASSIGN=MINER 0
+! 679 0 ASSIGN=BUILDER 0
+! 681 0 ASSIGN=BUILDER 0
+! 1059 0 ASSIGN=BUILDER 6
+! 1063 0 ASSIGN=BUILDER 6
+! 1379 0 ASSIGN=BASHER 6
+! 1423 0 ASSIGN=BUILDER 6
+! 1495 0 ASSIGN=BASHER 4
+! 1823 0 ASSIGN=BUILDER 4
+! 1827 0 ASSIGN=BUILDER 4
+! 1832 0 ASSIGN=BUILDER 4
+! 1836 0 ASSIGN=BUILDER 4
+! 1840 0 ASSIGN=BUILDER 4
+! 1845 0 ASSIGN=BUILDER 4
+! 3005 0 ASSIGN=BUILDER 4
+! 3010 0 ASSIGN=BUILDER 4
+! 3013 0 ASSIGN=BUILDER 4
+! 3017 0 ASSIGN=BUILDER 4
+! 3045 0 ASSIGN_LEFT=BUILDER 0
+
+$BUILT 2017-06-14 19:00:29
+$AUTHOR Rubix
+$ENGLISH 7up
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 1440
+#SIZE_Y 500
+#START_X 0
+#START_Y 80
+#BACKGROUND_RED 1
+#BACKGROUND_GREEN 96
+#BACKGROUND_BLUE 144
+
+#INITIAL 7
+#REQUIRED 7
+#SPAWN_INTERVAL 50
+
+#BUILDER 17
+#BASHER 2
+#MINER 1
+#EXPLODER2 0
+
+:simon/oriental/hatch.H: 960 336 r
+
+:simon/oriental/goal.G: 0 -28
+
+:matt/water.W: 0 464
+:matt/water.W: 32 464
+:matt/water.W: 64 464
+:matt/water.W: 96 464
+:matt/water.W: 128 464
+:matt/water.W: 0 480
+:matt/water.W: 32 480
+:matt/water.W: 64 480
+:matt/water.W: 96 480
+:matt/water.W: 128 480
+:matt/water.W: 816 464
+:matt/water.W: 848 464
+:matt/water.W: 880 464
+:matt/water.W: 912 464
+:matt/water.W: 944 464
+:matt/water.W: 976 464
+:matt/water.W: 1008 464
+:matt/water.W: 1040 464
+:matt/water.W: 816 480
+:matt/water.W: 848 480
+:matt/water.W: 880 480
+:matt/water.W: 912 480
+:matt/water.W: 944 480
+:matt/water.W: 976 480
+:matt/water.W: 1008 480
+:matt/water.W: 1040 480
+:matt/water.W: 1072 464
+:matt/water.W: 1104 464
+:matt/water.W: 1136 464
+:matt/water.W: 1072 480
+:matt/water.W: 1104 480
+:matt/water.W: 1136 480
+:matt/water.W: 160 464
+:matt/water.W: 192 464
+:matt/water.W: 224 464
+:matt/water.W: 256 464
+:matt/water.W: 288 464
+:matt/water.W: 320 464
+:matt/water.W: 352 464
+:matt/water.W: 384 464
+:matt/water.W: 160 480
+:matt/water.W: 192 480
+:matt/water.W: 224 480
+:matt/water.W: 256 480
+:matt/water.W: 288 480
+:matt/water.W: 320 480
+:matt/water.W: 352 480
+:matt/water.W: 384 480
+
+:simon/oriental/culm_d_long: 1182 283 frr
+:simon/oriental/culm_d_long: 1178 275 frr
+:simon/oriental/culm_long: 1090 281 r
+:simon/oriental/culm_d_long: 1178 269 frr
+:simon/oriental/culm_d_long: 1180 265 frr
+:simon/oriental/culm_half1: 734 270 fr
+:simon/oriental/culm_long: 740 271 r
+:simon/oriental/culm_long: 732 277 r
+:simon/oriental/culm_long: 750 282 r
+:simon/oriental/culm_long: 1088 276 r
+:simon/oriental/culm_long: 994 281 r
+:simon/oriental/bush3: 1396 376
+:simon/oriental/bush3: 1366 363
+:simon/oriental/10: 64 176
+:simon/oriental/bonsai: 1267 345
+:simon/oriental/bonsai: 1133 287
+:simon/oriental/temple: 296 174
+:simon/oriental/07: 342 350
+:simon/oriental/bonsai: 42 136
+:simon/oriental/bonsai: 6 316
+:simon/oriental/bonsai: 621 274
+:simon/oriental/temple: 896 92
+:simon/oriental/culm_long: 896 264 r
+:simon/oriental/culm_long: 538 496 r
+:simon/oriental/culm_long: -32 50 r
+:simon/oriental/culm_long: 896 270 r
+:simon/oriental/culm_long: 898 276 r
+:simon/oriental/05: 301 365
+:simon/oriental/05: 414 366
+:simon/oriental/07: 512 464
+:simon/oriental/07: 592 464
+:simon/oriental/07: 432 464
+:simon/oriental/07: 672 464
+:simon/oriental/07: 752 464
+:simon/oriental/bridge1: 832 432
+:simon/oriental/bridge2: 960 400
+:simon/oriental/07: 1152 464
+:simon/oriental/07: 1232 464
+:simon/oriental/07: 1312 464
+:simon/oriental/07: 1392 464
+:simon/oriental/culm_long: 898 281 r
+:simon/oriental/culm_long: 992 264 r
+:simon/oriental/culm_long: 992 270 r
+:simon/oriental/culm_long: 994 276 r
+:simon/oriental/culm_long: 1088 264 r
+:simon/oriental/culm_long: 1088 270 r
+:simon/oriental/culm_long: 748 265 r
+:simon/oriental/culm_long: 800 265 r
+:simon/oriental/culm_long: 800 271 r
+:simon/oriental/culm_long: 802 277 r
+:simon/oriental/gate: 488 400
+:simon/oriental/05: 301 445
+:simon/oriental/05: 414 446
+:simon/oriental/05: 1412 304
+:simon/oriental/05: 1412 384
+:simon/oriental/10: 64 146 frr
+:simon/oriental/10: 64 116
+:simon/oriental/10: 64 86 frr
+:simon/oriental/10: 64 56
+:simon/oriental/culm_long: 92 60
+:simon/oriental/culm_long: 58 144
+:simon/oriental/culm_long: 58 50
+:simon/oriental/05_top: 301 349
+:simon/oriental/05_top: 414 350
+:simon/oriental/05_top: 1412 288
+:simon/oriental/culm_end: 92 156
+:simon/oriental/bridge1: 896 400
+:simon/oriental/bridge3: 1024 400
+:simon/oriental/bridge3: 1088 432
+:simon/oriental/culm_long: 802 282 r
+:simon/oriental/culm_half1: 742 265 fr

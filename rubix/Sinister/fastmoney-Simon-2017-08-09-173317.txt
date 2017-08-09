@@ -1,0 +1,73 @@
+$FILENAME single/rubix/Sinister/fastmoney.txt
+$LEVEL_BUILT_REQUIRED 2017-08-09 17:31:27
+$GAME_VERSION_REQUIRED 0.7.16
+
++PLAYER 0 Garden Simon
+
+! 181 0 ASSIGN=EXPLODER 1
+! 206 0 ASSIGN=EXPLODER 0
+! 1395 0 ASSIGN_LEFT=DIGGER 17
+! 4384 0 ASSIGN_LEFT=MINER 17
+
+$BUILT 2017-08-09 17:31:27
+$AUTHOR Rubix
+$ENGLISH Fast money
+
+$HINT_ENGLISH You'll find success when you release the rest..
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 640
+#SIZE_Y 1088
+#START_X 0
+#START_Y 780
+
+#SECONDS 165
+#INITIAL 30
+#REQUIRED 23
+#SPAWN_INTERVAL 46
+
+#EXPLODER 7
+#MINER 1
+#DIGGER 1
+
+:matt/goldmine/Hatch.H: 56 82
+:matt/goldmine/Hatch.H: 488 82 r
+
+:matt/goldmine/Goal.G: 272 1040
+
+:matt/goldmine/minecart: 504 978
+:matt/goldmine/04: 304 992 r
+:matt/goldmine/04: 144 992 fr
+:matt/goldmine/04: 304 898 rrr
+:matt/goldmine/04: 144 898 frrr
+:matt/goldmine/04: 304 832 r
+:matt/goldmine/04: 144 832 fr
+:matt/goldmine/04: 304 740 rrr
+:matt/goldmine/04: 144 740 frrr
+:matt/goldmine/04: 304 672 r
+:matt/goldmine/04: 144 672 fr
+:matt/goldmine/04: 304 592 rrr
+:matt/goldmine/04: 144 592 frrr
+:matt/goldmine/04: 304 528 r
+:matt/goldmine/04: 144 528 fr
+:matt/goldmine/04: 304 448 rrr
+:matt/goldmine/04: 144 448 frrr
+:matt/goldmine/04: 304 384 r
+:matt/goldmine/04: 144 384 fr
+:matt/goldmine/04: 304 304 rrr
+:matt/goldmine/04: 144 304 frrr
+:matt/goldmine/04: 304 240 r
+:matt/goldmine/04: 144 240 fr
+:matt/goldmine/04: 304 160 rrr
+:matt/goldmine/04: 145 160 frrr
+:matt/goldmine/07: -32 112
+:matt/goldmine/07: 432 112 frr
+:matt/goldmine/crate64: -16 976
+:matt/goldmine/07: -32 1008
+:matt/goldmine/07: 432 1008 frr
+:matt/goldmine/crate64: -32 912
+:matt/goldmine/planksupport: 130 -56 f
+:matt/goldmine/planksupport: 384 -56 f
+:matt/goldmine/plank: 256 64
+:matt/goldmine/plank: 512 64
+:matt/goldmine/plank: 2 64
