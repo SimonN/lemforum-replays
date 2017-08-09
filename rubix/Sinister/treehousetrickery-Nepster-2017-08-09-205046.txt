@@ -1,0 +1,176 @@
+$FILENAME single/rubix/Sinister/treehousetrickery.txt
+$LEVEL_BUILT_REQUIRED 2014-02-27 23:02:45
+$GAME_VERSION_REQUIRED 0.7.16
+
++PLAYER 0 Garden Nepster
+
+! 138 0 ASSIGN=MINER 1
+! 158 0 ASSIGN=BLOCKER 0
+! 230 0 ASSIGN=BUILDER 3
+! 246 0 ASSIGN=PLATFORMER 1
+! 311 0 ASSIGN=BLOCKER 3
+! 481 0 ASSIGN=BASHER 1
+! 586 0 ASSIGN=BUILDER 1
+! 788 0 ASSIGN=BUILDER 1
+! 1029 0 ASSIGN=BASHER 1
+! 1149 0 ASSIGN=PLATFORMER 1
+! 1160 0 ASSIGN=PLATFORMER 1
+! 1531 0 ASSIGN=BUILDER 1
+! 1534 0 ASSIGN=BUILDER 1
+! 1536 0 ASSIGN=BUILDER 1
+! 1538 0 ASSIGN=BUILDER 1
+! 2032 0 ASSIGN=EXPLODER 0
+! 2035 0 ASSIGN=DIGGER 11
+! 2518 0 ASSIGN=MINER 32
+! 3232 0 NUKE 0
+
+$BUILT 2014-02-27 23:02:45
+$AUTHOR Rubix
+$ENGLISH Treehouse Trickery
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 1280
+#SIZE_Y 560
+#START_X 0
+#START_Y 140
+#BACKGROUND_RED 16
+#BACKGROUND_GREEN 159
+#BACKGROUND_BLUE 239
+
+#INITIAL 60
+#REQUIRED 58
+#SPAWN_INTERVAL 41
+
+#EXPLODER 2
+#BLOCKER 2
+#BUILDER 7
+#PLATFORMER 3
+#BASHER 2
+#MINER 2
+#DIGGER 1
+
+:simon/oriental/hatch.H: 1104 176
+:simon/oriental/hatch.H: 4 198
+
+:simon/oriental/goal.G: 1232 256
+
+:matt/water.W: 608 528
+:matt/water.W: 640 528
+:matt/water.W: 672 528
+:matt/water.W: 704 528
+:matt/water.W: 736 528
+:matt/water.W: 608 544
+:matt/water.W: 640 544
+:matt/water.W: 672 544
+:matt/water.W: 704 544
+:matt/water.W: 736 544
+:matt/water.W: 768 528
+
+:matt/earth/03: 832 544
+:matt/earth/04: 103 521 r
+:simon/oriental/bonsai: 314 60
+:simon/oriental/bonsai: 276 244
+:simon/oriental/branch7: 111 167
+:simon/oriental/branch6: 75 366
+:simon/oriental/branch5: 89 203 f
+:simon/oriental/branch5: 71 353
+:simon/oriental/bush3: 96 347
+:simon/oriental/branch7: 91 297
+:simon/oriental/bush2: 43 374
+:simon/oriental/bush1: 47 293
+:simon/oriental/branch6: 89 254
+:simon/oriental/bush1: 121 280
+:simon/oriental/bush4: 109 249
+:simon/oriental/bush2: 63 225
+:simon/oriental/bush3: 56 192
+:simon/oriental/bush3: 45 259
+:simon/oriental/bush3: -10 254
+:simon/oriental/bush3: 113 158
+:simon/oriental/branch1: 107 149
+:simon/oriental/bush3: 88 141
+:simon/oriental/bush3: 105 202
+:simon/oriental/bush3: 162 287
+:simon/oriental/branch7: 92 408
+:simon/oriental/branch7: 84 448
+:simon/oriental/branch7: 86 486 f
+:simon/oriental/branch7: 92 528 f
+:simon/oriental/bonsai: 275 377 frr
+:simon/oriental/bush3: 324 412
+:simon/oriental/bush3: 368 394
+:simon/oriental/bush3: 110 400
+:simon/oriental/bush1: 48 396
+:simon/oriental/bush1: 36 410
+:simon/oriental/bush5: 96 454
+:simon/oriental/branch7: 698 252
+:simon/oriental/branch6: 662 450
+:simon/oriental/branch5: 676 288 f
+:simon/oriental/branch5: 658 438
+:simon/oriental/bush3: 682 432
+:simon/oriental/branch7: 678 382
+:simon/oriental/bush2: 630 458
+:simon/oriental/bush1: 634 378
+:simon/oriental/branch6: 676 338
+:simon/oriental/bush1: 718 368
+:simon/oriental/bush4: 674 322
+:simon/oriental/bush2: 664 314
+:simon/oriental/bush3: 642 276
+:simon/oriental/bush3: 632 344
+:simon/oriental/bush3: 710 242
+:simon/oriental/branch1: 694 234
+:simon/oriental/bush3: 668 226
+:simon/oriental/bush3: 708 274
+:simon/oriental/bush3: 717 229
+:simon/oriental/branch7: 678 492
+:simon/oriental/branch7: 670 532
+:simon/oriental/bush3: 696 476
+:simon/oriental/bush1: 678 504
+:simon/oriental/bush1: 636 490
+:simon/oriental/bush5: 660 526
+:simon/oriental/bush3: 656 238
+:simon/oriental/bush3: 680 216
+:simon/oriental/bush3: 703 218
+:simon/oriental/bush3: 604 340
+:simon/oriental/bush3: 756 370
+:simon/oriental/branch7: 1226 150
+:simon/oriental/branch6: 1190 348
+:simon/oriental/branch5: 1204 186 f
+:simon/oriental/branch5: 1186 336
+:simon/oriental/bush3: 1210 330
+:simon/oriental/branch7: 1206 280
+:simon/oriental/bush2: 1158 356
+:simon/oriental/bush1: 1162 276
+:simon/oriental/branch6: 1204 236
+:simon/oriental/bush1: 1236 262
+:simon/oriental/bush4: 1224 232
+:simon/oriental/bush2: 1178 208
+:simon/oriental/bush3: 1170 174
+:simon/oriental/bush3: 1160 242
+:simon/oriental/bush3: 1104 236
+:simon/oriental/bush3: 1228 140
+:simon/oriental/branch1: 1222 132
+:simon/oriental/bush3: 1202 124
+:simon/oriental/bush3: 1220 184
+:simon/oriental/bush3: 1276 270
+:simon/oriental/branch7: 1206 390
+:simon/oriental/branch7: 1198 430
+:simon/oriental/branch7: 1200 468 f
+:simon/oriental/branch7: 1206 510 f
+:simon/oriental/bush3: 1224 382
+:simon/oriental/bush1: 1162 378
+:simon/oriental/bush1: 1150 392
+:simon/oriental/bush5: 1210 436
+:simon/oriental/bonsai: 860 370 frr
+:simon/oriental/bush3: 1258 334
+:simon/oriental/bush3: 730 239
+:matt/earth/10: 392 540
+:matt/earth/10: 284 548
+:matt/earth/04: 251 524
+:matt/earth/04: 181 533 r
+:matt/earth/04: 186 538 r
+:matt/earth/05: -48 528 fr
+:matt/earth/03: 464 528
+:matt/earth/10: 512 544
+:matt/earth/05: 752 544 r
+:matt/earth/05: 1100 524 fr
+:matt/earth/05: 911 542 fr
+:matt/earth/03: 768 528
