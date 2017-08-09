@@ -1,0 +1,99 @@
+$FILENAME single/rubix/Perplexing/atasteofthingsto.txt
+$LEVEL_BUILT_REQUIRED 2016-09-18 13:37:04
+$GAME_VERSION_REQUIRED 0.7.16
+
++PLAYER 0 Garden Nepster
+
+! 123 0 ASSIGN=BLOCKER 0
+! 259 0 ASSIGN=MINER 2
+! 386 0 ASSIGN=BLOCKER 6
+! 414 0 ASSIGN=EXPLODER2 4
+! 459 0 ASSIGN=CLIMBER 2
+! 818 0 ASSIGN=BUILDER 2
+! 1192 0 ASSIGN=BUILDER 2
+! 1193 0 ASSIGN=BUILDER 2
+! 1541 0 ASSIGN=BLOCKER 2
+! 1561 0 ASSIGN=EXPLODER2 6
+! 1657 0 ASSIGN=MINER 14
+! 1672 0 ASSIGN_LEFT=BUILDER 24
+! 1863 0 ASSIGN=BUILDER 30
+! 2078 0 ASSIGN=BUILDER 30
+! 3197 0 NUKE 0
+
+$BUILT 2016-09-18 13:37:04
+$AUTHOR Rubix
+$ENGLISH A taste of things to come.
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 640
+#SIZE_Y 416
+#START_X 0
+#START_Y 406
+#BACKGROUND_RED 0
+#BACKGROUND_GREEN 48
+#BACKGROUND_BLUE 112
+
+#INITIAL 50
+#REQUIRED 46
+#SPAWN_INTERVAL 53
+
+#CLIMBER 1
+#EXPLODER2 2
+#BLOCKER 3
+#BUILDER 6
+#MINER 2
+
+:matt/marble/Hatch.H: 464 64
+:matt/marble/Hatch.H: 96 304 r
+
+:matt/marble/Goal.G: 49 113
+
+:matt/marble/08d: 0 0
+:matt/marble/08d: 64 0
+:matt/marble/08d: 128 0
+:matt/marble/08d: 192 0
+:matt/marble/08d: 256 0
+:matt/marble/08d: 320 0
+:matt/marble/08d: 384 0
+:matt/marble/08d: 0 384
+:matt/marble/08d: 64 384
+:matt/marble/08d: 128 384
+:matt/marble/08d: 192 384
+:matt/marble/08d: 256 384
+:matt/marble/08d: 320 384
+:matt/marble/08d: 384 384
+:matt/marble/08d: 448 384
+:matt/marble/08d: 448 0
+:matt/marble/08d: 512 0
+:matt/marble/08d: 576 0
+:matt/marble/08d: 512 384
+:matt/marble/08d: 576 384
+:matt/marble/06a: 0 32
+:matt/marble/06a: 0 96
+:matt/marble/06a: 0 160
+:matt/marble/06a: 0 224
+:matt/marble/06a: 0 320
+:matt/marble/06a: 608 32
+:matt/marble/06a: 608 128
+:matt/marble/06a: 608 192
+:matt/marble/06a: 608 256
+:matt/marble/06a: 608 320
+:matt/marble/08c: 544 128
+:matt/marble/08c: 480 128
+:matt/marble/09a: 288 256
+:matt/marble/09a: 288 320
+:matt/marble/08c: 96 192
+:matt/marble/08c: 48 160
+:matt/marble/09a: 224 256
+:matt/marble/09a: 224 320
+:matt/marble/09a: 224 192
+:matt/marble/09a: 160 256
+:matt/marble/09a: 160 320
+:matt/marble/09a: 160 192
+:matt/marble/08a: 288 224
+:matt/marble/08a: 160 160
+:matt/marble/09a: 352 256
+:matt/marble/09a: 352 320
+:matt/steel/64x32.S: 608 352 r
+:matt/steel/64x32.S: 304 352 r
+:matt/steel/64x32.S: 0 352 r
