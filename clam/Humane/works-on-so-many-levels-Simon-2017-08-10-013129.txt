@@ -1,0 +1,123 @@
+$FILENAME single/clam/Humane/works-on-so-many-levels.txt
+$LEVEL_BUILT_REQUIRED 2015-06-01 13:12:25
+$GAME_VERSION_REQUIRED 0.7.16
+
++PLAYER 0 Garden Simon
+
+! 112 0 ASSIGN=BUILDER 1
+! 113 0 ASSIGN=BUILDER 1
+! 377 0 ASSIGN=EXPLODER 2
+! 518 0 ASSIGN=BLOCKER 4
+! 667 0 ASSIGN=EXPLODER 6
+! 820 0 ASSIGN=EXPLODER 8
+! 880 0 ASSIGN_RIGHT=BUILDER 15
+! 980 0 ASSIGN=EXPLODER 10
+! 1090 0 ASSIGN_RIGHT=BUILDER 7
+! 1232 0 ASSIGN_RIGHT=BUILDER 15
+! 1440 0 ASSIGN_RIGHT=BUILDER 13
+! 1661 0 ASSIGN_RIGHT=BUILDER 5
+! 1861 0 ASSIGN_RIGHT=BUILDER 5
+! 2051 0 ASSIGN_LEFT=BUILDER 24
+! 2270 0 ASSIGN=BUILDER 3
+! 2365 0 ASSIGN_RIGHT=BUILDER 42
+! 2568 0 ASSIGN=BLOCKER 40
+! 4137 0 NUKE 0
+
+$BUILT 2015-06-01 13:12:25
+$AUTHOR Clam
+$ENGLISH Works on so many levels...
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 640
+#SIZE_Y 400
+#START_X 0
+#START_Y 0
+
+#INITIAL 60
+#REQUIRED 50
+#SPAWN_INTERVAL 50
+
+#EXPLODER 5
+#BLOCKER 3
+#BUILDER 12
+#DIGGER 12
+
+:matt/goldmine/Hatch.H: 32 32
+:matt/goldmine/Hatch.H: 32 232
+
+:matt/goldmine/Goal.G: 544 32
+
+:geoo/construction/Laser_hz_64.F: 32 316
+:geoo/construction/Laser_hz_64.F: 32 356
+:geoo/construction/Laser_hz_64.F: 96 316
+:geoo/construction/Laser_hz_64.F: 96 356
+:geoo/construction/Laser_hz_64.F: 160 316
+:geoo/construction/Laser_hz_64.F: 160 356
+:geoo/construction/Laser_hz_64.F: 224 316
+:geoo/construction/Laser_hz_64.F: 224 356
+:geoo/construction/Laser_hz_64.F: 288 316
+:geoo/construction/Laser_hz_64.F: 288 356
+:geoo/construction/Laser_hz_64.F: 352 316
+:geoo/construction/Laser_hz_64.F: 352 356
+:geoo/construction/Laser_hz_64.F: 416 316
+:geoo/construction/Laser_hz_64.F: 416 356
+:geoo/construction/Laser_hz_64.F: 480 316
+:geoo/construction/Laser_hz_64.F: 480 356
+:geoo/construction/Laser_hz_64.F: 544 316
+:geoo/construction/Laser_hz_64.F: 544 356
+:geoo/construction/Laseremit_hzl_16.F: 32 316
+:geoo/construction/Laseremit_hzl_16.F: 32 356
+:geoo/construction/Laseremit_hzr_16.F: 592 316
+:geoo/construction/Laseremit_hzr_16.F: 592 356
+
+:matt/goldmine/plank: 224 80
+:matt/goldmine/plank: 224 280
+:matt/goldmine/plank: 32 80
+:geoo/steel/dark_32x32o.S: 0 80
+:geoo/steel/dark_32x32o.S: 0 112
+:geoo/steel/dark_32x32o.S: 0 144
+:geoo/steel/dark_32x32o.S: 0 176
+:geoo/steel/dark_32x32o.S: 0 208
+:geoo/steel/dark_32x32o.S: 0 240
+:matt/goldmine/plank: 64 120
+:matt/goldmine/plank: 64 160
+:matt/goldmine/plank: 64 200
+:matt/goldmine/plank: 128 240
+:matt/goldmine/plank: 32 280
+:matt/goldmine/plank: 192 120
+:matt/goldmine/plank: 192 160
+:matt/goldmine/plank: 192 200
+:matt/goldmine/plank: 256 240
+:matt/goldmine/plank: 320 120
+:matt/goldmine/plank: 320 160
+:matt/goldmine/plank: 320 200
+:matt/goldmine/plank: 384 240
+:matt/goldmine/plank: 480 80
+:matt/goldmine/plank: 480 280
+:geoo/steel/dark_32x32o.S: 608 80
+:geoo/steel/dark_32x32o.S: 608 112
+:geoo/steel/dark_32x32o.S: 608 144
+:geoo/steel/dark_32x32o.S: 608 176
+:geoo/steel/dark_32x32o.S: 608 208
+:geoo/steel/dark_32x32o.S: 608 240
+$BEGIN_TILE_GROUP 0
+:matt/goldmine/plank: 0 0
+:matt/goldmine/plank: 32 0 d
+$END_TILE_GROUP
+:Group-0: 288 280
+:matt/goldmine/plank: 160 280
+:matt/goldmine/plank: 352 280
+:Group-0: 288 80
+:matt/goldmine/plank: 352 80
+:matt/goldmine/plank: 160 80
+:geoo/steel/dark_32x32o.S: 0 272
+:geoo/steel/dark_32x32o.S: 608 272
+:geoo/steel/dark_32x32o.S: 0 304
+:geoo/steel/dark_32x32o.S: 608 304
+:geoo/steel/dark_32x32o.S: 0 336
+:geoo/steel/dark_32x32o.S: 608 336
+:matt/goldmine/plank: 448 120
+:matt/goldmine/plank: 448 160
+:matt/goldmine/plank: 448 200
+:geoo/steel/dark_32x32o.S: 608 368
+:geoo/steel/dark_32x32o.S: 0 368
