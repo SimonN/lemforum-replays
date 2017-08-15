@@ -1,0 +1,214 @@
+$FILENAME single/rubix/Nightmare/flatlined.txt
+$LEVEL_BUILT_REQUIRED 2017-08-13 09:01:37
+$GAME_VERSION_REQUIRED 0.7.18
+
++PLAYER 0 Garden rubix
+
+! 103 0 ASSIGN=BUILDER 0
+! 172 0 ASSIGN=WALKER 2
+! 182 0 ASSIGN=PLATFORMER 2
+! 284 0 ASSIGN=BASHER 0
+! 1849 0 ASSIGN=MINER 16
+! 1956 0 ASSIGN=DIGGER 16
+! 1960 0 ASSIGN=PLATFORMER 8
+! 3080 0 ASSIGN=WALKER 16
+! 3227 0 ASSIGN=DIGGER 16
+! 3431 0 ASSIGN=DIGGER 16
+! 3708 0 ASSIGN=WALKER 16
+! 3759 0 ASSIGN=DIGGER 16
+! 3931 0 ASSIGN=WALKER 16
+! 3961 0 ASSIGN_RIGHT=CLIMBER 3
+! 3965 0 ASSIGN_RIGHT=CLIMBER 9
+! 3971 0 ASSIGN_RIGHT=CLIMBER 15
+! 3982 0 ASSIGN_RIGHT=CLIMBER 17
+! 4018 0 ASSIGN_RIGHT=CLIMBER 1
+! 4020 0 ASSIGN_RIGHT=CLIMBER 16
+! 4022 0 ASSIGN_RIGHT=CLIMBER 7
+! 4029 0 ASSIGN_RIGHT=CLIMBER 13
+! 4032 0 ASSIGN_RIGHT=CLIMBER 19
+! 4065 0 ASSIGN_RIGHT=CLIMBER 5
+! 4069 0 ASSIGN_RIGHT=CLIMBER 11
+
+$BUILT 2017-08-13 09:01:37
+$AUTHOR Rubix
+$ENGLISH Flatlined
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 996
+#SIZE_Y 400
+#START_X 0
+#START_Y 380
+#BACKGROUND_RED 0
+#BACKGROUND_GREEN 48
+#BACKGROUND_BLUE 80
+
+#INITIAL 20
+#REQUIRED 20
+#SPAWN_INTERVAL 53
+
+#WALKER 4
+#CLIMBER 11
+#BUILDER 1
+#PLATFORMER 2
+#BASHER 1
+#MINER 1
+#DIGGER 4
+#EXPLODER2 0
+
+:simon/oriental/hatch.H: 856 18 r
+:simon/oriental/hatch.H: 18 322
+
+:simon/oriental/goal.G: 82 34
+
+:matt/water.W: 96 384
+:matt/water.W: 128 384
+:matt/water.W: 160 384
+:matt/water.W: 192 384
+:matt/water.W: 224 384
+:matt/water.W: 256 384
+:matt/water.W: 288 384
+:matt/water.W: 320 384
+:matt/water.W: 352 384
+:matt/water.W: 384 384
+:matt/water.W: 416 384
+:matt/water.W: 448 384
+:matt/water.W: 480 384
+:matt/water.W: 512 384
+:matt/water.W: 544 384
+:matt/water.W: 576 384
+:matt/water.W: 704 384
+:matt/water.W: 736 384
+:matt/water.W: 768 384
+:matt/water.W: 800 384
+
+:simon/oriental/culm_long: 274 272 r
+:simon/oriental/culm_long: 182 340 r
+:simon/oriental/culm_long: 160 340 r
+:simon/oriental/culm_long: 256 272 r
+:simon/oriental/02: 368 272 r
+:simon/oriental/02: 368 288 r
+:simon/oriental/02: 368 304 r
+:simon/oriental/02: 368 320 r
+:simon/oriental/02: 368 336 r
+:simon/oriental/02: 368 352 r
+:simon/oriental/02: 368 368 r
+:simon/oriental/02: 368 384 r
+:simon/oriental/09: 400 210
+:simon/oriental/09: 462 240
+:simon/oriental/06: 406 238
+:simon/oriental/06: 406 296
+:simon/oriental/06: 406 354
+:simon/oriental/09: 528 272
+:simon/oriental/09: 592 304
+:simon/oriental/09: 656 336
+:simon/oriental/09: 464 272 rr
+:simon/oriental/09: 528 304 rr
+:simon/oriental/09: 592 336 rr
+:simon/oriental/09: 656 368 rr
+:simon/oriental/09: 592 336
+:simon/oriental/09: 464 272
+:simon/oriental/09: 528 304
+:simon/oriental/09: 464 304 rr
+:simon/oriental/09: 528 336 rr
+:simon/oriental/09: 656 368
+:simon/oriental/09: 592 368 rr
+:simon/oriental/09: 464 336 rr
+:simon/oriental/09: 464 304
+:simon/oriental/09: 528 336
+:simon/oriental/09: 592 368
+:simon/oriental/09: 528 368 rr
+:simon/oriental/culm_long: 802 80 r
+:simon/oriental/culm_long: 800 80
+:simon/oriental/culm_long: 800 208
+:simon/oriental/culm_long: 800 352
+:simon/oriental/temple: 818 160
+:simon/oriental/03: 704 32
+:simon/oriental/03: 672 32
+:simon/oriental/03: 640 32
+:simon/oriental/03: 608 32
+:simon/oriental/03: 576 32
+:simon/oriental/03: 544 32
+:simon/oriental/03: 512 32
+:simon/oriental/03: 480 32
+:simon/oriental/03: 448 32
+:simon/oriental/03: 416 32
+:simon/oriental/03: 384 32
+:simon/oriental/03: 352 32
+:simon/oriental/03: 320 32
+:simon/oriental/03: 288 32
+:simon/oriental/03: 256 32
+:simon/oriental/03: 224 32
+:simon/oriental/03: 192 32
+:simon/oriental/03: 160 32
+:simon/oriental/03: 128 32
+:simon/oriental/03: 96 32
+:simon/oriental/03: 64 32
+:simon/oriental/03: 32 32
+:simon/oriental/03: 0 112
+:simon/oriental/03: -32 32
+:simon/oriental/05: -32 336
+:simon/oriental/05: -32 272
+:simon/oriental/05: -32 208
+:simon/oriental/05: -32 160
+:simon/oriental/05: -32 96
+:simon/oriental/05: -32 32
+:simon/oriental/05: 704 32
+:simon/oriental/05: 704 96
+:simon/oriental/05: 704 160
+:simon/oriental/05: 704 224
+:simon/oriental/05: 704 288
+:simon/oriental/05: 704 352
+:simon/oriental/05: 800 80
+:simon/oriental/05: 800 144
+:simon/oriental/05: 800 208
+:simon/oriental/05: 800 272
+:simon/oriental/05: 800 336
+:simon/oriental/04: 842 336
+:simon/oriental/04: 874 336
+:simon/oriental/04: 906 336
+:simon/oriental/04: 938 336
+:simon/oriental/04: 842 368
+:simon/oriental/04: 874 368
+:simon/oriental/04: 906 368
+:simon/oriental/04: 938 368
+:simon/oriental/03: 64 384
+:simon/oriental/03: 16 384
+:simon/oriental/culm_long: -46 382 r
+:simon/oriental/10: 960 220 frr
+:simon/oriental/10: 960 192 frrr
+:simon/oriental/10: 960 164 frr
+:simon/oriental/10: 960 134 frrr
+:simon/oriental/10: 960 106 frr
+:simon/oriental/10: 960 78 frrr
+:simon/oriental/culm_long: 990 92
+:simon/oriental/culm_long: 954 80
+:simon/oriental/culm_long: 952 250
+:simon/oriental/culm_long: 952 378
+:simon/oriental/05: 952 250
+:simon/oriental/05: 952 314
+:simon/oriental/05: 952 378
+:simon/oriental/03: 32 112
+:simon/oriental/03: 64 112
+:simon/oriental/03: 96 112
+:simon/oriental/02: 140 94
+:simon/oriental/02: 140 54
+:simon/oriental/culm_long: 990 -64
+:simon/oriental/01: 926 79 d
+:simon/oriental/04: 272 272
+:simon/oriental/04: 272 304
+:simon/oriental/04: 272 336
+:simon/oriental/04: 272 368
+:simon/oriental/culm_long: 46 382 r
+:simon/oriental/culm_long: 700 62 rr
+:simon/oriental/culm_long: 700 158 rr
+:simon/oriental/culm_long: 700 252 rr
+:simon/oriental/culm_long: 700 346 rr
+:simon/oriental/culm_long: 80 400 r
+:simon/oriental/culm_long: 88 382 r
+:simon/oriental/04: 176 384
+:simon/oriental/04: 176 340
+:simon/oriental/culm_long: 170 340 rr
+:simon/oriental/culm_long: 268 272 rr
+:simon/oriental/culm_long: 268 366 rr
+:simon/oriental/culm_long: 8 -32 rr
+:simon/oriental/culm_long: 8 48 rr
