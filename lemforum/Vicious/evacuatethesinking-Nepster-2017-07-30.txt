@@ -1,0 +1,133 @@
+$FILENAME single/lemforum/Vicious/evacuatethesinking.txt
+$LEVEL_BUILT_REQUIRED 2017-07-18 00:10:35
+$GAME_VERSION_REQUIRED 0.7.2
+
++PLAYER 0 Garden Nepster
+
+! 75 0 ASSIGN=MINER 0
+! 210 0 ASSIGN_LEFT=PLATFORMER 4
+! 257 0 ASSIGN=MINER 7
+! 344 0 ASSIGN=MINER 10
+! 399 0 ASSIGN=PLATFORMER 4
+! 401 0 ASSIGN=PLATFORMER 4
+! 430 0 ASSIGN=MINER 13
+! 516 0 ASSIGN=MINER 16
+
+$BUILT 2017-07-18 00:10:35
+$AUTHOR
+$ENGLISH Off the Sinking Ship
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 976
+#SIZE_Y 400
+
+#INITIAL 40
+#REQUIRED 35
+#SPAWN_INTERVAL 20
+
+#PLATFORMER 3
+#MINER 5
+#EXPLODER2 0
+
+:geoo/construction/Hatch.H: 240 128
+
+:geoo/construction/Goal2.G: 0 128
+
+:geoo/construction/wall/small_brickdiag_bd: 256 192
+:geoo/construction/wall/small_brickdiag_bd: 272 208
+:geoo/construction/wall/small_brick1: 304 208
+:geoo/construction/wall/small_brick1: 336 208
+:geoo/construction/platformbrick: 32 192
+:geoo/construction/platformbrick: 0 192
+:geoo/construction/wall/small_brickdiag_bd: 288 224
+:geoo/construction/wall/small_brickdiag_bd: 304 240
+:geoo/construction/wall/small_brickdiag_bd: 320 256
+:geoo/construction/wall/small_brick1: 320 224
+:geoo/construction/wall/small_brick1: 336 240
+:geoo/construction/pillar_bottom: 928 192
+:geoo/construction/pillar_32: 928 160
+:geoo/construction/pillar_32: 928 128
+:geoo/construction/pillar_32: 928 96
+:geoo/construction/pillar_32: 928 80
+:geoo/construction/pillar_top_shaded: 928 64
+:geoo/construction/wall/small_brickdiag_bd: 832 0
+:geoo/construction/wall/small_brickdiag_bd: 848 16
+:geoo/construction/wall/small_brickdiag_bd: 864 32
+:geoo/construction/wall/small_brickdiag_bd: 880 48
+:geoo/construction/wall/small_brick1: 864 0
+:geoo/construction/wall/small_brick1: 896 0
+:geoo/construction/wall/small_brick1: 928 0
+:geoo/construction/wall/small_brick1: 960 0
+:geoo/construction/wall/small_brick1: 1168 0
+:geoo/construction/wall/small_brick1: 880 16
+:geoo/construction/wall/small_brick1: 912 16
+:geoo/construction/wall/small_brick1: 944 16
+:geoo/construction/wall/small_brick1: 1152 16
+:geoo/construction/wall/small_brick1: 896 32
+:geoo/construction/wall/small_brick1: 928 32
+:geoo/construction/wall/small_brick1: 960 32
+:geoo/construction/wall/small_brick1: 1168 32
+:geoo/construction/wall/small_brick1: 912 48
+:geoo/construction/wall/small_brick1: 944 48
+:geoo/construction/wall/small_brick1: 1152 48
+:geoo/construction/wall/small_64x64: 336 208
+:geoo/construction/wall/small_64x64: 400 208
+:geoo/construction/wall/small_64x64: 464 208
+:geoo/construction/wall/small_64x64: 528 208
+:geoo/construction/wall/small_64x64: 592 208
+:geoo/construction/wall/small_64x64: 656 208
+:geoo/construction/wall/small_brick1: 720 240
+:geoo/construction/wall/small_64x64: 720 208
+:geoo/construction/wall/small_64x64: 784 208
+:geoo/construction/wall/small_64x64: 848 208
+:geoo/construction/wall/small_64x64: 912 208
+:geoo/construction/wall/small_brick3: 1168 288
+:geoo/construction/wall/small_brick3: 1200 288
+:geoo/construction/wall/small_brick2: 1232 288
+:geoo/construction/wall/small_brick1: 1264 288
+:geoo/construction/wall/small_brick3: 1296 288
+:geoo/construction/wall/small_brickdiag_bu: 32 192
+:geoo/construction/wall/small_brickdiag_bu: 16 208
+:geoo/construction/wall/small_brickdiag_bu: 0 224
+:geoo/construction/wall/small_brick1: 0 192
+:geoo/construction/wall/small_brick3: -16 208
+:geoo/construction/wall/small_brickdiag_bu: -16 240
+:geoo/construction/wall/small_brick3: 288 192
+:geoo/construction/wall/small_brickdiag_bd: 336 272
+:geoo/construction/wall/small_brick1: 368 272
+:geoo/construction/wall/small_brick1: 400 272
+:geoo/construction/wall/small_brickdiag_bd: 352 288
+:geoo/construction/wall/small_brickdiag_bd: 368 304
+:geoo/construction/wall/small_brickdiag_bd: 384 320
+:geoo/construction/wall/small_brick1: 384 288
+:geoo/construction/wall/small_brick1: 400 304
+:geoo/construction/wall/small_64x64: 400 272
+:geoo/construction/wall/small_64x64: 464 272
+:geoo/construction/wall/small_64x64: 528 272
+:geoo/construction/wall/small_64x64: 592 272
+:geoo/construction/wall/small_64x64: 656 272
+:geoo/construction/wall/small_64x64: 720 272
+:geoo/construction/wall/small_brick1: 784 304
+:geoo/construction/wall/small_64x64: 784 272
+:geoo/construction/wall/small_64x64: 848 272
+:geoo/construction/wall/small_64x64: 912 272
+:geoo/construction/wall/small_64x64: 976 272
+:geoo/construction/wall/small_brickdiag_bd: 400 336
+:geoo/construction/wall/small_brick1: 432 336
+:geoo/construction/wall/small_brick1: 464 336
+:geoo/construction/wall/small_brickdiag_bd: 416 352
+:geoo/construction/wall/small_brickdiag_bd: 432 368
+:geoo/construction/wall/small_brickdiag_bd: 448 384
+:geoo/construction/wall/small_brick1: 448 352
+:geoo/construction/wall/small_brick1: 464 368
+:geoo/construction/wall/small_64x64: 464 336
+:geoo/construction/wall/small_64x64: 528 336
+:geoo/construction/wall/small_64x64: 592 336
+:geoo/construction/wall/small_64x64: 656 336
+:geoo/construction/wall/small_64x64: 720 336
+:geoo/construction/wall/small_64x64: 784 336
+:geoo/construction/wall/small_brick1: 848 368
+:geoo/construction/wall/small_64x64: 848 336
+:geoo/construction/wall/small_64x64: 912 336
+:geoo/construction/wall/small_64x64: 976 336
+:geoo/construction/wall/small_64x64: 1040 336
