@@ -1,24 +1,24 @@
 $FILENAME single/lemforum/Vicious/evacuatethesinking.txt
-$LEVEL_BUILT_REQUIRED 2017-08-17 00:05:53
-$GAME_VERSION_REQUIRED 0.7.19
+$LEVEL_BUILT_REQUIRED 2017-08-19 12:36:11
+$GAME_VERSION_REQUIRED 0.7.21
 
 +PLAYER 0 Garden Simon
 
-! 791 0 ASSIGN=MINER 36
-! 902 0 ASSIGN_LEFT=MINER 12
-! 903 0 ASSIGN_LEFT=MINER 14
-! 905 0 ASSIGN_LEFT=MINER 16
-! 906 0 ASSIGN_LEFT=MINER 24
-! 1006 0 ASSIGN=PLATFORMER 13
-! 1007 0 ASSIGN=PLATFORMER 13
-! 1008 0 ASSIGN=PLATFORMER 13
+! 268 0 ASSIGN_RIGHT=MINER 10
+! 394 0 ASSIGN=MINER 0
+! 398 0 ASSIGN=PLATFORMER 14
+! 399 0 ASSIGN=PLATFORMER 14
+! 400 0 ASSIGN=PLATFORMER 14
+! 452 0 ASSIGN=MINER 17
+! 539 0 ASSIGN=MINER 20
+! 627 0 ASSIGN=MINER 23
 
-$BUILT 2017-08-17 00:05:53
+$BUILT 2017-08-19 12:36:11
 $AUTHOR
 $ENGLISH Evacuate the Sinking Ship
 
 #INTENDED_NUMBER_OF_PLAYERS 1
-#SIZE_X 1136
+#SIZE_X 1040
 #SIZE_Y 384
 #BACKGROUND_RED 0
 #BACKGROUND_GREEN 0
@@ -36,45 +36,48 @@ $ENGLISH Evacuate the Sinking Ship
 
 :geoo/construction/Goal2.G: 96 232
 
-:simon/water.W: 0 304
-:simon/water.W: 48 304
-:simon/water.W: 96 304
-:simon/water.W: 144 304
-:simon/water.W: 192 304
-:simon/water.W: 240 304
-:simon/water.W: 288 304
-:simon/water.W: 336 304
-:simon/water.W: 384 304
-:simon/water.W: 432 304
-:simon/water.W: 480 304
-:simon/water.W: 528 304
-:simon/water_main.W: 48 352
-:simon/water_main.W: 96 352
-:simon/water_main.W: 144 352
-:simon/water_main.W: 192 352
-:simon/water_main.W: 240 352
-:simon/water_main.W: 288 352
-:simon/water_main.W: 336 352
-:simon/water_main.W: 384 352
-:simon/water_main.W: 432 352
-:simon/water_main.W: 480 352
-:simon/water_main.W: 528 352
-:simon/water_main.W: 576 352
-:simon/water_main.W: 0 352
-:simon/water_main.W: 576 368
-:simon/water_main.W: 48 368
-:simon/water_main.W: 96 368
-:simon/water_main.W: 144 368
-:simon/water_main.W: 192 368
-:simon/water_main.W: 240 368
-:simon/water_main.W: 288 368
-:simon/water_main.W: 336 368
-:simon/water_main.W: 384 368
-:simon/water_main.W: 432 368
-:simon/water_main.W: 480 368
-:simon/water_main.W: 528 368
-:simon/water_main.W: 0 368
+:simon/water.W: -1 305
+:simon/water.W: 47 305
+:simon/water.W: 95 305
+:simon/water.W: 143 305
+:simon/water.W: 191 305
+:simon/water.W: 239 305
+:simon/water.W: 287 305
+:simon/water.W: 335 305
+:simon/water.W: 383 305
+:simon/water.W: 431 305
+:simon/water.W: 479 305
+:simon/water.W: 527 305
+:simon/water_main.W: 24 352
+:simon/water_main.W: 72 352
+:simon/water_main.W: 120 352
+:simon/water_main.W: 168 352
+:simon/water_main.W: 216 352
+:simon/water_main.W: 264 352
+:simon/water_main.W: 312 352
+:simon/water_main.W: 360 352
+:simon/water_main.W: 408 352
+:simon/water_main.W: 456 352
+:simon/water_main.W: 504 352
+:simon/water_main.W: 552 352
+:simon/water_main.W: -24 352
+:simon/water_main.W: 568 368
+:simon/water_main.W: 40 368
+:simon/water_main.W: 88 368
+:simon/water_main.W: 136 368
+:simon/water_main.W: 184 368
+:simon/water_main.W: 232 368
+:simon/water_main.W: 280 368
+:simon/water_main.W: 328 368
+:simon/water_main.W: 376 368
+:simon/water_main.W: 424 368
+:simon/water_main.W: 472 368
+:simon/water_main.W: 520 368
+:simon/water_main.W: -8 368
 
+:geoo/construction/wall/small_diag_td: 150 286
+:geoo/construction/wall/small_diag_tu: 88 284
+:geoo/construction/wall/small_diag_tu: 474 198
 :geoo/construction/wall/small_brickdiag_bd: 416 192
 :geoo/construction/wall/small_brickdiag_bd: 432 208
 :geoo/construction/wall/small_brick1: 464 208
@@ -86,31 +89,31 @@ $ENGLISH Evacuate the Sinking Ship
 :geoo/construction/wall/small_brickdiag_bd: 480 256
 :geoo/construction/wall/small_brick1: 480 224
 :geoo/construction/wall/small_brick1: 496 240
-:geoo/construction/pillar_bottom: 1088 192
-:geoo/construction/pillar_32: 1088 160
-:geoo/construction/pillar_32: 1088 128
-:geoo/construction/pillar_32: 1088 96
-:geoo/construction/pillar_32: 1088 80
-:geoo/construction/pillar_top_shaded: 1088 64
-:geoo/construction/wall/small_brickdiag_bd: 992 0
-:geoo/construction/wall/small_brickdiag_bd: 1008 16
-:geoo/construction/wall/small_brickdiag_bd: 1024 32
-:geoo/construction/wall/small_brickdiag_bd: 1040 48
+:geoo/construction/pillar_bottom: 992 192
+:geoo/construction/pillar_32: 992 160
+:geoo/construction/pillar_32: 992 128
+:geoo/construction/pillar_32: 992 96
+:geoo/construction/pillar_32: 992 80
+:geoo/construction/pillar_top_shaded: 992 64
+:geoo/construction/wall/small_brickdiag_bd: 896 0
+:geoo/construction/wall/small_brickdiag_bd: 912 16
+:geoo/construction/wall/small_brickdiag_bd: 928 32
+:geoo/construction/wall/small_brickdiag_bd: 944 48
+:geoo/construction/wall/small_brick1: 928 0
+:geoo/construction/wall/small_brick1: 960 0
+:geoo/construction/wall/small_brick1: 992 0
 :geoo/construction/wall/small_brick1: 1024 0
-:geoo/construction/wall/small_brick1: 1056 0
-:geoo/construction/wall/small_brick1: 1088 0
-:geoo/construction/wall/small_brick1: 1120 0
 :geoo/construction/wall/small_brick1: 1328 -16
-:geoo/construction/wall/small_brick1: 1040 16
-:geoo/construction/wall/small_brick1: 1072 16
-:geoo/construction/wall/small_brick1: 1104 16
+:geoo/construction/wall/small_brick1: 944 16
+:geoo/construction/wall/small_brick1: 976 16
+:geoo/construction/wall/small_brick1: 1008 16
 :geoo/construction/wall/small_brick1: 1312 0
-:geoo/construction/wall/small_brick1: 1056 32
-:geoo/construction/wall/small_brick1: 1088 32
-:geoo/construction/wall/small_brick1: 1120 32
+:geoo/construction/wall/small_brick1: 960 32
+:geoo/construction/wall/small_brick1: 992 32
+:geoo/construction/wall/small_brick1: 1024 32
 :geoo/construction/wall/small_brick1: 1328 16
-:geoo/construction/wall/small_brick1: 1072 48
-:geoo/construction/wall/small_brick1: 1104 48
+:geoo/construction/wall/small_brick1: 976 48
+:geoo/construction/wall/small_brick1: 1008 48
 :geoo/construction/wall/small_brick1: 1312 32
 :geoo/construction/wall/small_64x64: 496 208
 :geoo/construction/wall/small_64x64: 560 208
@@ -118,11 +121,9 @@ $ENGLISH Evacuate the Sinking Ship
 :geoo/construction/wall/small_64x64: 688 208
 :geoo/construction/wall/small_64x64: 752 208
 :geoo/construction/wall/small_64x64: 816 208
-:geoo/construction/wall/small_brick1: 880 240
-:geoo/construction/wall/small_64x64: 880 208
-:geoo/construction/wall/small_64x64: 944 208
-:geoo/construction/wall/small_64x64: 1008 208
-:geoo/construction/wall/small_64x64: 1072 208
+:geoo/construction/wall/small_64x64: 848 208
+:geoo/construction/wall/small_64x64: 912 208
+:geoo/construction/wall/small_64x64: 976 208
 :geoo/construction/wall/small_brick3: 1328 272
 :geoo/construction/wall/small_brick3: 1360 272
 :geoo/construction/wall/small_brick2: 1392 272
@@ -148,11 +149,10 @@ $ENGLISH Evacuate the Sinking Ship
 :geoo/construction/wall/small_64x64: 688 272
 :geoo/construction/wall/small_64x64: 752 272
 :geoo/construction/wall/small_64x64: 816 272
-:geoo/construction/wall/small_64x64: 880 272
-:geoo/construction/wall/small_brick1: 944 304
-:geoo/construction/wall/small_64x64: 944 272
-:geoo/construction/wall/small_64x64: 1008 272
-:geoo/construction/wall/small_64x64: 1072 272
+:geoo/construction/wall/small_brick1: 848 304
+:geoo/construction/wall/small_64x64: 848 272
+:geoo/construction/wall/small_64x64: 912 272
+:geoo/construction/wall/small_64x64: 976 272
 :geoo/construction/wall/small_64x64: 1136 256
 :geoo/construction/wall/small_brickdiag_bd: 560 336
 :geoo/construction/wall/small_brick1: 592 336
@@ -164,11 +164,10 @@ $ENGLISH Evacuate the Sinking Ship
 :geoo/construction/wall/small_64x64: 688 336
 :geoo/construction/wall/small_64x64: 752 336
 :geoo/construction/wall/small_64x64: 816 336
-:geoo/construction/wall/small_64x64: 880 336
-:geoo/construction/wall/small_64x64: 944 336
+:geoo/construction/wall/small_64x64: 848 336
 :geoo/construction/wall/small_brick1: 1008 384
-:geoo/construction/wall/small_64x64: 1008 336
-:geoo/construction/wall/small_64x64: 1072 336
+:geoo/construction/wall/small_64x64: 912 336
+:geoo/construction/wall/small_64x64: 976 336
 :geoo/construction/wall/small_64x64: 1136 320
 :geoo/construction/wall/small_64x64: 1200 320
 :geoo/construction/wall/small_brick3: 112 296
