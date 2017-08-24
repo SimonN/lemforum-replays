@@ -1,4 +1,4 @@
-$FILENAME single/lemforum/Quirky/settingafundament.txt
+$FILENAME single/lemforum/Quirky/cubicinterpolation.txt
 $BUILT_REQUIRED 2012-05-30 19:43:15
 #VERSION_REQUIRED 2015080900
 
