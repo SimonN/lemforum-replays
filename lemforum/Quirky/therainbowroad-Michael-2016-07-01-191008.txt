@@ -1,4 +1,4 @@
-$FILENAME single/lemforum/Cunning/therainbowroad.txt
+$FILENAME single/lemforum/Quirky/therainbowroad.txt
 $LEVEL_BUILT_REQUIRED 2012-05-30 19:10:16
 $GAME_VERSION_REQUIRED 0.6.3
 
