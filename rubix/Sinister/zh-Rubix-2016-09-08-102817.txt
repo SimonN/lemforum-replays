@@ -1,4 +1,4 @@
-$FILENAME single/rubix/Pleasant/looping.txt
+$FILENAME single/rubix/Sinister/looping.txt
 $LEVEL_BUILT_REQUIRED 2014-02-28 15:26:06
 $GAME_VERSION_REQUIRED 0.6.14
 

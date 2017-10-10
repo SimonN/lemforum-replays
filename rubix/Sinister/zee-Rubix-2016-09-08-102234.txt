@@ -1,4 +1,4 @@
-$FILENAME single/rubix/Pleasant/thearmory.txt
+$FILENAME single/rubix/Sinister/thearmory.txt
 $LEVEL_BUILT_REQUIRED 2014-02-27 22:50:34
 $GAME_VERSION_REQUIRED 0.6.14
 

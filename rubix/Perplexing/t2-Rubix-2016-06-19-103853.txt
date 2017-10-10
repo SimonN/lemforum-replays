@@ -1,4 +1,4 @@
-$FILENAME single/rubix/Pleasant/findingthesafety.txt
+$FILENAME single/rubix/Perplexing/findingthesafety.txt
 $LEVEL_BUILT_REQUIRED 2015-08-28 17:34:09
 $GAME_VERSION_REQUIRED 0.6.1
 

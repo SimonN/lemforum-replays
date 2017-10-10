@@ -1,4 +1,4 @@
-$FILENAME single/rubix/Sinister/setusfree.txt
+$FILENAME single/rubix/Perplexing/setusfree.txt
 $LEVEL_BUILT_REQUIRED 2016-09-08 17:10:50
 $GAME_VERSION_REQUIRED 0.6.14
 

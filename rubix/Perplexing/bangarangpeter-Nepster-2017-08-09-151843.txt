@@ -1,4 +1,4 @@
-$FILENAME single/rubix/Nightmare/bangarangpeter.txt
+$FILENAME single/rubix/Perplexing/bangarangpeter.txt
 $LEVEL_BUILT_REQUIRED 2017-08-09 03:02:02
 $GAME_VERSION_REQUIRED 0.7.16
 

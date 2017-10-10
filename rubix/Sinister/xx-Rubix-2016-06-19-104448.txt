@@ -1,4 +1,4 @@
-$FILENAME single/rubix/Pleasant/scaredofheights.txt
+$FILENAME single/rubix/Sinister/scaredofheights.txt
 $LEVEL_BUILT_REQUIRED 2014-02-27 14:41:03
 $GAME_VERSION_REQUIRED 0.6.1
 

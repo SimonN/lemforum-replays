@@ -1,4 +1,4 @@
-$FILENAME single/rubix/Pleasant/thenewlixcaper.txt
+$FILENAME single/rubix/Sinister/thenewlixcaper.txt
 $LEVEL_BUILT_REQUIRED 2015-08-21 10:44:43
 $GAME_VERSION_REQUIRED 0.6.14
 

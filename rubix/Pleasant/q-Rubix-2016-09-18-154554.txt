@@ -1,4 +1,4 @@
-$FILENAME single/rubix/Sinister/withahopskipanda.txt
+$FILENAME single/rubix/Pleasant/withahopskipanda.txt
 $LEVEL_BUILT_REQUIRED 2016-09-10 17:31:52
 $GAME_VERSION_REQUIRED 0.6.14
 

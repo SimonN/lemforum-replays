@@ -1,4 +1,4 @@
-$FILENAME single/rubix/Perplexing/astoughasyouwant.txt
+$FILENAME single/rubix/Nightmare/astoughasyouwant.txt
 $LEVEL_BUILT_REQUIRED 2017-08-09 17:11:01
 $GAME_VERSION_REQUIRED 0.7.16
 

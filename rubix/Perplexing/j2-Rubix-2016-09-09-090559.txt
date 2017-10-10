@@ -1,4 +1,4 @@
-$FILENAME single/rubix/Sinister/burningforyou.txt
+$FILENAME single/rubix/Perplexing/burningforyou.txt
 $LEVEL_BUILT_REQUIRED 2016-09-09 09:02:54
 $GAME_VERSION_REQUIRED 0.6.14
 

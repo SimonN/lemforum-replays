@@ -1,4 +1,4 @@
-$FILENAME single/rubix/Sinister/stonecrazy.txt
+$FILENAME single/rubix/Perplexing/stonecrazy.txt
 $LEVEL_BUILT_REQUIRED 2014-02-28 22:44:27
 $GAME_VERSION_REQUIRED 0.6.14
 
