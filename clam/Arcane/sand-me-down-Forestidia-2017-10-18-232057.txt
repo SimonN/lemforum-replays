@@ -1,0 +1,108 @@
+$FILENAME single/clam/Arcane/sand-me-down.txt
+$LEVEL_BUILT_REQUIRED 2014-06-08 16:04:23
+$GAME_VERSION_REQUIRED 0.9.1
+
++PLAYER 0 Garden Forestidia
+
+! 76 0 ASSIGN=CLIMBER 0
+! 218 0 ASSIGN=MINER 0
+! 601 0 ASSIGN=FLOATER 0
+! 630 0 ASSIGN=CLIMBER 18
+! 631 0 ASSIGN=CLIMBER 42
+! 872 0 ASSIGN=MINER 42
+! 874 0 ASSIGN=FLOATER 18
+! 875 0 ASSIGN=FLOATER 42
+! 896 0 ASSIGN=MINER 18
+! 931 0 ASSIGN=MINER 42
+! 1011 0 ASSIGN=MINER 18
+! 1094 0 ASSIGN=CLIMBER 41
+! 1124 0 ASSIGN=MINER 41
+! 1235 0 ASSIGN=MINER 18
+! 1236 0 ASSIGN=CLIMBER 32
+! 1327 0 ASSIGN=MINER 32
+
+$BUILT 2014-06-08 16:04:23
+$AUTHOR Clam
+$ENGLISH Sand me down
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 640
+#SIZE_Y 400
+
+#INITIAL 50
+#REQUIRED 50
+#SPAWN_INTERVAL 10
+
+#CLIMBER 5
+#FLOATER 3
+#MINER 8
+#EXPLODER2 0
+
+:matt/beach/Hatch.H: 16 96
+
+:matt/beach/goal.G: 552 256
+
+:matt/water.W: 112 368
+
+:matt/beach/decor/umbrella_red: 304 240 frr
+$BEGIN_TILE_GROUP 0
+:matt/beach/daytime/06: 594 260
+:matt/beach/decor/grass09: 584 202
+:matt/beach/daytime/00: 328 216
+:matt/beach/daytime/03: 594 252 rr
+:matt/beach/daytime/03: 664 250
+:matt/beach/daytime/03: 124 82
+:matt/beach/daytime/00: 160 106
+:matt/beach/daytime/06: 0 128
+:matt/beach/daytime/06: 2 86
+:matt/beach/daytime/14: 224 0
+:matt/beach/daytime/13: 176 32
+:matt/beach/decor/umbrella_red: 484 198
+:matt/beach/daytime/06: 534 240
+:matt/beach/daytime/06: 234 86 d
+:matt/beach/daytime/06: 30 268
+:matt/beach/daytime/06: 8 194
+:matt/beach/daytime/05: 162 120
+:matt/beach/daytime/05: 196 294 d
+:matt/beach/daytime/06: 244 272
+:matt/beach/daytime/06: 404 276
+:matt/beach/daytime/06: 378 246
+:matt/beach/daytime/04: 296 224 f
+:matt/beach/daytime/06: 288 240
+:matt/beach/daytime/15: 446 226 rrd
+:matt/beach/daytime/15: 436 234 rrd
+:matt/beach/daytime/15: 408 236 rrd
+:matt/beach/daytime/15: 426 240 rrd
+$END_TILE_GROUP
+:Group-0: -104 64
+:matt/beach/daytime/03: 524 114
+:matt/beach/daytime/06: 456 -16
+:matt/beach/daytime/06: 512 32
+:matt/beach/daytime/14: 424 68 fr
+:matt/beach/daytime/06: 528 -16
+:matt/beach/daytime/13: 448 -32 fr
+:matt/beach/daytime/06: 120 36
+:matt/beach/daytime/03: 184 32
+:matt/beach/daytime/06: 184 112 d
+:matt/beach/daytime/06: 424 14
+:matt/beach/daytime/06: 248 64 d
+:matt/beach/daytime/03: 248 48
+:matt/beach/daytime/03: 280 32
+:matt/beach/daytime/15: 172 150 d
+:matt/beach/daytime/15: 242 106 d
+:matt/beach/daytime/06: 342 40
+:matt/beach/daytime/06: 400 16
+:matt/beach/daytime/06: 284 82 d
+:matt/beach/decor/umbrella_yellow: -26 62
+:matt/beach/daytime/03: -74 142 frr
+:matt/beach/daytime/15: 128 204 rd
+:matt/beach/daytime/15: 239 197 rrrd
+:matt/beach/daytime/13: 164 296
+:matt/beach/daytime/02: 138 368 f
+:matt/beach/decor/umbrella_green: 198 198 frr
+:matt/beach/daytime/15: 160 160 d
+:matt/beach/daytime/15: 166 150 d
+:matt/beach/daytime/15: 174 146 d
+:matt/beach/daytime/15: 148 172 d
+:matt/beach/daytime/15: 312 302 rrd
+:matt/beach/daytime/15: 418 310 fd

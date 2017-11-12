@@ -1,0 +1,88 @@
+$FILENAME single/clam/Arcane/box-of-tricks.txt
+$LEVEL_BUILT_REQUIRED 2014-06-08 16:17:25
+$GAME_VERSION_REQUIRED 0.9.1
+
++PLAYER 0 Garden Forestidia
+
+! 1626 0 ASSIGN=DIGGER 59
+! 1644 0 ASSIGN=DIGGER 60
+! 1661 0 ASSIGN=DIGGER 61
+! 1702 0 ASSIGN=DIGGER 63
+! 1744 0 ASSIGN=DIGGER 65
+! 1786 0 ASSIGN=DIGGER 67
+! 1829 0 ASSIGN=DIGGER 69
+! 1871 0 ASSIGN=DIGGER 71
+! 1915 0 ASSIGN=DIGGER 73
+! 2083 0 ASSIGN=DIGGER 62
+! 2127 0 ASSIGN=DIGGER 64
+! 2174 0 ASSIGN=DIGGER 66
+! 2214 0 ASSIGN=DIGGER 68
+! 2355 0 ASSIGN=DIGGER 62
+! 2399 0 ASSIGN=DIGGER 64
+! 2446 0 ASSIGN=DIGGER 66
+! 2486 0 ASSIGN=DIGGER 68
+
+$BUILT 2014-06-08 16:17:25
+$AUTHOR Clam
+$ENGLISH Box of Tricks
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 640
+#SIZE_Y 400
+
+#INITIAL 80
+#REQUIRED 60
+#SPAWN_INTERVAL 25
+
+#DIGGER 20
+#EXPLODER2 0
+
+:matt/carnival/Hatch.H: 112 112
+
+:matt/carnival/Goal.G: 560 200
+
+:matt/carnival/56: -192 296
+:matt/carnival/56: -192 264
+:matt/carnival/56: -192 232
+:matt/carnival/56: -192 200
+:matt/carnival/58: 384 264
+:matt/carnival/50: 96 168
+:matt/carnival/50: 64 136
+:matt/carnival/49: 64 104
+:matt/carnival/49: 96 72
+:matt/carnival/57: 128 72
+:matt/carnival/57: 384 72
+:geoo/steel/16x16o.S: 440 256
+:geoo/steel/16x16o.S: 472 256
+:geoo/steel/16x16o.S: 504 256
+:geoo/steel/16x16o.S: 536 256
+:matt/carnival/25: 0 72
+:matt/carnival/43: 352 200
+:matt/carnival/03: 384 232
+:matt/carnival/55: 0 0
+:matt/carnival/55: 256 0
+:matt/carnival/55: 512 0
+:matt/carnival/25: 0 136
+:matt/carnival/24: 96 200
+:matt/carnival/24: 160 200
+:matt/carnival/24: 224 200
+:matt/carnival/24: 288 200
+:matt/carnival/24: 288 264
+:matt/carnival/24: 224 264
+:matt/carnival/24: 160 264
+:matt/carnival/24: 96 264
+:matt/carnival/55: 0 368
+:matt/carnival/55: 256 368
+:matt/carnival/55: 512 368
+:matt/carnival/15: 440 240
+:matt/carnival/15: 472 240
+:matt/carnival/15: 504 240
+:matt/carnival/15: 536 240
+:matt/carnival/58: 416 296
+:matt/carnival/03: 384 296
+:matt/carnival/57: 352 104
+:matt/carnival/57: 96 104
+:matt/carnival/57: 416 104
+:matt/carnival/24: 32 200
+:matt/carnival/24: 32 264
+:matt/carnival/01: 64 168

@@ -1,0 +1,124 @@
+$FILENAME single/clam/Insane/redlined.txt
+$LEVEL_BUILT_REQUIRED 2014-06-08 16:17:19
+$GAME_VERSION_REQUIRED 0.9.1
+
++PLAYER 0 Garden Forestidia
+
+! 74 0 ASSIGN=CUBER 0
+! 123 0 ASSIGN=PLATFORMER 1
+! 148 0 ASSIGN=CUBER 2
+! 318 0 ASSIGN=CUBER 1
+! 337 0 ASSIGN=CLIMBER 3
+! 405 0 ASSIGN=CUBER 3
+! 417 0 ASSIGN_LEFT=CLIMBER 9
+! 495 0 ASSIGN=PLATFORMER 9
+! 715 0 ASSIGN=CUBER 9
+! 743 0 ASSIGN_LEFT=CLIMBER 8
+! 926 0 ASSIGN=CUBER 8
+! 934 0 ASSIGN_LEFT=CLIMBER 5
+! 1045 0 ASSIGN=CUBER 5
+! 1111 0 ASSIGN_LEFT=CLIMBER 10
+! 1114 0 ASSIGN_LEFT=CLIMBER 6
+! 1143 0 ASSIGN_LEFT=CLIMBER 13
+! 1174 0 ASSIGN_LEFT=CLIMBER 7
+! 1175 0 ASSIGN_LEFT=CLIMBER 11
+! 1176 0 ASSIGN_LEFT=CLIMBER 14
+! 1178 0 ASSIGN_LEFT=CLIMBER 4
+! 1179 0 ASSIGN_LEFT=CLIMBER 12
+! 1368 0 ASSIGN=CUBER 10
+! 1380 0 ASSIGN=PLATFORMER 6
+! 1580 0 ASSIGN=PLATFORMER 6
+! 1765 0 ASSIGN=CUBER 6
+! 1885 0 ASSIGN=CUBER 13
+
+$BUILT 2014-06-08 16:17:19
+$AUTHOR Clam
+$ENGLISH Redlined
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 640
+#SIZE_Y 400
+#BACKGROUND_RED 191
+#BACKGROUND_GREEN 0
+#BACKGROUND_BLUE 0
+
+#INITIAL 15
+#REQUIRED 5
+#SPAWN_INTERVAL 35
+
+#CLIMBER 15
+#PLATFORMER 4
+#CUBER 10
+#EXPLODER2 0
+
+:geoo/abstract/hatch.H: 416 208
+
+:geoo/abstract/goal.G: 416 112
+
+:geoo/construction/Laser_vr_64.F: 392 346
+:geoo/construction/Laser_vr_64.F: 284 278
+:geoo/construction/Laser_hz_64.F: 414 196
+:geoo/construction/Laser_hz_64.F: 290 196
+:geoo/construction/Laser_hz_64.F: 294 180
+:geoo/construction/Laser_vr_64.F: 284 92
+:geoo/construction/Laser_vr_64.F: 48 214
+:geoo/construction/Laser_hz_64.F: 352 180
+:geoo/construction/Laser_vr_64.F: 284 58
+:geoo/construction/Laser_hz_64.F: 290 48
+:geoo/construction/Laser_hz_64.F: 330 48
+:geoo/construction/Laser_vr_64.F: 576 246
+:geoo/construction/Laser_vr_64.F: 576 206
+:geoo/construction/Laser_vr_64.F: 576 122
+:geoo/construction/Laser_vr_64.F: 576 58
+:geoo/construction/Laser_hz_64.F: 394 48
+:geoo/construction/Laser_hz_64.F: 458 48
+:geoo/construction/Laser_hz_64.F: 522 48
+:geoo/construction/Laser_vr_16.F: 284 186
+:geoo/construction/Laseremit_vrb_16.F: 392 384
+:geoo/construction/Laser_hz_64.F: 54 48
+:geoo/construction/Laser_vr_64.F: 48 58
+:geoo/construction/Laser_vr_64.F: 48 278
+:geoo/construction/Laser_hz_64.F: 54 336
+:geoo/construction/Laser_hz_64.F: 170 336
+:geoo/construction/Laser_vr_64.F: 224 282
+:geoo/construction/Laser_vr_64.F: 160 58
+:geoo/construction/Laser_vr_64.F: 160 92
+:geoo/construction/Laser_vr_64.F: 48 150
+:geoo/construction/Laser_vr_64.F: 224 230
+:geoo/construction/Laser_hz_64.F: 414 180
+:geoo/construction/Laser_hz_64.F: 106 48
+:geoo/construction/Laser_hz_64.F: 118 336
+:geoo/construction/Laser_hz_64.F: 166 150
+:geoo/construction/Laser_hz_64.F: 230 150
+:geoo/construction/Laser_vr_64.F: 456 346
+:geoo/construction/Laseremit_vrb_16.F: 456 384
+:geoo/construction/Laser_vr_64.F: 576 278
+:geoo/construction/Laser_vr_64.F: 284 226
+:geoo/construction/Laser_hz_64.F: 230 220
+:geoo/construction/Laser_vr_64.F: 48 86
+:geoo/construction/Laser_hz_64.F: 522 336
+:geoo/construction/Laser_hz_64.F: 354 196
+:geoo/construction/Laser_hz_64.F: 290 336
+:geoo/construction/Laser_hz_64.F: 462 336
+:geoo/construction/Laser_hz_64.F: 478 196
+:geoo/construction/Laser_hz_64.F: 478 180
+:geoo/construction/Laser_hz_64.F: 522 196
+:geoo/construction/Laser_hz_64.F: 522 180
+:geoo/construction/Laser_hz_64.F: 338 336
+
+:geoo/abstract/pipes/central0: 208 216
+:geoo/abstract/pipes/central0: 176 216
+:geoo/abstract/pipes/central0: 144 216
+:geoo/abstract/pipes/central0: 112 216
+:geoo/abstract/pipes/central0: 80 216
+:geoo/abstract/pipes/central0: 424 258
+:geoo/abstract/pipes/central0: 408 258
+:geoo/abstract/pipes/central0: 424 160
+:geoo/abstract/pipes/central0: 408 160
+:geoo/abstract/pipes/ends0: 72 216
+:geoo/abstract/pipes/ends0: 400 258
+:geoo/abstract/pipes/ends0: 400 160
+:geoo/abstract/pipes/ends0: 264 216 rr
+:geoo/abstract/pipes/ends0: 456 258 rr
+:geoo/abstract/pipes/ends0: 456 160 rr
+:geoo/abstract/pipes/central0: 232 216

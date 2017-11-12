@@ -1,0 +1,145 @@
+$FILENAME single/clam/Insane/house-of-horrors.txt
+$LEVEL_BUILT_REQUIRED 2016-01-31 12:51:25
+$GAME_VERSION_REQUIRED 0.9.1
+
++PLAYER 0 Garden Forestidia
+
+! 87 0 ASSIGN=CUBER 0
+! 144 0 ASSIGN=CUBER 1
+! 161 0 ASSIGN=CLIMBER 2
+! 223 0 ASSIGN=CUBER 2
+! 241 0 ASSIGN=CLIMBER 3
+! 319 0 ASSIGN=CUBER 3
+! 337 0 ASSIGN=CLIMBER 4
+! 431 0 ASSIGN=CUBER 4
+! 965 0 ASSIGN=CUBER 5
+! 1013 0 ASSIGN=CUBER 6
+! 1038 0 ASSIGN=CLIMBER 7
+! 1051 0 ASSIGN=CUBER 7
+! 1064 0 ASSIGN=CLIMBER 8
+! 1091 0 ASSIGN=CUBER 8
+! 1104 0 ASSIGN=CLIMBER 9
+! 1147 0 ASSIGN=CUBER 9
+! 1168 0 ASSIGN=CLIMBER 10
+! 1254 0 ASSIGN=CUBER 10
+! 1275 0 ASSIGN=CUBER 11
+! 1288 0 ASSIGN=CUBER 12
+! 1303 0 ASSIGN=CUBER 13
+! 1316 0 ASSIGN=CUBER 14
+! 1331 0 ASSIGN=CUBER 15
+! 1356 0 ASSIGN=CUBER 16
+! 1370 0 ASSIGN=CUBER 17
+! 1378 0 ASSIGN=CUBER 18
+! 1460 0 ASSIGN=CUBER 19
+! 1493 0 ASSIGN=CLIMBER 20
+! 1506 0 ASSIGN=CUBER 20
+! 1554 0 ASSIGN=CUBER 21
+! 1572 0 ASSIGN=CLIMBER 22
+! 1584 0 ASSIGN=CUBER 22
+! 1616 0 ASSIGN=CLIMBER 23
+! 1644 0 ASSIGN=CUBER 23
+! 1654 0 ASSIGN=CLIMBER 24
+! 1682 0 ASSIGN=CUBER 24
+! 1690 0 ASSIGN=CUBER 25
+! 1704 0 ASSIGN=CUBER 26
+! 1719 0 ASSIGN=CUBER 27
+! 1734 0 ASSIGN=CUBER 28
+! 1743 0 ASSIGN=CUBER 29
+! 1764 0 ASSIGN=CUBER 30
+! 1822 0 ASSIGN=CUBER 31
+! 1851 0 ASSIGN=CLIMBER 32
+! 1871 0 ASSIGN=CUBER 32
+! 1878 0 ASSIGN=CUBER 33
+! 1901 0 ASSIGN=CUBER 34
+! 1969 0 ASSIGN=CUBER 35
+! 2001 0 ASSIGN=CUBER 36
+! 2013 0 ASSIGN=CUBER 37
+
+$BUILT 2016-01-31 12:51:25
+$AUTHOR Clam
+$ENGLISH House of Horrors
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 640
+#SIZE_Y 400
+
+#INITIAL 100
+#REQUIRED 50
+#SPAWN_INTERVAL 8
+
+#CLIMBER 50
+#CUBER 50
+#EXPLODER2 0
+
+:matt/bricks/Hatch.H: 176 288
+
+:matt/bricks/Goal.G: 288 112
+
+:geoo/construction/Laseremit_hzl_16.F: 168 88
+:geoo/construction/Laseremit_hzr_16.F: 456 88
+:geoo/construction/Laser_hz_64.F: 184 88
+:geoo/construction/Laser_hz_64.F: 248 88
+:geoo/construction/Laser_hz_64.F: 312 88
+:geoo/construction/Laser_hz_64.F: 376 88
+:geoo/construction/Laser_hz_64.F: 392 88
+:geoo/sandstone/brazier.F: 168 232
+:geoo/sandstone/brazier.F: 184 232
+
+:matt/bricks/05b: 528 128
+:matt/bricks/04a: 208 224
+:matt/bricks/03a: 112 352
+:matt/bricks/03a: 176 352
+:matt/bricks/03a: 240 352
+:matt/bricks/03a: 272 352
+:matt/bricks/03a: 400 352
+:matt/bricks/03a: 464 352
+:matt/bricks/03a: 112 288
+:matt/bricks/03a: 464 288
+:matt/bricks/03a: 464 224
+:matt/bricks/03a: 112 224
+:matt/bricks/03a: 336 352
+:matt/bricks/02a: 176 256
+:matt/bricks/02a: 240 256
+:matt/bricks/02a: 336 256
+:matt/bricks/02a: 400 256
+:matt/bricks/01a: 176 336
+:matt/bricks/01a: 208 336
+:matt/bricks/03a: 112 160
+:matt/bricks/02a: 176 160
+:matt/bricks/02a: 240 160
+:matt/bricks/02a: 304 160
+:matt/bricks/03a: 464 160
+:matt/bricks/12a: 352 176
+:matt/bricks/12a: 368 192
+:matt/bricks/12a: 432 160
+:matt/bricks/12a: 448 176
+:matt/bricks/12a: 384 208
+:matt/bricks/12a: 384 224 d
+:matt/bricks/04b: 496 64
+:matt/bricks/05b: 432 64
+:matt/bricks/04b: 432 0
+:matt/bricks/06b: 144 64
+:matt/bricks/07b: 144 0
+:matt/bricks/07b: 80 64
+:matt/bricks/07b: 16 128
+:matt/bricks/03b: 304 0
+:matt/bricks/03b: 368 0
+:matt/bricks/03b: 240 0
+:matt/bricks/03b: 208 0
+:matt/bricks/05b: 400 0
+:matt/bricks/04b: 464 0
+:matt/bricks/05b: 464 64
+:matt/bricks/04b: 528 64
+:matt/bricks/04b: 592 128
+:matt/bricks/07b: 112 0
+:matt/bricks/06b: 176 0
+:matt/bricks/07b: 48 64
+:matt/bricks/06b: 112 64
+:matt/bricks/07b: -16 128
+:matt/bricks/06b: 48 128
+:matt/bricks/04b: 560 128
+:matt/bricks/02: 528 368
+:matt/bricks/02: 592 368
+:matt/bricks/02: 48 368
+:matt/bricks/02: -16 368
+:matt/bricks/01a: 416 160

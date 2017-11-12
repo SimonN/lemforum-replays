@@ -1,0 +1,144 @@
+$FILENAME single/clam/Insane/pick-me-up.txt
+$LEVEL_BUILT_REQUIRED 0000-00-00 00:00:00
+$GAME_VERSION_REQUIRED 0.9.2
+
++PLAYER 0 Garden geoo
+
+! 76 0 ASSIGN=CLIMBER 0
+! 95 0 ASSIGN=CLIMBER 1
+! 107 0 ASSIGN=CLIMBER 2
+! 118 0 ASSIGN=CLIMBER 3
+! 128 0 ASSIGN=CLIMBER 4
+! 139 0 ASSIGN=CLIMBER 5
+! 154 0 ASSIGN=CLIMBER 6
+! 169 0 ASSIGN=CLIMBER 7
+! 187 0 ASSIGN=CLIMBER 8
+! 204 0 ASSIGN=CLIMBER 9
+! 253 0 ASSIGN=MINER 0
+! 269 0 ASSIGN=BUILDER 1
+! 290 0 ASSIGN=MINER 2
+! 307 0 ASSIGN=MINER 3
+! 323 0 ASSIGN=MINER 4
+! 340 0 ASSIGN=MINER 5
+! 357 0 ASSIGN=MINER 6
+! 375 0 ASSIGN=MINER 7
+! 392 0 ASSIGN=MINER 8
+! 409 0 ASSIGN=MINER 9
+! 458 0 ASSIGN=WALKER 1
+! 469 0 ASSIGN=MINER 1
+! 498 0 ASSIGN=WALKER 1
+! 612 0 ASSIGN=WALKER 1
+! 645 0 ASSIGN=PLATFORMER 1
+! 729 0 ASSIGN=MINER 1
+! 1071 0 ASSIGN=WALKER 1
+! 1072 0 ASSIGN=WALKER 1
+! 1078 0 ASSIGN=MINER 1
+! 1103 0 ASSIGN=WALKER 1
+! 1276 0 ASSIGN=MINER 1
+! 1340 0 ASSIGN=WALKER 1
+! 1341 0 ASSIGN=WALKER 1
+! 1347 0 ASSIGN=MINER 1
+! 1372 0 ASSIGN=WALKER 1
+! 1555 0 ASSIGN=MINER 1
+! 1929 0 ASSIGN=MINER 1
+! 1944 0 ASSIGN=WALKER 1
+! 2135 0 ASSIGN=MINER 1
+! 2286 0 ASSIGN=BASHER 10
+! 2504 0 ASSIGN=MINER 10
+
+$BUILT 2014-06-08 16:18:11
+$AUTHOR Clam
+$ENGLISH Pick me up
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 640
+#SIZE_Y 400
+
+#INITIAL 20
+#REQUIRED 20
+#SPAWN_INTERVAL 15
+
+#WALKER 10
+#CLIMBER 10
+#BUILDER 1
+#PLATFORMER 1
+#BASHER 1
+#MINER 20
+#EXPLODER2 0
+
+:matt/bricks/Hatch.H: 128 208
+
+:matt/bricks/Goal.G: 576 144
+
+:matt/bricks/03a: 0 128
+:matt/bricks/03a: 256 192
+:matt/bricks/03a: 256 160
+:matt/bricks/03a: 320 192
+:matt/bricks/03a: 320 160
+:matt/bricks/03a: 0 192
+:matt/bricks/03: 0 256
+:matt/bricks/03b: -16 80
+:matt/bricks/03: 64 256
+:matt/bricks/03b: 48 80
+:matt/bricks/03: 128 256
+:matt/bricks/03b: 112 80
+:matt/bricks/03: 192 256
+:matt/bricks/03b: 176 80
+:matt/bricks/03: 256 256
+:matt/bricks/03b: 240 80
+:matt/bricks/03: 320 256
+:matt/bricks/03b: 304 80
+:matt/bricks/03: 384 256
+:matt/bricks/03b: 368 80
+:matt/bricks/03: 448 256
+:matt/bricks/03b: 432 80
+:matt/bricks/03: 512 256
+:matt/bricks/03b: 496 80
+:matt/bricks/03: 576 256
+:matt/bricks/03b: 560 80
+:matt/bricks/03: 0 320
+:matt/bricks/03: 64 320
+:matt/bricks/03: 128 320
+:matt/bricks/03: 192 320
+:matt/bricks/03: 256 320
+:matt/bricks/03: 320 320
+:matt/bricks/03: 384 320
+:matt/bricks/03: 448 320
+:matt/bricks/03: 512 320
+:matt/bricks/03: 576 320
+:matt/bricks/03b: -16 16
+:matt/bricks/03b: 48 16
+:matt/bricks/03b: 112 16
+:matt/bricks/03b: 176 16
+:matt/bricks/03b: 240 16
+:matt/bricks/03b: 304 16
+:matt/bricks/03b: 368 16
+:matt/bricks/03b: 432 16
+:matt/bricks/03b: 496 16
+:matt/bricks/03b: 560 16
+:geoo/steel/64x64.S: 576 192
+:matt/bricks/03: 0 352
+:matt/bricks/03: 64 352
+:matt/bricks/03: 128 352
+:matt/bricks/03: 192 352
+:matt/bricks/03: 256 352
+:matt/bricks/03: 320 352
+:matt/bricks/03: 384 352
+:matt/bricks/03: 448 352
+:matt/bricks/03: 512 352
+:matt/bricks/03: 576 352
+:matt/bricks/03b: 592 80
+:matt/bricks/03b: 592 16
+:matt/bricks/03b: -16 -16
+:matt/bricks/03b: 48 -16
+:matt/bricks/03b: 112 -16
+:matt/bricks/03b: 176 -16
+:matt/bricks/03b: 240 -16
+:matt/bricks/03b: 304 -16
+:matt/bricks/03b: 368 -16
+:matt/bricks/03b: 432 -16
+:matt/bricks/03b: 496 -16
+:matt/bricks/03b: 560 -16
+:matt/bricks/03b: 592 -16
+:matt/marble/21: 256 150 d
+:matt/marble/21: 320 150 d

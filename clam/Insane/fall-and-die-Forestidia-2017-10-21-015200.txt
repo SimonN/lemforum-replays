@@ -1,0 +1,154 @@
+$FILENAME single/clam/Insane/fall-and-die.txt
+$LEVEL_BUILT_REQUIRED 2014-06-08 16:19:58
+$GAME_VERSION_REQUIRED 0.9.1
+
++PLAYER 0 Garden Forestidia
+
+! 65 0 ASSIGN=CLIMBER 0
+! 126 0 ASSIGN=DIGGER 1
+! 354 0 ASSIGN=CLIMBER 4
+! 373 0 ASSIGN=CLIMBER 6
+! 374 0 ASSIGN=CLIMBER 3
+! 375 0 ASSIGN=CLIMBER 2
+! 405 0 ASSIGN=FLOATER 1
+! 406 0 ASSIGN=FLOATER 5
+! 407 0 ASSIGN=FLOATER 7
+! 445 0 ASSIGN=FLOATER 8
+! 503 0 ASSIGN=FLOATER 9
+! 522 0 ASSIGN=FLOATER 0
+! 619 0 ASSIGN=BUILDER 0
+! 645 0 ASSIGN=BUILDER 0
+! 1418 0 ASSIGN=BUILDER 0
+! 1544 0 ASSIGN=MINER 0
+
+$BUILT 2014-06-08 16:19:58
+$AUTHOR Clam
+$ENGLISH FALL AND DIE
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 640
+#SIZE_Y 400
+
+#INITIAL 10
+#REQUIRED 10
+#SPAWN_INTERVAL 48
+
+#CLIMBER 5
+#FLOATER 6
+#BUILDER 3
+#MINER 1
+#DIGGER 1
+#EXPLODER2 0
+
+:matt/earth/Hatch.H: 384 96
+
+:matt/earth/Goal.G: 92 276
+
+:geoo/construction/sawblade_medium.F: 304 112
+:matt/water.W: 196 368
+:matt/water.W: 164 368
+:matt/water.W: 132 368
+:matt/water.W: 100 368
+:matt/water.W: 68 368
+:matt/water.W: 36 368
+:matt/water.W: 4 368
+:matt/water.W: -12 368
+
+:matt/earth/05: 246 274
+$BEGIN_TILE_GROUP 0
+:matt/earth/25: 270 42
+:matt/earth/27: 308 40
+:matt/earth/17: 0 282
+:matt/earth/14: 258 104
+:matt/earth/14: 258 94
+:matt/earth/05: 358 0
+:matt/earth/03: 232 14
+:matt/earth/18: 356 24
+:matt/earth/05: 338 36
+:matt/earth/03: 84 150
+:matt/earth/03: 160 150
+:matt/earth/03: 146 150
+:matt/earth/03: 212 152
+:matt/earth/03: 116 150
+:matt/earth/10: 68 150
+:matt/earth/18: 252 146
+:matt/earth/18: 268 142
+:matt/earth/10: 212 152
+:matt/steel/64x64.S: 68 248 d
+:matt/steel/64x64.S: 116 216 d
+:matt/steel/64x64.S: 180 216 d
+:matt/steel/64x64.S: 244 216 d
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 1
+:matt/earth/03: 132 184 f
+:geoo/construction/rod_steel/straight_diagu32.S: 60 24
+:Group-0: 0 0
+:matt/steel/64x64.S: 308 216 d
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 2
+:matt/earth/03: 256 184 f
+:Group-1: 12 0
+:matt/earth/17: 0 352
+:matt/steel/32x64.S: 18 282 d
+:matt/steel/32x64.S: 18 306 d
+$END_TILE_GROUP
+:Group-2: 224 -8
+:matt/earth/29: 424 24
+:matt/earth/28: 400 12
+:matt/earth/19: 44 340 rrr
+:matt/earth/20: 314 70
+:matt/earth/14: 168 96
+:matt/earth/26: 456 30
+:matt/earth/03: 224 376
+:matt/earth/03: 320 376
+:matt/earth/03: 416 376
+:matt/earth/03: 512 376
+:matt/earth/20: 40 338
+:matt/earth/19: 164 340 rrr
+:matt/earth/20: 108 338 frr
+:matt/earth/10: 442 -68
+:matt/earth/00: 414 -30
+:matt/earth/00: 368 -48
+:matt/earth/26: 144 216
+:matt/earth/26: 480 44
+:matt/steel/32x16.S: 210 346 d
+:matt/earth/09: 352 372
+:matt/earth/09: 390 372
+:matt/earth/09: 436 374
+:matt/earth/09: 480 372
+:matt/earth/09: 520 374
+:matt/earth/09: 542 370
+:matt/earth/05: 592 160
+:matt/steel/32x64.S: 210 282 d
+:matt/steel/32x64.S: 306 314 d
+:matt/steel/32x64.S: 228 298 d
+:matt/earth/09: 306 372
+:matt/steel/16x32.S: 212 368 d
+:matt/steel/32x32.S: 272 24 d
+:geoo/construction/rod_steel/straight32.S: 328 16 rrr
+:geoo/construction/rod_steel/straight32.S: 304 40 frr
+:geoo/construction/rod_steel/straight32.S: 304 16 frr
+:geoo/construction/rod_steel/straight32.S: 280 16 frr
+:geoo/construction/rod_steel/edge_lu.S: 328 40
+:geoo/construction/rod_steel/edge_ld.S: 328 16
+:geoo/construction/rod_steel/end_rect.S: 304 40
+:geoo/construction/rod_steel/end_rect.S: 280 16
+:matt/steel/16x32.S: 350 208 d
+:geoo/steel/32x32o.S: 228 368
+:geoo/steel/32x16o.S: 260 384
+:geoo/steel/32x16o.S: 292 384
+:geoo/steel/32x32o.S: 304 48
+:geoo/steel/32x64o.S: 304 80
+:geoo/steel/32x64o.S: 222 144
+:geoo/steel/64x32o.S: 222 208
+:geoo/steel/64x32o.S: 286 208
+:geoo/steel/64x32o.S: 158 144
+:geoo/steel/64x64o.S: 158 176
+:geoo/steel/64x64o.S: 304 144
+:geoo/steel/64x64o.S: 576 144
+:matt/earth/23: 485 67 rd
+:matt/earth/23: 484 65 rd
+:matt/earth/23: 493 73 rd
+:matt/earth/22: 450 68 d
+:matt/earth/21: 410 70
+:matt/earth/23: 461 50 rd

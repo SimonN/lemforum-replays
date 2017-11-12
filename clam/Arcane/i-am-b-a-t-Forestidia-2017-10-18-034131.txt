@@ -1,0 +1,113 @@
+$FILENAME single/clam/Arcane/i-am-b-a-t.txt
+$LEVEL_BUILT_REQUIRED 2014-06-08 16:16:45
+$GAME_VERSION_REQUIRED 0.9.1
+
++PLAYER 0 Garden Forestidia
+
+! 869 0 ASSIGN=BATTER 2
+! 919 0 ASSIGN=DIGGER 7
+! 926 0 ASSIGN=DIGGER 17
+! 933 0 ASSIGN=BATTER 3
+! 935 0 ASSIGN=DIGGER 12
+! 974 0 ASSIGN=BATTER 4
+! 982 0 ASSIGN=DIGGER 8
+! 989 0 ASSIGN=DIGGER 13
+! 996 0 ASSIGN=DIGGER 18
+! 1049 0 ASSIGN=DIGGER 9
+! 1059 0 ASSIGN=DIGGER 14
+! 1474 0 ASSIGN=BATTER 7
+! 1477 0 ASSIGN=BATTER 17
+! 1478 0 ASSIGN=BATTER 12
+! 1479 0 ASSIGN=BATTER 8
+! 1480 0 ASSIGN=BATTER 13
+! 1504 0 ASSIGN=BATTER 9
+
+$BUILT 2014-06-08 16:16:45
+$AUTHOR Clam
+$ENGLISH I Am B.A.T.
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 640
+#SIZE_Y 400
+
+#INITIAL 20
+#REQUIRED 20
+#SPAWN_INTERVAL 38
+
+#DIGGER 10
+#BATTER 10
+#EXPLODER2 0
+
+:matt/bricks/Hatch.H: 128 192
+
+:matt/bricks/Goal.G: 448 192
+
+:matt/water.W: 256 304
+:matt/water.W: 288 304
+:matt/water.W: 320 304
+:matt/water.W: 352 304
+
+:matt/bricks/03b: 256 240
+:matt/bricks/03b: 320 240
+:matt/bricks/01a: 224 288
+:matt/bricks/04a: 192 240
+:matt/bricks/03a: 64 240
+:matt/bricks/01: 384 288
+:matt/bricks/03: 448 240
+:matt/bricks/03a: 16 192
+:matt/bricks/03a: 0 240
+:matt/bricks/07: 384 240
+:matt/bricks/03: 512 240
+:matt/bricks/03: 560 192
+:geoo/steel/32x32o.S: 224 304
+:geoo/steel/32x32o.S: 384 304
+:matt/bricks/03a: 0 304
+:matt/bricks/03a: 64 304
+:matt/bricks/03a: 160 304
+:matt/bricks/03: 416 304
+:matt/bricks/03: 480 304
+:matt/bricks/03: 512 304
+:matt/bricks/03b: 256 176
+:matt/bricks/03b: 320 176
+:matt/bricks/03b: 256 144
+:matt/bricks/03b: 320 144
+:matt/bricks/04a: 80 192
+:matt/bricks/10a: 80 160
+:matt/bricks/03a: 16 128
+:matt/bricks/03a: 128 240
+:matt/bricks/03a: 128 304
+:matt/bricks/03: 576 240
+:matt/bricks/03: 576 304
+:matt/bricks/07: 496 192
+:matt/bricks/08: 512 144
+:matt/bricks/02: 448 144
+:matt/bricks/03: 560 128
+:geoo/steel/64x64o.S: 224 336
+:geoo/steel/64x64o.S: 288 336
+:geoo/steel/64x64o.S: 352 336
+:matt/bricks/03a: 0 336
+:matt/bricks/03a: 64 336
+:matt/bricks/03a: 160 336
+:matt/bricks/03a: 128 336
+:matt/bricks/03: 416 336
+:matt/bricks/03: 480 336
+:matt/bricks/03: 512 336
+:matt/bricks/03: 576 336
+:matt/bricks/10a: 96 144
+:matt/bricks/08: 528 160
+:matt/bricks/02a: 112 160
+:matt/bricks/02: 464 160
+:matt/bricks/12a: 160 176
+:matt/bricks/12: 448 176
+:matt/bricks/01: 160 192 d
+:matt/bricks/01: 448 192 d
+:matt/bricks/03: 592 192
+:matt/bricks/03: 592 128
+:matt/bricks/03a: -16 128
+:matt/bricks/03a: -16 176
+:matt/bricks/03a: 16 96
+:matt/bricks/03a: -16 96
+:matt/bricks/03: 560 96
+:matt/bricks/03: 592 96
+:matt/bricks/01a: 128 144
+:matt/bricks/02a: 128 144

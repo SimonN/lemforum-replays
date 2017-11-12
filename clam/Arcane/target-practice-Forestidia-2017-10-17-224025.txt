@@ -1,0 +1,182 @@
+$FILENAME single/clam/Arcane/target-practice.txt
+$LEVEL_BUILT_REQUIRED 2014-06-08 16:03:34
+$GAME_VERSION_REQUIRED 0.9.1
+
++PLAYER 0 Garden Forestidia
+
+! 71 0 ASSIGN=MINER 0
+! 94 0 ASSIGN=MINER 1
+! 105 0 ASSIGN=MINER 0
+! 129 0 ASSIGN=MINER 1
+! 525 0 ASSIGN=MINER 16
+! 740 0 ASSIGN=MINER 16
+! 752 0 ASSIGN=CLIMBER 18
+! 754 0 ASSIGN=CLIMBER 14
+! 755 0 ASSIGN=CLIMBER 6
+! 756 0 ASSIGN=CLIMBER 10
+! 757 0 ASSIGN=CLIMBER 2
+! 760 0 ASSIGN=CLIMBER 16
+! 763 0 ASSIGN=CLIMBER 3
+! 764 0 ASSIGN=CLIMBER 19
+! 765 0 ASSIGN=CLIMBER 15
+! 766 0 ASSIGN=CLIMBER 7
+! 767 0 ASSIGN=CLIMBER 11
+! 853 0 ASSIGN=MINER 15
+! 1015 0 ASSIGN=MINER 15
+! 1094 0 ASSIGN=CUBER 18
+! 1136 0 ASSIGN=CUBER 3
+! 1311 0 ASSIGN=MINER 6
+! 1473 0 ASSIGN=CUBER 6
+! 1594 0 ASSIGN=CUBER 15
+
+$BUILT 2014-06-08 16:03:34
+$AUTHOR Clam
+$ENGLISH Target Practice
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 640
+#SIZE_Y 400
+#BACKGROUND_RED 0
+#BACKGROUND_GREEN 64
+#BACKGROUND_BLUE 0
+
+#INITIAL 20
+#REQUIRED 16
+#SPAWN_INTERVAL 25
+
+#CLIMBER 12
+#MINER 11
+#CUBER 4
+#EXPLODER2 0
+
+:geoo/abstract/hatch.H: 192 72
+:geoo/abstract/hatch.H: 416 72 r
+:geoo/abstract/hatch.H: 192 296
+:geoo/abstract/hatch.H: 416 296 r
+
+:geoo/abstract/goal.G: 304 184
+
+:geoo/abstract/cvblocks/030: 256 136
+:geoo/abstract/pipes/corner0: 256 136 r
+:geoo/abstract/cvblocks/030: 256 232
+:geoo/abstract/pipes/corner0: 256 256
+:geoo/abstract/cvblocks/030: 352 232
+:geoo/abstract/pipes/corner0: 376 256 rrr
+:geoo/abstract/cvblocks/030: 352 136
+:geoo/abstract/pipes/corner0: 376 136 rr
+:geoo/abstract/cvblocks/045: 288 104
+:geoo/abstract/pipes/central0: 264 136
+:geoo/abstract/pipes/central0: 328 136
+:geoo/abstract/pipes/central0: 344 136
+:geoo/abstract/cvblocks/045: 288 232
+:geoo/abstract/pipes/central0: 264 256
+:geoo/abstract/pipes/central0: 328 256
+:geoo/abstract/pipes/central0: 344 256
+:geoo/abstract/cvblocks/045: 224 168
+:geoo/abstract/pipes/central0: 256 144 rrr
+:geoo/abstract/pipes/central0: 256 176 rrr
+:geoo/abstract/pipes/central0: 256 208 rrr
+:geoo/abstract/pipes/central0: 256 224 rrr
+:geoo/abstract/cvblocks/045: 352 168
+:geoo/abstract/pipes/central0: 376 144 rrr
+:geoo/abstract/pipes/central0: 376 176 rrr
+:geoo/abstract/pipes/central0: 376 208 rrr
+:geoo/abstract/pipes/central0: 376 224 rrr
+:geoo/abstract/cvblocks/030: 160 328 fr
+:geoo/abstract/pipes/corner0: 152 360
+:geoo/abstract/cvblocks/030: 160 40 fr
+:geoo/abstract/pipes/corner0: 152 32 r
+:geoo/abstract/cvblocks/030: 448 40 fr
+:geoo/abstract/pipes/corner0: 480 32 rr
+:geoo/abstract/cvblocks/030: 448 328 fr
+:geoo/abstract/pipes/corner0: 480 360 rrr
+:geoo/abstract/pipes/central0: 152 40 rrr
+:geoo/abstract/pipes/central0: 152 72 rrr
+:geoo/abstract/pipes/central0: 152 104 rrr
+:geoo/abstract/pipes/central0: 152 136 rrr
+:geoo/abstract/pipes/central0: 152 168 rrr
+:geoo/abstract/pipes/central0: 152 200 rrr
+:geoo/abstract/pipes/central0: 152 232 rrr
+:geoo/abstract/pipes/central0: 152 264 rrr
+:geoo/abstract/pipes/central0: 152 296 rrr
+:geoo/abstract/pipes/central0: 152 328 rrr
+:geoo/abstract/pipes/central0: 480 328 rrr
+:geoo/abstract/pipes/central0: 480 296 rrr
+:geoo/abstract/pipes/central0: 480 264 rrr
+:geoo/abstract/pipes/central0: 480 232 rrr
+:geoo/abstract/pipes/central0: 480 104 rrr
+:geoo/abstract/pipes/central0: 480 136 rrr
+:geoo/abstract/pipes/central0: 480 168 rrr
+:geoo/abstract/pipes/central0: 480 200 rrr
+:geoo/abstract/pipes/central0: 480 40 rrr
+:geoo/abstract/pipes/central0: 480 72 rrr
+:geoo/abstract/cvblocks/030: 416 40
+:geoo/abstract/pipes/central0: 448 32 rr
+:geoo/abstract/pipes/central0: 416 32 rr
+:geoo/abstract/pipes/central0: 384 32 rr
+:geoo/abstract/pipes/central0: 352 32 rr
+:geoo/abstract/pipes/central0: 224 32 rr
+:geoo/abstract/pipes/central0: 256 32 rr
+:geoo/abstract/pipes/central0: 320 32 rr
+:geoo/abstract/cvblocks/030: 192 40
+:geoo/abstract/pipes/central0: 160 32 rr
+:geoo/abstract/pipes/central0: 192 32 rr
+:geoo/abstract/cvblocks/030: 416 328
+:geoo/abstract/pipes/central0: 448 360 rr
+:geoo/abstract/pipes/central0: 416 360 rr
+:geoo/abstract/pipes/central0: 384 360 rr
+:geoo/abstract/pipes/central0: 352 360 rr
+:geoo/abstract/pipes/central0: 224 360 rr
+:geoo/abstract/pipes/central0: 256 360 rr
+:geoo/abstract/pipes/central0: 320 360 rr
+:geoo/abstract/cvblocks/030: 192 328
+:geoo/abstract/pipes/central0: 160 360 rr
+:geoo/abstract/pipes/central0: 192 360 rr
+:geoo/abstract/pipes/endr0: 316 232 rrr
+:geoo/abstract/pipes/central0: 316 240 rrr
+:geoo/abstract/pipes/central0: 296 256
+:geoo/abstract/cvblocks/045: 288 296 fr
+:geoo/abstract/pipes/central0: 316 270 rrr
+:geoo/abstract/pipes/central0: 316 302 rrr
+:geoo/abstract/pipes/central0: 316 334 rrr
+:geoo/abstract/pipes/central0: 288 360 rr
+:geoo/abstract/pipes/central0: 316 360 rrr
+:geoo/abstract/pipes/endr0: 316 392 fr
+:geoo/abstract/pipes/central0: 316 128 rrr
+:geoo/abstract/pipes/central0: 296 136
+:geoo/abstract/pipes/endr0: 316 160 fr
+:geoo/abstract/pipes/central0: 316 104 rrr
+:geoo/abstract/cvblocks/045: 288 40 fr
+:geoo/abstract/pipes/central0: 316 72 rrr
+:geoo/abstract/pipes/central0: 316 40 rrr
+:geoo/abstract/pipes/central0: 288 32 rr
+:geoo/abstract/pipes/central0: 316 8 rrr
+:geoo/abstract/pipes/endr0: 316 0 rrr
+:geoo/abstract/pipes/central0: 360 196 rr
+:geoo/abstract/pipes/endr0: 352 196 rr
+:geoo/abstract/cvblocks/045: 416 168 fr
+:geoo/abstract/pipes/central0: 390 196 rr
+:geoo/abstract/pipes/central0: 422 196 rr
+:geoo/abstract/pipes/central0: 454 196 rr
+:geoo/abstract/pipes/central0: 480 196 rr
+:geoo/abstract/pipes/endr0: 512 196 f
+:geoo/abstract/pipes/central0: 128 196 rr
+:geoo/abstract/pipes/endr0: 120 196 rr
+:geoo/abstract/cvblocks/045: 160 168 fr
+:geoo/abstract/pipes/central0: 160 196 rr
+:geoo/abstract/pipes/central0: 192 196 rr
+:geoo/abstract/pipes/central0: 224 196 rr
+:geoo/abstract/pipes/central0: 248 196 rr
+:geoo/abstract/pipes/endr0: 280 196 f
+:geoo/abstract/cvblocks/030: 160 72
+:geoo/abstract/cvblocks/030: 448 296
+:geoo/abstract/cvblocks/030: 160 296
+:geoo/abstract/cvblocks/030: 448 72
+:geoo/abstract/cvblocks/045: 416 232
+:geoo/abstract/cvblocks/045: 352 296
+:geoo/abstract/cvblocks/045: 224 296
+:geoo/abstract/cvblocks/045: 160 232
+:geoo/abstract/cvblocks/045: 160 104
+:geoo/abstract/cvblocks/045: 224 40
+:geoo/abstract/cvblocks/045: 352 40
+:geoo/abstract/cvblocks/045: 416 104
