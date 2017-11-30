@@ -1,20 +1,20 @@
 $FILENAME single/nepster/Moon/12_Prisoners.txt
 $LEVEL_BUILT_REQUIRED 2016-01-25 23:48:03
-$GAME_VERSION_REQUIRED 0.6.2
+$GAME_VERSION_REQUIRED 0.9.0
 
 +PLAYER 0 Garden Nepster
 
 ! 92 0 ASSIGN=CLIMBER 0
-! 268 0 ASSIGN=PLATFORMER 39
-! 485 0 ASSIGN=MINER 39
-! 726 0 ASSIGN=BLOCKER 0
-! 1046 0 ASSIGN=BATTER 8
-! 1150 0 ASSIGN=BASHER 9
-! 1467 0 ASSIGN=PLATFORMER 9
-! 1475 0 ASSIGN=BUILDER 39
-! 1851 0 NUKE 0
+! 225 0 ASSIGN=PLATFORMER 29
+! 461 0 ASSIGN=MINER 29
+! 724 0 ASSIGN=BLOCKER 0
+! 1048 0 ASSIGN=BATTER 10
+! 1152 0 ASSIGN=BASHER 11
+! 1452 0 ASSIGN=BUILDER 29
+! 1456 0 ASSIGN=PLATFORMER 11
+! 1919 0 NUKE 0
 
-$BUILT 2016-01-25 23:48:03
+$BUILT 2017-11-30 15:46:32
 $AUTHOR Nepster
 $ENGLISH The Prisoners
 
@@ -22,9 +22,8 @@ $ENGLISH The Prisoners
 #SIZE_X 640
 #SIZE_Y 400
 
-#SECONDS 0
-#INITIAL 40
-#REQUIRED 39
+#INITIAL 30
+#REQUIRED 29
 #SPAWN_INTERVAL 4
 
 #CLIMBER 1
@@ -41,7 +40,6 @@ $ENGLISH The Prisoners
 :geoo/construction/Goal2.G: 544 200
 
 :geoo/construction/concrete/032: 0 360
-:geoo/construction/concrete/032: 64 328
 :geoo/construction/concrete/032: 96 328
 :geoo/construction/concrete/032: 128 328
 :geoo/construction/concrete/032: 160 328
@@ -97,7 +95,6 @@ $ENGLISH The Prisoners
 :geoo/construction/concrete/032: 0 8
 :geoo/construction/concrete/032: 32 8
 :geoo/construction/concrete/032: 64 8
-:geoo/construction/concrete/032: 64 40
 :geoo/construction/concrete/032: 96 72
 :geoo/construction/concrete/032: 96 40
 :geoo/construction/concrete/032: 96 104
@@ -136,7 +133,6 @@ $ENGLISH The Prisoners
 :geoo/construction/concrete/032: 448 72
 :geoo/construction/concrete/032: 448 104
 :geoo/construction/concrete/032: 448 136
-:geoo/construction/concrete/032: 448 296
 :geoo/construction/concrete/032: 448 328
 :geoo/construction/concrete/032: 448 360
 :geoo/construction/concrete/032: 320 328
@@ -157,22 +153,17 @@ $ENGLISH The Prisoners
 :geoo/construction/concrete/032: 608 40
 :geoo/construction/concrete/032: 608 8
 :geoo/construction/concrete/032: 576 264
-:geoo/construction/concrete/032: 480 328
-:geoo/construction/concrete/032: 512 328
 :geoo/construction/concrete/032: 544 328
 :geoo/construction/concrete/032: 544 360
 :geoo/construction/concrete/032: 512 360
 :geoo/construction/concrete/032: 480 360
 :geoo/construction/concrete/032: 480 8
-:geoo/construction/concrete/032: 480 40
-:geoo/construction/concrete/032: 512 40
 :geoo/construction/concrete/032: 512 8
 :geoo/construction/concrete/032: 544 8
 :geoo/construction/concrete/032: 544 40
 :geoo/construction/concrete/032: 576 328
 :geoo/construction/concrete/032: 576 360
 :geoo/construction/concrete/032: 320 296
-:geoo/construction/concrete/032: 352 296
 :geoo/construction/concrete/032: 544 296
 :geoo/construction/concrete/032: 576 296
 :geoo/construction/concrete/032: 544 72
@@ -183,7 +174,6 @@ $ENGLISH The Prisoners
 :geoo/construction/concrete/032: 576 8
 :geoo/construction/concrete/032: 416 8
 :geoo/construction/concrete/032: 384 232
-:geoo/construction/concrete/032: 416 264
 :geoo/construction/concrete/032: 416 232
 :geoo/construction/concrete/032: 384 200
 :geoo/construction/concrete/032: 416 200
@@ -196,7 +186,18 @@ $ENGLISH The Prisoners
 :geoo/construction/concrete/032: 416 328
 :geoo/construction/concrete/032: 384 360
 :geoo/construction/concrete/032: 416 360
-:geoo/construction/concrete/032: 384 296
+:geoo/construction/concrete/032a: 64 328
+:geoo/construction/concrete/032c: 64 40
+:geoo/construction/concrete/032d: 32 40
+:geoo/construction/concrete/032b: 32 328
+:geoo/construction/concrete/032c: 512 40
+:geoo/construction/concrete/032d: 480 40
+:geoo/construction/concrete/032a: 512 328
+:geoo/construction/concrete/032b: 480 328
+:geoo/construction/concrete/032: 416 264
 :geoo/construction/concrete/032: 416 296
-:geoo/construction/concrete/032: 32 40
-:geoo/construction/concrete/032: 32 328
+:geoo/construction/concrete/032: 448 296
+:geoo/construction/concrete/032a: 465 280 d
+:geoo/construction/concrete/032c: 465 312 d
+:geoo/construction/concrete/032d: 527 312 d
+:geoo/construction/concrete/032b: 527 280 d
