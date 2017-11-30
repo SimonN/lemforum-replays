@@ -1,0 +1,126 @@
+$FILENAME single/clam/Flingsane/polar-pop.txt
+$LEVEL_BUILT_REQUIRED 2016-01-31 14:58:56
+$GAME_VERSION_REQUIRED 0.9.2
+
++PLAYER 0 Garden 8()
+
+! 69 0 ASSIGN=BLOCKER 0
+! 88 0 ASSIGN=BLOCKER 1
+! 109 0 ASSIGN=BLOCKER 2
+! 130 0 ASSIGN=BLOCKER 3
+! 451 0 ASSIGN=EXPLODER2 2
+! 458 0 ASSIGN=EXPLODER2 3
+! 512 0 ASSIGN=CLIMBER 0
+! 520 0 ASSIGN=CLIMBER 5
+! 522 0 ASSIGN=CLIMBER 7
+! 524 0 ASSIGN=CLIMBER 9
+! 526 0 ASSIGN=CLIMBER 11
+! 528 0 ASSIGN=CLIMBER 13
+! 531 0 ASSIGN=CLIMBER 15
+! 534 0 ASSIGN=CLIMBER 17
+! 536 0 ASSIGN=CLIMBER 19
+! 707 0 ASSIGN=EXPLODER2 0
+! 757 0 ASSIGN=CLIMBER 4
+! 759 0 ASSIGN=CLIMBER 6
+! 761 0 ASSIGN=CLIMBER 8
+! 763 0 ASSIGN=CLIMBER 10
+! 765 0 ASSIGN=CLIMBER 12
+! 767 0 ASSIGN=CLIMBER 14
+! 770 0 ASSIGN=CLIMBER 16
+! 772 0 ASSIGN=CLIMBER 18
+! 792 0 ASSIGN=CLIMBER 1
+! 905 0 ASSIGN=EXPLODER2 1
+
+$BUILT 2016-01-31 14:58:56
+$AUTHOR Clam
+$ENGLISH Polar Pop
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 640
+#SIZE_Y 400
+#BACKGROUND_RED 128
+#BACKGROUND_GREEN 128
+#BACKGROUND_BLUE 255
+
+#INITIAL 20
+#REQUIRED 15
+#SPAWN_INTERVAL 20
+
+#CLIMBER 20
+#EXPLODER2 5
+#BLOCKER 4
+
+:matt/winter/Hatch.H: 96 240
+:matt/winter/Hatch.H: 480 240 r
+
+:matt/winter/Goal.G: 72 136
+:matt/winter/Goal.G: 472 136
+
+:matt/winter/06: 312 32
+$BEGIN_TILE_GROUP 0
+:matt/winter/06: 353 112
+:matt/winter/15: 231 137
+:matt/winter/06: 73 304
+:matt/winter/15: 387 368 f
+:matt/winter/15: 248 288
+:matt/winter/15: 185 288
+:matt/winter/15: 169 288
+:matt/winter/15: 137 288
+:matt/winter/15: 109 288
+:matt/winter/15: 73 288
+:matt/winter/06: 353 304
+:matt/winter/06: 73 240
+:matt/winter/06: 73 176
+:matt/winter/06: 137 368 r
+:matt/winter/10: 537 432
+:matt/winter/10: 393 416
+:matt/winter/10: 185 416
+:matt/winter/10: 281 367
+:matt/winter/10: 9 416
+:matt/winter/10: 129 368
+:matt/winter/10: 29 365
+:matt/winter/17: 18 309
+:matt/winter/17: 2 232 rr
+:matt/winter/17: 0 150 rr
+:matt/winter/10: 9 16
+:matt/winter/10: 15 68
+:matt/winter/10: 297 0
+:matt/winter/10: 553 32
+:matt/winter/10: 468 61
+:matt/winter/10: 157 63
+:matt/winter/00: 353 92
+:matt/winter/00: 289 92 frr
+:matt/winter/10: 389 66
+:matt/winter/10: 310 127 d
+:matt/winter/10: 198 127 frrd
+:matt/winter/10: 227 123 frrd
+$END_TILE_GROUP
+:Group-0: -41 -80
+:matt/winter/06: 480 288 r
+:matt/winter/15: 483 294 f
+:matt/winter/15: 506 206
+:matt/winter/15: 474 206
+:matt/winter/15: 458 206
+:matt/winter/15: 426 206
+:matt/winter/15: 398 206
+:matt/winter/15: 352 206 f
+:matt/winter/06: 312 160
+:matt/winter/06: 592 224
+:matt/winter/06: 592 160
+:matt/winter/06: 592 96
+:matt/winter/10: 372 285
+:matt/winter/10: 520 287
+:matt/winter/15: 507 288 f
+:matt/winter/15: 208 292 f
+:matt/winter/10: 586 16
+:matt/winter/03: 388 195
+:matt/winter/15: 532 206
+:matt/winter/03: 480 190
+:matt/winter/03: 362 192
+:matt/winter/17: 599 185
+:matt/winter/17: 595 95
+:matt/winter/03: 122 190
+:matt/winter/03: -4 192
+:matt/winter/06: 312 96
+:matt/bricks/16: 352 192 d
+:matt/bricks/16: 224 192 frrd

@@ -1,0 +1,116 @@
+$FILENAME single/clam/Arcane/turning-the-screws.txt
+$LEVEL_BUILT_REQUIRED 2014-06-08 16:05:09
+$GAME_VERSION_REQUIRED 0.9.2
+
++PLAYER 0 Garden 8()
+
+! 68 0 ASSIGN=BLOCKER 0
+! 218 0 ASSIGN=BLOCKER 2
+! 268 0 ASSIGN=EXPLODER 6
+! 287 0 ASSIGN=BLOCKER 4
+! 352 0 ASSIGN=EXPLODER 8
+! 511 0 ASSIGN=BLOCKER 10
+! 581 0 ASSIGN=BLOCKER 12
+! 698 0 ASSIGN=BLOCKER 14
+! 773 0 ASSIGN=EXPLODER 16
+! 924 0 ASSIGN=BLOCKER 20
+! 1439 0 ASSIGN=EXPLODER 10
+! 1627 0 NUKE 0
+
+$BUILT 2014-06-08 16:05:09
+$AUTHOR Clam
+$ENGLISH Turning the Screws
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 640
+#SIZE_Y 400
+#BACKGROUND_RED 32
+#BACKGROUND_GREEN 32
+#BACKGROUND_BLUE 32
+
+#INITIAL 40
+#REQUIRED 20
+#SPAWN_INTERVAL 33
+
+#EXPLODER 4
+#BLOCKER 7
+
+:matt/goldmine/Hatch.H: 488 8
+:matt/goldmine/Hatch.H: 296 -8
+:matt/goldmine/Hatch.H: 88 104
+:matt/goldmine/Hatch.H: 296 -8
+
+:matt/goldmine/Goal.G: 368 344
+
+:geoo/construction/sawblade_medium.F: 306 124
+:geoo/construction/sawblade_medium.F: 268 220
+:geoo/construction/sawblade_medium.F: 306 316
+
+:matt/goldmine/plank: 310 200
+$BEGIN_TILE_GROUP 0
+:matt/goldmine/plank: 28 136 rrr
+:matt/goldmine/plank: 0 40 rrr
+:matt/goldmine/plank: 0 0 rrrd
+:matt/goldmine/plank: 28 96 rrrd
+:matt/goldmine/plank: 10 96
+:matt/goldmine/plank: 20 96 d
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 1
+:matt/goldmine/plank: 0 0
+:matt/goldmine/plank: 100 136 rrr
+:Group-0: 100 0
+:matt/goldmine/plank: 110 192
+:matt/goldmine/plank: 100 96 rrrd
+:matt/goldmine/plank: 120 192 d
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 2
+:matt/goldmine/plank: 12 192
+:Group-1: 12 0
+:matt/goldmine/plank: 10 96
+:matt/goldmine/plank: 0 96 d
+$END_TILE_GROUP
+:Group-2: 202 104
+:matt/goldmine/plank: 0 272 rrr
+$BEGIN_TILE_GROUP 3
+:matt/goldmine/plank: 0 0 rrr
+:matt/goldmine/plank: 0 112 rrrd
+$END_TILE_GROUP
+:Group-3: 0 192
+:Group-3: 0 96
+:matt/goldmine/plank: 632 272 rrr
+:Group-3: 632 192
+:Group-3: 632 96
+:matt/goldmine/plank: 330 -48 rrr
+$BEGIN_TILE_GROUP 4
+:matt/goldmine/plank: 0 24
+:matt/goldmine/plank: 0 32
+:matt/goldmine/plank: 120 0 rrr
+:matt/goldmine/plank: 120 16 rrrd
+$END_TILE_GROUP
+:Group-4: 182 328
+:matt/goldmine/plank: 54 152
+:matt/goldmine/plank: 458 56
+$BEGIN_TILE_GROUP 5
+:matt/goldmine/plank: 0 0 rrr
+:matt/goldmine/plank: 0 16 rrrd
+$END_TILE_GROUP
+:Group-5: 330 40
+:matt/goldmine/plank: 330 -88 rrrd
+:matt/goldmine/plank: 330 56
+:matt/goldmine/plank: 458 152
+:Group-5: 302 136
+:matt/goldmine/plank: 54 248
+:matt/goldmine/plank: 458 248
+:Group-5: 330 232
+:matt/goldmine/plank: 330 248
+:matt/goldmine/plank: 54 344
+:matt/goldmine/plank: 310 392
+:matt/goldmine/plank: 182 152
+:matt/goldmine/plank: 182 344
+:matt/goldmine/plank: 458 344
+:matt/goldmine/plank: 438 392
+:Group-3: 632 0
+:Group-3: 0 0
+:matt/goldmine/plank: 184 104 d
+:matt/goldmine/plank: 184 296 d
+:matt/goldmine/plank: 328 200 d

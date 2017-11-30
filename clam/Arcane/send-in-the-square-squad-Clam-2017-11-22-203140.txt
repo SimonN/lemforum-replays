@@ -1,0 +1,184 @@
+$FILENAME single/clam/Arcane/send-in-the-square-squad.txt
+$LEVEL_BUILT_REQUIRED 2015-08-04 07:56:44
+$GAME_VERSION_REQUIRED 0.9.2
+
++PLAYER 0 Garden 8()
+
+! 69 0 ASSIGN=CUBER 0
+! 218 0 ASSIGN=CUBER 1
+! 245 0 ASSIGN=CLIMBER 2
+! 274 0 ASSIGN=EXPLODER2 2
+! 318 0 ASSIGN=CUBER 3
+! 343 0 ASSIGN=CLIMBER 4
+! 375 0 ASSIGN=CUBER 4
+! 394 0 ASSIGN=CLIMBER 5
+! 431 0 ASSIGN=EXPLODER2 5
+! 442 0 ASSIGN=CLIMBER 6
+! 475 0 ASSIGN=CUBER 6
+! 488 0 ASSIGN=CLIMBER 7
+! 532 0 ASSIGN=CUBER 7
+! 547 0 ASSIGN=CLIMBER 8
+! 589 0 ASSIGN=EXPLODER2 8
+! 604 0 ASSIGN=CLIMBER 9
+! 646 0 ASSIGN=CUBER 9
+! 657 0 ASSIGN=CLIMBER 10
+! 693 0 ASSIGN=CUBER 10
+! 708 0 ASSIGN=CLIMBER 11
+! 741 0 ASSIGN=CUBER 11
+! 750 0 ASSIGN=CLIMBER 12
+! 798 0 ASSIGN=CUBER 12
+! 807 0 ASSIGN=CLIMBER 13
+! 850 0 ASSIGN=EXPLODER2 13
+! 858 0 ASSIGN=CLIMBER 14
+! 884 0 ASSIGN=CUBER 14
+! 900 0 ASSIGN=CLIMBER 15
+! 934 0 ASSIGN=EXPLODER2 15
+! 960 0 ASSIGN=CUBER 16
+! 990 0 ASSIGN=CLIMBER 17
+! 1019 0 ASSIGN=CUBER 17
+! 1041 0 ASSIGN=CLIMBER 18
+! 1067 0 ASSIGN=EXPLODER2 18
+
+$BUILT 2015-08-04 07:56:44
+$AUTHOR Clam
+$ENGLISH Send in the Square Squad
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 640
+#SIZE_Y 400
+
+#INITIAL 80
+#REQUIRED 40
+#SPAWN_INTERVAL 50
+
+#CLIMBER 20
+#EXPLODER2 20
+#CUBER 20
+
+:matt/marble/Hatch.H: 128 180
+
+:matt/marble/Goal.G: 512 112
+
+:matt/water.W: 64 336
+:matt/water.W: 96 336
+:matt/water.W: 128 336
+:matt/water.W: 160 336
+:matt/water.W: 192 336
+:matt/water.W: 224 336
+:matt/water.W: 256 336
+:matt/water.W: 288 336
+:matt/water.W: 320 336
+:matt/water.W: 352 336
+:matt/water.W: 384 336
+:matt/water.W: 416 336
+:matt/water.W: 448 336
+:matt/water.W: 480 336
+:matt/water.W: 512 336
+:matt/water.W: 544 336
+:matt/water.W: 32 0
+:matt/water.W: 64 0
+:matt/water.W: 96 0
+:matt/water.W: 128 0
+:matt/water.W: 160 0
+:matt/water.W: 192 0
+:matt/water.W: 224 0
+:matt/water.W: 256 0
+:matt/water.W: 288 0
+:matt/water.W: 320 0
+:matt/water.W: 352 0
+:matt/water.W: 384 0
+:matt/water.W: 416 0
+:matt/water.W: 448 0
+:matt/water.W: 480 0
+:matt/water.W: 512 0
+:matt/water.W: 544 0
+:matt/water.W: 576 0
+
+:matt/marble/08: 64 160
+:matt/marble/08: 128 160
+:matt/marble/08: 192 160
+:matt/marble/08: 256 160
+:matt/marble/08: 320 160
+:matt/marble/08: 384 160
+:matt/marble/08: 448 160
+:matt/marble/08: 512 160
+:matt/marble/08: 576 160
+:matt/marble/08: 128 256
+:matt/marble/08: 192 256
+:matt/marble/08: 384 256
+:matt/marble/08: 224 224
+:geoo/steel/dark_32x32o.S: 64 32
+:geoo/steel/dark_32x32o.S: 128 32
+:geoo/steel/dark_32x32o.S: 96 32
+:geoo/steel/dark_32x32o.S: 192 32
+:geoo/steel/dark_32x32o.S: 160 32
+:geoo/steel/dark_32x32o.S: 256 32
+:geoo/steel/dark_32x32o.S: 224 32
+:geoo/steel/dark_32x32o.S: 320 32
+:geoo/steel/dark_32x32o.S: 288 32
+:geoo/steel/dark_32x32o.S: 384 32
+:geoo/steel/dark_32x32o.S: 352 32
+:geoo/steel/dark_32x32o.S: 448 32
+:geoo/steel/dark_32x32o.S: 416 32
+:geoo/steel/dark_32x32o.S: 512 32
+:geoo/steel/dark_32x32o.S: 480 32
+:geoo/steel/dark_32x32o.S: 544 32
+:geoo/steel/dark_32x32o.S: 608 0
+:geoo/steel/dark_32x32o.S: 0 0
+:geoo/steel/dark_64x64.S: 0 336
+:geoo/steel/dark_64x64.S: 0 32
+:geoo/steel/dark_64x64.S: 576 32
+:geoo/steel/dark_64x64.S: 576 336
+:matt/marble/02: 416 240
+:matt/marble/00: 416 232
+:matt/marble/00: 432 248
+:matt/marble/02: 208 240
+:matt/marble/00: 216 232
+:matt/marble/00: 200 248
+:matt/marble/04: 80 168 rr
+:matt/marble/04: 144 168 rr
+:matt/marble/04: 208 168 rr
+:matt/marble/04: 272 168 rr
+:matt/marble/04: 336 168 rr
+:matt/marble/04: 400 168 rr
+:matt/marble/04: 464 168 rr
+:matt/marble/04: 528 168 rr
+:matt/marble/04: 592 168 rr
+:matt/marble/04: 240 232 rr
+:matt/marble/04: 400 264 rr
+:matt/marble/04: 208 264 rr
+:matt/marble/04: 144 264 rr
+:matt/marble/00: 212 244 rr
+:matt/marble/00: 420 244 rr
+:geoo/steel/dark_32x32o.S: 16 48 rr
+:geoo/steel/dark_32x32o.S: 16 352 rr
+:geoo/steel/dark_32x32o.S: 592 352 rr
+:geoo/steel/dark_32x32o.S: 592 48 rr
+:matt/marble/08: 0 160
+:matt/marble/04: 16 168 rr
+:matt/marble/08: 448 256
+:matt/marble/04: 464 264 rr
+:matt/marble/08: 352 224
+:matt/marble/04: 368 232 rr
+:matt/marble/08: 256 256
+:matt/marble/04: 272 264 rr
+:geoo/steel/dark_32x32o.S: 64 368
+:geoo/steel/dark_32x32o.S: 128 368
+:geoo/steel/dark_32x32o.S: 96 368
+:geoo/steel/dark_32x32o.S: 192 368
+:geoo/steel/dark_32x32o.S: 160 368
+:geoo/steel/dark_32x32o.S: 256 368
+:geoo/steel/dark_32x32o.S: 224 368
+:geoo/steel/dark_32x32o.S: 288 368
+:geoo/steel/dark_32x32o.S: 320 368
+:geoo/steel/dark_32x32o.S: 384 368
+:geoo/steel/dark_32x32o.S: 352 368
+:geoo/steel/dark_32x32o.S: 448 368
+:geoo/steel/dark_32x32o.S: 416 368
+:geoo/steel/dark_32x32o.S: 512 368
+:geoo/steel/dark_32x32o.S: 480 368
+:geoo/steel/dark_32x32o.S: 544 368
+:matt/marble/08: 288 224
+:matt/marble/04: 304 232 rr
+:matt/marble/08: 320 256
+:matt/marble/04: 336 264 rr
