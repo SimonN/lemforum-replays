@@ -1,4 +1,4 @@
-$FILENAME single/clam/Arcane/urban-ledge-end.txt
+$FILENAME single/clam/Insane/urban-ledge-end.txt
 $LEVEL_BUILT_REQUIRED 2015-08-08 21:30:33
 $GAME_VERSION_REQUIRED 0.9.2
 
