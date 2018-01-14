@@ -1,0 +1,92 @@
+$FILENAME single/clam/Flingsane/builders-without-borders-ii.txt
+$LEVEL_BUILT_REQUIRED 2016-01-31 10:17:48
+$GAME_VERSION_REQUIRED 0.9.7
+// Using unstable 2018-01-14 tumbler-rewrite physics
+
++PLAYER 0 Garden F
+
+! 159 0 ASSIGN=BUILDER 0
+! 160 0 ASSIGN=BUILDER 0
+! 570 0 ASSIGN=EXPLODER2 4
+! 573 0 ASSIGN=BUILDER 5
+! 574 0 ASSIGN=BUILDER 5
+! 575 0 ASSIGN=BUILDER 5
+! 576 0 ASSIGN=BUILDER 5
+! 577 0 ASSIGN=BUILDER 5
+! 578 0 ASSIGN=BUILDER 5
+! 579 0 ASSIGN=BUILDER 5
+! 1415 0 ASSIGN=BUILDER 5
+! 1898 0 ASSIGN=BUILDER 7
+! 2035 0 ASSIGN=EXPLODER2 7
+! 2099 0 ASSIGN=BUILDER 5
+! 2266 0 ASSIGN=EXPLODER2 5
+! 2362 0 ASSIGN=BUILDER 19
+! 2363 0 ASSIGN=BUILDER 19
+! 2751 0 ASSIGN=BUILDER 14
+! 3100 0 ASSIGN=EXPLODER2 2
+! 3127 0 ASSIGN=EXPLODER2 14
+
+$BUILT 2016-01-31 10:17:48
+$AUTHOR Clam
+$ENGLISH Builders Without Borders II
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 640
+#SIZE_Y 400
+
+#INITIAL 20
+#REQUIRED 10
+#SPAWN_INTERVAL 96
+
+#EXPLODER2 10
+#BUILDER 15
+
+:matt/marble/Hatch.H: 40 208
+
+:matt/marble/Goal.G: 40 80
+
+:geoo/construction/Laseremit_hzl_16.F: 0 352
+:geoo/construction/Laseremit_hzr_16.F: 624 352
+:geoo/construction/Laser_hz_64.F: 16 352
+:geoo/construction/Laser_hz_64.F: 80 352
+:geoo/construction/Laser_hz_64.F: 144 352
+:geoo/construction/Laser_hz_64.F: 208 352
+:geoo/construction/Laser_hz_64.F: 272 352
+:geoo/construction/Laser_hz_64.F: 336 352
+:geoo/construction/Laser_hz_64.F: 400 352
+:geoo/construction/Laser_hz_64.F: 464 352
+:geoo/construction/Laser_hz_64.F: 528 352
+:geoo/construction/Laser_hz_64.F: 560 352
+:geoo/construction/Laseremit_hzl_16.F: 0 368
+:geoo/construction/Laseremit_hzr_16.F: 624 368
+:geoo/construction/Laser_hz_64.F: 16 368
+:geoo/construction/Laser_hz_64.F: 80 368
+:geoo/construction/Laser_hz_64.F: 144 368
+:geoo/construction/Laser_hz_64.F: 208 368
+:geoo/construction/Laser_hz_64.F: 272 368
+:geoo/construction/Laser_hz_64.F: 336 368
+:geoo/construction/Laser_hz_64.F: 400 368
+:geoo/construction/Laser_hz_64.F: 464 368
+:geoo/construction/Laser_hz_64.F: 528 368
+:geoo/construction/Laser_hz_64.F: 560 368
+
+:matt/marble/21: 80 320
+:matt/marble/21: 144 320
+:matt/marble/21: 0 272 rrr
+:matt/marble/21: 80 128
+:matt/marble/21: 144 128
+:matt/marble/21: 0 0 rrr
+:matt/marble/21: 16 128
+:matt/marble/21: 16 320
+:matt/marble/21: 144 304
+:matt/marble/21: 144 112
+:geoo/steel/16x32o.S: 128 112
+:geoo/steel/16x32o.S: 128 304
+:matt/marble/21: 208 272 rrr
+:matt/marble/21: 208 240 rrrd
+:matt/marble/21: 208 80 rrr
+:matt/marble/21: 208 48 rrrd
+:matt/marble/21: 0 64 rrr
+:matt/marble/21: 0 128 rrr
+:matt/marble/21: 0 192 rrr
+:matt/marble/21: 0 256 rrr

@@ -1,0 +1,104 @@
+$FILENAME single/clam/Arcane/flower-towers.txt
+$LEVEL_BUILT_REQUIRED 2015-06-07 13:23:38
+$GAME_VERSION_REQUIRED 0.9.7
+// Using unstable 2018-01-14 tumbler-rewrite physics
+
++PLAYER 0 Garden F
+
+! 66 0 ASSIGN=RUNNER 0
+! 99 0 ASSIGN=JUMPER 0
+! 132 0 ASSIGN=JUMPER 0
+! 167 0 ASSIGN=JUMPER 0
+! 196 0 ASSIGN=JUMPER 0
+! 215 0 ASSIGN=JUMPER 0
+! 239 0 ASSIGN=JUMPER 0
+! 265 0 ASSIGN=JUMPER 0
+! 297 0 ASSIGN=JUMPER 0
+! 348 0 ASSIGN=JUMPER 0
+! 381 0 ASSIGN=JUMPER 0
+! 399 0 ASSIGN=JUMPER 0
+! 412 0 ASSIGN=JUMPER 0
+! 464 0 ASSIGN=JUMPER 0
+! 519 0 ASSIGN=JUMPER 0
+! 573 0 ASSIGN=JUMPER 0
+! 629 0 ASSIGN=JUMPER 0
+
+$BUILT 2015-06-07 13:23:38
+$AUTHOR Clam
+$ENGLISH Flower Towers
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 640
+#SIZE_Y 400
+#BACKGROUND_RED 64
+#BACKGROUND_GREEN 128
+#BACKGROUND_BLUE 255
+
+#INITIAL 1
+#REQUIRED 1
+#SPAWN_INTERVAL 1
+
+#RUNNER 1
+#JUMPER 50
+#EXPLODER2 0
+
+:matt/earth/Hatch.H: 236 266 r
+
+:matt/earth/Goal.G: 432 290
+
+:matt/water.W: 384 368
+:matt/water.W: 400 368
+
+:matt/carnival/32: 496 88 rrr
+:matt/carnival/32: 136 20 rrr
+:matt/carnival/32: 312 48 rrr
+:matt/beach/decor/sun: 560 8
+:matt/carnival/06: 304 288
+:matt/earth/10: 112 304
+:matt/carnival/06: 488 264
+:matt/carnival/37: 240 224 f
+:matt/carnival/06: 304 224
+$BEGIN_TILE_GROUP 0
+:matt/carnival/06: 62 112
+:matt/carnival/32: 54 0 frrr
+:matt/carnival/33: -2 56
+:matt/carnival/33: -2 72 f
+:matt/carnival/33: 54 96 rrr
+:matt/carnival/33: 70 96 frrr
+:matt/carnival/32: 94 72
+:matt/carnival/32: 94 56 f
+:matt/marble/00a: 94 56 d
+$END_TILE_GROUP
+:Group-0: 242 48
+:matt/carnival/36: 336 224 f
+:matt/carnival/03: 304 112
+:matt/earth/03: 232 304
+:matt/earth/17: 288 308 frr
+:matt/earth/03: 104 304
+:matt/earth/10: -50 252
+:matt/carnival/06: 128 260
+:matt/earth/10: 64 280
+:matt/earth/10: 166 312
+:matt/earth/10: 560 288
+:matt/carnival/37: 64 196 f
+:matt/carnival/06: 128 196
+:Group-0: 66 20
+:matt/carnival/36: 160 196 f
+:matt/carnival/03: 128 84
+:matt/earth/10: -32 336
+:matt/carnival/37: 424 264 f
+:Group-0: 426 88
+:matt/carnival/36: 520 264 f
+:matt/carnival/03: 488 152
+:matt/carnival/06: 488 328
+:matt/earth/10: 498 324
+:matt/earth/02: 426 352
+:matt/earth/10: 428 354
+:matt/earth/17: 320 310 frr
+:geoo/steel/16x32o.S: 424 368
+:geoo/steel/16x16o.S: 424 352
+:geoo/steel/16x32o.S: 384 368
+:geoo/steel/16x32o.S: 384 336
+:geoo/steel/16x32o.S: 400 336 d
+:geoo/steel/16x32o.S: 400 344 d
+:matt/carnival/44: 368 304 d
