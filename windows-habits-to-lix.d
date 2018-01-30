@@ -88,7 +88,7 @@ string goodFilename(string bad)
 
 void moveFile(in string fn, in Content c)
 {
-    string dir = format!"./%s/%dp/"(c.author.goodFilename, c.numPlayers);
+    string dir = format!"./%dp/%s/"(c.numPlayers, c.author.goodFilename);
     mkdirRecurse(dir);
 
     string outFn = dir ~ goodFilename(fn);
