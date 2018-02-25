@@ -88,5 +88,7 @@ void changeReplayInPlace(in NoLevLine nll)
                 nll.replay // in this file.
             );
             executeShell(command);
+            writeln("Changed: ", nll.oldLevelFull.cutOffLevelDir, " -> ",
+                foundLevel.cutOffLevelDir);
         });
 }

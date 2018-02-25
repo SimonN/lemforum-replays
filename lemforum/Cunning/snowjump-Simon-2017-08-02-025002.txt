@@ -1,4 +1,4 @@
-$FILENAME single/lemforum/Quirky/snowjump.txt
+$FILENAME single/lemforum/Cunning/snowjump.txt
 $LEVEL_BUILT_REQUIRED 2017-02-16 11:48:34
 $GAME_VERSION_REQUIRED 0.7.13
 
