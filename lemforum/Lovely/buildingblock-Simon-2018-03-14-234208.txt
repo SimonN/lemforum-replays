@@ -1,0 +1,83 @@
+$FILENAME single/lemforum/Lovely/buildingblock.txt
+$LEVEL_BUILT_REQUIRED 2018-03-14 13:09:14
+$GAME_VERSION_REQUIRED 0.9.13
+
++PLAYER 0 Garden Simon
+
+! 116 0 ASSIGN_LEFT=BUILDER 0
+! 118 0 ASSIGN_LEFT=BUILDER 0
+! 120 0 ASSIGN_LEFT=BUILDER 0
+! 122 0 ASSIGN_LEFT=BUILDER 0
+! 632 0 ASSIGN_RIGHT=BUILDER 9
+! 643 0 ASSIGN_RIGHT=BUILDER 9
+! 648 0 ASSIGN_RIGHT=BUILDER 9
+! 653 0 ASSIGN_RIGHT=BUILDER 9
+! 656 0 ASSIGN_RIGHT=BUILDER 9
+! 1296 0 ASSIGN_RIGHT=BUILDER 17
+! 1305 0 ASSIGN_RIGHT=BUILDER 17
+! 1781 0 ASSIGN_RIGHT=BUILDER 29
+
+$BUILT 2018-03-14 13:09:14
+$AUTHOR Insane Steve
+$ENGLISH Building Block Maze
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 640
+#SIZE_Y 400
+
+#INITIAL 32
+#REQUIRED 16
+#SPAWN_INTERVAL 50
+
+#BUILDER 20
+#PLATFORMER 20
+#BASHER 20
+#MINER 20
+#DIGGER 20
+#EXPLODER 0
+
+:geoo/sandstone/Hatch.H: 64 256
+
+:geoo/sandstone/Goal.G: 32 16
+:geoo/sandstone/Goal.G: 472 16
+
+:geoo/sandstone/arc_big: 0 336
+:geoo/sandstone/arc_big: 128 336
+:geoo/sandstone/arc_big: 256 336
+:geoo/sandstone/arc_big: 384 336
+:geoo/sandstone/arc_big: 512 336
+:geoo/sandstone/pillar_top_ext: 0 208
+:geoo/sandstone/pillar_top: 16 224
+:geoo/sandstone/pillar_32: 16 256
+:geoo/sandstone/pillar_32: 16 288
+:geoo/sandstone/pillar_32: 16 304
+:geoo/sandstone/64x32: 576 304
+:geoo/sandstone/64x32: 544 272
+:geoo/sandstone/64x32: 512 304
+:geoo/sandstone/64x32: 512 240
+:geoo/sandstone/64x32: 344 240
+:geoo/sandstone/64x32: 384 208
+:geoo/sandstone/64x32: 344 176
+:geoo/sandstone/64x32: 320 208
+:geoo/sandstone/64x32: 312 144
+:geoo/sandstone/64x32: 256 208
+:geoo/sandstone/64x32: 192 208
+:geoo/sandstone/64x32: 344 112
+:geoo/sandstone/64x32: 376 80
+:geoo/sandstone/64x32: 440 80
+:geoo/sandstone/32x64: 192 272
+:geoo/sandstone/32x64: 256 240
+:geoo/sandstone/32x64: 288 272
+:geoo/sandstone/64x64: 0 80
+:geoo/sandstone/64x64: 64 80
+:geoo/sandstone/slopes/32x64lb: 256 144
+:geoo/sandstone/slopes/32x64rb: 224 144
+:geoo/sandstone/32x32: 608 80
+:geoo/sandstone/32x32: 608 112
+:geoo/sandstone/32x32: 608 144
+:geoo/sandstone/32x32: 504 80
+:geoo/sandstone/slopes/32x32rb: 576 112
+:geoo/sandstone/64x32: 544 144
+:geoo/sandstone/64x32: 192 0
+:geoo/sandstone/64x32: 224 32
+:geoo/sandstone/slopes/32x32lb: 256 0
