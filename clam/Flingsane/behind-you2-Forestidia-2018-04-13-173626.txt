@@ -1,0 +1,85 @@
+$FILENAME single/clam/Flingsane/behind-you.txt
+$LEVEL_BUILT_REQUIRED 2018-04-13 17:34:00
+$GAME_VERSION_REQUIRED 0.9.14
+
++PLAYER 0 Garden Forestidia
+
+! 275 0 ASSIGN=EXPLODER2 0
+! 299 0 ASSIGN=EXPLODER2 2
+! 324 0 ASSIGN=EXPLODER2 4
+! 347 0 ASSIGN=EXPLODER2 6
+! 370 0 ASSIGN=EXPLODER2 8
+! 391 0 ASSIGN=EXPLODER2 10
+! 415 0 ASSIGN=EXPLODER2 12
+! 438 0 ASSIGN=EXPLODER2 14
+! 459 0 ASSIGN=EXPLODER2 16
+! 481 0 ASSIGN=EXPLODER2 18
+
+$BUILT 2018-04-13 17:34:00
+$AUTHOR Clam
+$ENGLISH BEHIND YOU
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 640
+#SIZE_Y 320
+
+#INITIAL 20
+#REQUIRED 10
+#SPAWN_INTERVAL 18
+
+#EXPLODER2 20
+
+:matt/marble/Hatch.H: 96 64
+
+:matt/marble/Goal.G: 48 160
+
+:matt/marble/05c: 592 176
+:matt/marble/11c: 48 96
+:matt/marble/10c: 0 48
+:matt/marble/12c: 48 48
+:matt/marble/13c: 0 96
+:matt/marble/04c: 16 48
+:matt/marble/04c: 16 96
+:matt/marble/08c: 0 64
+:matt/marble/20c: 16 -16
+:matt/marble/20c: 32 -16
+:matt/marble/06c: 160 0
+:matt/marble/08c: 96 0
+:matt/marble/06c: 192 -16
+:matt/marble/08c: 224 -16
+:matt/marble/08c: 288 0
+:matt/marble/06c: 352 -16
+:matt/marble/08c: 384 0
+:matt/marble/06c: 448 -48
+:matt/marble/06c: 512 -48
+:matt/marble/08c: 576 -16
+$BEGIN_TILE_GROUP 0
+:matt/marble/08c: 0 0
+:matt/marble/08c: 64 0
+:matt/marble/08c: 128 0
+:matt/marble/08c: 192 0
+:matt/marble/08c: 256 0
+:matt/marble/08c: 320 0
+:matt/marble/08c: 384 0
+:matt/marble/08c: 448 0
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 1
+:Group-0: 0 0
+:Group-0: 0 18 d
+$END_TILE_GROUP
+:Group-1: 16 208
+$BEGIN_TILE_GROUP 2
+:Group-0: 0 18
+:Group-0: 0 0 d
+$END_TILE_GROUP
+:Group-2: 16 218
+$BEGIN_TILE_GROUP 3
+:matt/marble/08c: 0 15
+:matt/marble/08c: 0 0 d
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 4
+:matt/marble/08c: 0 0
+:matt/marble/08c: 0 13 d
+:Group-3: 0 13
+$END_TILE_GROUP
+:Group-4: 560 208
