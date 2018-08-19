@@ -1,0 +1,82 @@
+$FILENAME single/simon/hugtheporcupine.txt
+$LEVEL_BUILT_REQUIRED 2018-07-30 23:12:02
+$GAME_VERSION_REQUIRED 0.9.19
+
++PLAYER 0 Garden Simon
+
+! 95 0 ASSIGN=BLOCKER 0
+! 127 0 ASSIGN=CUBER 19
+! 220 0 ASSIGN=PLATFORMER 2
+! 552 0 ASSIGN=JUMPER 2
+! 611 0 ASSIGN=DIGGER 2
+
+$BUILT 2018-07-30 23:12:02
+$AUTHOR Simon
+$ENGLISH Hug the Porcupine
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 416
+#SIZE_Y 208
+
+#INITIAL 20
+#REQUIRED 18
+#SPAWN_INTERVAL 2
+
+#BLOCKER 1
+#PLATFORMER 1
+#DIGGER 1
+#JUMPER 1
+#CUBER 2
+#EXPLODER2 0
+
+:matt/earth/Hatch.H: 198 30
+
+:simon/tapir/goal.G: 250 125
+
+:raymanni/holiday/porcupine.T: 260 41
+
+:simon/oriental/branch7: 266 172 rr
+:matt/earth/30: 28 130 rrr
+:matt/earth/30: 10 80 rrr
+:matt/earth/30: 78 130 rr
+:matt/earth/30: 98 102 rrr
+:matt/earth/30: -6 96 rrrd
+:matt/earth/30: 36 104 rr
+:matt/earth/30: -12 152 rr
+:matt/earth/09: 340 16
+:matt/earth/05: 274 12 rrr
+:matt/earth/02: 324 58 frd
+:matt/earth/27: 128 60
+:matt/earth/01: 144 30
+:matt/earth/03: 120 22
+:matt/earth/18: 126 42
+:matt/earth/02: 244 28 fr
+:simon/oriental/bush1: 222 16 frr
+:matt/earth/30: 32 44 rrr
+:matt/earth/30: -14 52
+:simon/oriental/branch1: 180 116 rrr
+:simon/oriental/bush3: 68 96
+:simon/oriental/branch5: 66 74 frrr
+:simon/oriental/branch3: 134 120 rrr
+:simon/oriental/bush2: 266 100
+:simon/oriental/bush4: 179 101
+:simon/oriental/bush6: 144 144
+:simon/oriental/branch3: 122 96 r
+:simon/oriental/branch7: 104 32 rr
+:simon/oriental/bush6: 114 20
+:simon/oriental/bush5: 100 88
+:simon/oriental/bush1: 148 18 frr
+:simon/oriental/bush1: 192 18 frr
+:simon/oriental/bush1: 266 14 frr
+:simon/oriental/bush6: 322 18
+:simon/oriental/bush4: 358 14
+:geoo/abstract/pipes/central0: 270 94 d
+:geoo/abstract/pipes/central0: 292 95 d
+:matt/earth/30: 8 17 d
+$BEGIN_TILE_GROUP 0
+:simon/oriental/bush1: 0 15
+:matt/bricks/03: 6 0 d
+$END_TILE_GROUP
+:Group-0: 274 169 r
+:matt/earth/02: 260 36 frd
+:simon/oriental/bush4: 273 102
