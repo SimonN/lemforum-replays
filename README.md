@@ -33,7 +33,7 @@ XDG-conformant application data directory. Do this instead:
 Get Lix
 -------
 
-* [Homepage](www.lixgame.com)
+* [Homepage](http://www.lixgame.com)
 * [Github repo](https://github.com/SimonN/LixD)
 * [IRC webchat](http://webchat.quakenet.org/?channels=lix,neolemmix):
     #lix on QuakeNet
