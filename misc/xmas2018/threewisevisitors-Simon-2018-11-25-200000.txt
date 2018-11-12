@@ -1,0 +1,46 @@
+$FILENAME single/misc/xmas2018/threewisevisitors.txt
+$LEVEL_BUILT 2018-11-25 20:00:00
+$GAME_VERSION_REQUIRED 0.9.21
+
++PLAYER 0 Garden Simon
+
+! 91 0 ASSIGN=FLOATER 0
+! 122 0 ASSIGN=RUNNER 1
+! 128 0 ASSIGN=JUMPER 1
+! 133 0 ASSIGN=PLATFORMER 0
+! 134 0 ASSIGN=CLIMBER 2
+! 146 0 ASSIGN=BUILDER 1
+! 324 0 ASSIGN=PLATFORMER 0
+
+$BUILT 2018-11-25 20:00:00
+$AUTHOR Simon
+$ENGLISH
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 640
+#SIZE_Y 400
+
+#INITIAL 3
+#REQUIRED 3
+#SPAWN_INTERVAL 32
+
+#RUNNER 1
+#CLIMBER 1
+#FLOATER 1
+#BUILDER 1
+#PLATFORMER 2
+#JUMPER 1
+#EXPLODER2 0
+
+:raymanni/holiday/hatch.H: 400 184 r
+:raymanni/holiday/hatch.H: 160 272
+:raymanni/holiday/hatch.H: 446 318 r
+
+:raymanni/holiday/goal.G: 128 320
+
+:raymanni/holiday/gift2: 416 320 r
+:raymanni/holiday/gift2: 416 256 r
+:raymanni/holiday/plank_mid1: 416 240
+:raymanni/holiday/plank_long: 336 384
+:raymanni/holiday/plank_long: 128 384
+:raymanni/holiday/plank_mid1: 464 384

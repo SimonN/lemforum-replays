@@ -1,0 +1,105 @@
+$FILENAME single/misc/xmas2018/lookwhoiswaitingupthere.txt
+$LEVEL_BUILT 2018-11-25 20:00:00
+$GAME_VERSION_REQUIRED 0.9.21
+
++PLAYER 0 Garden Simon
+
+! 75 0 ASSIGN=FLOATER 0
+! 112 0 ASSIGN=BUILDER 0
+! 113 0 ASSIGN=BUILDER 0
+! 114 0 ASSIGN=CLIMBER 1
+! 426 0 ASSIGN=MINER 1
+! 491 0 ASSIGN=BUILDER 0
+! 502 0 ASSIGN=PLATFORMER 1
+! 659 0 ASSIGN=JUMPER 1
+
+$BUILT 2018-11-25 20:00:00
+$AUTHOR F
+$ENGLISH Look who is waiting up there
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 640
+#SIZE_Y 400
+
+#INITIAL 2
+#REQUIRED 2
+#SPAWN_INTERVAL 40
+
+#CLIMBER 1
+#FLOATER 1
+#BUILDER 3
+#PLATFORMER 1
+#MINER 1
+#JUMPER 1
+#EXPLODER2 0
+
+:raymanni/holiday/hatch.H: 384 130
+:raymanni/holiday/hatch.H: -14 306
+
+:raymanni/holiday/goal.G: 584 304
+
+:raymanni/holiday/porcupine.T: 416 20
+:raymanni/holiday/porcupine.T: 308 242
+
+:raymanni/holiday/brick_green: 352 368
+:raymanni/holiday/brick_green: 384 368
+:raymanni/holiday/brick_green: 416 368
+:raymanni/holiday/brick_green: 448 368
+:raymanni/holiday/brick_green: 480 368
+:raymanni/holiday/brick_green: 512 368
+:raymanni/holiday/brick_green: 544 368
+:raymanni/holiday/brick_green: 96 368
+:raymanni/holiday/brick_green: 128 368
+:raymanni/holiday/brick_green: 160 368
+:raymanni/holiday/brick_green: 192 368
+:raymanni/holiday/brick_green: 224 368
+:raymanni/holiday/brick_green: 256 368
+:raymanni/holiday/brick_green: 288 368
+:raymanni/holiday/brick_green: 320 368
+:raymanni/holiday/brick_green: 0 368
+:raymanni/holiday/brick_green: 32 368
+:raymanni/holiday/brick_green: 64 368
+:raymanni/holiday/steel1.S: 368 144
+$BEGIN_TILE_GROUP 0
+:raymanni/holiday/brick_green_a: 0 256
+:raymanni/holiday/brick_green_a: 32 224
+:raymanni/holiday/brick_green_a: 64 192
+:raymanni/holiday/brick_green_a: 96 160
+:raymanni/holiday/brick_green_a: 128 128
+:raymanni/holiday/brick_green_a: 160 96
+:raymanni/holiday/brick_green_a: 192 64
+:raymanni/holiday/brick_green_a: 224 32
+:raymanni/holiday/brick_green_a: 256 0
+:raymanni/holiday/brick_green_d: 32 256
+:raymanni/holiday/brick_green_d: 64 224
+:raymanni/holiday/brick_green_d: 96 192
+:raymanni/holiday/brick_green_d: 128 160
+:raymanni/holiday/brick_green_d: 160 128
+:raymanni/holiday/brick_green_d: 192 96
+:raymanni/holiday/brick_green_d: 224 64
+:raymanni/holiday/brick_green_d: 256 32
+$END_TILE_GROUP
+:Group-0: 144 80
+:raymanni/holiday/brick_green: 432 80
+:raymanni/holiday/steel1.S: 400 330
+:raymanni/holiday/steel1.S: 400 298
+:raymanni/holiday/steel1.S: 400 266
+:raymanni/holiday/steel1.S: 400 234
+:raymanni/holiday/steel1.S: 400 202
+:raymanni/holiday/steel1.S: 368 176
+:raymanni/holiday/wreath: 332 192
+:raymanni/holiday/gift1: 334 336
+:raymanni/holiday/gift2: 304 304
+:raymanni/holiday/gift1: 270 336
+:raymanni/holiday/bauble_string: 266 262
+:raymanni/holiday/bauble_navy: 266 282
+:raymanni/holiday/bauble_string: 226 302
+:raymanni/holiday/bauble_navy: 226 322
+:raymanni/holiday/steel1.S: 400 362
+:raymanni/holiday/brick_green: 576 368
+:raymanni/holiday/brick_green: 608 368
+:raymanni/holiday/brick_green: 48 336
+:raymanni/holiday/brick_green: 48 304
+:raymanni/holiday/brick_green: 48 272
+:raymanni/holiday/brick_green_b: 48 240
+:raymanni/holiday/steel1.S: 400 392
