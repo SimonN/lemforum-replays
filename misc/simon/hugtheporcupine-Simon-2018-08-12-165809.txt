@@ -1,4 +1,4 @@
-$FILENAME single/simon/hugtheporcupine.txt
+$FILENAME single/misc/simon/hugtheporcupine.txt
 $LEVEL_BUILT_REQUIRED 2018-07-30 23:12:02
 $GAME_VERSION_REQUIRED 0.9.19
 

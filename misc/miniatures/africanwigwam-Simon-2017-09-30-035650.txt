@@ -1,4 +1,4 @@
-$FILENAME single/miniatures/simon/africanwigwam.txt
+$FILENAME single/misc/miniatures/africanwigwam.txt
 $LEVEL_BUILT_REQUIRED 2017-03-06 16:57:07
 $GAME_VERSION_REQUIRED 0.9.0
 

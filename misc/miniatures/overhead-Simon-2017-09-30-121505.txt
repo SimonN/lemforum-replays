@@ -1,4 +1,4 @@
-$FILENAME single/miniatures/simon/overhead.txt
+$FILENAME single/misc/miniatures/overhead.txt
 $LEVEL_BUILT_REQUIRED 2017-03-06 07:34:28
 $GAME_VERSION_REQUIRED 0.9.0
 

@@ -1,4 +1,4 @@
-$FILENAME single/simon/koreanwashingmachine.txt
+$FILENAME single/misc/simon/koreanwashingmachine.txt
 $LEVEL_BUILT_REQUIRED 2018-08-19 13:51:03
 $GAME_VERSION_REQUIRED 0.9.19
 

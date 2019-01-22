@@ -1,4 +1,4 @@
-$FILENAME single/miniatures/simon/diodes.txt
+$FILENAME single/misc/miniatures/diodes.txt
 $LEVEL_BUILT_REQUIRED 2017-09-30 11:46:07
 $GAME_VERSION_REQUIRED 0.9.0
 

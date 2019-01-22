@@ -1,4 +1,4 @@
-$FILENAME single/miniatures/simon/jerboa-garden.txt
+$FILENAME single/misc/miniatures/jerboagarden.txt
 $LEVEL_BUILT_REQUIRED 2016-07-13 02:39:58
 $GAME_VERSION_REQUIRED 0.9.0
 
