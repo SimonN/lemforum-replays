@@ -1,4 +1,4 @@
-$FILENAME single/misc/nessy/walking-the-blue-mile.txt
+$FILENAME single/misc/nessy/walkingthebluemile.txt
 $LEVEL_BUILT_REQUIRED 2017-12-03 12:30:47
 $GAME_VERSION_REQUIRED 0.9.4
 

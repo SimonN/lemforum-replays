@@ -1,4 +1,4 @@
-$FILENAME single/misc/nessy/ancient-temple-of-lix.txt
+$FILENAME single/misc/nessy/ancienttempleoflix.txt
 $LEVEL_BUILT_REQUIRED 2017-11-27 22:24:20
 $GAME_VERSION_REQUIRED 0.9.4
 

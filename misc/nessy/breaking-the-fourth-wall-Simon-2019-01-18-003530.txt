@@ -1,4 +1,4 @@
-$FILENAME single/misc/nessy/breaking-the-fourth-wall.txt
+$FILENAME single/misc/nessy/breakingthefourthwall.txt
 $LEVEL_BUILT_REQUIRED 2017-12-05 22:53:24
 $GAME_VERSION_REQUIRED 0.9.24
 
