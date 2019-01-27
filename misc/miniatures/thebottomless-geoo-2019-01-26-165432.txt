@@ -1,0 +1,71 @@
+$FILENAME single/misc/miniatures/thebottomless.txt
+$LEVEL_BUILT_REQUIRED 2019-01-26 16:53:25
+$GAME_VERSION_REQUIRED 0.9.24
+
++PLAYER 0 Garden geoo
+
+! 114 0 ASSIGN=BLOCKER 0
+! 154 0 ASSIGN=BUILDER 1
+! 212 0 ASSIGN=BLOCKER 2
+! 386 0 ASSIGN=EXPLODER 7
+! 437 0 ASSIGN=FLOATER 8
+! 454 0 ASSIGN=BUILDER 8
+! 670 0 ASSIGN=EXPLODER 2
+! 748 0 NUKE 0
+
+$BUILT 2019-01-26 16:53:25
+$AUTHOR geoo
+$ENGLISH The Bottomless Closet
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 256
+#SIZE_Y 192
+
+#INITIAL 9
+#REQUIRED 5
+#SPAWN_INTERVAL 44
+
+#FLOATER 1
+#EXPLODER 2
+#BLOCKER 2
+#BUILDER 2
+
+:matt/underworld/Hatch.H: 96 0
+
+:matt/underworld/Goal.G: 96 108
+
+:geoo/steel/dark_64x64.S: 96 172
+:matt/underworld/thinplatform128: -192 32
+:matt/underworld/thinplatform128: -64 32
+:matt/underworld/thinplatform128: 64 32
+:matt/underworld/thinplatform128: 192 32
+:matt/underworld/thinplatform128: 320 32
+:matt/underworld/thinplatform8: 96 32 rrr
+:matt/underworld/thinplatform8: 128 32 rrr
+:matt/underworld/thinplatform8: 160 32 rrr
+:matt/underworld/thinplatform8: 192 32 rrr
+:matt/underworld/thinplatform8: 224 32 rrr
+:matt/underworld/thinplatform8: 256 32 rrr
+:matt/underworld/thinplatform8: 288 32 rrr
+:matt/underworld/thinplatform8: 320 32 rrr
+:matt/underworld/thinplatform8: 352 32 rrr
+:matt/underworld/thinplatform8: 384 32 rrr
+:matt/underworld/thinplatform8: 416 32 rrr
+:matt/underworld/thinplatform8: -160 32 rrr
+:matt/underworld/thinplatform8: -128 32 rrr
+:matt/underworld/thinplatform8: -96 32 rrr
+:matt/underworld/thinplatform8: -64 32 rrr
+:matt/underworld/thinplatform8: -32 32 rrr
+:matt/underworld/thinplatform8: 0 32 rrr
+:matt/underworld/thinplatform8: 32 32 rrr
+:matt/underworld/thinplatform8: 64 32 rrr
+:geoo/construction/concrete/064h: -192 34 d
+:geoo/construction/concrete/064h: -64 34 d
+:geoo/construction/concrete/064h: 64 34 d
+:geoo/construction/concrete/064h: 192 34 d
+:geoo/construction/concrete/064h: 320 34 d
+:matt/underworld/thinplatform128: -192 4
+:matt/underworld/thinplatform128: -64 4
+:matt/underworld/thinplatform128: 64 4
+:matt/underworld/thinplatform128: 192 4
+:matt/underworld/thinplatform128: 320 4
