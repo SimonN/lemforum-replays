@@ -1,56 +1,74 @@
-$FILENAME single/rubix/Extras/Community Collab Project/Lixcon-Rubix.txt
-$LEVEL_BUILT_REQUIRED 2017-10-09 08:40:26
+$FILENAME single/rubix/Extras/Collab/Six Houses.txt
+$LEVEL_BUILT_REQUIRED 2017-10-08 01:28:08
 $GAME_VERSION_REQUIRED 0.8.8
 
 +PLAYER 0 Garden rub
 
-! 72 0 ASSIGN=PLATFORMER 0
-! 132 0 ASSIGN=BUILDER 0
-! 163 0 ASSIGN=BUILDER 1
-! 205 0 ASSIGN=BUILDER 2
-! 265 0 ASSIGN=BASHER 1
-! 371 0 ASSIGN=BUILDER 1
-! 430 0 ASSIGN=RUNNER 5
-! 458 0 ASSIGN=PLATFORMER 5
-! 740 0 ASSIGN=CLIMBER 5
-! 816 0 ASSIGN=BUILDER 5
-! 1003 0 ASSIGN=JUMPER 5
-! 1204 0 ASSIGN=BUILDER 5
-! 1452 0 ASSIGN=MINER 5
-! 1952 0 ASSIGN=BUILDER 13
-! 2362 0 ASSIGN=PLATFORMER 5
-! 2365 0 ASSIGN=PLATFORMER 5
-! 2648 0 ASSIGN=BASHER 5
-! 2714 0 ASSIGN=MINER 5
-! 2762 0 ASSIGN=BUILDER 15
+! 151 0 ASSIGN=BLOCKER 0
+! 165 0 ASSIGN=DIGGER 3
+! 199 0 ASSIGN=PLATFORMER 4
+! 251 0 ASSIGN=FLOATER 4
+! 387 0 ASSIGN=PLATFORMER 4
+! 445 0 ASSIGN=WALKER 3
+! 619 0 ASSIGN=MINER 4
+! 720 0 ASSIGN=MINER 4
+! 940 0 ASSIGN=PLATFORMER 22
+! 1049 0 ASSIGN=BASHER 22
+! 1137 0 ASSIGN=BASHER 23
+! 1288 0 ASSIGN=BUILDER 23
+! 1430 0 ASSIGN_RIGHT=BUILDER 17
+! 1554 0 ASSIGN=JUMPER 17
+! 1559 0 ASSIGN=EXPLODER2 17
+! 1677 0 ASSIGN=BASHER 2
+! 1756 0 ASSIGN=BASHER 2
+! 1841 0 ASSIGN_RIGHT=BUILDER 48
+! 2068 0 ASSIGN=BUILDER 24
+! 2457 0 ASSIGN=EXPLODER2 0
+! 2499 0 ASSIGN=BASHER 49
+! 2553 0 ASSIGN=BASHER 31
+! 2764 0 ASSIGN=PLATFORMER 43
+! 3026 0 ASSIGN=DIGGER 37
 
-$BUILT 2017-10-09 08:40:26
-$AUTHOR Rubix
-$ENGLISH Lixcon
+$BUILT 2017-10-08 01:28:08
+$AUTHOR Mobius
+$GERMAN Komm Gib Mer Diene Hand
+$ENGLISH Six Houses makes One
 
 #INTENDED_NUMBER_OF_PLAYERS 1
 #SIZE_X 1280
 #SIZE_Y 400
 #TORUS_X 1
-#TORUS_Y 1
+#TORUS_Y 0
 
-#INITIAL 30
-#REQUIRED 30
-#SPAWN_INTERVAL 55
+#INITIAL 60
+#REQUIRED 55
+#SPAWN_INTERVAL 30
 
+#WALKER 2
 #RUNNER 1
-#CLIMBER 1
-#BUILDER 8
+#FLOATER 5
+#EXPLODER2 2
+#BLOCKER 2
+#BUILDER 4
 #PLATFORMER 4
-#BASHER 2
+#BASHER 6
 #MINER 2
+#DIGGER 3
 #JUMPER 2
-#EXPLODER2 0
 
-:geoo/abstract/hatch.H: 848 272
-:matt/underworld/Hatch.H: 272 96
+:matt/underworld/Hatch.H: 96 80
+:geoo/construction/Hatch.H: 368 352 r
+:geoo/sandstone/Hatch.H: 696 40 r
+:matt/marble/Hatch.H: 504 208
+:matt/earth/Hatch.H: 856 16
+:geoo/abstract/hatch.H: 888 288
 
-:geoo/sandstone/Goal.G: 624 96
+:matt/underworld/Goal.G: 384 0
+:geoo/construction/Goal2.G: 136 240
+:geoo/sandstone/Goal.G: 440 112
+:geoo/abstract/goal.G: 1200 256
+:matt/earth/Goal.G: 864 104
+:matt/marble/Goal.G: 744 336
 
 :simon/water.W: 928 64
 :simon/water.W: 944 64
@@ -62,9 +80,9 @@ $ENGLISH Lixcon
 :matt/underworld/Lava.W: 32 152
 
 :matt/earth/15: 1244 102 rrr
-:matt/earth/02: 1008 384 rrr
+:matt/earth/02: 1008 -16 rrr
 :matt/earth/12: 982 10
-:matt/earth/05: 992 384 rrr
+:matt/earth/05: 992 -16 rrr
 :geoo/abstract/cvblocks/020: 1216 224
 :matt/underworld/09a: 233 3 rr
 :geoo/construction/stairsbrick_ru_32: 152 216
@@ -171,7 +189,7 @@ $ENGLISH Lixcon
 :geoo/construction/wall/small_square: 400 320
 :geoo/construction/wall/small_diag_td: 400 304
 :matt/earth/09: 882 126
-:matt/earth/03: 884 386
+:matt/earth/03: 884 -14
 :matt/earth/27: 912 0
 :matt/earth/27: 882 6
 :matt/earth/08: 860 112
@@ -190,20 +208,23 @@ $ENGLISH Lixcon
 :matt/earth/06: 1056 128
 :matt/earth/10: 1050 112
 :matt/earth/06: 1130 16 rrr
-:matt/earth/04: 1136 316
+:matt/earth/04: 1136 -84
 :matt/earth/06: 1124 2
 :matt/underworld/01: 80 34
-:matt/underworld/05: 83 387
-:matt/underworld/05: 17 389
-:matt/underworld/09a: 338 398 rr
+:matt/underworld/05: 83 -13
+:matt/underworld/05: 17 -11
+:geoo/steel/32x32o.S: 16 0
+:matt/underworld/09a: 338 -2 rr
 :geoo/steel/32x32o.S: 400 0
 :geoo/steel/32x16o.S: 48 0
+:geoo/steel/32x16o.S: 80 0
+:geoo/steel/32x16o.S: 112 0
 :geoo/steel/32x16o.S: 144 0
 :geoo/steel/32x16o.S: 176 0
 :geoo/steel/32x16o.S: 208 0
 :matt/underworld/09a: 263 0 rr
 :geoo/steel/32x16o.S: 240 0
-:matt/underworld/09a: 299 399 rr
+:matt/underworld/09a: 299 -1 rr
 :geoo/steel/32x16o.S: 272 0
 :geoo/steel/32x16o.S: 304 0
 :geoo/steel/32x16o.S: 336 0
@@ -217,7 +238,9 @@ $ENGLISH Lixcon
 :matt/underworld/04: 291 139
 :matt/underworld/02: 208 96
 :geoo/steel/32x16o.S: 176 176
+:geoo/steel/32x16o.S: 208 176
 :matt/underworld/09b: 266 146
+:geoo/steel/32x16o.S: 240 176
 :geoo/steel/32x16o.S: 272 176
 :matt/underworld/09c: 298 148
 :matt/underworld/02: 336 96
@@ -225,22 +248,28 @@ $ENGLISH Lixcon
 :geoo/steel/32x16o.S: 304 176
 :geoo/steel/32x32o.S: 16 160
 :geoo/steel/32x32o.S: 400 160
+:geoo/steel/16x32o.S: 16 32
 :geoo/steel/16x32o.S: 16 64
 :geoo/steel/16x32o.S: 16 128
 :geoo/steel/16x32o.S: 16 96
 :matt/underworld/00: 367 64
+:geoo/steel/16x32o.S: 432 64
 :geoo/steel/16x32o.S: 416 96
 :geoo/steel/16x32o.S: 416 128
+:geoo/steel/32x32o.S: 16 208
 :geoo/steel/32x32o.S: 400 208
 :geoo/steel/32x16o.S: 80 208
 :geoo/steel/32x16o.S: 112 208
 :geoo/steel/32x16o.S: 144 208
 :geoo/steel/32x16o.S: 176 208
+:geoo/steel/32x16o.S: 208 208
 :geoo/steel/32x16o.S: 240 208
 :geoo/steel/32x16o.S: 272 208
 :geoo/steel/32x16o.S: 304 208
 :geoo/steel/32x16o.S: 336 208
 :geoo/steel/32x16o.S: 48 384
+:geoo/steel/32x16o.S: 80 384
+:geoo/steel/32x16o.S: 112 384
 :geoo/steel/32x16o.S: 144 384
 :geoo/steel/32x16o.S: 176 384
 :geoo/steel/32x16o.S: 208 384
@@ -251,8 +280,13 @@ $ENGLISH Lixcon
 :geoo/steel/32x16o.S: 368 384
 :geoo/steel/32x32o.S: 16 368
 :geoo/steel/32x32o.S: 400 368
+:geoo/steel/16x32o.S: 16 240
 :geoo/steel/16x32o.S: 16 272
-:geoo/steel/16x32o.S: 16 336 rr
+:geoo/steel/16x32o.S: 16 336
+:geoo/steel/16x32o.S: 16 304
+:geoo/steel/16x32o.S: 416 240
+:geoo/steel/16x32o.S: 416 304
+:geoo/steel/16x32o.S: 416 336
 :geoo/steel/32x32o.S: 432 0
 :geoo/steel/32x32o.S: 816 0
 :geoo/steel/32x16o.S: 464 0
@@ -270,8 +304,13 @@ $ENGLISH Lixcon
 :geoo/steel/32x16o.S: 720 176
 :geoo/steel/32x16o.S: 752 176
 :geoo/steel/32x16o.S: 784 176
+:geoo/steel/32x32o.S: 432 160
 :geoo/steel/32x32o.S: 816 160
+:geoo/steel/16x32o.S: 432 96
+:geoo/steel/16x32o.S: 432 128
+:geoo/steel/16x32o.S: 832 96
 :geoo/steel/16x32o.S: 832 128
+:geoo/steel/16x32o.S: 832 32
 :geoo/steel/32x32o.S: 848 0
 :geoo/steel/32x32o.S: 1232 0
 :geoo/steel/32x16o.S: 880 0
@@ -289,6 +328,7 @@ $ENGLISH Lixcon
 :geoo/steel/32x16o.S: 1200 0
 :geoo/steel/32x16o.S: 880 176
 :geoo/steel/32x16o.S: 912 176
+:geoo/steel/32x16o.S: 944 176
 :geoo/steel/32x16o.S: 1040 176
 :geoo/steel/32x16o.S: 1072 176
 :geoo/steel/32x16o.S: 1104 176
@@ -297,13 +337,19 @@ $ENGLISH Lixcon
 :geoo/steel/32x16o.S: 1200 176
 :geoo/steel/32x32o.S: 848 160
 :geoo/steel/32x32o.S: 1232 160
+:geoo/steel/16x32o.S: 848 32
+:geoo/steel/16x32o.S: 848 96
 :geoo/steel/16x32o.S: 1248 32
+:geoo/steel/16x32o.S: 1248 64
 :geoo/steel/16x32o.S: 1248 128
 :geoo/steel/16x32o.S: 1248 96
 :geoo/steel/32x32o.S: 1232 208
 :geoo/steel/32x16o.S: 912 208
 :geoo/steel/32x16o.S: 944 208
 :geoo/steel/32x16o.S: 976 208
+:geoo/steel/32x16o.S: 1008 208
+:geoo/steel/32x16o.S: 1040 208
+:geoo/steel/32x16o.S: 1072 208
 :geoo/steel/32x16o.S: 1104 208
 :geoo/steel/32x16o.S: 1136 208
 :geoo/steel/32x16o.S: 1168 208
@@ -324,7 +370,13 @@ $ENGLISH Lixcon
 :geoo/steel/16x32o.S: 848 272
 :geoo/steel/16x32o.S: 848 336
 :geoo/steel/16x32o.S: 848 304
+:geoo/steel/16x32o.S: 1248 240
+:geoo/steel/16x32o.S: 1248 272
+:geoo/steel/16x32o.S: 1248 336
+:geoo/steel/16x32o.S: 1248 304
 :geoo/steel/32x32o.S: 432 208
+:geoo/steel/32x16o.S: 464 208
+:geoo/steel/32x16o.S: 496 208
 :geoo/steel/32x16o.S: 528 208
 :geoo/steel/32x16o.S: 560 208
 :geoo/steel/32x16o.S: 592 208
@@ -346,9 +398,13 @@ $ENGLISH Lixcon
 :geoo/steel/32x16o.S: 784 384
 :geoo/steel/32x32o.S: 432 368
 :geoo/steel/32x32o.S: 816 368
+:geoo/steel/16x32o.S: 432 240
+:geoo/steel/16x32o.S: 432 304
+:geoo/steel/16x32o.S: 432 336
 :geoo/steel/16x32o.S: 832 272
 :geoo/steel/16x32o.S: 832 336
 :geoo/steel/16x32o.S: 832 304
+:geoo/steel/32x16o.S: 480 192
 :geoo/steel/32x16o.S: 512 192
 :geoo/steel/32x16o.S: 576 192
 :geoo/steel/32x16o.S: 544 192
@@ -359,6 +415,7 @@ $ENGLISH Lixcon
 :geoo/steel/32x16o.S: 832 224
 :geoo/steel/32x16o.S: 896 192
 :geoo/steel/32x16o.S: 928 192
+:geoo/steel/32x16o.S: 960 192
 :geoo/steel/32x16o.S: 1056 192
 :geoo/steel/32x16o.S: 1088 192
 :geoo/steel/32x16o.S: 1120 192
@@ -366,6 +423,7 @@ $ENGLISH Lixcon
 :geoo/steel/32x16o.S: 128 192
 :geoo/steel/32x16o.S: 160 192
 :geoo/steel/32x16o.S: 192 192
+:geoo/steel/32x16o.S: 224 192
 :geoo/steel/32x16o.S: 256 192
 :geoo/steel/32x16o.S: 288 192
 :geoo/steel/32x16o.S: 320 192
@@ -374,6 +432,8 @@ $ENGLISH Lixcon
 :geoo/steel/32x16o.S: 96 192
 :geoo/steel/32x16o.S: 1184 192
 :geoo/steel/32x16o.S: 1216 192
+:geoo/steel/32x16o.S: 1248 192
+:geoo/steel/32x16o.S: 0 192
 :geoo/steel/32x16o.S: 368 208
 :geoo/steel/32x16o.S: 352 192
 :geoo/steel/32x16o.S: 336 176
@@ -386,6 +446,8 @@ $ENGLISH Lixcon
 :geoo/steel/32x16o.S: 528 176
 :geoo/steel/32x16o.S: 560 176
 :geoo/steel/32x16o.S: 592 176
+:geoo/steel/32x16o.S: 432 32 rrr
+:geoo/steel/32x16o.S: 416 32 rrr
 :geoo/steel/16x32o.S: 832 240
 :geoo/steel/16x32o.S: 848 240
 :geoo/steel/dark_32x32o.S: 896 64
@@ -464,6 +526,10 @@ $ENGLISH Lixcon
 :geoo/steel/32x16o.S: 368 176
 :geoo/steel/32x16o.S: 384 192
 :geoo/steel/32x16o.S: 416 192
+:geoo/steel/32x16o.S: 448 192
+:geoo/steel/32x16o.S: 464 176
+:geoo/steel/16x32o.S: 432 272
+:geoo/steel/16x32o.S: 416 272
 :geoo/steel/32x16o.S: 800 192
 :geoo/steel/32x16o.S: 832 192
 :geoo/steel/32x16o.S: 864 192
@@ -471,6 +537,8 @@ $ENGLISH Lixcon
 :geoo/steel/32x16o.S: 848 208
 :geoo/steel/32x16o.S: 816 208
 :geoo/steel/32x16o.S: 784 208
+:geoo/steel/16x32o.S: 848 64
+:geoo/steel/16x32o.S: 832 64
 :geoo/steel/16x32o.S: 848 128
 :matt/underworld/00: 144 128
 :matt/underworld/00: 272 96
@@ -534,28 +602,18 @@ $ENGLISH Lixcon
 :geoo/abstract/cvblocks/034: 928 240
 :geoo/abstract/cvblocks/020: 1056 224
 :matt/bricks/02: 1264 128 rrrd
-:matt/bricks/02: 1264 64 rrrd
+:matt/bricks/02: 1264 256 rrrd
 :matt/bricks/02: 1264 128 rrrd
 :matt/bricks/02: 1264 64 rrrd
-:geoo/steel/32x16o.S: 112 0
-:geoo/steel/32x16o.S: 80 0
-:geoo/steel/32x16o.S: 80 384
-:geoo/steel/32x16o.S: 112 384
-:geoo/steel/16x32o.S: 416 272
-:geoo/steel/16x32o.S: 416 304
-:geoo/steel/16x32o.S: 432 304
-:geoo/steel/16x32o.S: 416 336
-:geoo/steel/16x32o.S: 432 336
-:geoo/steel/32x16o.S: 224 192
-:geoo/steel/32x16o.S: 208 176
-:geoo/steel/32x16o.S: 240 176
-:geoo/steel/32x16o.S: 208 208
-:geoo/steel/32x32o.S: 16 0
-:geoo/steel/16x32o.S: 16 240
-:geoo/steel/16x32o.S: 1248 240
-:geoo/steel/32x32o.S: 16 208
-:geoo/steel/32x16o.S: 1072 208
-:geoo/steel/32x16o.S: 1040 208
-:geoo/steel/32x16o.S: 944 176
-:geoo/steel/32x16o.S: 960 192
-:geoo/steel/16x32o.S: 1248 352 rrr
+:geoo/steel/32x32o.S: 1264 0
+:geoo/steel/32x32o.S: 1264 32
+:geoo/steel/32x32o.S: 1264 96
+:geoo/steel/32x32o.S: 1264 64
+:geoo/steel/32x32o.S: 1264 160
+:geoo/steel/32x32o.S: 1264 128
+:geoo/steel/32x32o.S: 1264 240
+:geoo/steel/32x32o.S: 1264 208
+:geoo/steel/32x32o.S: 1264 304
+:geoo/steel/32x32o.S: 1264 272
+:geoo/steel/32x32o.S: 1264 368
+:geoo/steel/32x32o.S: 1264 336
