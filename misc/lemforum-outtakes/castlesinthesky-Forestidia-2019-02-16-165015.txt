@@ -1,0 +1,225 @@
+$FILENAME single/misc/lemforum-outtakes/castlesinthesky.txt
+$LEVEL_BUILT_REQUIRED 2012-03-11 20:00:02
+$GAME_VERSION_REQUIRED 0.9.25
+
++PLAYER 0 Garden Forestidia
+
+! 94 0 ASSIGN=FLOATER 0
+! 162 0 ASSIGN=PLATFORMER 0
+! 269 0 ASSIGN=FLOATER 3
+! 321 0 ASSIGN=CLIMBER 0
+! 325 0 ASSIGN=CLIMBER 3
+! 326 0 ASSIGN=FLOATER 4
+! 374 0 ASSIGN=FLOATER 5
+! 419 0 ASSIGN=BUILDER 5
+! 420 0 ASSIGN=CLIMBER 4
+! 446 0 ASSIGN=FLOATER 6
+! 466 0 ASSIGN=BLOCKER 6
+! 493 0 ASSIGN=FLOATER 7
+! 529 0 ASSIGN=EXPLODER 0
+! 539 0 ASSIGN=BUILDER 3
+! 557 0 ASSIGN=FLOATER 8
+! 613 0 ASSIGN=FLOATER 9
+! 629 0 ASSIGN=EXPLODER 4
+! 634 0 ASSIGN=PLATFORMER 3
+! 635 0 ASSIGN=PLATFORMER 3
+! 636 0 ASSIGN=PLATFORMER 3
+! 637 0 ASSIGN=PLATFORMER 3
+! 665 0 ASSIGN=FLOATER 10
+! 683 0 ASSIGN=CLIMBER 5
+! 698 0 ASSIGN=CLIMBER 9
+! 705 0 ASSIGN=CLIMBER 10
+! 737 0 ASSIGN=FLOATER 11
+! 875 0 ASSIGN=BUILDER 5
+! 977 0 ASSIGN=EXPLODER 9
+! 1030 0 ASSIGN=PLATFORMER 10
+! 1076 0 ASSIGN=EXPLODER 10
+! 1080 0 ASSIGN=PLATFORMER 5
+! 1135 0 ASSIGN=CLIMBER 7
+! 1158 0 ASSIGN=EXPLODER 5
+! 1211 0 ASSIGN=BLOCKER 3
+! 1290 0 ASSIGN=BUILDER 19
+! 1411 0 ASSIGN=BLOCKER 19
+! 1432 0 ASSIGN=BUILDER 7
+! 1580 0 ASSIGN=BUILDER 7
+! 1699 0 ASSIGN=PLATFORMER 7
+! 1701 0 ASSIGN=PLATFORMER 7
+! 1766 0 ASSIGN=CLIMBER 11
+! 1772 0 ASSIGN=CLIMBER 8
+! 1916 0 ASSIGN=EXPLODER 19
+! 5644 0 NUKE 0
+
+$BUILT 2012-03-11 20:00:02
+$AUTHOR Nortaneous
+$ENGLISH Castles in the Sky
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 640
+#SIZE_Y 400
+
+#INITIAL 80
+#REQUIRED 55
+#SPAWN_INTERVAL 60
+
+#CLIMBER 10
+#FLOATER 10
+#EXPLODER 15
+#BLOCKER 15
+#BUILDER 20
+#PLATFORMER 15
+
+:matt/marble/Hatch.H: 32 -12
+
+:matt/marble/Goal.G: 544 0
+
+:simon/water.W: 230 302
+:simon/water.W: 342 302
+:simon/water.W: 392 300
+:simon/water.W: 192 282
+:simon/water.W: 242 282
+:simon/water.W: 292 282
+:simon/water.W: 342 282
+:simon/water.W: 392 282
+
+:matt/marble/001d: 260 288
+:matt/marble/001d: 260 272
+:matt/marble/001d: 260 256
+:matt/marble/001d: 260 240
+:matt/marble/001d: 260 224
+:matt/marble/001d: 260 208
+:matt/marble/001d: 260 192
+:matt/marble/001d: 260 176
+:matt/marble/001d: 260 160
+:matt/marble/001d: 260 144
+:matt/marble/001d: 260 128
+:matt/marble/001d: 288 256
+:matt/marble/001d: 344 256
+:matt/marble/001d: 344 240
+:matt/marble/001d: 344 224
+:matt/marble/001d: 344 208
+:matt/marble/001d: 344 192
+:matt/marble/001d: 344 176
+:matt/marble/001d: 344 160
+:matt/marble/001d: 344 144
+:matt/marble/001d: 344 128
+:matt/marble/001d: 372 288
+:matt/marble/001d: 372 272
+:matt/marble/001d: 372 256
+:matt/marble/001d: 372 240
+:matt/marble/001d: 372 224
+:matt/marble/001d: 372 208
+:matt/marble/001d: 372 192
+:matt/marble/001d: 372 176
+:matt/marble/001d: 372 160
+:matt/marble/001d: 372 144
+:matt/marble/001d: 372 128
+:matt/marble/001d: 260 112
+:matt/marble/001d: 260 96
+:matt/marble/001d: 260 80
+:matt/marble/001d: 260 64
+:matt/marble/001d: 260 48
+:matt/marble/001d: 260 32
+:matt/marble/001d: 344 112
+:matt/marble/001d: 344 96
+:matt/marble/001d: 344 80
+:matt/marble/001d: 344 64
+:matt/marble/001d: 344 48
+:matt/marble/001d: 344 32
+:matt/marble/001d: 372 112
+:matt/marble/001d: 372 96
+:matt/marble/001d: 372 80
+:matt/marble/001d: 372 64
+:matt/marble/001d: 372 48
+:matt/marble/001d: 372 32
+:matt/marble/001d: 260 16
+:matt/marble/001d: 260 0
+:matt/marble/001d: 344 16
+:matt/marble/001d: 344 0
+:matt/marble/001d: 372 16
+:matt/marble/001d: 372 0
+:matt/marble/08b: 0 352
+:matt/marble/08b: 64 352
+:matt/marble/08b: 128 352
+:matt/marble/08b: 192 352
+:matt/marble/08b: 256 352
+:matt/marble/08b: 320 352
+:matt/marble/08b: 384 352
+:matt/marble/08b: 448 352
+:matt/marble/08b: 512 352
+:matt/marble/08b: 576 352
+:matt/marble/08b: -32 384
+:matt/marble/08b: 32 384
+:matt/marble/08b: 96 384
+:matt/marble/08b: 160 384
+:matt/marble/08b: 224 384
+:matt/marble/08b: 288 384
+:matt/marble/08b: 352 384
+:matt/marble/08b: 416 384
+:matt/marble/08b: 480 384
+:matt/marble/08b: 544 384
+:matt/marble/08b: 608 384
+:matt/marble/14b: 0 320
+:matt/marble/14b: 32 288
+:matt/marble/16b: 64 288
+:matt/marble/16b: 96 320
+:matt/marble/08b: 32 320
+:matt/marble/14b: 128 320
+:matt/marble/14b: 160 288
+:matt/marble/16b: 192 288
+:matt/marble/16b: 224 320
+:matt/marble/08b: 160 320
+:matt/marble/14b: 256 320
+:matt/marble/14b: 288 288
+:matt/marble/16b: 320 288
+:matt/marble/16b: 352 320
+:matt/marble/08b: 288 320
+:matt/marble/14b: 384 320
+:matt/marble/14b: 416 288
+:matt/marble/16b: 448 288
+:matt/marble/16b: 480 320
+:matt/marble/08b: 416 320
+:matt/marble/14b: 512 320
+:matt/marble/14b: 544 288
+:matt/marble/16b: 576 288
+:matt/marble/16b: 608 320
+:matt/marble/08b: 544 320
+:matt/marble/001d: 372 304
+:matt/marble/001d: 260 304
+:matt/marble/001d: 288 272
+:matt/marble/001d: 344 272
+:matt/marble/15b: 590 48
+:matt/marble/17b: 530 48
+:matt/marble/001d: 288 240
+:matt/marble/001d: 288 224
+:matt/marble/001d: 288 208
+:matt/marble/001d: 288 192
+:matt/marble/001d: 288 176
+:matt/marble/001d: 288 160
+:matt/marble/001d: 288 144
+:matt/marble/001d: 288 128
+:matt/marble/001d: 288 112
+:matt/marble/001d: 288 96
+:matt/marble/001d: 288 80
+:matt/marble/001d: 288 64
+:matt/marble/001d: 288 48
+:matt/marble/001d: 288 32
+:matt/marble/001d: 288 16
+:matt/marble/001d: 288 0
+:matt/marble/001d: 316 240
+:matt/marble/001d: 316 224
+:matt/marble/001d: 316 208
+:matt/marble/001d: 316 192
+:matt/marble/001d: 316 176
+:matt/marble/001d: 316 160
+:matt/marble/001d: 316 144
+:matt/marble/001d: 316 128
+:matt/marble/001d: 316 112
+:matt/marble/001d: 316 96
+:matt/marble/001d: 316 80
+:matt/marble/001d: 316 64
+:matt/marble/001d: 316 48
+:matt/marble/001d: 316 32
+:matt/marble/001d: 316 16
+:matt/marble/001d: 316 0
+:matt/marble/13b: 574 48
+:matt/marble/11b: 562 48

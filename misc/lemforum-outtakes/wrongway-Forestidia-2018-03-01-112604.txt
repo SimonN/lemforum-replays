@@ -1,0 +1,183 @@
+$FILENAME single/misc/lemforum-outtakes/wrongway.txt
+$LEVEL_BUILT_REQUIRED 2012-08-18 14:35:57
+$GAME_VERSION_REQUIRED 0.9.12
+
++PLAYER 0 Garden Forestidia
+
+! 191 0 ASSIGN=BASHER 0
+! 389 0 ASSIGN=BATTER 6
+! 431 0 ASSIGN=CLIMBER 2
+! 458 0 ASSIGN=CLIMBER 3
+! 503 0 ASSIGN=BUILDER 0
+! 827 0 ASSIGN=BASHER 2
+
+$BUILT 2012-08-18 14:35:57
+$AUTHOR mobius
+$ENGLISH wrong way
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 960
+#SIZE_Y 400
+
+#INITIAL 30
+#REQUIRED 30
+#SPAWN_INTERVAL 50
+
+#CLIMBER 2
+#FLOATER 1
+#BUILDER 1
+#BASHER 2
+#BATTER 1
+#EXPLODER2 0
+
+:matt/marble/Hatch.H: 816 224 r
+
+:matt/marble/Goal.G: 48 288
+
+:matt/marble/23e: 32 368
+:matt/marble/23e: 64 368
+:matt/marble/23e: 32 336
+:matt/marble/23e: 64 336
+:matt/marble/23e: 96 368
+:matt/marble/23e: 128 368
+:matt/marble/23e: 96 336
+:matt/marble/23e: 128 336
+:matt/marble/23e: 160 368
+:matt/marble/23e: 192 368
+:matt/marble/23e: 160 336
+:matt/marble/23e: 192 336
+:matt/marble/23e: 224 368
+:matt/marble/23e: 256 368
+:matt/marble/23e: 224 336
+:matt/marble/23e: 256 336
+:matt/marble/23e: 288 368
+:matt/marble/23e: 320 368
+:matt/marble/23e: 288 336
+:matt/marble/23e: 320 336
+:matt/marble/23e: 352 368
+:matt/marble/23e: 384 368
+:matt/marble/23e: 352 336
+:matt/marble/23e: 384 336
+:matt/marble/23e: 416 368
+:matt/marble/23e: 448 368
+:matt/marble/23e: 416 336
+:matt/marble/23e: 448 336
+:matt/marble/23e: 480 368
+:matt/marble/23e: 512 368
+:matt/marble/23e: 480 336
+:matt/marble/23e: 512 336
+:matt/marble/23e: 544 368
+:matt/marble/23e: 576 368
+:matt/marble/23e: 544 336
+:matt/marble/23e: 576 336
+:matt/marble/23e: 608 368
+:matt/marble/23e: 640 368
+:matt/marble/23e: 608 336
+:matt/marble/23e: 640 336
+:matt/marble/23e: 672 368
+:matt/marble/23e: 704 368
+:matt/marble/23e: 672 336
+:matt/marble/23e: 704 336
+:matt/marble/23e: 736 368
+:matt/marble/23e: 768 368
+:matt/marble/23e: 736 336
+:matt/marble/23e: 768 336
+:matt/marble/23e: 800 368
+:matt/marble/23e: 832 368
+:matt/marble/23e: 800 336
+:matt/marble/23e: 832 336
+:matt/marble/23e: 864 368
+:matt/marble/23e: 864 336
+:matt/marble/23e: 224 304
+:matt/marble/23e: 256 304
+:matt/marble/23e: 224 272
+:matt/marble/23e: 256 272
+:matt/marble/23e: 224 240
+:matt/marble/23e: 256 240
+:matt/marble/23e: 224 208
+:matt/marble/23e: 256 208
+:matt/marble/23e: 224 176
+:matt/marble/23e: 256 176
+:matt/marble/23e: 224 144
+:matt/marble/23e: 256 144
+:matt/marble/23e: 288 176
+:matt/marble/23e: 320 176
+:matt/marble/23e: 288 144
+:matt/marble/23e: 320 144
+:matt/marble/23e: 352 176
+:matt/marble/23e: 384 176
+:matt/marble/23e: 352 144
+:matt/marble/23e: 384 144
+:matt/marble/23e: 416 176
+:matt/marble/23e: 448 176
+:matt/marble/23e: 416 144
+:matt/marble/23e: 448 144
+:matt/marble/23e: 480 176
+:matt/marble/23e: 512 176
+:matt/marble/23e: 480 144
+:matt/marble/23e: 512 144
+:matt/marble/23e: 544 176
+:matt/marble/23e: 576 176
+:matt/marble/23e: 544 144
+:matt/marble/23e: 576 144
+:matt/marble/23e: 544 304
+:matt/marble/23e: 576 304
+:matt/marble/23e: 544 272
+:matt/marble/23e: 576 272
+:matt/marble/23e: 544 240
+:matt/marble/23e: 576 240
+:matt/marble/23e: 544 208
+:matt/marble/23e: 576 208
+:matt/marble/23e: 288 208
+:matt/marble/23e: 320 208
+:matt/marble/23e: 352 208
+:matt/marble/23e: 384 208
+:matt/marble/23e: 416 208
+:matt/marble/23e: 448 208
+:matt/marble/23e: 480 208
+:matt/marble/23e: 512 208
+:matt/marble/23e: 288 304
+:matt/marble/23e: 192 304
+:matt/marble/23e: 288 272
+:matt/marble/23e: 192 272
+:matt/marble/23e: 288 240
+:matt/marble/23e: 192 240
+:matt/marble/23e: 192 208
+:matt/marble/23e: 192 176
+:matt/marble/23e: 192 144
+:matt/marble/01c: 336 176
+:matt/marble/01c: 272 208
+:matt/marble/01c: 240 160
+:matt/marble/01c: 224 256
+:matt/marble/01c: 288 288
+:matt/marble/01c: 256 320
+:matt/marble/01c: 208 368
+:matt/marble/15: 192 144
+:matt/marble/17: 576 144
+:matt/marble/01c: 320 384
+:matt/marble/01c: 128 352
+:matt/marble/01c: 64 384
+:matt/marble/01c: 384 352
+:matt/marble/01c: 504 392
+:matt/marble/01c: 568 360
+:matt/marble/01c: 576 288
+:matt/marble/01c: 544 256
+:matt/marble/01c: 568 200
+:matt/marble/01c: 344 232
+:matt/marble/01c: 464 208
+:matt/marble/01c: 416 192
+:matt/marble/01c: 488 152
+:matt/marble/01c: 368 144
+:matt/marble/01c: 624 368
+:matt/marble/01c: 712 344
+:matt/marble/01c: 736 384
+:matt/marble/01c: 792 360
+:matt/marble/01c: 848 336
+:matt/marble/01c: 32 352
+:matt/marble/thinplatform128p: 48 0
+:matt/marble/thinplatform128p: 176 0
+:matt/marble/thinplatform128p: 304 0
+:matt/marble/thinplatform128p: 432 0
+:matt/marble/thinplatform128p: 560 0
+:matt/marble/thinplatform128p: 688 0
+:matt/marble/thinplatform64p: 816 0
