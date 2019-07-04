@@ -1,4 +1,4 @@
-$FILENAME single/misc/contests/keytotheminikingdom.txt
+$FILENAME single/misc/contests/keytothesacredkingdom.txt
 $LEVEL_BUILT_REQUIRED 2017-10-26 06:50:57
 $GAME_VERSION_REQUIRED 0.9.27
 

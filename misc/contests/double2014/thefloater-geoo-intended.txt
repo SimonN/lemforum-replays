@@ -1,4 +1,4 @@
-$FILENAME single/misc/contests/double2014/thefloater.txt
+$FILENAME single/misc/contests/double2014/thefloaterpredicament.txt
 $BUILT_REQUIRED 2014-11-15 15:30:34
 #VERSION_REQUIRED 2014070200
 
