@@ -11,6 +11,7 @@ module windowsHabitsToLix;
  *
  * windows-habits-to-lix.d "My Cool Level (3p).txt"
  *  -> converts CRLF terminators to LF terminators
+ *  -> sets Unix access rights 644: user rw, group r, all r
  *  -> renames to "mycoollevel3p.txt"
  *  -> creates directory "coolauthor/3p/"
  *  -> moves the file into that directory.
