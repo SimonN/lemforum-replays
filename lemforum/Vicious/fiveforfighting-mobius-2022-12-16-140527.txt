@@ -1,0 +1,185 @@
+$FILENAME single/lemforum/Vicious/fiveforfighting.txt
+$LEVEL_BUILT_REQUIRED 2022-12-10 11:34:32
+$GAME_VERSION_REQUIRED 0.10.0
+
++PLAYER 0 Garden mobius
+
+! 129 0 ASSIGN=MINER 0
+! 208 0 ASSIGN=FLOATER 1
+! 279 0 ASSIGN=BUILDER 4
+! 325 0 ASSIGN=FLOATER 0
+! 334 0 ASSIGN=BUILDER 0
+! 335 0 ASSIGN=BUILDER 0
+! 526 0 ASSIGN=JUMPER 4
+! 559 0 ASSIGN=CLIMBER 2
+! 567 0 ASSIGN=CLIMBER 3
+! 1146 0 ASSIGN=BASHER 2
+! 1203 0 ASSIGN=MINER 3
+! 1754 0 ASSIGN_RIGHT=BATTER 4
+! 1873 0 ASSIGN=RUNNER 1
+! 1882 0 ASSIGN=RUNNER 0
+
+$BUILT 2022-12-13 17:44:22
+$AUTHOR mobius
+$ENGLISH Five for Fighting
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 1376
+#SIZE_Y 400
+
+#INITIAL 5
+#REQUIRED 5
+#SPAWN_INTERVAL 36
+
+#RUNNER 2
+#CLIMBER 2
+#FLOATER 2
+#BUILDER 3
+#BASHER 1
+#MINER 2
+#JUMPER 1
+#BATTER 1
+#EXPLODER 0
+
+:matt/goldmine/Hatch.H: 296 56
+
+:matt/goldmine/Goal.G: 1232 288
+
+:simon/water.W: 208 352
+:simon/water.W: 256 352
+:simon/water.W: 304 352
+:simon/water.W: 352 352
+:simon/water.W: 400 352
+:simon/water.W: 448 352
+:simon/water.W: 112 352
+:simon/water.W: 160 352
+
+:matt/goldmine/crate64: 776 352
+:matt/goldmine/08: 752 -32 rr
+:matt/goldmine/04: 32 288
+:matt/goldmine/09: 8 336
+:matt/goldmine/crate64: 1008 144
+:matt/goldmine/crate64: 1008 208
+:matt/goldmine/09: 904 104
+:matt/goldmine/tracks: 1008 136
+:matt/goldmine/explosivecrate: 1008 144
+:matt/goldmine/09: 952 104
+:matt/goldmine/08: 952 160
+:matt/goldmine/08: 896 152
+:matt/goldmine/08: 848 128
+:matt/goldmine/crate64: 64 0
+:matt/goldmine/crate32: 296 192
+:matt/goldmine/crate32: 328 192
+:matt/goldmine/crate32: 360 192
+:matt/goldmine/crate32: 392 192
+:matt/goldmine/crate32: 424 192
+:matt/goldmine/crate32: 456 192
+:matt/goldmine/crate32: 488 192
+:matt/goldmine/crate64: 80 32
+:matt/goldmine/crate64: 96 0
+:matt/goldmine/07: 400 -64
+:matt/goldmine/07: 496 -16
+:matt/goldmine/05: 624 48
+:matt/goldmine/00: 576 32
+:matt/goldmine/00: 592 64
+:matt/goldmine/00: 608 80
+:matt/goldmine/00: 624 96
+:matt/goldmine/00: 640 112
+:matt/goldmine/00: 672 112
+:matt/goldmine/00: 640 32
+:matt/goldmine/00: 656 48
+:matt/goldmine/00: 672 64
+:matt/goldmine/00: 688 80
+:matt/goldmine/00: 688 0
+:matt/goldmine/00: 704 16
+:matt/goldmine/00: 720 32
+:matt/goldmine/00: 736 48
+:matt/goldmine/07: 608 -32
+:matt/goldmine/explosivecrate: 648 288
+:matt/goldmine/explosivecrate: 712 352
+:matt/goldmine/explosivecrate: 712 288
+:matt/goldmine/explosivecrate: 816 336
+:matt/goldmine/explosivecrate: 776 288
+:matt/goldmine/explosivecrate: 880 336
+:matt/goldmine/explosivecrate: 880 272
+:matt/goldmine/explosivecrate: 944 336
+:matt/goldmine/explosivecrate: 944 272
+:matt/goldmine/explosivecrate: 1008 336
+:matt/goldmine/explosivecrate: 1008 272
+:matt/goldmine/explosivecrate: 1072 336
+:matt/goldmine/explosivecrate: 1072 272
+:matt/goldmine/explosivecrate: 1136 336
+:matt/goldmine/explosivecrate: 1136 272
+:matt/goldmine/07: 752 328
+:matt/goldmine/09: 816 232
+:matt/goldmine/07: 832 320
+:matt/goldmine/crate64: 1136 336
+:matt/goldmine/07: 944 352
+:matt/goldmine/08: 904 224
+:matt/goldmine/09: 824 168
+:matt/goldmine/09: 840 224
+:matt/goldmine/09: 888 232
+:matt/goldmine/08: 872 224
+:matt/goldmine/08: 928 232
+:matt/goldmine/08: 976 232
+:matt/goldmine/07: 968 336
+:matt/goldmine/07: 888 312
+:matt/goldmine/crate64: 1072 144
+:matt/goldmine/crate64: 1072 208
+:matt/goldmine/crate64: 1136 144
+:matt/goldmine/crate64: 1136 208
+:matt/goldmine/explosivecrate: 1200 336
+:matt/goldmine/explosivecrate: 1264 336
+:matt/goldmine/crate64: 1264 336
+:matt/goldmine/07: 1160 352
+:matt/goldmine/07: 576 -64
+:matt/goldmine/crate16: 552 384
+:matt/goldmine/crate16: 568 384
+:matt/goldmine/crate16: 584 384
+:matt/goldmine/crate16: 600 384
+:matt/goldmine/crate16: 616 384
+:matt/goldmine/crate16: 632 384
+:matt/goldmine/explosivecrate: 648 352
+:matt/goldmine/07: 656 360
+:matt/goldmine/crate32: 184 288
+:matt/goldmine/crate32: 216 288
+:matt/goldmine/crate32: 152 256 rrr
+:matt/goldmine/crate32: 152 224 rrr
+:matt/goldmine/crate32: 248 256 rrr
+:matt/goldmine/crate32: 248 224 rrr
+:matt/goldmine/crate32: 248 192
+:matt/goldmine/explosivecrate: 496 352
+:geoo/steel/64x64o.S: 960 336
+:geoo/steel/32x32o.S: 976 304
+:geoo/steel/32x16o.S: 992 288
+:geoo/steel/32x32o.S: 992 288
+:matt/goldmine/00: 1176 -32
+:matt/goldmine/00: 1200 -16
+:matt/goldmine/00: 1224 8
+:matt/goldmine/00: 1240 24
+:matt/goldmine/00: 1288 24
+:matt/goldmine/00: 1256 -40
+:matt/goldmine/00: 1272 -24
+:matt/goldmine/00: 1312 0
+:matt/goldmine/00: 1328 -40
+:matt/goldmine/00: 1144 -56
+:matt/goldmine/crate32: 152 288 rrr
+:matt/goldmine/crate32: 248 288 rrr
+:matt/goldmine/tracks: 1056 136
+:matt/goldmine/minecart: 1064 96
+:matt/goldmine/crate64: 712 288
+:matt/goldmine/explosivecrate: 1136 208
+:matt/goldmine/crate64: 1136 272
+:geoo/steel/64x64o.S: 632 0
+:geoo/steel/64x64o.S: 656 64
+:geoo/steel/32x32o.S: 680 128
+:geoo/steel/16x32o.S: 688 264
+:geoo/steel/16x32o.S: 688 232
+:geoo/steel/16x32o.S: 688 200
+:matt/goldmine/plankdiag2: 414 192
+:matt/goldmine/10: 568 312 d
+:geoo/steel/16x16o.S: 680 160
+:matt/goldmine/crate32: 520 192
+:matt/goldmine/crate32: 552 192
+:matt/goldmine/crate16: 280 192
+:matt/goldmine/crate16: 280 208
