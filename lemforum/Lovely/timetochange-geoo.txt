@@ -1,4 +1,4 @@
-$FILENAME single/lemforum/Quirky/timetochange.txt
+$FILENAME single/lemforum/Lovely/timetochange.txt
 $BUILT_REQUIRED 2012-04-08 11:48:43
 #VERSION_REQUIRED 2015080900
 

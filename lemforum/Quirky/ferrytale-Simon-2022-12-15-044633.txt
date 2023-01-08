@@ -1,4 +1,4 @@
-$FILENAME single/lemforum/Lovely/ferrytale.txt
+$FILENAME single/lemforum/Quirky/ferrytale.txt
 $LEVEL_BUILT_REQUIRED 2022-12-15 04:45:27
 $GAME_VERSION_REQUIRED 0.10.2
 

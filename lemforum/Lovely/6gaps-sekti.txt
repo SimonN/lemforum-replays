@@ -1,4 +1,4 @@
-$FILENAME single/lemforum/Quirky/6gaps.txt
+$FILENAME single/lemforum/Lovely/6gaps.txt
 $BUILT_REQUIRED 2013-06-16 20:28:11
 #VERSION_REQUIRED 2015080900
 
