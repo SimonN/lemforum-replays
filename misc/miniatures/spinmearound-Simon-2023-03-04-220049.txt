@@ -1,0 +1,90 @@
+$FILENAME single/misc/miniatures/spinmearound.txt
+$LEVEL_BUILT_REQUIRED 2023-02-03 12:35:36
+$GAME_VERSION_REQUIRED 0.10.6
+
++PLAYER 0 Garden Simon
+
+! 86 0 ASSIGN=CLIMBER 0
+! 176 0 ASSIGN_RIGHT=MINER 0
+! 187 0 ASSIGN=CLIMBER 5
+! 386 0 ASSIGN=DIGGER 5
+! 872 0 ASSIGN_LEFT=BUILDER 5
+! 1163 0 ASSIGN=EXPLODER 5
+
+$BUILT 2023-02-03 12:35:36
+$AUTHOR geoo
+$ENGLISH Spin Me Around
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 320
+#SIZE_Y 176
+#TORUS_X 1
+#TORUS_Y 0
+
+#INITIAL 8
+#REQUIRED 7
+#SPAWN_INTERVAL 13
+
+#CLIMBER 2
+#EXPLODER 1
+#BUILDER 1
+#MINER 1
+#DIGGER 1
+
+:geoo/construction/Hatch.H: 192 16 r
+
+:geoo/sandstone/Goal.G: 288 80
+
+:geoo/sandstone/ebony/h8c: 112 72
+:geoo/sandstone/ebony/h8a: 96 72
+:geoo/sandstone/pillar_top_ext: 214 68
+:geoo/sandstone/ebony/h8a: 192 72
+:amanda/steel/steel24x8.S: 178 72
+:geoo/steel/dark_16x16o.S: 176 64
+:geoo/sandstone/ebony/h8r: 216 72
+:geoo/steel/dark_16x32o.S: 176 32
+:geoo/sandstone/64x32: 64 112
+:geoo/sandstone/ebony/h8b: 70 104
+:geoo/sandstone/ebony/h8c: 136 104
+:geoo/sandstone/ebony/h8r: 168 104
+:geoo/sandstone/64x32: 32 144
+:geoo/sandstone/64x32: 96 144
+:geoo/sandstone/ebony/h8l: 88 72
+:geoo/sandstone/ebony/h8r: 144 72
+:geoo/sandstone/ebony/h8a: 102 104
+:geoo/sandstone/ebony/h8c: 104 40
+:geoo/sandstone/ebony/h8l: 104 40
+:geoo/sandstone/ebony/h8r: 128 40
+:geoo/sandstone/pillar_bottom: 228 112
+:geoo/sandstone/64x32: 224 144
+:geoo/sandstone/32x64: 224 16
+:geoo/steel/32x64o.S: 256 16
+:geoo/sandstone/pillar_top: 228 84
+:geoo/steel/32x64o.S: 256 80
+:geoo/sandstone/64x32: 288 144
+:geoo/sandstone/ebony/h8l: 64 104
+:geoo/sandstone/64x32: 288 48
+:geoo/sandstone/32x64: 32 16
+:geoo/sandstone/32x64: 32 -48
+:geoo/steel/dark_16x16o.S: 176 16
+:geoo/steel/64x32o.S: 64 112
+:amanda/steel/steel24x8.S: 104 104
+:geoo/sandstone/ebony/h8l: 128 104
+:amanda/steel/steel24x8.S: 80 104
+:geoo/sandstone/ebony/h8c: 40 104
+:amanda/steel/steel24x8.S: 56 104
+:geoo/sandstone/64x32: 160 144
+:geoo/sandstone/ebony/h8r: 48 104
+:geoo/sandstone/ebony/h8l: 32 104
+$BEGIN_TILE_GROUP 0
+:geoo/sandstone/32x64: 0 0
+:geoo/sandstone/32x64: 0 16 d
+$END_TILE_GROUP
+:Group-0: 32 80
+$BEGIN_TILE_GROUP 1
+:geoo/sandstone/32x64: 0 10
+:geoo/sandstone/32x64: 0 0 d
+$END_TILE_GROUP
+:Group-1: 32 94
+:geoo/sandstone/32x32: 32 112
+:amanda/steel/steel24x8.S: 200 64 d
