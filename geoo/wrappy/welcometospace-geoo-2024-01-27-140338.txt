@@ -1,0 +1,89 @@
+$FILENAME single/geoo/wrappy/welcometospace.txt
+$LEVEL_BUILT_REQUIRED 2024-01-27 13:58:15
+$GAME_VERSION_REQUIRED 0.10.18
+
++PLAYER 0 Garden geoo
+
+! 175 0 ASSIGN=BLOCKER 0
+
+$BUILT 2024-01-27 13:58:15
+$AUTHOR geoo
+$ENGLISH Welcome to Space
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 384
+#SIZE_Y 160
+#TORUS_X 1
+#TORUS_Y 1
+
+#INITIAL 20
+#REQUIRED 19
+#SPAWN_INTERVAL 12
+
+#BLOCKER 1
+#EXPLODER2 0
+
+:geoo/abstract/hatch.H: 320 128
+
+:geoo/abstract/goal.G: 64 126
+
+:geoo/abstract/pipes/central7: 120 96
+:geoo/abstract/pipes/central7: 96 96
+:geoo/abstract/pipes/central7: 72 96
+:geoo/abstract/pipes/endr7: 152 96
+:geoo/abstract/pipes/endr7: 64 96 rr
+:geoo/abstract/pipes/central5: 8 48
+:geoo/abstract/pipes/central5: 32 48
+:geoo/abstract/pipes/central5: 56 48
+:geoo/abstract/pipes/endr5: 88 48
+:geoo/abstract/pipes/endr5: 0 48 rr
+:geoo/abstract/pipes/central5: 136 48
+:geoo/abstract/pipes/central5: 160 48
+:geoo/abstract/pipes/central5: 184 48
+:geoo/abstract/pipes/endr5: 216 48
+:geoo/abstract/pipes/endr5: 128 48 rr
+:geoo/abstract/pipes/central5: 264 48
+:geoo/abstract/pipes/central5: 288 48
+:geoo/abstract/pipes/central5: 312 48
+:geoo/abstract/pipes/endr5: 344 48
+:geoo/abstract/pipes/endr5: 256 48 rr
+:geoo/abstract/pipes/central7: 248 96
+:geoo/abstract/pipes/central7: 224 96
+:geoo/abstract/pipes/central7: 200 96
+:geoo/abstract/pipes/endr7: 280 96
+:geoo/abstract/pipes/endr7: 192 96 rr
+:geoo/abstract/pipes/central7: 376 96
+:geoo/abstract/pipes/central7: 352 96
+:geoo/abstract/pipes/central7: 328 96
+:geoo/abstract/pipes/endr7: 24 96
+:geoo/abstract/pipes/endr7: 320 96 rr
+:geoo/abstract/pipes/central4: 296 14
+:geoo/abstract/pipes/central4: 320 14
+:geoo/abstract/pipes/central4: 344 14
+:geoo/abstract/pipes/endr4: 376 14
+:geoo/abstract/pipes/endr4: 288 14 rr
+:geoo/abstract/pipes/central6: 232 62
+:geoo/abstract/pipes/central6: 256 62
+:geoo/abstract/pipes/central6: 280 62
+:geoo/abstract/pipes/endr6: 312 62
+:geoo/abstract/pipes/endr6: 224 62 rr
+:geoo/abstract/pipes/central4: 40 14
+:geoo/abstract/pipes/central4: 64 14
+:geoo/abstract/pipes/central4: 88 14
+:geoo/abstract/pipes/endr4: 120 14
+:geoo/abstract/pipes/endr4: 32 14 rr
+:geoo/abstract/pipes/central4: 168 14
+:geoo/abstract/pipes/central4: 192 14
+:geoo/abstract/pipes/central4: 216 14
+:geoo/abstract/pipes/endr4: 248 14
+:geoo/abstract/pipes/endr4: 160 14 rr
+:geoo/abstract/pipes/central6: 360 62
+:geoo/abstract/pipes/central6: 0 62
+:geoo/abstract/pipes/central6: 24 62
+:geoo/abstract/pipes/endr6: 56 62
+:geoo/abstract/pipes/endr6: 352 62 rr
+:geoo/abstract/pipes/central6: 104 62
+:geoo/abstract/pipes/central6: 128 62
+:geoo/abstract/pipes/central6: 152 62
+:geoo/abstract/pipes/endr6: 184 62
+:geoo/abstract/pipes/endr6: 96 62 rr

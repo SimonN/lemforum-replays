@@ -1,0 +1,121 @@
+$FILENAME single/geoo/classy/fastfoodforest.txt
+$LEVEL_BUILT_REQUIRED 2023-06-21 13:13:52
+$GAME_VERSION_REQUIRED 0.10.11
+
++PLAYER 0 Garden geoo
+
+! 104 0 ASSIGN=CLIMBER 1
+! 108 0 ASSIGN=FLOATER 2
+! 128 0 ASSIGN=EXPLODER 0
+! 137 0 ASSIGN=BLOCKER 4
+! 166 0 ASSIGN_LEFT=BATTER 2
+! 236 0 ASSIGN_LEFT=MINER 6
+! 244 0 ASSIGN_RIGHT=MINER 1
+! 410 0 ASSIGN_LEFT=PLATFORMER 6
+! 1172 0 ASSIGN_RIGHT=BASHER 5
+! 1667 0 ASSIGN_LEFT=JUMPER 5
+! 1693 0 ASSIGN_RIGHT=WALKER 4
+
+$BUILT 2023-06-21 13:13:52
+$AUTHOR
+$ENGLISH Fast Food Forest
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 640
+#SIZE_Y 384
+
+#INITIAL 8
+#REQUIRED 7
+#SPAWN_INTERVAL 16
+
+#WALKER 1
+#CLIMBER 1
+#FLOATER 1
+#EXPLODER 1
+#BLOCKER 1
+#PLATFORMER 1
+#BASHER 1
+#MINER 2
+#JUMPER 1
+#BATTER 1
+
+:geoo/construction/Hatch.H: 92 14
+:geoo/construction/Hatch.H: 94 274
+:geoo/construction/Hatch.H: 512 16
+:geoo/construction/Hatch.H: 512 272
+
+:raymanni/gore/goal.G: 328 128
+
+:raymanni/gore/eater.T: 248 128
+
+:simon/oriental/pebbles4: 315 185 fr
+:simon/oriental/pebbles5: 320 198 frr
+:simon/oriental/pebbles5: 306 298
+:simon/oriental/pebbles6: 334 268
+:simon/oriental/05: 384 288
+$BEGIN_TILE_GROUP 0
+:amanda/forest/bark_03: 10 0 frr
+:geoo/construction/concrete/064v: 0 88 rrd
+$END_TILE_GROUP
+:Group-0: 157 96
+:amanda/forest/stone_01: -58 220
+:amanda/forest/bark_03: 151 178 frr
+:simon/oriental/pebbles5: 232 294
+:simon/oriental/pebbles5: 236 200 frr
+:geoo/construction/concrete/064v: 144 256 rrd
+:simon/oriental/05_top: 208 192
+:simon/oriental/pebbles6: 328 230 r
+:simon/oriental/leaf3: 306 242
+:simon/oriental/pebbles6: 286 222
+:simon/oriental/pebbles5: 283 185 frr
+:simon/oriental/pebbles5: 248 224 r
+:simon/oriental/05: 208 288
+:simon/oriental/05: 208 208
+:simon/oriental/05_top: 384 192
+:simon/oriental/leaf3: 358 234
+:simon/oriental/05: 384 208
+:simon/oriental/leaf2: 307 245 rrr
+:simon/oriental/leaf6: 270 244 rr
+:simon/oriental/leaf3: 258 300
+:simon/oriental/pebbles6: 260 258 rr
+:simon/oriental/pebbles3: 318 276
+:amanda/forest/fern_00: 328 180
+:amanda/forest/fern_00: 248 180
+:amanda/forest/stone_01: 576 320
+:amanda/forest/bark_03: 574 144
+:amanda/forest/bark_03: 496 116 r
+:amanda/forest/bark_02: 586 62
+:amanda/forest/bark_00: 492 116 r
+:amanda/forest/bark_02: 550 8 rrr
+:amanda/forest/leaves_03: 580 -14
+:amanda/forest/leaves_05: 604 98
+:amanda/forest/moss_00: 482 110 frr
+:amanda/forest/leaves_04: 528 116
+:amanda/forest/leaves_05: 536 -14
+:amanda/forest/bark_01: 14 82
+:amanda/forest/bark_05: -54 118 r
+:amanda/forest/moss_00: 128 82
+:amanda/forest/leaves_02: -24 -86
+:amanda/forest/leaves_04: 36 40
+:amanda/forest/bark_02: 26 170 r
+:amanda/forest/bark_02: 108 184 rrr
+:amanda/forest/leaves_05: 100 168
+:amanda/forest/leaves_02: -40 -6
+:matt/beach/decor/moon: 288 8
+:simon/oriental/leaf4: 338 304
+:simon/oriental/leaf5: 300 296
+:amanda/forest/stone_01: 60 328 fr
+:amanda/forest/stone_02: 144 328
+:amanda/forest/stone_02: 0 320
+:amanda/forest/stone_01: -32 288
+:amanda/forest/stone_01: 192 320 fr
+:amanda/forest/stone_01: 432 320 fr
+:amanda/forest/stone_02: 364 321 r
+:amanda/forest/stone_00: 576 304
+:amanda/forest/stone_02: 512 320
+:amanda/forest/stone_02: 288 320
+:amanda/forest/stone_00: 336 336
+:simon/oriental/pebbles3: 72 16 d
+:amanda/forest/stone_01: 72 201 frrr
+:amanda/forest/moss_00: 42 214
+:simon/oriental/05_top: 477 104 rd

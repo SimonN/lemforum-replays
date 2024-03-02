@@ -1,0 +1,44 @@
+$FILENAME single/geoo/loony/ledge.txt
+$LEVEL_BUILT_REQUIRED 2023-05-24 23:04:34
+$GAME_VERSION_REQUIRED 0.10.11
+
++PLAYER 0 Garden geoo
+
+! 118 0 ASSIGN=CUBER 0
+! 147 0 ASSIGN=CUBER 4
+! 159 0 ASSIGN_LEFT=BATTER 3
+! 164 0 ASSIGN=EXPLODER 1
+! 168 0 ASSIGN=EXPLODER 2
+
+$BUILT 2023-05-24 23:04:34
+$AUTHOR geoo
+$ENGLISH Ledge
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 576
+#SIZE_Y 288
+
+#INITIAL 20
+#REQUIRED 16
+#SPAWN_INTERVAL 12
+
+#EXPLODER 2
+#BATTER 1
+#CUBER 2
+
+:geoo/abstract/hatch.H: 168 136
+:geoo/abstract/hatch.H: 408 160 r
+
+:geoo/abstract/goal.G: 128 112
+
+$BEGIN_TILE_GROUP 0
+:geoo/abstract/pipes/central6: 8 0
+:geoo/abstract/pipes/central6: 40 0
+:geoo/abstract/pipes/central6: 72 0
+:geoo/abstract/pipes/central6: 104 0
+:geoo/abstract/pipes/central6: 136 0
+:geoo/abstract/pipes/endr6: 0 0 rr
+:geoo/abstract/pipes/endr6: 164 0
+$END_TILE_GROUP
+:Group-0: 104 160
+:Group-0: 264 184

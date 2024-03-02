@@ -1,0 +1,84 @@
+$FILENAME single/geoo/classy/cellardwellers.txt
+$LEVEL_BUILT_REQUIRED 2023-06-18 00:20:35
+$GAME_VERSION_REQUIRED 0.10.11
+
++PLAYER 0 Garden geoo
+
+! 176 0 ASSIGN_LEFT=MINER 4
+! 204 0 ASSIGN=CLIMBER 1
+! 269 0 ASSIGN=DIGGER 1
+! 512 0 ASSIGN_RIGHT=MINER 25
+! 710 0 ASSIGN=EXPLODER2 17
+! 895 0 ASSIGN=EXPLODER2 1
+
+$BUILT 2023-06-18 00:20:35
+$AUTHOR geoo
+$ENGLISH Cellar Dwellers
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 496
+#SIZE_Y 176
+#TORUS_X 1
+#TORUS_Y 0
+
+#INITIAL 40
+#REQUIRED 38
+#SPAWN_INTERVAL 6
+
+#CLIMBER 1
+#EXPLODER2 2
+#MINER 2
+#DIGGER 1
+
+:geoo/abstract/hatch.H: 492 16
+:geoo/abstract/hatch.H: 340 16 r
+:geoo/abstract/hatch.H: 228 112
+:geoo/abstract/hatch.H: 108 112 r
+
+:geoo/abstract/goal.G: 416 0
+:geoo/abstract/goal.G: 168 0
+
+:geoo/abstract/cvblocks/040: 460 80
+:geoo/abstract/cvblocks/040: 492 80
+:geoo/abstract/cvblocks/040: 340 80
+:geoo/abstract/cvblocks/040: 372 80
+:geoo/abstract/cvblocks/038: 212 80
+:geoo/abstract/cvblocks/038: 276 112
+:geoo/abstract/cvblocks/035: 276 80
+:geoo/abstract/cvblocks/039: 92 80
+:geoo/abstract/cvblocks/039: 28 112
+:geoo/abstract/cvblocks/035: 28 80
+:geoo/abstract/pipes/central3: 372 168 rr
+:geoo/abstract/cvblocks/038: 340 144
+:geoo/abstract/pipes/central3: 340 168 rr
+:geoo/abstract/pipes/central3: 308 168 rr
+:geoo/abstract/pipes/central3: 276 168 rr
+:geoo/abstract/pipes/central3: 244 168 rr
+:geoo/abstract/pipes/central3: 212 168 rr
+:geoo/abstract/pipes/central3: 184 168 rr
+:geoo/abstract/pipes/central3: 136 168 rr
+:geoo/abstract/pipes/central3: 108 168 rr
+:geoo/abstract/pipes/central3: 76 168 rr
+:geoo/abstract/pipes/central3: 44 168 rr
+:geoo/abstract/pipes/central3: 12 168 rr
+:geoo/abstract/pipes/central3: 460 168 rr
+:geoo/abstract/cvblocks/039: 460 144
+:geoo/abstract/pipes/central3: 492 168 rr
+:geoo/abstract/pipes/central3: 492 168 rr
+$BEGIN_TILE_GROUP 0
+:geoo/abstract/cvblocks/035: 0 0
+:geoo/abstract/cvblocks/035: 32 0 d
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 1
+:geoo/abstract/cvblocks/035: 56 0
+:Group-0: 64 0
+:geoo/abstract/cvblocks/035: 0 0 d
+$END_TILE_GROUP
+:Group-1: 156 48
+:Group-1: 156 80
+:Group-1: 156 112
+:Group-1: 156 144
+:Group-1: 404 48
+:Group-1: 404 80
+:Group-1: 404 112
+:Group-1: 404 144

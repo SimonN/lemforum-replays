@@ -1,0 +1,44 @@
+$FILENAME single/geoo/loony/diode2.txt
+$LEVEL_BUILT_REQUIRED 2024-02-14 21:53:26
+$GAME_VERSION_REQUIRED 0.10.18
+
++PLAYER 0 Garden geoo
+
+! 103 0 ASSIGN=CUBER 0
+! 151 0 ASSIGN_LEFT=JUMPER 1
+! 158 0 ASSIGN=EXPLODER 1
+
+$BUILT 2024-02-14 21:53:26
+$AUTHOR geoo
+$ENGLISH Diode (Part 2)
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 576
+#SIZE_Y 288
+
+#INITIAL 20
+#REQUIRED 18
+#SPAWN_INTERVAL 12
+
+#EXPLODER 1
+#JUMPER 1
+#CUBER 1
+
+:geoo/abstract/hatch.H: 152 112
+:geoo/abstract/hatch.H: 432 144 r
+
+:geoo/abstract/goal.G: 112 112
+
+:geoo/abstract/pipes/central0: 96 160
+:geoo/abstract/pipes/central0: 128 160
+:geoo/abstract/pipes/central0: 160 160
+:geoo/abstract/pipes/central0: 192 160
+:geoo/abstract/pipes/central0: 224 160
+:geoo/abstract/pipes/central0: 256 160
+:geoo/abstract/pipes/central0: 288 160
+:geoo/abstract/pipes/central0: 320 160
+:geoo/abstract/pipes/central0: 352 160
+:geoo/abstract/pipes/central0: 384 160
+:geoo/abstract/pipes/central0: 416 160
+:geoo/abstract/pipes/endr0: 444 160
+:geoo/abstract/pipes/endr0: 88 160 rr

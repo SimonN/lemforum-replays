@@ -1,0 +1,43 @@
+$FILENAME single/geoo/loony/stayback.txt
+$LEVEL_BUILT_REQUIRED 2024-01-21 13:35:47
+$GAME_VERSION_REQUIRED 0.10.18
+
++PLAYER 0 Garden geoo
+
+! 135 0 ASSIGN=CUBER 2
+! 146 0 ASSIGN_RIGHT=PLATFORMER 0
+! 357 0 ASSIGN=EXPLODER 9
+
+$BUILT 2024-01-21 13:35:47
+$AUTHOR geoo
+$ENGLISH Stay Back!
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 320
+#SIZE_Y 160
+
+#INITIAL 10
+#REQUIRED 8
+#SPAWN_INTERVAL 32
+
+#EXPLODER 1
+#PLATFORMER 1
+#CUBER 1
+
+:geoo/abstract/hatch.H: 72 32 r
+
+:geoo/abstract/goal.G: 232 72
+
+:geoo/abstract/pipes/central4: 40 120
+:geoo/abstract/pipes/central4: 72 120
+:geoo/abstract/pipes/central4: 40 120
+:geoo/abstract/pipes/central4: 72 120
+:geoo/abstract/pipes/corner4: 32 120
+:geoo/abstract/pipes/central4: 32 88 r
+:geoo/abstract/pipes/endr4: 32 80 rrr
+:geoo/abstract/pipes/endr4: 136 120
+:geoo/abstract/pipes/central4: 104 120
+:geoo/abstract/pipes/central4: 216 120
+:geoo/abstract/pipes/endr4: 280 120
+:geoo/abstract/pipes/central4: 248 120
+:geoo/abstract/pipes/endr4: 208 120 rr

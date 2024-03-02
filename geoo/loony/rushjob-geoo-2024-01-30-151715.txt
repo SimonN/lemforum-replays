@@ -1,0 +1,89 @@
+$FILENAME single/geoo/loony/rushjob.txt
+$LEVEL_BUILT_REQUIRED 2024-01-30 15:16:13
+$GAME_VERSION_REQUIRED 0.10.18
+
++PLAYER 0 Garden geoo
+
+! 71 0 ASSIGN_RIGHT=WALKER 1
+! 72 0 ASSIGN=CLIMBER 1
+! 82 0 ASSIGN_RIGHT=BATTER 5
+! 92 0 ASSIGN=EXPLODER 3
+! 95 0 ASSIGN=EXPLODER 9
+! 121 0 ASSIGN_RIGHT=JUMPER 5
+! 122 0 ASSIGN_RIGHT=JUMPER 11
+! 141 0 ASSIGN_RIGHT=MINER 5
+! 144 0 ASSIGN_LEFT=WALKER 7
+! 145 0 ASSIGN_RIGHT=BATTER 5
+! 184 0 ASSIGN_LEFT=BUILDER 1
+! 206 0 ASSIGN_RIGHT=WALKER 7
+! 207 0 ASSIGN_LEFT=BATTER 7
+! 252 0 ASSIGN_LEFT=WALKER 1
+! 267 0 ASSIGN_RIGHT=BUILDER 1
+! 270 0 ASSIGN_RIGHT=WALKER 1
+! 275 0 ASSIGN_RIGHT=BUILDER 1
+! 321 0 ASSIGN_RIGHT=JUMPER 1
+! 432 0 NUKE 0
+
+$BUILT 2024-01-30 15:16:13
+$AUTHOR geoo
+$ENGLISH Rush Job
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 264
+#SIZE_Y 368
+#TORUS_X 1
+#TORUS_Y 0
+
+#INITIAL 20
+#REQUIRED 11
+#SPAWN_INTERVAL 2
+
+#WALKER 10
+#CLIMBER 1
+#EXPLODER 10
+#BLOCKER 10
+#BUILDER 10
+#PLATFORMER 10
+#BASHER 10
+#MINER 10
+#DIGGER 10
+#JUMPER 10
+#BATTER 10
+#CUBER 10
+
+:geoo/abstract/hatch.H: 40 24
+:geoo/abstract/hatch.H: 32 264
+
+:geoo/abstract/goal.G: 48 148
+
+:geoo/construction/sawblade_small.F: 188 196
+
+:geoo/abstract/tbeam_left.T: 0 40
+:geoo/abstract/tbeam_left.T: 32 40
+:geoo/abstract/tbeam_left.T: 64 40
+:geoo/abstract/tbeam_left.T: 96 40
+:geoo/abstract/tbeam_left.T: 128 40
+:geoo/abstract/tbeam_left.T: 160 40
+:geoo/abstract/tbeam_left.T: 192 40
+:geoo/abstract/tbeam_left.T: 224 40
+
+:matt/beach/daytime/06: 88 304 rr
+:matt/beach/daytime/06: 224 304 rr
+:geoo/construction/platformbrick: 238 196
+:geoo/construction/platformbrick: 174 196
+:geoo/construction/platformbrick: 142 196
+:geoo/construction/platformbrick: 110 196
+:geoo/construction/platformbrick: 78 196
+:geoo/construction/platformbrick: 46 196
+:geoo/construction/platformbrick: 14 196
+:geoo/construction/platformbrick: 260 196
+:geoo/construction/concrete/032v: 232 272
+:geoo/construction/concrete/032v: 0 240
+:geoo/construction/concrete/032v: 136 240
+:geoo/construction/concrete/032: 0 304
+:geoo/construction/concrete/032: 136 304
+:geoo/construction/concrete/032a: 232 240
+:geoo/construction/concrete/064: 32 272 d
+:geoo/construction/concrete/064: 72 272 d
+:geoo/construction/concrete/032v: 168 272 d
+:geoo/construction/concrete/032v: 200 272 d
