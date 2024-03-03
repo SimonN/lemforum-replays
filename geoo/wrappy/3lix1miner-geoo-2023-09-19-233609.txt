@@ -6,6 +6,11 @@ $GAME_VERSION_REQUIRED 0.10.11
 
 ! 90 0 ASSIGN_RIGHT=MINER 1
 
+// Dummy assignment to work around the 5-minute rule of replay verification:
+// If you haven't won 5 minutes after the final assignment (miner in tick 90),
+// the verification may treat the attempt as failed.
+! 1000 0 ASSIGN=BUILDER 0
+
 $BUILT 2023-01-20 17:29:59
 $AUTHOR geoo
 $ENGLISH 3 Lix 1 Miner
