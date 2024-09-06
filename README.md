@@ -1,8 +1,10 @@
 Lix Proof Collection
 ====================
 
-A collection of replays for singleplayer [Lix](https://github.com/SimonN/LixD)
-levels to ensure solvability.
+This is a collection of replays for singleplayer
+[Lix](https://github.com/SimonN/LixD).
+For each level that I ship in Lix, this collection has at least one
+solving replay.
 
 You can let Lix in noninteractive mode verify that all its levels have
 at least one solving replay. This is useful because I (Simon N.) would like
@@ -35,5 +37,5 @@ Get Lix
 
 * [Homepage](http://www.lixgame.com)
 * [Github repo](https://github.com/SimonN/LixD)
-* [IRC webchat](http://webchat.quakenet.org/?channels=lix,neolemmix):
+* [IRC webchat](http://webchat.quakenet.org/?channels=lix):
     #lix on QuakeNet
