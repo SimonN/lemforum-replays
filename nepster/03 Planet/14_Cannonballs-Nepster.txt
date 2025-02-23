@@ -1,4 +1,4 @@
-$FILENAME single/nepster/Planet/14_Canonballs.txt
+$FILENAME single/nepster/Planet/14_Cannonballs.txt
 $LEVEL_BUILT_REQUIRED 2016-01-06 12:22:18
 $GAME_VERSION_REQUIRED 0.6.2
 
